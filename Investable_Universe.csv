@@ -1,0 +1,36 @@
+Asset Class,Category,Instrument,Ticker,Currency,Source
+Equity,Broad US,SPDR S&P 500 ETF Trust,SPY,USD,Yahoo Finance
+Equity,Broad Global,Vanguard Total World Stock Index Fund ETF Shares,VT,USD,Yahoo Finance
+Equity,US Large Cap,Invesco QQQ Trust,QQQ,USD,Yahoo Finance
+Equity,US Value,Vanguard Morningstar Value ETF,VTV,USD,Yahoo Finance
+Equity,US Growth,Vanguard Morningstar Growth ETF,VUG,USD,Yahoo Finance
+Equity,US Small Cap,iShares Russell 2000 ETF,IWM,USD,Yahoo Finance
+Equity,US Dividend,iShares Select Dividend ETF,DVY,USD,Yahoo Finance
+Equity,Developed ex-US,Vanguard FTSE Developed Markets Index Fund ETF Shares,VEA,USD,Yahoo Finance
+Equity,Broad Developed Europe,Vanguard FTSE Europe ETF,VGK,USD,Yahoo Finance
+Equity,Europe Large Cap,State Street SPDR EURO STOXX 50 ETF,FEZ,USD,Yahoo Finance
+Equity,Japan,iShares MSCI Japan ETF,EWJ,USD,Yahoo Finance
+Equity,China,iShares China Large-Cap ETF,FXI,USD,Yahoo Finance
+Equity,Africa,VanEck Africa Index ETF,AFK,USD,Yahoo Finance
+Equity,Emerging Markets,Vanguard FTSE Emerging Markets Index Fund ETF Shares,VWO,USD,Yahoo Finance
+Fixed Income,Short-Term Treasury,iShares 1-3 Year Treasury Bond ETF,SHY,USD,Yahoo Finance
+Fixed Income,Intermediate Treasury,iShares 7-10 Year Treasury Bond ETF,IEF,USD,Yahoo Finance
+Fixed Income,Long-Term Treasury,iShares 20+ Year Treasury Bond ETF,TLT,USD,Yahoo Finance
+Fixed Income,US Aggregate,Vanguard Total Bond Market Index Fund ETF Shares,BND,USD,Yahoo Finance
+Fixed Income,Inflation Protected,iShares TIPS Bond ETF,TIP,USD,Yahoo Finance
+Fixed Income,Short-Term Corporate,Vanguard Short-Term Corporate Bond Index Fund ETF Shares,VCSH,USD,Yahoo Finance
+Fixed Income,Investment Grade Corporate,iShares iBoxx $ Investment Grade Corporate Bond ETF,LQD,USD,Yahoo Finance
+Fixed Income,High Yield,iShares iBoxx $ High Yield Corporate Bond ETF,HYG,USD,Yahoo Finance
+Fixed Income,Emerging Markets,iShares J.P. Morgan USD Emerging Markets Bond ETF,EMB,USD,Yahoo Finance
+Fixed Income,International,State Street SPDR Bloomberg International Treasury Bond ETF,BWX,USD,Yahoo Finance
+Real Estate,US REIT,Vanguard Real Estate Index Fund ETF Shares,VNQ,USD,Yahoo Finance
+Real Estate,International REIT,State Street SPDR Dow Jones International Real Estate ETF,RWX,USD,Yahoo Finance
+Infrastructure,Global Infrastructure,iShares Global Infrastructure ETF,IGF,USD,Yahoo Finance
+Commodity,Gold,SPDR Gold Shares,GLD,USD,Yahoo Finance
+Commodity,Silver,iShares Silver Trust,SLV,USD,Yahoo Finance
+Commodity,Crude Oil,United States Oil Fund LP,USO,USD,Yahoo Finance
+Commodity,Base Metals,Invesco DB Base Metals Fund,DBB,USD,Yahoo Finance
+Commodity,Agriculture,Invesco DB Agriculture Fund,DBA,USD,Yahoo Finance
+Crypto,Bitcoin,Bitcoin,BTC-USD,USD,Yahoo Finance
+Crypto,Ethereum,Ethereum,ETH-USD,USD,Yahoo Finance
+Cash Proxy,3-Month US Treasury,Market Yield on U.S. Treasury Securities at 3-Month Constant Maturity,DGS3MO,USD,FRED
