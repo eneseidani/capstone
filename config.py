@@ -7,7 +7,21 @@ RAW_DATA_DIR = Path("raw_data")
 INPUT_DATA_DIR = Path("input_data")
 
 # Analysis start date
-start_date="2008-01-01"
+START_DATE = "2008-01-01"
+
+# Portfolio rebalancing frequency
+REBALANCE_FREQUENCY = 60
+
+# Forward prediction horizon
+FORWARD_HORIZON = 60
+
+# Rolling windows
+MOMENTUM_WINDOWS = [5, 20, 60, 120, 252]
+TREND_WINDOWS = [20, 50, 200]
+MEAN_REVERSION_WINDOWS = [20, 60]
+VOLATILITY_WINDOWS = [20, 60, 120, 252]
+DRAWDOWN_WINDOWS = [120, 252]
+VOLUME_WINDOWS = [20, 60]
 
 # FRED API key
 fred_api_key="71a6dd410a9a04c82bf76c0ee1981893"
