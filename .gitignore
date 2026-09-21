@@ -1,0 +1,12 @@
+# Generated feature datasets
+features_data/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Environment files
+.env
