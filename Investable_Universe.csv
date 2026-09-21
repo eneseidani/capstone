@@ -13,6 +13,7 @@ Equity,Japan,iShares MSCI Japan ETF,EWJ,USD,Yahoo Finance
 Equity,China,iShares China Large-Cap ETF,FXI,USD,Yahoo Finance
 Equity,Africa,VanEck Africa Index ETF,AFK,USD,Yahoo Finance
 Equity,Emerging Markets,Vanguard FTSE Emerging Markets Index Fund ETF Shares,VWO,USD,Yahoo Finance
+Equity,US IPO,Renaissance IPO ETF,IPO,USD,Yahoo Finance
 Fixed Income,Short-Term Treasury,iShares 1-3 Year Treasury Bond ETF,SHY,USD,Yahoo Finance
 Fixed Income,Intermediate Treasury,iShares 7-10 Year Treasury Bond ETF,IEF,USD,Yahoo Finance
 Fixed Income,Long-Term Treasury,iShares 20+ Year Treasury Bond ETF,TLT,USD,Yahoo Finance
