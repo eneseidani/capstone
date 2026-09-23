@@ -14,24 +14,37 @@ Equity,China,iShares China Large-Cap ETF,FXI,USD,Yahoo Finance
 Equity,Africa,VanEck Africa Index ETF,AFK,USD,Yahoo Finance
 Equity,Emerging Markets,Vanguard FTSE Emerging Markets Index Fund ETF Shares,VWO,USD,Yahoo Finance
 Equity,US IPO,Renaissance IPO ETF,IPO,USD,Yahoo Finance
-Fixed Income,Short-Term Treasury,iShares 1-3 Year Treasury Bond ETF,SHY,USD,Yahoo Finance
-Fixed Income,Intermediate Treasury,iShares 7-10 Year Treasury Bond ETF,IEF,USD,Yahoo Finance
-Fixed Income,Long-Term Treasury,iShares 20+ Year Treasury Bond ETF,TLT,USD,Yahoo Finance
+Equity,Global Communication,iShares Global Comm Services ETF,IXP,USD,Yahoo Finance
+Equity,Global Semiconductor,VanEck Semiconductor ETF,SMH,USD,Yahoo Finance
+Equity,Global Financials,iShares Global Financials ETF,IXG,USD,Yahoo Finance
+Equity,Global Tech,iShares Global Tech ETF,IXN,USD,Yahoo Finance
+Equity,US Biotech,State Street SPDR S&P Biotech ETF,XBI,USD,Yahoo Finance
+Equity,Global Healthcare,iShares Global Healthcare ETF,IXJ,USD,Yahoo Finance
+Equity,US Clean Energy,Invesco WilderHill Clean Energy ETF,PBW,USD,Yahoo Finance
+Equity,US REIT,Vanguard Real Estate Index Fund ETF Shares,VNQ,USD,Yahoo Finance
+Equity,Global REIT,State Street SPDR Dow Jones International Real Estate ETF,RWX,USD,Yahoo Finance
+Equity,Global Infrastructure,iShares Global Infrastructure ETF,IGF,USD,Yahoo Finance
+Fixed Income,Short-Term US Treasury,iShares 1-3 Year Treasury Bond ETF,SHY,USD,Yahoo Finance
+Fixed Income,Intermediate US Treasury,iShares 7-10 Year Treasury Bond ETF,IEF,USD,Yahoo Finance
+Fixed Income,Long-Term US Treasury,iShares 20+ Year Treasury Bond ETF,TLT,USD,Yahoo Finance
 Fixed Income,US Aggregate,Vanguard Total Bond Market Index Fund ETF Shares,BND,USD,Yahoo Finance
-Fixed Income,Inflation Protected,iShares TIPS Bond ETF,TIP,USD,Yahoo Finance
-Fixed Income,Short-Term Corporate,Vanguard Short-Term Corporate Bond Index Fund ETF Shares,VCSH,USD,Yahoo Finance
-Fixed Income,Investment Grade Corporate,iShares iBoxx $ Investment Grade Corporate Bond ETF,LQD,USD,Yahoo Finance
-Fixed Income,High Yield,iShares iBoxx $ High Yield Corporate Bond ETF,HYG,USD,Yahoo Finance
+Fixed Income,US Inflation Protected,iShares TIPS Bond ETF,TIP,USD,Yahoo Finance
+Fixed Income,US Short-Term Corporate,Vanguard Short-Term Corporate Bond Index Fund ETF Shares,VCSH,USD,Yahoo Finance
+Fixed Income,US Investment Grade Corporate,iShares iBoxx $ Investment Grade Corporate Bond ETF,LQD,USD,Yahoo Finance
+Fixed Income,US High Yield,iShares iBoxx $ High Yield Corporate Bond ETF,HYG,USD,Yahoo Finance
 Fixed Income,Emerging Markets,iShares J.P. Morgan USD Emerging Markets Bond ETF,EMB,USD,Yahoo Finance
 Fixed Income,International,State Street SPDR Bloomberg International Treasury Bond ETF,BWX,USD,Yahoo Finance
-Real Estate,US REIT,Vanguard Real Estate Index Fund ETF Shares,VNQ,USD,Yahoo Finance
-Real Estate,International REIT,State Street SPDR Dow Jones International Real Estate ETF,RWX,USD,Yahoo Finance
-Infrastructure,Global Infrastructure,iShares Global Infrastructure ETF,IGF,USD,Yahoo Finance
+Foreign Exchange,USD,Invesco DB US Dollar Index Bullish Fund,UUP,USD,Yahoo Finance
+Foreign Exchange,EUR,Invesco CurrencyShares Euro Currency Trust,FXE,USD,Yahoo Finance
+Foreign Exchange,AUD,Invesco CurrencyShares Australian Dollar Trust,FXA,USD,Yahoo Finance
+Foreign Exchange,CAD,Invesco CurrencyShares Canadian Dollar Trust,FXC,USD,Yahoo Finance
+Foreign Exchange,JPY,Invesco CurrencyShares Japanese Yen Trust,FXY,USD,Yahoo Finance
+Foreign Exchange,Emerging Markets Currency,WisdomTree Emerging Currency Strategy Fund,CEW,USD,Yahoo Finance
 Commodity,Gold,SPDR Gold Shares,GLD,USD,Yahoo Finance
 Commodity,Silver,iShares Silver Trust,SLV,USD,Yahoo Finance
 Commodity,Crude Oil,United States Oil Fund LP,USO,USD,Yahoo Finance
 Commodity,Base Metals,Invesco DB Base Metals Fund,DBB,USD,Yahoo Finance
 Commodity,Agriculture,Invesco DB Agriculture Fund,DBA,USD,Yahoo Finance
 Crypto,Bitcoin,Bitcoin,BTC-USD,USD,Yahoo Finance
-Crypto,Ethereum,Ethereum,ETH-USD,USD,Yahoo Finance
+Volatility,VIX,ProShares VIX Short-Term Futures ETF,VIXY,USD,Yahoo Finance
 Cash Proxy,3-Month US Treasury,Market Yield on U.S. Treasury Securities at 3-Month Constant Maturity,DGS3MO,USD,FRED
