@@ -4,6 +4,12 @@ from pathlib import Path
 # Analysis start date
 START_DATE = "2008-01-01"
 
+# Regime-model variables
+REGIME_START_DATE = "1990-01-01"
+MOVING_AVG_WINDOW = 200
+PERCENTILE_WINDOW = 252
+MIN_REGIME_DAYS = 10
+
 # File paths
 UNIVERSE_FILE = Path("Investable_Universe.csv")
 RAW_DATA_DIR = Path("raw_data")
