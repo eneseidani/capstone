@@ -1,0 +1,23 @@
+{
+  "iteration": 10,
+  "fold_year": 2022,
+  "model": "TickerFrequency",
+  "tickers": "DBA;EMB;FXA;FXI;IXG;TIP;UUP;VCSH;VGK;VIXY",
+  "n_tickers": 10,
+  "n_train": 32633,
+  "max_training_label_end": "2021-12-31",
+  "min_validation_date": "2022-01-03",
+  "max_validation_date": "2022-10-05",
+  "fit_seconds": 0.0039994000107981265,
+  "roc_auc": 0.40846998101787446,
+  "average_precision": 0.2866428724516352,
+  "brier": 0.3202918385207165,
+  "log_loss": 0.8471250356950568,
+  "positive_rate": 0.32827225130890053,
+  "daily_rank_auc": 0.39515249729909413,
+  "daily_topn_hit": 0.19022687609075042,
+  "daily_topn_forward_return_gross": -0.03230109899951807,
+  "daily_topn_dates": 191,
+  "n_validation_rows": 1910,
+  "n_dates": 191
+}

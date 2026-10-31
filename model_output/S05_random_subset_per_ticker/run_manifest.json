@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "design": "one independent fitted model per ticker per algorithm",
+  "train_feature_date": "[2000-01-01, 2023-01-01)",
+  "training_label_end_exclusive": "2023-01-01",
+  "test_feature_date": "[2023-01-01, latest available]",
+  "iterations": 1,
+  "asset_count_per_iteration": [
+    48,
+    48
+  ],
+  "seed": 42,
+  "models": [
+    "Dummy",
+    "TickerFrequency",
+    "ElasticNet",
+    "RandomForest",
+    "XGBoost",
+    "LightGBM",
+    "CatBoost",
+    "MLP_SwiGLU",
+    "MLP_ReLU"
+  ],
+  "mlp_epochs": 35,
+  "mlp_batch": 1024,
+  "workers": 4,
+  "device": "cpu",
+  "no_regime": false,
+  "inputs": {
+    "features": {
+      "path": "D:\\Capstone\\features_data\\combined_features.csv",
+      "size": 887560459,
+      "mtime_ns": 1791824178227524100,
+      "head_tail_sha256": "8203a24507e873f29bf9316c68e18eeb0b8282cafb46455cb373863407fda5d2"
+    },
+    "label_lookup": {
+      "path": "D:\\Capstone\\model_output\\S05_timing_audit\\exact_label_end_lookup_pre2023.csv",
+      "size": 10550063,
+      "mtime_ns": 1791926512446513200,
+      "head_tail_sha256": "a8192099bf388c54878a95baf40cc46fcc01d129b219b0cd4e67e1697344d75f"
+    },
+    "universe": {
+      "path": "D:\\Capstone\\Investable_Universe.csv",
+      "size": 4083,
+      "mtime_ns": 1791741095236888700,
+      "head_tail_sha256": "3e8181d83b4705ee4c50c515975b458c8e3c677fcf1f321aaeefb08c4c22675a"
+    },
+    "regimes": {
+      "path": "D:\\Capstone\\features_data\\market_regimes.csv",
+      "size": 1371073,
+      "mtime_ns": 1791824178639618800,
+      "head_tail_sha256": "bc7d935d4f0fd0b9cf2eb235e58f7b587c58df15155f886aa174d6221c38d414"
+    }
+  }
+}

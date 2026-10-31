@@ -1,0 +1,23 @@
+{
+  "iteration": 11,
+  "fold_year": 2018,
+  "model": "XGBoost",
+  "tickers": "AFK;BND;DBB;FXC;HYG;IPO;SPY;UUP;VUG",
+  "n_tickers": 9,
+  "n_train": 19849,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 2.3942664999631234,
+  "roc_auc": 0.5211991981793435,
+  "average_precision": 0.5722063713570852,
+  "brier": 0.27260093673060787,
+  "log_loss": 0.7507181310710141,
+  "positive_rate": 0.5387339530765826,
+  "daily_rank_auc": 0.5055896717661423,
+  "daily_topn_hit": 0.547144754316069,
+  "daily_topn_forward_return_gross": -0.0021920295864611104,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2259,
+  "n_dates": 251
+}

@@ -1,0 +1,23 @@
+{
+  "iteration": 12,
+  "fold_year": 2018,
+  "model": "CatBoost",
+  "tickers": "AFK;BTC-USD;FEZ;GLD;IPO;IXJ;LQD;VNQ;VT",
+  "n_tickers": 9,
+  "n_train": 17722,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 6.317636899999343,
+  "roc_auc": 0.5324232108992518,
+  "average_precision": 0.45750392923991356,
+  "brier": 0.31873568983707856,
+  "log_loss": 0.8776592407437503,
+  "positive_rate": 0.4448871181938911,
+  "daily_rank_auc": 0.41269497698069124,
+  "daily_topn_hit": 0.37184594953519257,
+  "daily_topn_forward_return_gross": -0.05821312753700853,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2259,
+  "n_dates": 251
+}

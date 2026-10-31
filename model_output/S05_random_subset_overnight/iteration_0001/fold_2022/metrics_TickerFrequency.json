@@ -1,0 +1,23 @@
+{
+  "iteration": 1,
+  "fold_year": 2022,
+  "model": "TickerFrequency",
+  "tickers": "FEZ;HYG;IEF;RWX;SLV;UUP;VEA;VNQ;XBI",
+  "n_tickers": 9,
+  "n_train": 30944,
+  "max_training_label_end": "2021-12-31",
+  "min_validation_date": "2022-01-03",
+  "max_validation_date": "2022-10-05",
+  "fit_seconds": 0.003750299976672977,
+  "roc_auc": 0.39216424294268604,
+  "average_precision": 0.2855544563057652,
+  "brier": 0.3295772936631178,
+  "log_loss": 0.8609671620178324,
+  "positive_rate": 0.31995346131471786,
+  "daily_rank_auc": 0.32664131970414695,
+  "daily_topn_hit": 0.2862129144851657,
+  "daily_topn_forward_return_gross": -0.03849254739075604,
+  "daily_topn_dates": 191,
+  "n_validation_rows": 1719,
+  "n_dates": 191
+}

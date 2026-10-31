@@ -1,0 +1,197 @@
+2026-10-13 22:27:33,370 | WARNING | Label maturity reconstructed from S03 feature rows. S03 may have excluded raw-price dates; exact maturity requires S03 to export Label_End_Date.
+2026-10-13 22:27:33,784 | INFO    | Source: 216092 asset-date rows, 48 assets, 248 numeric current features
+2026-10-13 22:27:33,784 | INFO    | Lag scope=core; 36 lagged raw columns; objectives=['standard', 'magnitude']
+2026-10-13 22:27:33,822 | INFO    | Lag eligibility (complete/stale-gap bounds): 215132 of 216092 rows
+2026-10-13 22:27:34,742 | INFO    | COMMON EVALUATION PANEL: 172555 rows; 48 assets; 3757 dates
+2026-10-13 22:27:34,866 | INFO    | FOLD 2016 | train=85099 val=12096 | latest training label end=2015-12-31
+2026-10-13 22:27:36,578 | INFO    | FIT 1/84 | year=2016 | Standard__A_Current | numeric columns=248
+2026-10-13 22:27:42,224 | INFO    | DONE 1/84 | Standard__A_Current | 5.6s | AUC 0.6082 | AP 0.7793
+2026-10-13 22:27:42,225 | INFO    | FIT 2/84 | year=2016 | Magnitude__A_Current | numeric columns=248
+2026-10-13 22:27:48,018 | INFO    | DONE 2/84 | Magnitude__A_Current | 5.8s | AUC 0.7046 | AP 0.8579
+2026-10-13 22:27:49,934 | INFO    | FIT 3/84 | year=2016 | Standard__B_Lag7 | numeric columns=284
+2026-10-13 22:27:56,388 | INFO    | DONE 3/84 | Standard__B_Lag7 | 6.4s | AUC 0.6220 | AP 0.7928
+2026-10-13 22:27:56,389 | INFO    | FIT 4/84 | year=2016 | Magnitude__B_Lag7 | numeric columns=284
+2026-10-13 22:28:03,368 | INFO    | DONE 4/84 | Magnitude__B_Lag7 | 7.0s | AUC 0.6643 | AP 0.8321
+2026-10-13 22:28:05,849 | INFO    | FIT 5/84 | year=2016 | Standard__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:28:13,102 | INFO    | DONE 5/84 | Standard__C_Lag7_Lag20 | 7.2s | AUC 0.6210 | AP 0.7935
+2026-10-13 22:28:13,103 | INFO    | FIT 6/84 | year=2016 | Magnitude__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:28:20,845 | INFO    | DONE 6/84 | Magnitude__C_Lag7_Lag20 | 7.7s | AUC 0.6662 | AP 0.8370
+2026-10-13 22:28:23,356 | INFO    | FIT 7/84 | year=2016 | Standard__D_Changes7_20 | numeric columns=320
+2026-10-13 22:28:30,880 | INFO    | DONE 7/84 | Standard__D_Changes7_20 | 7.5s | AUC 0.6283 | AP 0.8003
+2026-10-13 22:28:30,881 | INFO    | FIT 8/84 | year=2016 | Magnitude__D_Changes7_20 | numeric columns=320
+2026-10-13 22:28:38,908 | INFO    | DONE 8/84 | Magnitude__D_Changes7_20 | 8.0s | AUC 0.6752 | AP 0.8408
+2026-10-13 22:28:41,738 | INFO    | FIT 9/84 | year=2016 | Standard__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:28:51,181 | INFO    | DONE 9/84 | Standard__E_LagsAndChanges | 9.4s | AUC 0.6268 | AP 0.7989
+2026-10-13 22:28:51,182 | INFO    | FIT 10/84 | year=2016 | Magnitude__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:29:01,235 | INFO    | DONE 10/84 | Magnitude__E_LagsAndChanges | 10.0s | AUC 0.6808 | AP 0.8417
+2026-10-13 22:29:03,219 | INFO    | FIT 11/84 | year=2016 | Standard__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:29:09,937 | INFO    | DONE 11/84 | Standard__F_PlaceboNoise7 | 6.7s | AUC 0.6409 | AP 0.8041
+2026-10-13 22:29:09,938 | INFO    | FIT 12/84 | year=2016 | Magnitude__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:29:16,856 | INFO    | DONE 12/84 | Magnitude__F_PlaceboNoise7 | 6.9s | AUC 0.6979 | AP 0.8534
+2026-10-13 22:29:17,036 | INFO    | FOLD 2017 | train=97195 val=12048 | latest training label end=2016-12-30
+2026-10-13 22:29:18,951 | INFO    | FIT 13/84 | year=2017 | Standard__A_Current | numeric columns=248
+2026-10-13 22:29:25,538 | INFO    | DONE 13/84 | Standard__A_Current | 6.6s | AUC 0.6211 | AP 0.8453
+2026-10-13 22:29:25,539 | INFO    | FIT 14/84 | year=2017 | Magnitude__A_Current | numeric columns=248
+2026-10-13 22:29:32,142 | INFO    | DONE 14/84 | Magnitude__A_Current | 6.6s | AUC 0.4762 | AP 0.7460
+2026-10-13 22:29:34,395 | INFO    | FIT 15/84 | year=2017 | Standard__B_Lag7 | numeric columns=284
+2026-10-13 22:29:41,960 | INFO    | DONE 15/84 | Standard__B_Lag7 | 7.6s | AUC 0.5780 | AP 0.8236
+2026-10-13 22:29:41,961 | INFO    | FIT 16/84 | year=2017 | Magnitude__B_Lag7 | numeric columns=284
+2026-10-13 22:29:49,872 | INFO    | DONE 16/84 | Magnitude__B_Lag7 | 7.9s | AUC 0.4782 | AP 0.7584
+2026-10-13 22:29:52,717 | INFO    | FIT 17/84 | year=2017 | Standard__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:30:01,204 | INFO    | DONE 17/84 | Standard__C_Lag7_Lag20 | 8.5s | AUC 0.5814 | AP 0.8118
+2026-10-13 22:30:01,205 | INFO    | FIT 18/84 | year=2017 | Magnitude__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:30:09,905 | INFO    | DONE 18/84 | Magnitude__C_Lag7_Lag20 | 8.7s | AUC 0.5264 | AP 0.7957
+2026-10-13 22:30:12,812 | INFO    | FIT 19/84 | year=2017 | Standard__D_Changes7_20 | numeric columns=320
+2026-10-13 22:30:21,600 | INFO    | DONE 19/84 | Standard__D_Changes7_20 | 8.8s | AUC 0.5999 | AP 0.8320
+2026-10-13 22:30:21,602 | INFO    | FIT 20/84 | year=2017 | Magnitude__D_Changes7_20 | numeric columns=320
+2026-10-13 22:30:30,374 | INFO    | DONE 20/84 | Magnitude__D_Changes7_20 | 8.8s | AUC 0.5246 | AP 0.7828
+2026-10-13 22:30:33,604 | INFO    | FIT 21/84 | year=2017 | Standard__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:30:44,373 | INFO    | DONE 21/84 | Standard__E_LagsAndChanges | 10.8s | AUC 0.5774 | AP 0.8055
+2026-10-13 22:30:44,374 | INFO    | FIT 22/84 | year=2017 | Magnitude__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:30:55,354 | INFO    | DONE 22/84 | Magnitude__E_LagsAndChanges | 11.0s | AUC 0.4845 | AP 0.7606
+2026-10-13 22:30:57,653 | INFO    | FIT 23/84 | year=2017 | Standard__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:31:05,190 | INFO    | DONE 23/84 | Standard__F_PlaceboNoise7 | 7.5s | AUC 0.5483 | AP 0.7957
+2026-10-13 22:31:05,191 | INFO    | FIT 24/84 | year=2017 | Magnitude__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:31:13,061 | INFO    | DONE 24/84 | Magnitude__F_PlaceboNoise7 | 7.9s | AUC 0.4996 | AP 0.7738
+2026-10-13 22:31:13,248 | INFO    | FOLD 2018 | train=109243 val=12048 | latest training label end=2017-12-29
+2026-10-13 22:31:15,458 | INFO    | FIT 25/84 | year=2018 | Standard__A_Current | numeric columns=248
+2026-10-13 22:31:22,697 | INFO    | DONE 25/84 | Standard__A_Current | 7.2s | AUC 0.5259 | AP 0.4876
+2026-10-13 22:31:22,698 | INFO    | FIT 26/84 | year=2018 | Magnitude__A_Current | numeric columns=248
+2026-10-13 22:31:30,185 | INFO    | DONE 26/84 | Magnitude__A_Current | 7.5s | AUC 0.5754 | AP 0.5357
+2026-10-13 22:31:32,815 | INFO    | FIT 27/84 | year=2018 | Standard__B_Lag7 | numeric columns=284
+2026-10-13 22:31:41,273 | INFO    | DONE 27/84 | Standard__B_Lag7 | 8.4s | AUC 0.5149 | AP 0.4901
+2026-10-13 22:31:41,275 | INFO    | FIT 28/84 | year=2018 | Magnitude__B_Lag7 | numeric columns=284
+2026-10-13 22:31:50,305 | INFO    | DONE 28/84 | Magnitude__B_Lag7 | 9.0s | AUC 0.5822 | AP 0.5443
+2026-10-13 22:31:53,548 | INFO    | FIT 29/84 | year=2018 | Standard__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:32:03,289 | INFO    | DONE 29/84 | Standard__C_Lag7_Lag20 | 9.7s | AUC 0.5467 | AP 0.5144
+2026-10-13 22:32:03,290 | INFO    | FIT 30/84 | year=2018 | Magnitude__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:32:13,176 | INFO    | DONE 30/84 | Magnitude__C_Lag7_Lag20 | 9.9s | AUC 0.5726 | AP 0.5310
+2026-10-13 22:32:16,512 | INFO    | FIT 31/84 | year=2018 | Standard__D_Changes7_20 | numeric columns=320
+2026-10-13 22:32:25,958 | INFO    | DONE 31/84 | Standard__D_Changes7_20 | 9.4s | AUC 0.5727 | AP 0.5444
+2026-10-13 22:32:25,959 | INFO    | FIT 32/84 | year=2018 | Magnitude__D_Changes7_20 | numeric columns=320
+2026-10-13 22:32:35,745 | INFO    | DONE 32/84 | Magnitude__D_Changes7_20 | 9.8s | AUC 0.5947 | AP 0.5537
+2026-10-13 22:32:39,470 | INFO    | FIT 33/84 | year=2018 | Standard__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:32:51,006 | INFO    | DONE 33/84 | Standard__E_LagsAndChanges | 11.5s | AUC 0.5593 | AP 0.5405
+2026-10-13 22:32:51,008 | INFO    | FIT 34/84 | year=2018 | Magnitude__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:33:19,637 | INFO    | DONE 34/84 | Magnitude__E_LagsAndChanges | 28.6s | AUC 0.5791 | AP 0.5263
+2026-10-13 22:33:22,390 | INFO    | FIT 35/84 | year=2018 | Standard__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:33:30,998 | INFO    | DONE 35/84 | Standard__F_PlaceboNoise7 | 8.6s | AUC 0.5255 | AP 0.4913
+2026-10-13 22:33:30,999 | INFO    | FIT 36/84 | year=2018 | Magnitude__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:33:40,095 | INFO    | DONE 36/84 | Magnitude__F_PlaceboNoise7 | 9.1s | AUC 0.6008 | AP 0.5668
+2026-10-13 22:33:40,323 | INFO    | FOLD 2019 | train=121291 val=12096 | latest training label end=2018-12-31
+2026-10-13 22:33:42,933 | INFO    | FIT 37/84 | year=2019 | Standard__A_Current | numeric columns=248
+2026-10-13 22:33:51,475 | INFO    | DONE 37/84 | Standard__A_Current | 8.5s | AUC 0.5754 | AP 0.7378
+2026-10-13 22:33:51,476 | INFO    | FIT 38/84 | year=2019 | Magnitude__A_Current | numeric columns=248
+2026-10-13 22:34:00,492 | INFO    | DONE 38/84 | Magnitude__A_Current | 9.0s | AUC 0.5793 | AP 0.7497
+2026-10-13 22:34:03,737 | INFO    | FIT 39/84 | year=2019 | Standard__B_Lag7 | numeric columns=284
+2026-10-13 22:34:13,240 | INFO    | DONE 39/84 | Standard__B_Lag7 | 9.5s | AUC 0.5490 | AP 0.7223
+2026-10-13 22:34:13,241 | INFO    | FIT 40/84 | year=2019 | Magnitude__B_Lag7 | numeric columns=284
+2026-10-13 22:34:23,064 | INFO    | DONE 40/84 | Magnitude__B_Lag7 | 9.8s | AUC 0.5818 | AP 0.7523
+2026-10-13 22:34:26,856 | INFO    | FIT 41/84 | year=2019 | Standard__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:34:37,469 | INFO    | DONE 41/84 | Standard__C_Lag7_Lag20 | 10.6s | AUC 0.5451 | AP 0.7084
+2026-10-13 22:34:37,470 | INFO    | FIT 42/84 | year=2019 | Magnitude__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:34:48,929 | INFO    | DONE 42/84 | Magnitude__C_Lag7_Lag20 | 11.4s | AUC 0.5541 | AP 0.7338
+2026-10-13 22:34:53,370 | INFO    | FIT 43/84 | year=2019 | Standard__D_Changes7_20 | numeric columns=320
+2026-10-13 22:35:05,017 | INFO    | DONE 43/84 | Standard__D_Changes7_20 | 11.6s | AUC 0.5562 | AP 0.7296
+2026-10-13 22:35:05,018 | INFO    | FIT 44/84 | year=2019 | Magnitude__D_Changes7_20 | numeric columns=320
+2026-10-13 22:35:16,517 | INFO    | DONE 44/84 | Magnitude__D_Changes7_20 | 11.5s | AUC 0.5554 | AP 0.7344
+2026-10-13 22:35:21,658 | INFO    | FIT 45/84 | year=2019 | Standard__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:35:34,539 | INFO    | DONE 45/84 | Standard__E_LagsAndChanges | 12.9s | AUC 0.5589 | AP 0.7223
+2026-10-13 22:35:34,540 | INFO    | FIT 46/84 | year=2019 | Magnitude__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:35:48,794 | INFO    | DONE 46/84 | Magnitude__E_LagsAndChanges | 14.2s | AUC 0.5723 | AP 0.7395
+2026-10-13 22:35:52,161 | INFO    | FIT 47/84 | year=2019 | Standard__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:36:01,613 | INFO    | DONE 47/84 | Standard__F_PlaceboNoise7 | 9.4s | AUC 0.5839 | AP 0.7463
+2026-10-13 22:36:01,614 | INFO    | FIT 48/84 | year=2019 | Magnitude__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:36:11,409 | INFO    | DONE 48/84 | Magnitude__F_PlaceboNoise7 | 9.8s | AUC 0.5743 | AP 0.7485
+2026-10-13 22:36:11,692 | INFO    | FOLD 2020 | train=133387 val=12144 | latest training label end=2019-12-31
+2026-10-13 22:36:14,805 | INFO    | FIT 49/84 | year=2020 | Standard__A_Current | numeric columns=248
+2026-10-13 22:36:23,945 | INFO    | DONE 49/84 | Standard__A_Current | 9.1s | AUC 0.5649 | AP 0.7569
+2026-10-13 22:36:23,946 | INFO    | FIT 50/84 | year=2020 | Magnitude__A_Current | numeric columns=248
+2026-10-13 22:36:33,195 | INFO    | DONE 50/84 | Magnitude__A_Current | 9.2s | AUC 0.4488 | AP 0.6905
+2026-10-13 22:36:36,790 | INFO    | FIT 51/84 | year=2020 | Standard__B_Lag7 | numeric columns=284
+2026-10-13 22:36:47,221 | INFO    | DONE 51/84 | Standard__B_Lag7 | 10.4s | AUC 0.5617 | AP 0.7633
+2026-10-13 22:36:47,222 | INFO    | FIT 52/84 | year=2020 | Magnitude__B_Lag7 | numeric columns=284
+2026-10-13 22:36:57,856 | INFO    | DONE 52/84 | Magnitude__B_Lag7 | 10.6s | AUC 0.4606 | AP 0.6944
+2026-10-13 22:37:02,272 | INFO    | FIT 53/84 | year=2020 | Standard__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:37:14,045 | INFO    | DONE 53/84 | Standard__C_Lag7_Lag20 | 11.8s | AUC 0.5854 | AP 0.7592
+2026-10-13 22:37:14,046 | INFO    | FIT 54/84 | year=2020 | Magnitude__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:37:26,193 | INFO    | DONE 54/84 | Magnitude__C_Lag7_Lag20 | 12.1s | AUC 0.4374 | AP 0.6781
+2026-10-13 22:37:30,689 | INFO    | FIT 55/84 | year=2020 | Standard__D_Changes7_20 | numeric columns=320
+2026-10-13 22:37:42,004 | INFO    | DONE 55/84 | Standard__D_Changes7_20 | 11.3s | AUC 0.5791 | AP 0.7641
+2026-10-13 22:37:42,005 | INFO    | FIT 56/84 | year=2020 | Magnitude__D_Changes7_20 | numeric columns=320
+2026-10-13 22:37:53,656 | INFO    | DONE 56/84 | Magnitude__D_Changes7_20 | 11.6s | AUC 0.4605 | AP 0.7009
+2026-10-13 22:37:58,916 | INFO    | FIT 57/84 | year=2020 | Standard__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:38:12,876 | INFO    | DONE 57/84 | Standard__E_LagsAndChanges | 13.9s | AUC 0.5523 | AP 0.7448
+2026-10-13 22:38:12,878 | INFO    | FIT 58/84 | year=2020 | Magnitude__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:38:27,636 | INFO    | DONE 58/84 | Magnitude__E_LagsAndChanges | 14.7s | AUC 0.4545 | AP 0.6904
+2026-10-13 22:38:31,558 | INFO    | FIT 59/84 | year=2020 | Standard__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:38:42,148 | INFO    | DONE 59/84 | Standard__F_PlaceboNoise7 | 10.6s | AUC 0.5210 | AP 0.7217
+2026-10-13 22:38:42,150 | INFO    | FIT 60/84 | year=2020 | Magnitude__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:38:52,798 | INFO    | DONE 60/84 | Magnitude__F_PlaceboNoise7 | 10.6s | AUC 0.4789 | AP 0.7045
+2026-10-13 22:38:53,059 | INFO    | FOLD 2021 | train=145531 val=12096 | latest training label end=2020-12-31
+2026-10-13 22:38:56,343 | INFO    | FIT 61/84 | year=2021 | Standard__A_Current | numeric columns=248
+2026-10-13 22:39:06,758 | INFO    | DONE 61/84 | Standard__A_Current | 10.4s | AUC 0.5764 | AP 0.6030
+2026-10-13 22:39:06,760 | INFO    | FIT 62/84 | year=2021 | Magnitude__A_Current | numeric columns=248
+2026-10-13 22:39:16,355 | INFO    | DONE 62/84 | Magnitude__A_Current | 9.6s | AUC 0.6132 | AP 0.6378
+2026-10-13 22:39:20,077 | INFO    | FIT 63/84 | year=2021 | Standard__B_Lag7 | numeric columns=284
+2026-10-13 22:39:30,964 | INFO    | DONE 63/84 | Standard__B_Lag7 | 10.9s | AUC 0.5669 | AP 0.5925
+2026-10-13 22:39:30,965 | INFO    | FIT 64/84 | year=2021 | Magnitude__B_Lag7 | numeric columns=284
+2026-10-13 22:39:42,065 | INFO    | DONE 64/84 | Magnitude__B_Lag7 | 11.1s | AUC 0.6016 | AP 0.6322
+2026-10-13 22:39:46,636 | INFO    | FIT 65/84 | year=2021 | Standard__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:39:58,950 | INFO    | DONE 65/84 | Standard__C_Lag7_Lag20 | 12.3s | AUC 0.5902 | AP 0.6139
+2026-10-13 22:39:58,951 | INFO    | FIT 66/84 | year=2021 | Magnitude__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:40:11,354 | INFO    | DONE 66/84 | Magnitude__C_Lag7_Lag20 | 12.4s | AUC 0.5837 | AP 0.5908
+2026-10-13 22:40:16,004 | INFO    | FIT 67/84 | year=2021 | Standard__D_Changes7_20 | numeric columns=320
+2026-10-13 22:40:28,095 | INFO    | DONE 67/84 | Standard__D_Changes7_20 | 12.1s | AUC 0.5469 | AP 0.5646
+2026-10-13 22:40:28,096 | INFO    | FIT 68/84 | year=2021 | Magnitude__D_Changes7_20 | numeric columns=320
+2026-10-13 22:40:40,310 | INFO    | DONE 68/84 | Magnitude__D_Changes7_20 | 12.2s | AUC 0.5919 | AP 0.6169
+2026-10-13 22:40:45,661 | INFO    | FIT 69/84 | year=2021 | Standard__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:41:01,083 | INFO    | DONE 69/84 | Standard__E_LagsAndChanges | 15.4s | AUC 0.5838 | AP 0.6105
+2026-10-13 22:41:01,084 | INFO    | FIT 70/84 | year=2021 | Magnitude__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:41:16,900 | INFO    | DONE 70/84 | Magnitude__E_LagsAndChanges | 15.8s | AUC 0.5934 | AP 0.6077
+2026-10-13 22:41:20,808 | INFO    | FIT 71/84 | year=2021 | Standard__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:41:31,719 | INFO    | DONE 71/84 | Standard__F_PlaceboNoise7 | 10.9s | AUC 0.5890 | AP 0.6105
+2026-10-13 22:41:31,720 | INFO    | FIT 72/84 | year=2021 | Magnitude__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:41:43,111 | INFO    | DONE 72/84 | Magnitude__F_PlaceboNoise7 | 11.4s | AUC 0.5852 | AP 0.6202
+2026-10-13 22:41:43,390 | INFO    | FOLD 2022 | train=157627 val=9168 | latest training label end=2021-12-31
+2026-10-13 22:41:46,903 | INFO    | FIT 73/84 | year=2022 | Standard__A_Current | numeric columns=248
+2026-10-13 22:41:57,062 | INFO    | DONE 73/84 | Standard__A_Current | 10.1s | AUC 0.6583 | AP 0.4669
+2026-10-13 22:41:57,063 | INFO    | FIT 74/84 | year=2022 | Magnitude__A_Current | numeric columns=248
+2026-10-13 22:42:07,675 | INFO    | DONE 74/84 | Magnitude__A_Current | 10.6s | AUC 0.5871 | AP 0.3427
+2026-10-13 22:42:11,815 | INFO    | FIT 75/84 | year=2022 | Standard__B_Lag7 | numeric columns=284
+2026-10-13 22:42:23,694 | INFO    | DONE 75/84 | Standard__B_Lag7 | 11.9s | AUC 0.6395 | AP 0.4335
+2026-10-13 22:42:23,695 | INFO    | FIT 76/84 | year=2022 | Magnitude__B_Lag7 | numeric columns=284
+2026-10-13 22:42:35,451 | INFO    | DONE 76/84 | Magnitude__B_Lag7 | 11.7s | AUC 0.5902 | AP 0.3539
+2026-10-13 22:42:40,505 | INFO    | FIT 77/84 | year=2022 | Standard__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:42:53,172 | INFO    | DONE 77/84 | Standard__C_Lag7_Lag20 | 12.7s | AUC 0.6404 | AP 0.4187
+2026-10-13 22:42:53,173 | INFO    | FIT 78/84 | year=2022 | Magnitude__C_Lag7_Lag20 | numeric columns=320
+2026-10-13 22:43:06,560 | INFO    | DONE 78/84 | Magnitude__C_Lag7_Lag20 | 13.4s | AUC 0.5924 | AP 0.3792
+2026-10-13 22:43:11,788 | INFO    | FIT 79/84 | year=2022 | Standard__D_Changes7_20 | numeric columns=320
+2026-10-13 22:43:24,682 | INFO    | DONE 79/84 | Standard__D_Changes7_20 | 12.9s | AUC 0.6249 | AP 0.3703
+2026-10-13 22:43:24,683 | INFO    | FIT 80/84 | year=2022 | Magnitude__D_Changes7_20 | numeric columns=320
+2026-10-13 22:43:37,943 | INFO    | DONE 80/84 | Magnitude__D_Changes7_20 | 13.2s | AUC 0.6085 | AP 0.4077
+2026-10-13 22:43:43,796 | INFO    | FIT 81/84 | year=2022 | Standard__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:43:59,455 | INFO    | DONE 81/84 | Standard__E_LagsAndChanges | 15.6s | AUC 0.6326 | AP 0.4023
+2026-10-13 22:43:59,457 | INFO    | FIT 82/84 | year=2022 | Magnitude__E_LagsAndChanges | numeric columns=392
+2026-10-13 22:44:15,725 | INFO    | DONE 82/84 | Magnitude__E_LagsAndChanges | 16.3s | AUC 0.5942 | AP 0.3790
+2026-10-13 22:44:19,867 | INFO    | FIT 83/84 | year=2022 | Standard__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:44:31,705 | INFO    | DONE 83/84 | Standard__F_PlaceboNoise7 | 11.8s | AUC 0.6508 | AP 0.4503
+2026-10-13 22:44:31,706 | INFO    | FIT 84/84 | year=2022 | Magnitude__F_PlaceboNoise7 | numeric columns=284
+2026-10-13 22:44:43,551 | INFO    | DONE 84/84 | Magnitude__F_PlaceboNoise7 | 11.8s | AUC 0.5490 | AP 0.2941
+2026-10-13 22:45:25,801 | INFO    | COMPLETE in 1087.3s | Output=model_output\S05_lagged_walkforward
+2026-10-13 22:45:25,804 | INFO    | 
+                     method  positive_rate  mean_forward_60d_return  median_forward_60d_return
+            TickerFrequency         0.6418                   0.0398                     0.0059
+ HistoricalTickerMeanReturn         0.6470                   0.0769                     0.0424
+        Standard__A_Current         0.6848                   0.0283                     0.0252
+       Magnitude__A_Current         0.6337                   0.0338                     0.0196
+           Standard__B_Lag7         0.6788                   0.0245                     0.0236
+          Magnitude__B_Lag7         0.6510                   0.0417                     0.0271
+     Standard__C_Lag7_Lag20         0.6722                   0.0241                     0.0211
+    Magnitude__C_Lag7_Lag20         0.6455                   0.0277                     0.0196
+    Standard__D_Changes7_20         0.6725                   0.0226                     0.0207
+   Magnitude__D_Changes7_20         0.6516                   0.0356                     0.0257
+ Standard__E_LagsAndChanges         0.6692                   0.0253                     0.0209
+Magnitude__E_LagsAndChanges         0.6217                   0.0312                     0.0129
+  Standard__F_PlaceboNoise7         0.6645                   0.0241                     0.0214
+ Magnitude__F_PlaceboNoise7         0.6488                   0.0320                     0.0252

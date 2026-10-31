@@ -1,0 +1,7 @@
+Scenario,Result,ReturnCode,Seconds,Output
+baseline,SUCCESS,0,1246.0,model_output\S07_original_transaction_fees_suite\baseline
+concentration,SUCCESS,0,1094.5,model_output\S07_original_transaction_fees_suite\concentration
+large_10m,SUCCESS,0,1241.3,model_output\S07_original_transaction_fees_suite\large_10m
+slower_60session,SUCCESS,0,459.1,model_output\S07_original_transaction_fees_suite\slower_60session
+higher_ml_blend,SUCCESS,0,1205.0,model_output\S07_original_transaction_fees_suite\higher_ml_blend
+zero_costs,SUCCESS,0,205.7,model_output\S07_original_transaction_fees_suite\zero_costs

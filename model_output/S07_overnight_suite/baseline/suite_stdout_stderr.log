@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "D:\Capstone\S07_run_portfolio_backtests.py", line 396, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\Capstone\S07_run_portfolio_backtests.py", line 339, in main
+    market=load_prices(args.prices,tickers,args.start,args.end,cfg)
+  File "D:\Capstone\S07_stage2_engine.py", line 86, in load_prices
+    raise ValueError(f'{ticker} missing S04 Spread,ADV_Dollars. Run S04 first; do NOT silently assign zero costs.')
+ValueError: AFK missing S04 Spread,ADV_Dollars. Run S04 first; do NOT silently assign zero costs.

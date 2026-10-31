@@ -1,0 +1,23 @@
+{
+  "iteration": 6,
+  "fold_year": 2020,
+  "model": "TickerFrequency",
+  "tickers": "DBB;EWJ;FEZ;FXY;IXG;PBW;RWX;SLV;SMH;VT",
+  "n_tickers": 10,
+  "n_train": 29204,
+  "max_training_label_end": "2019-12-31",
+  "min_validation_date": "2020-01-02",
+  "max_validation_date": "2020-12-31",
+  "fit_seconds": 0.003339799994137138,
+  "roc_auc": 0.5301211084502223,
+  "average_precision": 0.7975862858477057,
+  "brier": 0.21373707796040795,
+  "log_loss": 0.6180876360744054,
+  "positive_rate": 0.7806324110671937,
+  "daily_rank_auc": 0.5703383458646617,
+  "daily_topn_hit": 0.8036890645586298,
+  "daily_topn_forward_return_gross": 0.09398854450629532,
+  "daily_topn_dates": 253,
+  "n_validation_rows": 2530,
+  "n_dates": 253
+}

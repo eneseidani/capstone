@@ -1,0 +1,7 @@
+split,Market_Regime,n_asset_dates,n_distinct_dates,positive_rate,n_regime_episodes
+train,Risk-Off,33138,768,0.5799987929265495,10
+train,Risk-On,89832,1921,0.5858825362899635,11
+train,Transition,47665,1028,0.6327074373229833,17
+test,Risk-Off,2016,42,0.8020833333333334,2
+test,Risk-On,31873,665,0.6765600978884949,4
+test,Transition,8688,181,0.6282228360957642,4

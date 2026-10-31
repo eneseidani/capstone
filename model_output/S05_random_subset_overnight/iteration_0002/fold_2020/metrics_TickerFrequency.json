@@ -1,0 +1,23 @@
+{
+  "iteration": 2,
+  "fold_year": 2020,
+  "model": "TickerFrequency",
+  "tickers": "BND;CEW;FXA;FXY;USO;VGK;VUG;VWO",
+  "n_tickers": 8,
+  "n_train": 22984,
+  "max_training_label_end": "2019-12-31",
+  "min_validation_date": "2020-01-02",
+  "max_validation_date": "2020-12-31",
+  "fit_seconds": 0.0037927000084891915,
+  "roc_auc": 0.5232999336918883,
+  "average_precision": 0.7373960097873141,
+  "brier": 0.2218224336222509,
+  "log_loss": 0.6350325828241195,
+  "positive_rate": 0.7262845849802372,
+  "daily_rank_auc": 0.5420983778126635,
+  "daily_topn_hit": 0.761528326745718,
+  "daily_topn_forward_return_gross": 0.05503565247812706,
+  "daily_topn_dates": 253,
+  "n_validation_rows": 2024,
+  "n_dates": 253
+}

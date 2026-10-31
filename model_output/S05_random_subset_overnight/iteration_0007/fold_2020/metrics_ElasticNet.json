@@ -1,0 +1,23 @@
+{
+  "iteration": 7,
+  "fold_year": 2020,
+  "model": "ElasticNet",
+  "tickers": "EMB;FXE;HYG;IEF;IPO;IXG;SHY;VIXY;VNQ",
+  "n_tickers": 9,
+  "n_train": 23617,
+  "max_training_label_end": "2019-12-31",
+  "min_validation_date": "2020-01-02",
+  "max_validation_date": "2020-12-31",
+  "fit_seconds": 57.818476299988106,
+  "roc_auc": 0.5936037481221197,
+  "average_precision": 0.6678424213395225,
+  "brier": 0.4210261119944128,
+  "log_loss": 1.3907347781064492,
+  "positive_rate": 0.6508563899868248,
+  "daily_rank_auc": 0.7159984942593639,
+  "daily_topn_hit": 0.7654808959156786,
+  "daily_topn_forward_return_gross": 0.020694605629265894,
+  "daily_topn_dates": 253,
+  "n_validation_rows": 2277,
+  "n_dates": 253
+}

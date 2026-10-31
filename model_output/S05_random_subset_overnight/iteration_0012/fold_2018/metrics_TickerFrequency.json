@@ -1,0 +1,23 @@
+{
+  "iteration": 12,
+  "fold_year": 2018,
+  "model": "TickerFrequency",
+  "tickers": "AFK;BTC-USD;FEZ;GLD;IPO;IXJ;LQD;VNQ;VT",
+  "n_tickers": 9,
+  "n_train": 17722,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 0.002600399951916188,
+  "roc_auc": 0.5077673831797949,
+  "average_precision": 0.43650973457508513,
+  "brier": 0.31268558921269923,
+  "log_loss": 0.8500850838375473,
+  "positive_rate": 0.4448871181938911,
+  "daily_rank_auc": 0.4429911358482787,
+  "daily_topn_hit": 0.4342629482071713,
+  "daily_topn_forward_return_gross": -0.060371539238792224,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2259,
+  "n_dates": 251
+}

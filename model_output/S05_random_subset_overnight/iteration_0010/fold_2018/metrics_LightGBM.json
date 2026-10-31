@@ -1,0 +1,23 @@
+{
+  "iteration": 10,
+  "fold_year": 2018,
+  "model": "LightGBM",
+  "tickers": "DBA;EMB;FXA;FXI;IXG;TIP;UUP;VCSH;VGK;VIXY",
+  "n_tickers": 10,
+  "n_train": 22553,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 2.025230899977032,
+  "roc_auc": 0.5886447445729481,
+  "average_precision": 0.5161251536932876,
+  "brier": 0.26610667450471986,
+  "log_loss": 0.7377373593537386,
+  "positive_rate": 0.4398406374501992,
+  "daily_rank_auc": 0.6003214127616519,
+  "daily_topn_hit": 0.5590969455511288,
+  "daily_topn_forward_return_gross": 0.003025801405117089,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2510,
+  "n_dates": 251
+}

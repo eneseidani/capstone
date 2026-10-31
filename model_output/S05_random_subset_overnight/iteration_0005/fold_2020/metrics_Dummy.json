@@ -1,0 +1,23 @@
+{
+  "iteration": 5,
+  "fold_year": 2020,
+  "model": "Dummy",
+  "tickers": "BTC-USD;CEW;DVY;EMB;IXG;IXP;SLV;VNQ",
+  "n_tickers": 8,
+  "n_train": 20905,
+  "max_training_label_end": "2019-12-31",
+  "min_validation_date": "2020-01-02",
+  "max_validation_date": "2020-12-31",
+  "fit_seconds": 0.004919200029689819,
+  "roc_auc": 0.5,
+  "average_precision": 0.741106719367589,
+  "brier": 0.20550009190193783,
+  "log_loss": 0.6025766181294739,
+  "positive_rate": 0.741106719367589,
+  "daily_rank_auc": 0.5,
+  "daily_topn_hit": 0.7628458498023716,
+  "daily_topn_forward_return_gross": 0.21324956182140145,
+  "daily_topn_dates": 253,
+  "n_validation_rows": 2024,
+  "n_dates": 253
+}

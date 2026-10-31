@@ -1,0 +1,36 @@
+year,method,n_rows,roc_auc,average_precision,mae_forward_return,note
+2016,ProbabilityClassifier,12096,0.5908646638882542,0.7662980470209995,,
+2016,MagnitudeWeightedClassifier,12096,0.6718267375036279,0.8331563714204209,,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2016,ConditionalExpectedReturn,12096,0.5914761911153967,0.7768239311386214,0.05938352259480033,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2016,TickerFrequency,12096,0.6184840966756142,0.7566859711370238,,
+2016,HistoricalTickerMeanReturn,12096,0.6373023039779847,0.784254994663616,0.061085101387292236,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2017,ProbabilityClassifier,12048,0.5701773876122065,0.8125627010647731,,
+2017,MagnitudeWeightedClassifier,12048,0.5269252897914037,0.7897913082235313,,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2017,ConditionalExpectedReturn,12048,0.5919721522566178,0.7961725578389359,0.06265172297264152,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2017,TickerFrequency,12048,0.635081237774872,0.8122401778093392,,
+2017,HistoricalTickerMeanReturn,12048,0.6429272708269058,0.8455134417818175,0.054284795033588296,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2018,ProbabilityClassifier,12048,0.4954769964568183,0.45264426293264065,,
+2018,MagnitudeWeightedClassifier,12048,0.5772261965050236,0.5198591160134919,,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2018,ConditionalExpectedReturn,12048,0.5053449008445241,0.4758460075641131,0.07655539129384804,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2018,TickerFrequency,12048,0.5887309033939134,0.5340583383129337,,
+2018,HistoricalTickerMeanReturn,12048,0.53257034414099,0.4833878354792003,0.06563149070882403,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2019,ProbabilityClassifier,12096,0.5684368073176894,0.7265256723759937,,
+2019,MagnitudeWeightedClassifier,12096,0.5605748926553302,0.7378293887370878,,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2019,ConditionalExpectedReturn,12096,0.5925526367604709,0.73984742819027,0.06703702089696656,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2019,TickerFrequency,12096,0.6843838401446424,0.8079314250079819,,
+2019,HistoricalTickerMeanReturn,12096,0.6255793572299179,0.7371308506671812,0.06134486589008744,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2020,ProbabilityClassifier,12144,0.539816792352646,0.7291554643245581,,
+2020,MagnitudeWeightedClassifier,12144,0.44945815897971697,0.691892180071688,,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2020,ConditionalExpectedReturn,12144,0.6246941417633494,0.8046490171521077,0.11234352924107166,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2020,TickerFrequency,12144,0.5716472541921562,0.7720030726620912,,
+2020,HistoricalTickerMeanReturn,12144,0.5757942651884731,0.7823375228781324,0.11840036062069836,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2021,ProbabilityClassifier,12096,0.5851957442155705,0.6084741104672945,,
+2021,MagnitudeWeightedClassifier,12096,0.5516713356658487,0.5800627787335235,,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2021,ConditionalExpectedReturn,12096,0.5877401583240266,0.5624702570000266,0.06162924240137664,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2021,TickerFrequency,12096,0.5675950291067202,0.555676131012923,,
+2021,HistoricalTickerMeanReturn,12096,0.5672501741038799,0.561019016048491,0.06113604344407866,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2022,ProbabilityClassifier,9168,0.6615194105893891,0.4550099128417318,,
+2022,MagnitudeWeightedClassifier,9168,0.5990207250883666,0.3829330050905284,,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2022,ConditionalExpectedReturn,9168,0.6600566759838967,0.4317109155992361,0.0900700545773611,Return estimate / magnitude-weighted score: NOT positive-class probabilities
+2022,TickerFrequency,9168,0.4731685235210239,0.25024160758758335,,
+2022,HistoricalTickerMeanReturn,9168,0.4754932935258587,0.24768989404673986,0.09476564840448215,Return estimate / magnitude-weighted score: NOT positive-class probabilities

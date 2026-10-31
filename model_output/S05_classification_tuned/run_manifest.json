@@ -1,0 +1,102 @@
+{
+  "design": "one pooled classifier per algorithm; one-hot ticker AND asset class",
+  "target": "positive 60-trading-day forward return",
+  "train_label_end_exclusive": "2023-01-01",
+  "tune_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "min_train_years": 5,
+  "requested_trials_per_ml_model": 15,
+  "test_date_from": "2023-01-01",
+  "threshold": 0.5,
+  "baseline": "per-ticker historical positive-return frequency, Beta(1,1) smoothing",
+  "metric_rank_priority": [
+    "ROC_AUC desc",
+    "MCC desc",
+    "Balanced_Accuracy desc",
+    "PR_AUC desc",
+    "Log_Loss asc",
+    "F1 desc"
+  ],
+  "PR_AUC_definition": "average_precision_score: non-interpolated average precision",
+  "aggregation": "pooled pre-2023 validation observations, micro weighting",
+  "model_selection": "pre-2023 validation only; 2023+ report only",
+  "selected_hyperparameters": {
+    "HistoricalFrequency": null,
+    "LogisticRegression": {
+      "tol": 0.01,
+      "class_weight": "balanced",
+      "C": 1e-05
+    },
+    "RandomForest": {
+      "n_estimators": 350,
+      "min_samples_split": 50,
+      "min_samples_leaf": 100,
+      "max_samples": 0.8,
+      "max_features": 0.4,
+      "max_depth": 12,
+      "criterion": "entropy",
+      "class_weight": "balanced_subsample",
+      "bootstrap": true
+    },
+    "HistGradientBoosting": {
+      "min_samples_leaf": 320,
+      "max_leaf_nodes": 31,
+      "max_iter": 180,
+      "max_depth": 5,
+      "max_bins": 255,
+      "learning_rate": 0.15,
+      "l2_regularization": 100.0
+    },
+    "XGBoost": {
+      "subsample": 0.65,
+      "reg_lambda": 0.1,
+      "reg_alpha": 0.1,
+      "n_estimators": 1800,
+      "min_child_weight": 20,
+      "max_depth": 6,
+      "max_delta_step": 5,
+      "learning_rate": 0.005,
+      "gamma": 0.0,
+      "colsample_bytree": 0.85,
+      "colsample_bylevel": 0.6
+    },
+    "CatBoost": {
+      "rsm": 1.0,
+      "random_strength": 1,
+      "learning_rate": 0.1,
+      "l2_leaf_reg": 3,
+      "iterations": 250,
+      "depth": 9,
+      "border_count": 128,
+      "bagging_temperature": 0
+    }
+  },
+  "models": [
+    "HistoricalFrequency",
+    "LogisticRegression",
+    "RandomForest",
+    "HistGradientBoosting",
+    "XGBoost",
+    "CatBoost"
+  ],
+  "features": 248,
+  "train_rows": 170637,
+  "test_rows": 42577,
+  "test_outcome_maturity": "inferred from feature chronology; not source-price-audited",
+  "regime_enabled": false,
+  "warnings": [
+    "Feature availability/lag not independently audited",
+    "2023+ previously inspected in other experiments; not pristine holdout",
+    "Overlapping 60-day target observations are serially dependent",
+    "Asset class is deterministic given ticker in static universe"
+  ]
+}

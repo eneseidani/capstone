@@ -1,0 +1,3 @@
+split,n_rows,n_tickers,n_dates,first_feature_date,last_feature_date,n_negative,n_positive,positive_rate
+train,170635,48,3717,2008-01-02,2022-10-05,68626,102009,0.5978199079907405
+test,42577,48,888,2023-01-03,2026-07-20,13938,28639,0.6726401578316932

@@ -1,0 +1,23 @@
+{
+  "iteration": 1,
+  "fold_year": 2020,
+  "model": "CatBoost",
+  "tickers": "FEZ;HYG;IEF;RWX;SLV;UUP;VEA;VNQ;XBI",
+  "n_tickers": 9,
+  "n_train": 26399,
+  "max_training_label_end": "2019-12-31",
+  "min_validation_date": "2020-01-02",
+  "max_validation_date": "2020-12-31",
+  "fit_seconds": 6.963055400003213,
+  "roc_auc": 0.5965406150017775,
+  "average_precision": 0.7666065752180169,
+  "brier": 0.23975622941874755,
+  "log_loss": 0.6800838989603061,
+  "positive_rate": 0.681598594642073,
+  "daily_rank_auc": 0.6355872388481084,
+  "daily_topn_hit": 0.7575757575757576,
+  "daily_topn_forward_return_gross": 0.0369552885115051,
+  "daily_topn_dates": 253,
+  "n_validation_rows": 2277,
+  "n_dates": 253
+}

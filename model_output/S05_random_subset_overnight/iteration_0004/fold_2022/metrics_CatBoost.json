@@ -1,0 +1,23 @@
+{
+  "iteration": 4,
+  "fold_year": 2022,
+  "model": "CatBoost",
+  "tickers": "AFK;BND;FXA;RWX;TIP;TLT;UUP;VT;VUG",
+  "n_tickers": 9,
+  "n_train": 30328,
+  "max_training_label_end": "2021-12-31",
+  "min_validation_date": "2022-01-03",
+  "max_validation_date": "2022-10-05",
+  "fit_seconds": 7.031299100024626,
+  "roc_auc": 0.5458305841749987,
+  "average_precision": 0.27314580342706174,
+  "brier": 0.4264447002147527,
+  "log_loss": 1.1207027896210635,
+  "positive_rate": 0.2484002326934264,
+  "daily_rank_auc": 0.45071601104209796,
+  "daily_topn_hit": 0.26876090750436304,
+  "daily_topn_forward_return_gross": -0.04061963199258229,
+  "daily_topn_dates": 191,
+  "n_validation_rows": 1719,
+  "n_dates": 191
+}

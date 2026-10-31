@@ -1,0 +1,8 @@
+evaluation_year,n_meta_rows,meta_start,meta_last_feature_date,meta_last_label_end_date,n_prior_fold_years,n_eval_rows,selected_best_single,n_risk_off_meta_episodes
+2016,32283,2013-01-02,2015-10-06,2015-12-31,3,12096,RandomForest,1
+2017,44379,2013-01-02,2016-10-05,2016-12-30,4,12048,RandomForest,2
+2018,56427,2013-01-02,2017-10-04,2017-12-29,5,12048,RandomForest,2
+2019,68475,2013-01-02,2018-10-03,2018-12-31,6,12096,RandomForest,2
+2020,80571,2013-01-02,2019-10-04,2019-12-31,7,12144,RandomForest,3
+2021,92715,2013-01-02,2020-10-06,2020-12-31,8,12096,RandomForest,4
+2022,104811,2013-01-02,2021-10-06,2021-12-31,9,9168,RandomForest,4

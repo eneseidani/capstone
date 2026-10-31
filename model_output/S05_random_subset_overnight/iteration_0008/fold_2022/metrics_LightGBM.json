@@ -1,0 +1,23 @@
+{
+  "iteration": 8,
+  "fold_year": 2022,
+  "model": "LightGBM",
+  "tickers": "BTC-USD;FXA;IGF;TIP;TLT;USO;VEA;VWO;XBI",
+  "n_tickers": 9,
+  "n_train": 28882,
+  "max_training_label_end": "2021-12-31",
+  "min_validation_date": "2022-01-03",
+  "max_validation_date": "2022-10-07",
+  "fit_seconds": 2.542288800003007,
+  "roc_auc": 0.5976902891761474,
+  "average_precision": 0.42872778119176314,
+  "brier": 0.43079269452515706,
+  "log_loss": 1.14982547930253,
+  "positive_rate": 0.25857059848925046,
+  "daily_rank_auc": 0.4519491129785247,
+  "daily_topn_hit": 0.2504317789291882,
+  "daily_topn_forward_return_gross": -0.05270208039855498,
+  "daily_topn_dates": 193,
+  "n_validation_rows": 1721,
+  "n_dates": 193
+}

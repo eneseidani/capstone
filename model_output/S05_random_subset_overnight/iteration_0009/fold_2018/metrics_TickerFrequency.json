@@ -1,0 +1,23 @@
+{
+  "iteration": 9,
+  "fold_year": 2018,
+  "model": "TickerFrequency",
+  "tickers": "HYG;IPO;IXG;IXJ;PBW;QQQ;SHY;VCSH;VT;VUG",
+  "n_tickers": 10,
+  "n_train": 21698,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 0.002739100018516183,
+  "roc_auc": 0.624380574826561,
+  "average_precision": 0.6981702579612075,
+  "brier": 0.24759486912143921,
+  "log_loss": 0.690876347745331,
+  "positive_rate": 0.59800796812749,
+  "daily_rank_auc": 0.7577548036758562,
+  "daily_topn_hit": 0.7370517928286853,
+  "daily_topn_forward_return_gross": 0.007621047022574403,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2510,
+  "n_dates": 251
+}

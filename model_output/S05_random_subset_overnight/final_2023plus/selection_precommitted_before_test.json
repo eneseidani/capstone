@@ -1,0 +1,16 @@
+{
+  "selected_iteration": 11,
+  "selected_tickers": [
+    "AFK",
+    "BND",
+    "DBB",
+    "FXC",
+    "HYG",
+    "IPO",
+    "SPY",
+    "UUP",
+    "VUG"
+  ],
+  "selection_rule": "Highest mean pre-2023 within-subset daily rank AUC minus TickerFrequency daily AUC (across model-folds); no 2023 labels used",
+  "warning": "This is exploratory subset selection with multiple testing; 2023+ has previously been inspected in this project."
+}

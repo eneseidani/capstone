@@ -1,0 +1,40 @@
+{
+  "input_file": "features_data/combined_features.csv",
+  "regime_file": "features_data/market_regimes.csv",
+  "label_maturity_source": "approximate_60th_next_row_of_S03_panel",
+  "forward_label_horizon_sessions": 60,
+  "validation_years": [
+    2016,
+    2019
+  ],
+  "uses_2023plus_outcomes": false,
+  "lag_scope": "core",
+  "max_lag7_age_calendar_days": 21,
+  "max_lag20_age_calendar_days": 50,
+  "variants": [
+    "A_Current",
+    "B_Lag7",
+    "C_Lag7_Lag20",
+    "D_Changes7_20",
+    "E_LagsAndChanges",
+    "F_PlaceboNoise7"
+  ],
+  "objectives": [
+    "standard",
+    "magnitude"
+  ],
+  "magnitude_training_weight_cap_quantile": 0.95,
+  "magnitude_weighted_scores_are_calibrated_probabilities": false,
+  "numeric_baseline_count": 248,
+  "lagged_source_feature_count": 36,
+  "n_validation_predictions_per_method": 24192,
+  "n_validation_dates": 504,
+  "n_assets": 48,
+  "same_date_same_assets_across_variants": true,
+  "gross_same_close_forward_returns_not_portfolio_returns": true,
+  "potential_revised_macro_feature_vintage_unverified": true,
+  "same_close_features_available_only_after_close_t": true,
+  "no_hyperparameter_or_feature_set_tuning_using_2023plus": true,
+  "bitcoin_exclusion_is_evaluation_only": true,
+  "runtime_seconds": 289.3
+}

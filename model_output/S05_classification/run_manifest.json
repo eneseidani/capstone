@@ -1,0 +1,39 @@
+{
+  "design": "one pooled classifier per algorithm; one-hot ticker AND asset class",
+  "target": "positive 60-trading-day forward return",
+  "train_label_end_exclusive": "2023-01-01",
+  "validation_years": [
+    2018,
+    2020,
+    2022
+  ],
+  "test_date_from": "2023-01-01",
+  "threshold": 0.5,
+  "baseline": "per-ticker historical positive-return frequency, Beta(1,1) smoothing",
+  "metric_rank_priority": [
+    "F1 desc",
+    "Precision desc",
+    "ROC_AUC desc",
+    "Log_Loss asc",
+    "Accuracy desc"
+  ],
+  "aggregation": "pool identical pre-2023 validation prediction rows across folds; micro-observation weighting",
+  "models": [
+    "HistoricalFrequency",
+    "LogisticRegression",
+    "RandomForest",
+    "HistGradientBoosting",
+    "XGBoost",
+    "CatBoost"
+  ],
+  "features": 248,
+  "train_rows": 170637,
+  "test_rows": 42577,
+  "test_outcome_maturity": "inferred from feature chronology; not source-price-audited",
+  "regime_enabled": false,
+  "warnings": [
+    "Feature availability/lag has not been independently audited",
+    "2023+ was inspected in previous experiments and is not a pristine holdout",
+    "One-hot asset class is redundant with ticker identity for static universe"
+  ]
+}

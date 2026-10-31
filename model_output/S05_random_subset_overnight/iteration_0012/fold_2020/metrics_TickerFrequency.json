@@ -1,0 +1,23 @@
+{
+  "iteration": 12,
+  "fold_year": 2020,
+  "model": "TickerFrequency",
+  "tickers": "AFK;BTC-USD;FEZ;GLD;IPO;IXJ;LQD;VNQ;VT",
+  "n_tickers": 9,
+  "n_train": 22249,
+  "max_training_label_end": "2019-12-31",
+  "min_validation_date": "2020-01-02",
+  "max_validation_date": "2020-12-31",
+  "fit_seconds": 0.0027471999637782574,
+  "roc_auc": 0.5226015814251108,
+  "average_precision": 0.7709280289319814,
+  "brier": 0.1996056463275252,
+  "log_loss": 0.5888250805203988,
+  "positive_rate": 0.7536231884057971,
+  "daily_rank_auc": 0.5632868867243868,
+  "daily_topn_hit": 0.7496706192358364,
+  "daily_topn_forward_return_gross": 0.044657234433125456,
+  "daily_topn_dates": 253,
+  "n_validation_rows": 2277,
+  "n_dates": 253
+}

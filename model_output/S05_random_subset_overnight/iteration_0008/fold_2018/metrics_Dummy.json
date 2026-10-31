@@ -1,0 +1,23 @@
+{
+  "iteration": 8,
+  "fold_year": 2018,
+  "model": "Dummy",
+  "tickers": "BTC-USD;FXA;IGF;TIP;TLT;USO;VEA;VWO;XBI",
+  "n_tickers": 9,
+  "n_train": 19810,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 0.0008778999908827245,
+  "roc_auc": 0.5,
+  "average_precision": 0.43382027445772464,
+  "brier": 0.28253272726778306,
+  "log_loss": 0.7599970975259984,
+  "positive_rate": 0.43382027445772464,
+  "daily_rank_auc": 0.5,
+  "daily_topn_hit": 0.3041168658698539,
+  "daily_topn_forward_return_gross": -0.06849188753261515,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2259,
+  "n_dates": 251
+}

@@ -1,0 +1,23 @@
+{
+  "iteration": 5,
+  "fold_year": 2018,
+  "model": "RandomForest",
+  "tickers": "BTC-USD;CEW;DVY;EMB;IXG;IXP;SLV;VNQ",
+  "n_tickers": 8,
+  "n_train": 16881,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 4.85503430000972,
+  "roc_auc": 0.36890985973597357,
+  "average_precision": 0.32557410812272924,
+  "brier": 0.2914352804514507,
+  "log_loss": 0.7790780325846908,
+  "positive_rate": 0.40239043824701193,
+  "daily_rank_auc": 0.38722054549519336,
+  "daily_topn_hit": 0.350597609561753,
+  "daily_topn_forward_return_gross": -0.06417251615568148,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2008,
+  "n_dates": 251
+}

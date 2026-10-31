@@ -1,0 +1,23 @@
+{
+  "iteration": 12,
+  "fold_year": 2018,
+  "model": "XGBoost",
+  "tickers": "AFK;BTC-USD;FEZ;GLD;IPO;IXJ;LQD;VNQ;VT",
+  "n_tickers": 9,
+  "n_train": 17722,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 2.1134259999962524,
+  "roc_auc": 0.46419418061209106,
+  "average_precision": 0.4025216799949668,
+  "brier": 0.2981974661473316,
+  "log_loss": 0.8090942704112553,
+  "positive_rate": 0.4448871181938911,
+  "daily_rank_auc": 0.42864186078471794,
+  "daily_topn_hit": 0.4050464807436919,
+  "daily_topn_forward_return_gross": -0.055575810785191006,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2259,
+  "n_dates": 251
+}

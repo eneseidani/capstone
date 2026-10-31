@@ -1,0 +1,23 @@
+{
+  "iteration": 2,
+  "fold_year": 2018,
+  "model": "TickerFrequency",
+  "tickers": "BND;CEW;FXA;FXY;USO;VGK;VUG;VWO",
+  "n_tickers": 8,
+  "n_train": 18960,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 0.0028301000129431486,
+  "roc_auc": 0.5577877493095651,
+  "average_precision": 0.49670031593046127,
+  "brier": 0.27335419384227044,
+  "log_loss": 0.7426551967028943,
+  "positive_rate": 0.4158366533864542,
+  "daily_rank_auc": 0.5646035108958838,
+  "daily_topn_hit": 0.50066401062417,
+  "daily_topn_forward_return_gross": -0.0024548643212017303,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2008,
+  "n_dates": 251
+}

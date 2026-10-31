@@ -1,0 +1,23 @@
+{
+  "iteration": 8,
+  "fold_year": 2020,
+  "model": "ElasticNet",
+  "tickers": "BTC-USD;FXA;IGF;TIP;TLT;USO;VEA;VWO;XBI",
+  "n_tickers": 9,
+  "n_train": 24337,
+  "max_training_label_end": "2019-12-31",
+  "min_validation_date": "2020-01-02",
+  "max_validation_date": "2020-12-31",
+  "fit_seconds": 81.9171244999743,
+  "roc_auc": 0.7150175945992145,
+  "average_precision": 0.8628195750573022,
+  "brier": 0.2618906282716654,
+  "log_loss": 1.3770232033251142,
+  "positive_rate": 0.7316644707949056,
+  "daily_rank_auc": 0.5662680931403399,
+  "daily_topn_hit": 0.7694334650856389,
+  "daily_topn_forward_return_gross": 0.22907711761732322,
+  "daily_topn_dates": 253,
+  "n_validation_rows": 2277,
+  "n_dates": 253
+}

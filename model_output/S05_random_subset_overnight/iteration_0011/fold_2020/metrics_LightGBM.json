@@ -1,0 +1,23 @@
+{
+  "iteration": 11,
+  "fold_year": 2020,
+  "model": "LightGBM",
+  "tickers": "AFK;BND;DBB;FXC;HYG;IPO;SPY;UUP;VUG",
+  "n_tickers": 9,
+  "n_train": 24376,
+  "max_training_label_end": "2019-12-31",
+  "min_validation_date": "2020-01-02",
+  "max_validation_date": "2020-12-31",
+  "fit_seconds": 2.0971926000202075,
+  "roc_auc": 0.5092895380543748,
+  "average_precision": 0.7358747804169683,
+  "brier": 0.21694009134196765,
+  "log_loss": 0.6433972718313328,
+  "positive_rate": 0.7400087834870444,
+  "daily_rank_auc": 0.5974214191605497,
+  "daily_topn_hit": 0.766798418972332,
+  "daily_topn_forward_return_gross": 0.0480762691662677,
+  "daily_topn_dates": 253,
+  "n_validation_rows": 2277,
+  "n_dates": 253
+}

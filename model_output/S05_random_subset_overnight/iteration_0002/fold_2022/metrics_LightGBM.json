@@ -1,0 +1,23 @@
+{
+  "iteration": 2,
+  "fold_year": 2022,
+  "model": "LightGBM",
+  "tickers": "BND;CEW;FXA;FXY;USO;VGK;VUG;VWO",
+  "n_tickers": 8,
+  "n_train": 27024,
+  "max_training_label_end": "2021-12-31",
+  "min_validation_date": "2022-01-03",
+  "max_validation_date": "2022-10-05",
+  "fit_seconds": 2.521030800009612,
+  "roc_auc": 0.6295384708571056,
+  "average_precision": 0.3993857517460737,
+  "brier": 0.37801842124704443,
+  "log_loss": 1.0080535496793395,
+  "positive_rate": 0.24280104712041886,
+  "daily_rank_auc": 0.5346156919143497,
+  "daily_topn_hit": 0.24083769633507854,
+  "daily_topn_forward_return_gross": -0.03143078387626213,
+  "daily_topn_dates": 191,
+  "n_validation_rows": 1528,
+  "n_dates": 191
+}

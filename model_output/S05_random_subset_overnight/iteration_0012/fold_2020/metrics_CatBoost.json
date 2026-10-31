@@ -1,0 +1,23 @@
+{
+  "iteration": 12,
+  "fold_year": 2020,
+  "model": "CatBoost",
+  "tickers": "AFK;BTC-USD;FEZ;GLD;IPO;IXJ;LQD;VNQ;VT",
+  "n_tickers": 9,
+  "n_train": 22249,
+  "max_training_label_end": "2019-12-31",
+  "min_validation_date": "2020-01-02",
+  "max_validation_date": "2020-12-31",
+  "fit_seconds": 6.5411273000063375,
+  "roc_auc": 0.5856840723150885,
+  "average_precision": 0.7849981790540017,
+  "brier": 0.19328593274545536,
+  "log_loss": 0.5774516664265666,
+  "positive_rate": 0.7536231884057971,
+  "daily_rank_auc": 0.6254825036075036,
+  "daily_topn_hit": 0.7628458498023716,
+  "daily_topn_forward_return_gross": 0.06633101834772237,
+  "daily_topn_dates": 253,
+  "n_validation_rows": 2277,
+  "n_dates": 253
+}

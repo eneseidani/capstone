@@ -1,0 +1,23 @@
+{
+  "iteration": 9,
+  "fold_year": 2020,
+  "model": "RandomForest",
+  "tickers": "HYG;IPO;IXG;IXJ;PBW;QQQ;SHY;VCSH;VT;VUG",
+  "n_tickers": 10,
+  "n_train": 26728,
+  "max_training_label_end": "2019-12-31",
+  "min_validation_date": "2020-01-02",
+  "max_validation_date": "2020-12-31",
+  "fit_seconds": 7.705543699965347,
+  "roc_auc": 0.26549346763476916,
+  "average_precision": 0.6652542256629088,
+  "brier": 0.19363351068619825,
+  "log_loss": 0.5853756540750054,
+  "positive_rate": 0.7980237154150197,
+  "daily_rank_auc": 0.4935966505246166,
+  "daily_topn_hit": 0.8050065876152833,
+  "daily_topn_forward_return_gross": 0.011001031916784974,
+  "daily_topn_dates": 253,
+  "n_validation_rows": 2530,
+  "n_dates": 253
+}

@@ -1,0 +1,23 @@
+{
+  "iteration": 2,
+  "fold_year": 2018,
+  "model": "XGBoost",
+  "tickers": "BND;CEW;FXA;FXY;USO;VGK;VUG;VWO",
+  "n_tickers": 8,
+  "n_train": 18960,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 2.4298528999788687,
+  "roc_auc": 0.4942651780837302,
+  "average_precision": 0.4632640597987765,
+  "brier": 0.2728007286259745,
+  "log_loss": 0.7436379196816889,
+  "positive_rate": 0.4158366533864542,
+  "daily_rank_auc": 0.5589512711864407,
+  "daily_topn_hit": 0.48339973439575035,
+  "daily_topn_forward_return_gross": -0.00987414533665385,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2008,
+  "n_dates": 251
+}

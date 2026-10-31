@@ -1,0 +1,21 @@
+{
+  "model": "Dummy",
+  "subset_iteration": 11,
+  "tickers": "AFK;BND;DBB;FXC;HYG;IPO;SPY;UUP;VUG",
+  "train_n": 31180,
+  "n_2023plus_rows": 7983,
+  "n_mature_2023plus_rows": 7983,
+  "fit_seconds": 2.556430900003761,
+  "last_training_label_end": "2022-12-30",
+  "roc_auc": 0.5,
+  "average_precision": 0.6946010271827634,
+  "brier": 0.2183990371881466,
+  "log_loss": 0.6290324078983416,
+  "positive_rate": 0.6946010271827634,
+  "daily_rank_auc": 0.5,
+  "daily_topn_hit": 0.6193160465990228,
+  "daily_topn_forward_return_gross": 0.025895753275563836,
+  "daily_topn_dates": 887,
+  "n_validation_rows": 7983,
+  "n_dates": 887
+}

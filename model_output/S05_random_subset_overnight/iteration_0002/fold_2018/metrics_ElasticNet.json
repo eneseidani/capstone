@@ -1,0 +1,23 @@
+{
+  "iteration": 2,
+  "fold_year": 2018,
+  "model": "ElasticNet",
+  "tickers": "BND;CEW;FXA;FXY;USO;VGK;VUG;VWO",
+  "n_tickers": 8,
+  "n_train": 18960,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 28.979285500012338,
+  "roc_auc": 0.6320259736281912,
+  "average_precision": 0.6351928988652944,
+  "brier": 0.2447293242637549,
+  "log_loss": 0.6871265964147282,
+  "positive_rate": 0.4158366533864542,
+  "daily_rank_auc": 0.5563508878127522,
+  "daily_topn_hit": 0.49933598937582996,
+  "daily_topn_forward_return_gross": -0.0017265817679089656,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2008,
+  "n_dates": 251
+}

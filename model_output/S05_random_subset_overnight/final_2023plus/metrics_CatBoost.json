@@ -1,0 +1,21 @@
+{
+  "model": "CatBoost",
+  "subset_iteration": 11,
+  "tickers": "AFK;BND;DBB;FXC;HYG;IPO;SPY;UUP;VUG",
+  "train_n": 31180,
+  "n_2023plus_rows": 7983,
+  "n_mature_2023plus_rows": 7983,
+  "fit_seconds": 9.927055199979804,
+  "last_training_label_end": "2022-12-30",
+  "roc_auc": 0.6070628780408782,
+  "average_precision": 0.7545423375655123,
+  "brier": 0.27372684811163334,
+  "log_loss": 0.7485695007717119,
+  "positive_rate": 0.6946010271827634,
+  "daily_rank_auc": 0.6155394792763826,
+  "daily_topn_hit": 0.759488913942127,
+  "daily_topn_forward_return_gross": 0.020566032607978065,
+  "daily_topn_dates": 887,
+  "n_validation_rows": 7983,
+  "n_dates": 887
+}

@@ -1,0 +1,40 @@
+{
+  "models": [
+    "Dummy",
+    "ElasticNet",
+    "RandomForest",
+    "XGBoost",
+    "LightGBM",
+    "CatBoost",
+    "MLP"
+  ],
+  "years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "arms": [
+    "no_regime",
+    "real_regime",
+    "placebo_regime"
+  ],
+  "threshold": 0.5,
+  "horizon": 60,
+  "fixed_holdout_cutoff": "2023-01-01",
+  "placebo_seed": 1327,
+  "regime_categories": [
+    "Risk-Off",
+    "Transition",
+    "Risk-On"
+  ],
+  "n_numeric_features": 248,
+  "include_ticker": true,
+  "note": "2023+ data are used ONLY as future calendar dates to reconstruct 60-day label end dates, never as targets for training or validation."
+}

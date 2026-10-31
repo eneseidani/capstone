@@ -1,0 +1,23 @@
+{
+  "iteration": 9,
+  "fold_year": 2018,
+  "model": "RandomForest",
+  "tickers": "HYG;IPO;IXG;IXJ;PBW;QQQ;SHY;VCSH;VT;VUG",
+  "n_tickers": 10,
+  "n_train": 21698,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 6.111678000015672,
+  "roc_auc": 0.5130619890670838,
+  "average_precision": 0.5767851493261104,
+  "brier": 0.24779515511886765,
+  "log_loss": 0.6915036387299416,
+  "positive_rate": 0.59800796812749,
+  "daily_rank_auc": 0.5485689602794865,
+  "daily_topn_hit": 0.6666666666666666,
+  "daily_topn_forward_return_gross": 0.004838688620640672,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2510,
+  "n_dates": 251
+}

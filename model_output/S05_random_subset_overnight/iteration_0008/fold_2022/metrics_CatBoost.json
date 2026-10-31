@@ -1,0 +1,23 @@
+{
+  "iteration": 8,
+  "fold_year": 2022,
+  "model": "CatBoost",
+  "tickers": "BTC-USD;FXA;IGF;TIP;TLT;USO;VEA;VWO;XBI",
+  "n_tickers": 9,
+  "n_train": 28882,
+  "max_training_label_end": "2021-12-31",
+  "min_validation_date": "2022-01-03",
+  "max_validation_date": "2022-10-07",
+  "fit_seconds": 6.964815300016198,
+  "roc_auc": 0.5510971786833856,
+  "average_precision": 0.37265903000644596,
+  "brier": 0.41359238642096774,
+  "log_loss": 1.0817642664474196,
+  "positive_rate": 0.25857059848925046,
+  "daily_rank_auc": 0.38077264239028935,
+  "daily_topn_hit": 0.21070811744386878,
+  "daily_topn_forward_return_gross": -0.06130282867001163,
+  "daily_topn_dates": 193,
+  "n_validation_rows": 1721,
+  "n_dates": 193
+}

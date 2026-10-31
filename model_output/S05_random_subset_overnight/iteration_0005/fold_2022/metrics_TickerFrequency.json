@@ -1,0 +1,23 @@
+{
+  "iteration": 5,
+  "fold_year": 2022,
+  "model": "TickerFrequency",
+  "tickers": "BTC-USD;CEW;DVY;EMB;IXG;IXP;SLV;VNQ",
+  "n_tickers": 8,
+  "n_train": 24945,
+  "max_training_label_end": "2021-12-31",
+  "min_validation_date": "2022-01-03",
+  "max_validation_date": "2022-10-07",
+  "fit_seconds": 0.0034289999748580158,
+  "roc_auc": 0.5113336028818851,
+  "average_precision": 0.304450725935159,
+  "brier": 0.3432804544098408,
+  "log_loss": 0.8889406251411496,
+  "positive_rate": 0.24901960784313726,
+  "daily_rank_auc": 0.5177292404565131,
+  "daily_topn_hit": 0.2607944732297064,
+  "daily_topn_forward_return_gross": -0.0913147057891518,
+  "daily_topn_dates": 193,
+  "n_validation_rows": 1530,
+  "n_dates": 193
+}

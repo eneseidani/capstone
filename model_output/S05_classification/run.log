@@ -1,0 +1,86 @@
+2026-10-25 23:07:34,561 | INFO | Reading features_data\combined_features.csv
+2026-10-25 23:07:57,623 | INFO | Eligible classes: {'Commodity': 5, 'Crypto': 1, 'Equity': 25, 'Fixed Income': 10, 'Foreign Exchange': 6, 'Volatility': 1}
+2026-10-25 23:07:58,324 | INFO | Audited train coverage 170637/173515
+2026-10-25 23:08:01,663 | INFO | Train=170637 rows; test=42577 rows (39697 mature); features=248; last train maturity=2022-12-30
+2026-10-25 23:08:01,702 | INFO | MODEL HistoricalFrequency
+2026-10-25 23:08:02,148 | INFO |   validation 2018 | n=12048 F1=0.6217 precision=0.4801 AUC=0.5887 logloss=0.7524 accuracy=0.5009
+2026-10-25 23:08:02,560 | INFO |   validation 2020 | n=12144 F1=0.7998 precision=0.7423 AUC=0.5716 logloss=0.6064 accuracy=0.6826
+2026-10-25 23:08:03,080 | INFO |   validation 2022 | n=9170 F1=0.4085 precision=0.2643 AUC=0.4731 logloss=0.8902 accuracy=0.3143
+2026-10-25 23:08:03,100 | INFO |   final training=170637 2023+ predictions=42577
+2026-10-25 23:08:03,100 | INFO | MODEL LogisticRegression
+2026-10-25 23:08:47,739 | INFO |   validation 2018 | n=12048 F1=0.6420 precision=0.5078 AUC=0.7314 logloss=0.7771 accuracy=0.5474
+2026-10-25 23:09:49,940 | INFO |   validation 2020 | n=12144 F1=0.8454 precision=0.7343 AUC=0.5239 logloss=1.0168 accuracy=0.7336
+2026-10-25 23:11:03,242 | INFO |   validation 2022 | n=9170 F1=0.4004 precision=0.2697 AUC=0.5979 logloss=1.9656 accuracy=0.3876
+2026-10-25 23:12:16,080 | INFO |   final training=170637 2023+ predictions=42577
+2026-10-25 23:12:16,080 | INFO | MODEL RandomForest
+2026-10-25 23:12:39,674 | INFO |   validation 2018 | n=12048 F1=0.6336 precision=0.4685 AUC=0.5667 logloss=0.7338 accuracy=0.4737
+2026-10-25 23:13:12,266 | INFO |   validation 2020 | n=12144 F1=0.8495 precision=0.7431 AUC=0.4437 logloss=0.6304 accuracy=0.7431
+2026-10-25 23:13:50,703 | INFO |   validation 2022 | n=9170 F1=0.3955 precision=0.2638 AUC=0.5282 logloss=0.7370 accuracy=0.3646
+2026-10-25 23:14:30,437 | INFO |   final training=170637 2023+ predictions=42577
+2026-10-25 23:14:30,437 | INFO | MODEL HistGradientBoosting
+2026-10-25 23:14:42,875 | INFO |   validation 2018 | n=12048 F1=0.6332 precision=0.4755 AUC=0.5370 logloss=0.8584 accuracy=0.4895
+2026-10-25 23:14:57,288 | INFO |   validation 2020 | n=12144 F1=0.8411 precision=0.7623 AUC=0.6294 logloss=0.5694 accuracy=0.7408
+2026-10-25 23:15:14,526 | INFO |   validation 2022 | n=9170 F1=0.4017 precision=0.2571 AUC=0.6224 logloss=1.0586 accuracy=0.2804
+2026-10-25 23:15:32,820 | INFO |   final training=170637 2023+ predictions=42577
+2026-10-25 23:15:32,820 | INFO | MODEL XGBoost
+2026-10-25 23:15:45,312 | INFO |   validation 2018 | n=12048 F1=0.6071 precision=0.4667 AUC=0.4898 logloss=0.7867 accuracy=0.4772
+2026-10-25 23:16:00,397 | INFO |   validation 2020 | n=12144 F1=0.8455 precision=0.7511 AUC=0.6043 logloss=0.5663 accuracy=0.7415
+2026-10-25 23:16:17,879 | INFO |   validation 2022 | n=9170 F1=0.3807 precision=0.2442 AUC=0.5848 logloss=1.1039 accuracy=0.2602
+2026-10-25 23:16:36,891 | INFO |   final training=170637 2023+ predictions=42577
+2026-10-25 23:16:36,892 | INFO | MODEL CatBoost
+2026-10-25 23:16:53,879 | INFO |   validation 2018 | n=12048 F1=0.6159 precision=0.4757 AUC=0.5144 logloss=0.7911 accuracy=0.4934
+2026-10-25 23:17:13,256 | INFO |   validation 2020 | n=12144 F1=0.8479 precision=0.7632 AUC=0.6080 logloss=0.5709 accuracy=0.7498
+2026-10-25 23:17:35,358 | INFO |   validation 2022 | n=9170 F1=0.3903 precision=0.2537 AUC=0.6022 logloss=0.9596 accuracy=0.3043
+2026-10-25 23:17:58,703 | INFO |   final training=170637 2023+ predictions=42577
+2026-10-25 23:17:59,297 | INFO | VALIDATION RANKING (fixed metric priority):
+ Rank                Model       F1  Precision  ROC_AUC  Log_Loss  Accuracy
+    1   LogisticRegression 0.685834   0.545337 0.682640  1.191047  0.571249
+    2         RandomForest 0.679309   0.526193 0.615081  0.697023  0.541754
+    3 HistGradientBoosting 0.666050   0.516334 0.553433  0.808230  0.523500
+    4             CatBoost 0.664954   0.523394 0.601630  0.757246  0.534710
+    5              XGBoost 0.657026   0.511152 0.561555  0.793656  0.513758
+    6  HistoricalFrequency 0.647109   0.512899 0.537834  0.737124  0.515766
+2026-10-25 23:18:05,436 | INFO | DONE | 170637 training rows, 255462 test predictions, 238182 mature test predictions; files=model_output\S05_classification
+2026-10-25 23:27:55,731 | INFO | Reading features_data\combined_features.csv
+2026-10-25 23:28:11,330 | INFO | Eligible classes: {'Commodity': 5, 'Crypto': 1, 'Equity': 25, 'Fixed Income': 10, 'Foreign Exchange': 6, 'Volatility': 1}
+2026-10-25 23:28:11,976 | INFO | Audited train coverage 170637/173515
+2026-10-25 23:28:13,185 | INFO | Train=170637 rows; test=42577 rows (39697 mature); features=248; last train maturity=2022-12-30
+2026-10-25 23:28:13,214 | INFO | MODEL HistoricalFrequency
+2026-10-25 23:28:13,611 | INFO |   validation 2018 | n=12048 F1=0.6217 precision=0.4801 AUC=0.5887 logloss=0.7524 accuracy=0.5009
+2026-10-25 23:28:13,947 | INFO |   validation 2020 | n=12144 F1=0.7998 precision=0.7423 AUC=0.5716 logloss=0.6064 accuracy=0.6826
+2026-10-25 23:28:14,349 | INFO |   validation 2022 | n=9170 F1=0.4085 precision=0.2643 AUC=0.4731 logloss=0.8902 accuracy=0.3143
+2026-10-25 23:28:14,365 | INFO |   final training=170637 2023+ predictions=42577
+2026-10-25 23:28:14,365 | INFO | MODEL LogisticRegression
+2026-10-25 23:28:53,523 | INFO |   validation 2018 | n=12048 F1=0.6420 precision=0.5078 AUC=0.7314 logloss=0.7771 accuracy=0.5474
+2026-10-25 23:29:56,989 | INFO |   validation 2020 | n=12144 F1=0.8454 precision=0.7343 AUC=0.5239 logloss=1.0168 accuracy=0.7336
+2026-10-25 23:31:09,640 | INFO |   validation 2022 | n=9170 F1=0.4004 precision=0.2697 AUC=0.5979 logloss=1.9656 accuracy=0.3876
+2026-10-25 23:32:23,259 | INFO |   final training=170637 2023+ predictions=42577
+2026-10-25 23:32:23,259 | INFO | MODEL RandomForest
+2026-10-25 23:32:46,735 | INFO |   validation 2018 | n=12048 F1=0.6336 precision=0.4685 AUC=0.5667 logloss=0.7338 accuracy=0.4737
+2026-10-25 23:33:15,677 | INFO |   validation 2020 | n=12144 F1=0.8495 precision=0.7431 AUC=0.4437 logloss=0.6304 accuracy=0.7431
+2026-10-25 23:33:51,011 | INFO |   validation 2022 | n=9170 F1=0.3955 precision=0.2638 AUC=0.5282 logloss=0.7370 accuracy=0.3646
+2026-10-25 23:34:29,080 | INFO |   final training=170637 2023+ predictions=42577
+2026-10-25 23:34:29,080 | INFO | MODEL HistGradientBoosting
+2026-10-25 23:34:40,732 | INFO |   validation 2018 | n=12048 F1=0.6332 precision=0.4755 AUC=0.5370 logloss=0.8584 accuracy=0.4895
+2026-10-25 23:34:54,544 | INFO |   validation 2020 | n=12144 F1=0.8411 precision=0.7623 AUC=0.6294 logloss=0.5694 accuracy=0.7408
+2026-10-25 23:35:10,928 | INFO |   validation 2022 | n=9170 F1=0.4017 precision=0.2571 AUC=0.6224 logloss=1.0586 accuracy=0.2804
+2026-10-25 23:35:28,401 | INFO |   final training=170637 2023+ predictions=42577
+2026-10-25 23:35:28,401 | INFO | MODEL XGBoost
+2026-10-25 23:35:41,274 | INFO |   validation 2018 | n=12048 F1=0.6071 precision=0.4667 AUC=0.4898 logloss=0.7867 accuracy=0.4772
+2026-10-25 23:35:55,694 | INFO |   validation 2020 | n=12144 F1=0.8455 precision=0.7511 AUC=0.6043 logloss=0.5663 accuracy=0.7415
+2026-10-25 23:36:12,579 | INFO |   validation 2022 | n=9170 F1=0.3807 precision=0.2442 AUC=0.5848 logloss=1.1039 accuracy=0.2602
+2026-10-25 23:36:31,108 | INFO |   final training=170637 2023+ predictions=42577
+2026-10-25 23:36:31,108 | INFO | MODEL CatBoost
+2026-10-25 23:36:50,088 | INFO |   validation 2018 | n=12048 F1=0.6159 precision=0.4757 AUC=0.5144 logloss=0.7911 accuracy=0.4934
+2026-10-25 23:37:09,089 | INFO |   validation 2020 | n=12144 F1=0.8479 precision=0.7632 AUC=0.6080 logloss=0.5709 accuracy=0.7498
+2026-10-25 23:37:31,347 | INFO |   validation 2022 | n=9170 F1=0.3903 precision=0.2537 AUC=0.6022 logloss=0.9596 accuracy=0.3043
+2026-10-25 23:37:54,868 | INFO |   final training=170637 2023+ predictions=42577
+2026-10-25 23:37:55,592 | INFO | VALIDATION RANKING (fixed metric priority):
+ Rank                Model       F1  Precision  ROC_AUC  Log_Loss  Accuracy
+    1   LogisticRegression 0.685834   0.545337 0.682640  1.191047  0.571249
+    2         RandomForest 0.679309   0.526193 0.615081  0.697023  0.541754
+    3 HistGradientBoosting 0.666050   0.516334 0.553433  0.808230  0.523500
+    4             CatBoost 0.664954   0.523394 0.601630  0.757246  0.534710
+    5              XGBoost 0.657026   0.511152 0.561555  0.793656  0.513758
+    6  HistoricalFrequency 0.647109   0.512899 0.537834  0.737124  0.515766
+2026-10-25 23:38:01,375 | INFO | DONE | 170637 training rows, 255462 test predictions, 238182 mature test predictions; files=model_output\S05_classification

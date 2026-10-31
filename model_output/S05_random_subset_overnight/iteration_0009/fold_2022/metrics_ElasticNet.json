@@ -1,0 +1,23 @@
+{
+  "iteration": 9,
+  "fold_year": 2022,
+  "model": "ElasticNet",
+  "tickers": "HYG;IPO;IXG;IXJ;PBW;QQQ;SHY;VCSH;VT;VUG",
+  "n_tickers": 10,
+  "n_train": 31778,
+  "max_training_label_end": "2021-12-31",
+  "min_validation_date": "2022-01-03",
+  "max_validation_date": "2022-10-05",
+  "fit_seconds": 69.21693260001484,
+  "roc_auc": 0.5967174607716889,
+  "average_precision": 0.3822541380872805,
+  "brier": 0.6785254924673899,
+  "log_loss": 3.1473964065369593,
+  "positive_rate": 0.24293193717277486,
+  "daily_rank_auc": 0.3916458653353815,
+  "daily_topn_hit": 0.19022687609075042,
+  "daily_topn_forward_return_gross": -0.03862493079344583,
+  "daily_topn_dates": 191,
+  "n_validation_rows": 1910,
+  "n_dates": 191
+}

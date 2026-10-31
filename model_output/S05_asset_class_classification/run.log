@@ -1,0 +1,232 @@
+2026-10-25 17:45:21,171 | INFO | Reading features_data\combined_features.csv
+2026-10-25 17:45:40,241 | INFO | Eligible classes: {'Commodity': 5, 'Crypto': 1, 'Equity': 25, 'Fixed Income': 10, 'Foreign Exchange': 6, 'Volatility': 1}
+2026-10-25 17:45:41,052 | INFO | Audited train coverage 170637/173515
+2026-10-25 17:45:42,385 | INFO | Train=170637 rows; test=42577 rows (39697 mature); features=248; last train maturity=2022-12-30
+2026-10-25 17:45:42,583 | INFO | CLASS Commodity | 5 assets, 18579 train observations, 4435 test observations
+2026-10-25 17:45:52,227 | INFO |   CatBoost     validation=2018 n=1255 AUC=0.5621 Brier=0.3136
+2026-10-25 17:45:58,850 | INFO |   CatBoost     validation=2020 n=1265 AUC=0.6056 Brier=0.2494
+2026-10-25 17:46:05,929 | INFO |   CatBoost     validation=2022 n=955 AUC=0.6469 Brier=0.2245
+2026-10-25 17:46:12,946 | INFO |   CatBoost     FINAL fit=18579 pred=4435
+2026-10-25 17:46:15,874 | INFO |   XGBoost      validation=2018 n=1255 AUC=0.5612 Brier=0.2567
+2026-10-25 17:46:18,408 | INFO |   XGBoost      validation=2020 n=1265 AUC=0.5747 Brier=0.2403
+2026-10-25 17:46:21,160 | INFO |   XGBoost      validation=2022 n=955 AUC=0.6641 Brier=0.2322
+2026-10-25 17:46:23,983 | INFO |   XGBoost      FINAL fit=18579 pred=4435
+2026-10-25 17:46:39,640 | INFO |   ElasticNet   validation=2018 n=1255 AUC=0.6024 Brier=0.3363
+2026-10-25 17:47:11,235 | INFO |   ElasticNet   validation=2020 n=1265 AUC=0.5233 Brier=0.3531
+2026-10-25 17:47:41,784 | INFO |   ElasticNet   validation=2022 n=955 AUC=0.8151 Brier=0.3256
+2026-10-25 17:48:11,287 | INFO |   ElasticNet   FINAL fit=18579 pred=4435
+2026-10-25 17:48:11,336 | INFO |   Frequency    validation=2018 n=1255 AUC=0.513 Brier=0.2443
+2026-10-25 17:48:11,356 | INFO |   Frequency    validation=2020 n=1265 AUC=0.3954 Brier=0.2685
+2026-10-25 17:48:11,379 | INFO |   Frequency    validation=2022 n=955 AUC=0.4885 Brier=0.2559
+2026-10-25 17:48:11,383 | INFO |   Frequency    FINAL fit=18579 pred=4435
+2026-10-25 17:48:11,419 | INFO | CLASS Crypto | 1 assets, 1786 train observations, 888 test observations
+2026-10-25 17:48:15,983 | INFO |   CatBoost     validation=2018 n=251 AUC=0.4258 Brier=0.7986
+2026-10-25 17:48:20,677 | INFO |   CatBoost     validation=2020 n=253 AUC=0.3152 Brier=0.3453
+2026-10-25 17:48:25,396 | INFO |   CatBoost     validation=2022 n=193 AUC=0.7572 Brier=0.2484
+2026-10-25 17:48:30,126 | INFO |   CatBoost     FINAL fit=1786 pred=888
+2026-10-25 17:48:30,805 | INFO |   XGBoost      validation=2018 n=251 AUC=0.5671 Brier=0.8054
+2026-10-25 17:48:31,880 | INFO |   XGBoost      validation=2020 n=253 AUC=0.2432 Brier=0.2931
+2026-10-25 17:48:33,037 | INFO |   XGBoost      validation=2022 n=193 AUC=0.8322 Brier=0.4045
+2026-10-25 17:48:34,200 | INFO |   XGBoost      FINAL fit=1786 pred=888
+2026-10-25 17:48:34,663 | INFO |   ElasticNet   validation=2018 n=251 AUC=0.5356 Brier=0.8073
+2026-10-25 17:48:35,210 | INFO |   ElasticNet   validation=2020 n=253 AUC=0.0097 Brier=0.9534
+2026-10-25 17:48:38,325 | INFO |   ElasticNet   validation=2022 n=193 AUC=0.4322 Brier=0.5273
+2026-10-25 17:48:42,044 | INFO |   ElasticNet   FINAL fit=1786 pred=888
+2026-10-25 17:48:42,053 | INFO |   Frequency    validation=2018 n=251 AUC=0.5 Brier=0.6219
+2026-10-25 17:48:42,062 | INFO |   Frequency    validation=2020 n=253 AUC=0.5 Brier=0.1647
+2026-10-25 17:48:42,072 | INFO |   Frequency    validation=2022 n=193 AUC=0.5 Brier=0.4249
+2026-10-25 17:48:42,077 | INFO |   Frequency    FINAL fit=1786 pred=888
+2026-10-25 17:48:42,381 | INFO | CLASS Equity | 25 assets, 90075 train observations, 22175 test observations
+2026-10-25 17:48:53,329 | INFO |   CatBoost     validation=2018 n=6275 AUC=0.4806 Brier=0.3579
+2026-10-25 17:49:05,812 | INFO |   CatBoost     validation=2020 n=6325 AUC=0.5169 Brier=0.1677
+2026-10-25 17:49:19,683 | INFO |   CatBoost     validation=2022 n=4775 AUC=0.6396 Brier=0.3829
+2026-10-25 17:49:33,979 | INFO |   CatBoost     FINAL fit=90075 pred=22175
+2026-10-25 17:49:40,950 | INFO |   XGBoost      validation=2018 n=6275 AUC=0.5875 Brier=0.3342
+2026-10-25 17:49:49,185 | INFO |   XGBoost      validation=2020 n=6325 AUC=0.3889 Brier=0.1770
+2026-10-25 17:49:58,363 | INFO |   XGBoost      validation=2022 n=4775 AUC=0.6506 Brier=0.4086
+2026-10-25 17:50:08,730 | INFO |   XGBoost      FINAL fit=90075 pred=22175
+2026-10-25 17:53:25,982 | INFO |   ElasticNet   validation=2018 n=6275 AUC=0.8215 Brier=0.4054
+2026-10-25 18:04:18,050 | INFO |   ElasticNet   validation=2020 n=6325 AUC=0.9094 Brier=0.2006
+2026-10-25 18:17:02,840 | INFO |   ElasticNet   validation=2022 n=4775 AUC=0.5993 Brier=0.7374
+2026-10-25 18:30:23,835 | INFO |   ElasticNet   FINAL fit=90075 pred=22175
+2026-10-25 18:30:23,888 | INFO |   Frequency    validation=2018 n=6275 AUC=0.6131 Brier=0.2845
+2026-10-25 18:30:23,946 | INFO |   Frequency    validation=2020 n=6325 AUC=0.5148 Brier=0.1857
+2026-10-25 18:30:24,010 | INFO |   Frequency    validation=2022 n=4775 AUC=0.5257 Brier=0.3588
+2026-10-25 18:30:24,019 | INFO |   Frequency    FINAL fit=90075 pred=22175
+2026-10-25 18:30:24,173 | INFO | CLASS Fixed Income | 10 assets, 35865 train observations, 8870 test observations
+2026-10-25 18:30:31,204 | INFO |   CatBoost     validation=2018 n=2510 AUC=0.5357 Brier=0.2494
+2026-10-25 18:30:38,473 | INFO |   CatBoost     validation=2020 n=2530 AUC=0.679 Brier=0.2210
+2026-10-25 18:30:46,529 | INFO |   CatBoost     validation=2022 n=1910 AUC=0.819 Brier=0.4018
+2026-10-25 18:30:54,589 | INFO |   CatBoost     FINAL fit=35865 pred=8870
+2026-10-25 18:30:57,761 | INFO |   XGBoost      validation=2018 n=2510 AUC=0.4458 Brier=0.2713
+2026-10-25 18:31:01,387 | INFO |   XGBoost      validation=2020 n=2530 AUC=0.6454 Brier=0.2141
+2026-10-25 18:31:05,389 | INFO |   XGBoost      validation=2022 n=1910 AUC=0.9098 Brier=0.4829
+2026-10-25 18:31:09,781 | INFO |   XGBoost      FINAL fit=35865 pred=8870
+2026-10-25 18:32:06,670 | INFO |   ElasticNet   validation=2018 n=2510 AUC=0.7883 Brier=0.3067
+2026-10-25 18:32:48,615 | INFO |   ElasticNet   validation=2020 n=2530 AUC=0.7297 Brier=0.2956
+2026-10-25 18:34:49,912 | INFO |   ElasticNet   validation=2022 n=1910 AUC=0.9082 Brier=0.7859
+2026-10-25 18:36:19,522 | INFO |   ElasticNet   FINAL fit=35865 pred=8870
+2026-10-25 18:36:19,548 | INFO |   Frequency    validation=2018 n=2510 AUC=0.605 Brier=0.2426
+2026-10-25 18:36:19,577 | INFO |   Frequency    validation=2020 n=2530 AUC=0.6049 Brier=0.2137
+2026-10-25 18:36:19,609 | INFO |   Frequency    validation=2022 n=1910 AUC=0.5559 Brier=0.3986
+2026-10-25 18:36:19,614 | INFO |   Frequency    FINAL fit=35865 pred=8870
+2026-10-25 18:36:19,705 | INFO | CLASS Foreign Exchange | 6 assets, 21625 train observations, 5322 test observations
+2026-10-25 18:36:25,654 | INFO |   CatBoost     validation=2018 n=1506 AUC=0.7681 Brier=0.2081
+2026-10-25 18:36:32,123 | INFO |   CatBoost     validation=2020 n=1518 AUC=0.5184 Brier=0.3110
+2026-10-25 18:36:38,955 | INFO |   CatBoost     validation=2022 n=1146 AUC=0.5073 Brier=0.2900
+2026-10-25 18:36:45,977 | INFO |   CatBoost     FINAL fit=21625 pred=5322
+2026-10-25 18:36:48,449 | INFO |   XGBoost      validation=2018 n=1506 AUC=0.6925 Brier=0.2170
+2026-10-25 18:36:51,186 | INFO |   XGBoost      validation=2020 n=1518 AUC=0.4919 Brier=0.3342
+2026-10-25 18:36:54,156 | INFO |   XGBoost      validation=2022 n=1146 AUC=0.5767 Brier=0.3127
+2026-10-25 18:36:57,158 | INFO |   XGBoost      FINAL fit=21625 pred=5322
+2026-10-25 18:37:19,235 | INFO |   ElasticNet   validation=2018 n=1506 AUC=0.641 Brier=0.2205
+2026-10-25 18:37:49,429 | INFO |   ElasticNet   validation=2020 n=1518 AUC=0.3896 Brier=0.6103
+2026-10-25 18:38:24,246 | INFO |   ElasticNet   validation=2022 n=1146 AUC=0.6297 Brier=0.2328
+2026-10-25 18:39:06,199 | INFO |   ElasticNet   FINAL fit=21625 pred=5322
+2026-10-25 18:39:06,218 | INFO |   Frequency    validation=2018 n=1506 AUC=0.5554 Brier=0.2525
+2026-10-25 18:39:06,240 | INFO |   Frequency    validation=2020 n=1518 AUC=0.3763 Brier=0.2607
+2026-10-25 18:39:06,264 | INFO |   Frequency    validation=2022 n=1146 AUC=0.7384 Brier=0.2396
+2026-10-25 18:39:06,268 | INFO |   Frequency    FINAL fit=21625 pred=5322
+2026-10-25 18:39:06,302 | INFO | CLASS Volatility | 1 assets, 2707 train observations, 887 test observations
+2026-10-25 18:39:10,519 | INFO |   CatBoost     validation=2018 n=251 AUC=0.8585 Brier=0.3075
+2026-10-25 18:39:14,794 | INFO |   CatBoost     validation=2020 n=253 AUC=0.7915 Brier=0.1682
+2026-10-25 18:39:19,211 | INFO |   CatBoost     validation=2022 n=191 AUC=0.7479 Brier=0.1930
+2026-10-25 18:39:23,805 | INFO |   CatBoost     FINAL fit=2707 pred=887
+2026-10-25 18:39:24,755 | INFO |   XGBoost      validation=2018 n=251 AUC=0.6411 Brier=0.3830
+2026-10-25 18:39:25,823 | INFO |   XGBoost      validation=2020 n=253 AUC=0.8001 Brier=0.1725
+2026-10-25 18:39:26,949 | INFO |   XGBoost      validation=2022 n=191 AUC=0.8241 Brier=0.2223
+2026-10-25 18:39:28,192 | INFO |   XGBoost      FINAL fit=2707 pred=887
+2026-10-25 18:39:30,384 | INFO |   ElasticNet   validation=2018 n=251 AUC=0.566 Brier=0.3898
+2026-10-25 18:39:32,215 | INFO |   ElasticNet   validation=2020 n=253 AUC=0.8833 Brier=0.1852
+2026-10-25 18:39:38,998 | INFO |   ElasticNet   validation=2022 n=191 AUC=0.6939 Brier=0.3038
+2026-10-25 18:39:45,235 | INFO |   ElasticNet   FINAL fit=2707 pred=887
+2026-10-25 18:39:45,244 | INFO |   Frequency    validation=2018 n=251 AUC=0.5 Brier=0.2969
+2026-10-25 18:39:45,258 | INFO |   Frequency    validation=2020 n=253 AUC=0.5 Brier=0.1513
+2026-10-25 18:39:45,269 | INFO |   Frequency    validation=2022 n=191 AUC=0.5 Brier=0.2735
+2026-10-25 18:39:45,275 | INFO |   Frequency    FINAL fit=2707 pred=887
+2026-10-25 18:39:46,479 | INFO | COMPLETE: 170308 predictions, 170637 verified-audit training rows, 158788 mature test predictions; model_output\S05_asset_class_classification
+2026-10-25 18:39:46,479 | WARNING | 2023+ results previously inspected. Treat this as exploratory, not a pristine holdout.
+2026-10-25 18:39:46,480 | WARNING | Test label maturity inferred from feature rows; independently audit source-price endpoints before publishing.
+2026-10-25 21:25:31,628 | INFO | Reading features_data\combined_features.csv
+2026-10-25 21:25:47,930 | INFO | Eligible classes: {'Commodity': 5, 'Crypto': 1, 'Equity': 25, 'Fixed Income': 10, 'Foreign Exchange': 6, 'Volatility': 1}
+2026-10-25 21:25:48,652 | INFO | Audited train coverage 170637/173515
+2026-10-25 21:25:49,966 | INFO | Train=170637 rows; test=42577 rows (39697 mature); features=248; last train maturity=2022-12-30
+2026-10-25 21:25:50,264 | INFO | CLASS Commodity | 5 assets, 18579 train observations, 4435 test observations
+2026-10-25 21:25:58,374 | INFO |   CatBoost     validation=2018 n=1255 AUC=0.5621 Brier=0.3136
+2026-10-25 21:26:05,205 | INFO |   CatBoost     validation=2020 n=1265 AUC=0.6056 Brier=0.2494
+2026-10-25 21:26:12,325 | INFO |   CatBoost     validation=2022 n=955 AUC=0.6469 Brier=0.2245
+2026-10-25 21:26:19,580 | INFO |   CatBoost     FINAL fit=18579 pred=4435
+2026-10-25 21:26:22,147 | INFO |   XGBoost      validation=2018 n=1255 AUC=0.5612 Brier=0.2567
+2026-10-25 21:26:24,655 | INFO |   XGBoost      validation=2020 n=1265 AUC=0.5747 Brier=0.2403
+2026-10-25 21:26:27,451 | INFO |   XGBoost      validation=2022 n=955 AUC=0.6641 Brier=0.2322
+2026-10-25 21:26:30,393 | INFO |   XGBoost      FINAL fit=18579 pred=4435
+2026-10-25 21:26:46,591 | INFO |   ElasticNet   validation=2018 n=1255 AUC=0.6024 Brier=0.3363
+2026-10-25 21:27:06,038 | INFO |   ElasticNet   validation=2020 n=1265 AUC=0.5233 Brier=0.3531
+2026-10-25 21:27:38,506 | INFO |   ElasticNet   validation=2022 n=955 AUC=0.8151 Brier=0.3256
+2026-10-25 21:28:09,291 | INFO |   ElasticNet   FINAL fit=18579 pred=4435
+2026-10-25 21:28:09,311 | INFO |   Frequency    validation=2018 n=1255 AUC=0.513 Brier=0.2443
+2026-10-25 21:28:09,330 | INFO |   Frequency    validation=2020 n=1265 AUC=0.3954 Brier=0.2685
+2026-10-25 21:28:09,352 | INFO |   Frequency    validation=2022 n=955 AUC=0.4885 Brier=0.2559
+2026-10-25 21:28:09,356 | INFO |   Frequency    FINAL fit=18579 pred=4435
+2026-10-25 21:28:09,388 | INFO | CLASS Crypto | 1 assets, 1786 train observations, 888 test observations
+2026-10-25 21:28:14,043 | INFO |   CatBoost     validation=2018 n=251 AUC=0.4258 Brier=0.7986
+2026-10-25 21:28:18,921 | INFO |   CatBoost     validation=2020 n=253 AUC=0.3152 Brier=0.3453
+2026-10-25 21:28:24,059 | INFO |   CatBoost     validation=2022 n=193 AUC=0.7572 Brier=0.2484
+2026-10-25 21:28:29,242 | INFO |   CatBoost     FINAL fit=1786 pred=888
+2026-10-25 21:28:29,960 | INFO |   XGBoost      validation=2018 n=251 AUC=0.5671 Brier=0.8054
+2026-10-25 21:28:31,195 | INFO |   XGBoost      validation=2020 n=253 AUC=0.2432 Brier=0.2931
+2026-10-25 21:28:32,387 | INFO |   XGBoost      validation=2022 n=193 AUC=0.8322 Brier=0.4045
+2026-10-25 21:28:33,735 | INFO |   XGBoost      FINAL fit=1786 pred=888
+2026-10-25 21:28:34,220 | INFO |   ElasticNet   validation=2018 n=251 AUC=0.5356 Brier=0.8073
+2026-10-25 21:28:34,768 | INFO |   ElasticNet   validation=2020 n=253 AUC=0.0097 Brier=0.9534
+2026-10-25 21:28:38,263 | INFO |   ElasticNet   validation=2022 n=193 AUC=0.4322 Brier=0.5273
+2026-10-25 21:28:42,724 | INFO |   ElasticNet   FINAL fit=1786 pred=888
+2026-10-25 21:28:42,735 | INFO |   Frequency    validation=2018 n=251 AUC=0.5 Brier=0.6219
+2026-10-25 21:28:42,748 | INFO |   Frequency    validation=2020 n=253 AUC=0.5 Brier=0.1647
+2026-10-25 21:28:42,762 | INFO |   Frequency    validation=2022 n=193 AUC=0.5 Brier=0.4249
+2026-10-25 21:28:42,765 | INFO |   Frequency    FINAL fit=1786 pred=888
+2026-10-25 21:28:43,137 | INFO | CLASS Equity | 25 assets, 90075 train observations, 22175 test observations
+2026-10-25 21:28:56,181 | INFO |   CatBoost     validation=2018 n=6275 AUC=0.4806 Brier=0.3579
+2026-10-25 21:29:11,279 | INFO |   CatBoost     validation=2020 n=6325 AUC=0.5169 Brier=0.1677
+2026-10-25 21:29:28,859 | INFO |   CatBoost     validation=2022 n=4775 AUC=0.6396 Brier=0.3829
+2026-10-25 21:29:45,428 | INFO |   CatBoost     FINAL fit=90075 pred=22175
+2026-10-25 21:29:53,714 | INFO |   XGBoost      validation=2018 n=6275 AUC=0.5875 Brier=0.3342
+2026-10-25 21:30:03,565 | INFO |   XGBoost      validation=2020 n=6325 AUC=0.3889 Brier=0.1770
+2026-10-25 21:30:15,397 | INFO |   XGBoost      validation=2022 n=4775 AUC=0.6506 Brier=0.4086
+2026-10-25 21:30:28,176 | INFO |   XGBoost      FINAL fit=90075 pred=22175
+2026-10-25 21:34:10,421 | INFO |   ElasticNet   validation=2018 n=6275 AUC=0.8215 Brier=0.4054
+2026-10-25 21:50:53,570 | INFO |   ElasticNet   validation=2020 n=6325 AUC=0.9094 Brier=0.2006
+2026-10-25 22:05:25,617 | INFO |   ElasticNet   validation=2022 n=4775 AUC=0.5993 Brier=0.7374
+2026-10-25 22:20:18,597 | INFO |   ElasticNet   FINAL fit=90075 pred=22175
+2026-10-25 22:20:18,660 | INFO |   Frequency    validation=2018 n=6275 AUC=0.6131 Brier=0.2845
+2026-10-25 22:20:18,724 | INFO |   Frequency    validation=2020 n=6325 AUC=0.5148 Brier=0.1857
+2026-10-25 22:20:18,796 | INFO |   Frequency    validation=2022 n=4775 AUC=0.5257 Brier=0.3588
+2026-10-25 22:20:18,806 | INFO |   Frequency    FINAL fit=90075 pred=22175
+2026-10-25 22:20:19,087 | INFO | CLASS Fixed Income | 10 assets, 35865 train observations, 8870 test observations
+2026-10-25 22:20:26,723 | INFO |   CatBoost     validation=2018 n=2510 AUC=0.5357 Brier=0.2494
+2026-10-25 22:20:34,874 | INFO |   CatBoost     validation=2020 n=2530 AUC=0.679 Brier=0.2210
+2026-10-25 22:20:43,665 | INFO |   CatBoost     validation=2022 n=1910 AUC=0.819 Brier=0.4018
+2026-10-25 22:20:52,812 | INFO |   CatBoost     FINAL fit=35865 pred=8870
+2026-10-25 22:20:56,159 | INFO |   XGBoost      validation=2018 n=2510 AUC=0.4458 Brier=0.2713
+2026-10-25 22:21:00,115 | INFO |   XGBoost      validation=2020 n=2530 AUC=0.6454 Brier=0.2141
+2026-10-25 22:21:04,499 | INFO |   XGBoost      validation=2022 n=1910 AUC=0.9098 Brier=0.4829
+2026-10-25 22:21:09,137 | INFO |   XGBoost      FINAL fit=35865 pred=8870
+2026-10-25 22:22:11,150 | INFO |   ElasticNet   validation=2018 n=2510 AUC=0.7883 Brier=0.3067
+2026-10-25 22:22:56,201 | INFO |   ElasticNet   validation=2020 n=2530 AUC=0.7297 Brier=0.2956
+2026-10-25 22:25:07,096 | INFO |   ElasticNet   validation=2022 n=1910 AUC=0.9082 Brier=0.7859
+2026-10-25 22:26:43,713 | INFO |   ElasticNet   FINAL fit=35865 pred=8870
+2026-10-25 22:26:43,741 | INFO |   Frequency    validation=2018 n=2510 AUC=0.605 Brier=0.2426
+2026-10-25 22:26:43,773 | INFO |   Frequency    validation=2020 n=2530 AUC=0.6049 Brier=0.2137
+2026-10-25 22:26:43,806 | INFO |   Frequency    validation=2022 n=1910 AUC=0.5559 Brier=0.3986
+2026-10-25 22:26:43,812 | INFO |   Frequency    FINAL fit=35865 pred=8870
+2026-10-25 22:26:43,910 | INFO | CLASS Foreign Exchange | 6 assets, 21625 train observations, 5322 test observations
+2026-10-25 22:26:50,417 | INFO |   CatBoost     validation=2018 n=1506 AUC=0.7681 Brier=0.2081
+2026-10-25 22:26:57,507 | INFO |   CatBoost     validation=2020 n=1518 AUC=0.5184 Brier=0.3110
+2026-10-25 22:27:04,909 | INFO |   CatBoost     validation=2022 n=1146 AUC=0.5073 Brier=0.2900
+2026-10-25 22:27:12,680 | INFO |   CatBoost     FINAL fit=21625 pred=5322
+2026-10-25 22:27:15,299 | INFO |   XGBoost      validation=2018 n=1506 AUC=0.6925 Brier=0.2170
+2026-10-25 22:27:18,272 | INFO |   XGBoost      validation=2020 n=1518 AUC=0.4919 Brier=0.3342
+2026-10-25 22:27:21,443 | INFO |   XGBoost      validation=2022 n=1146 AUC=0.5767 Brier=0.3127
+2026-10-25 22:27:24,687 | INFO |   XGBoost      FINAL fit=21625 pred=5322
+2026-10-25 22:27:49,173 | INFO |   ElasticNet   validation=2018 n=1506 AUC=0.641 Brier=0.2205
+2026-10-25 22:28:22,006 | INFO |   ElasticNet   validation=2020 n=1518 AUC=0.3896 Brier=0.6103
+2026-10-25 22:28:59,587 | INFO |   ElasticNet   validation=2022 n=1146 AUC=0.6297 Brier=0.2328
+2026-10-25 22:29:45,051 | INFO |   ElasticNet   FINAL fit=21625 pred=5322
+2026-10-25 22:29:45,071 | INFO |   Frequency    validation=2018 n=1506 AUC=0.5554 Brier=0.2525
+2026-10-25 22:29:45,094 | INFO |   Frequency    validation=2020 n=1518 AUC=0.3763 Brier=0.2607
+2026-10-25 22:29:45,117 | INFO |   Frequency    validation=2022 n=1146 AUC=0.7384 Brier=0.2396
+2026-10-25 22:29:45,121 | INFO |   Frequency    FINAL fit=21625 pred=5322
+2026-10-25 22:29:45,155 | INFO | CLASS Volatility | 1 assets, 2707 train observations, 887 test observations
+2026-10-25 22:29:49,685 | INFO |   CatBoost     validation=2018 n=251 AUC=0.8585 Brier=0.3075
+2026-10-25 22:29:54,480 | INFO |   CatBoost     validation=2020 n=253 AUC=0.7915 Brier=0.1682
+2026-10-25 22:29:59,457 | INFO |   CatBoost     validation=2022 n=191 AUC=0.7479 Brier=0.1930
+2026-10-25 22:30:04,395 | INFO |   CatBoost     FINAL fit=2707 pred=887
+2026-10-25 22:30:05,422 | INFO |   XGBoost      validation=2018 n=251 AUC=0.6411 Brier=0.3830
+2026-10-25 22:30:06,631 | INFO |   XGBoost      validation=2020 n=253 AUC=0.8001 Brier=0.1725
+2026-10-25 22:30:07,931 | INFO |   XGBoost      validation=2022 n=191 AUC=0.8241 Brier=0.2223
+2026-10-25 22:30:09,289 | INFO |   XGBoost      FINAL fit=2707 pred=887
+2026-10-25 22:30:11,745 | INFO |   ElasticNet   validation=2018 n=251 AUC=0.566 Brier=0.3898
+2026-10-25 22:30:13,737 | INFO |   ElasticNet   validation=2020 n=253 AUC=0.8833 Brier=0.1852
+2026-10-25 22:30:21,119 | INFO |   ElasticNet   validation=2022 n=191 AUC=0.6939 Brier=0.3038
+2026-10-25 22:30:27,844 | INFO |   ElasticNet   FINAL fit=2707 pred=887
+2026-10-25 22:30:27,855 | INFO |   Frequency    validation=2018 n=251 AUC=0.5 Brier=0.2969
+2026-10-25 22:30:27,866 | INFO |   Frequency    validation=2020 n=253 AUC=0.5 Brier=0.1513
+2026-10-25 22:30:27,877 | INFO |   Frequency    validation=2022 n=191 AUC=0.5 Brier=0.2735
+2026-10-25 22:30:27,880 | INFO |   Frequency    FINAL fit=2707 pred=887
+2026-10-25 22:30:29,006 | INFO | COMPLETE: 170308 predictions, 170637 verified-audit training rows, 158788 mature test predictions; model_output\S05_asset_class_classification
+2026-10-25 22:30:29,006 | WARNING | 2023+ results previously inspected. Treat this as exploratory, not a pristine holdout.
+2026-10-25 22:30:29,006 | WARNING | Test label maturity inferred from feature rows; independently audit source-price endpoints before publishing.
+2026-10-25 23:02:22,517 | INFO | Reading features_data\combined_features.csv
+2026-10-25 23:02:38,891 | INFO | Eligible classes: {'Commodity': 5, 'Crypto': 1, 'Equity': 25, 'Fixed Income': 10, 'Foreign Exchange': 6, 'Volatility': 1}
+2026-10-25 23:02:39,570 | INFO | Audited train coverage 170637/173515
+2026-10-25 23:02:40,880 | INFO | Train=170637 rows; test=42577 rows (39697 mature); features=248; last train maturity=2022-12-30
+2026-10-25 23:02:41,097 | INFO | CLASS Commodity | 5 assets, 18579 train observations, 4435 test observations
+2026-10-25 23:02:49,475 | INFO |   CatBoost     validation=2018 n=1255 AUC=0.5621 Brier=0.3136
+2026-10-25 23:02:59,770 | INFO |   CatBoost     validation=2020 n=1265 AUC=0.6056 Brier=0.2494
+2026-10-25 23:03:07,733 | INFO |   CatBoost     validation=2022 n=955 AUC=0.6469 Brier=0.2245
+2026-10-25 23:03:15,345 | INFO |   CatBoost     FINAL fit=18579 pred=4435
+2026-10-25 23:03:18,333 | INFO |   XGBoost      validation=2018 n=1255 AUC=0.5612 Brier=0.2567
+2026-10-25 23:03:21,863 | INFO |   XGBoost      validation=2020 n=1265 AUC=0.5747 Brier=0.2403
+2026-10-25 23:03:25,259 | INFO |   XGBoost      validation=2022 n=955 AUC=0.6641 Brier=0.2322
+2026-10-25 23:03:28,411 | INFO |   XGBoost      FINAL fit=18579 pred=4435
+2026-10-25 23:03:44,437 | INFO |   ElasticNet   validation=2018 n=1255 AUC=0.6024 Brier=0.3363

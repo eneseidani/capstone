@@ -1,0 +1,23 @@
+{
+  "iteration": 6,
+  "fold_year": 2018,
+  "model": "Dummy",
+  "tickers": "DBB;EWJ;FEZ;FXY;IXG;PBW;RWX;SLV;SMH;VT",
+  "n_tickers": 10,
+  "n_train": 24174,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 0.00099130003945902,
+  "roc_auc": 0.5,
+  "average_precision": 0.3745019920318725,
+  "brier": 0.27913990877974454,
+  "log_loss": 0.7520933540081356,
+  "positive_rate": 0.3745019920318725,
+  "daily_rank_auc": 0.5,
+  "daily_topn_hit": 0.2881806108897742,
+  "daily_topn_forward_return_gross": -0.028808098623644585,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2510,
+  "n_dates": 251
+}

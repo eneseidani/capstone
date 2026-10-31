@@ -1,0 +1,23 @@
+{
+  "iteration": 4,
+  "fold_year": 2022,
+  "model": "TickerFrequency",
+  "tickers": "AFK;BND;FXA;RWX;TIP;TLT;UUP;VT;VUG",
+  "n_tickers": 9,
+  "n_train": 30328,
+  "max_training_label_end": "2021-12-31",
+  "min_validation_date": "2022-01-03",
+  "max_validation_date": "2022-10-05",
+  "fit_seconds": 0.003492399991955608,
+  "roc_auc": 0.35666794759318743,
+  "average_precision": 0.21125664668064462,
+  "brier": 0.3646325843869718,
+  "log_loss": 0.9414603287837787,
+  "positive_rate": 0.2484002326934264,
+  "daily_rank_auc": 0.25796238785369224,
+  "daily_topn_hit": 0.19895287958115182,
+  "daily_topn_forward_return_gross": -0.04978836786924172,
+  "daily_topn_dates": 191,
+  "n_validation_rows": 1719,
+  "n_dates": 191
+}

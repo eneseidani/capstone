@@ -1,0 +1,34 @@
+S05 results review
+==================
+
+Data split
+- Train feature dates: 2008-01-02 to 2022-10-05 (170,635 rows).
+- Pre-2023 training candidates removed because label overlaps test: 2,880.
+- Training candidates removed because label end unavailable: 0.
+- Training label-end source: reconstructed_per_ticker_60_observation_shift.
+- Latest retained training label end: 2022-12-30.
+- Test feature dates: 2023-01-03 to 2026-07-20 (42,577 rows, unchanged).
+- Test positive-class rate: 0.6726.
+- Fixed decision threshold: 0.50.
+- Requested/completed models: MLP, CatBoost, RandomForest, LightGBM, XGBoost, ElasticNet, Dummy.
+
+Metric interpretation
+- ROC-AUC: ranking ability; 0.50 is random ranking.
+- Average precision: precision-recall summary; compare it with the test positive-class rate.
+- Balanced accuracy: average of recall and specificity; useful for class imbalance.
+- Precision: fraction of selected observations that were actually positive.
+- Recall: fraction of all actual positive observations selected by the model.
+- Specificity: fraction of actual negative observations correctly rejected.
+- Brier score and log loss: probability quality; lower is better.
+- Coverage: fraction of observations passing the fixed probability threshold.
+- Selection lift: selected precision divided by the overall positive-class rate; 1.0 means no precision improvement over the base rate.
+- TN, FP, FN, TP: confusion-matrix counts.
+
+Comparison cautions
+- Dummy is a baseline, not a competitive model.
+- Threshold sensitivity is descriptive only; do not choose a threshold by optimizing test results.
+- Per-year and per-ticker metrics can be noisy, especially for small samples.
+- Feature importance/coefficient outputs are model-specific diagnostics, not causal effects; do not compare raw magnitudes across methods.
+- A better classifier is not automatically a better portfolio. S06 must assess diversification, turnover, transaction costs and net portfolio returns.
+- The pre-2023 training labels that mature on or after 2023-01-01 have been removed; the 2023+ test sample is unchanged.
+- Where S03 does not provide Label_End_Date, dates are reconstructed from available per-asset records. This can be conservative if some asset dates were dropped during feature construction/merging.

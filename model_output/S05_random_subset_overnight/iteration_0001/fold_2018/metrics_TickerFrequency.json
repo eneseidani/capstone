@@ -1,0 +1,23 @@
+{
+  "iteration": 1,
+  "fold_year": 2018,
+  "model": "TickerFrequency",
+  "tickers": "FEZ;HYG;IEF;RWX;SLV;UUP;VEA;VNQ;XBI",
+  "n_tickers": 9,
+  "n_train": 21872,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 0.0033423000131733716,
+  "roc_auc": 0.5307584991209837,
+  "average_precision": 0.5849645491838142,
+  "brier": 0.26449300256252567,
+  "log_loss": 0.7234889016908425,
+  "positive_rate": 0.5232403718459495,
+  "daily_rank_auc": 0.5130103359173126,
+  "daily_topn_hit": 0.6281540504648074,
+  "daily_topn_forward_return_gross": 0.010099957378976841,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2259,
+  "n_dates": 251
+}

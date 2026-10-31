@@ -1,0 +1,29 @@
+{
+  "source": "model_output\\S05_regime_validation",
+  "base_prediction_arm": "real_regime",
+  "evaluation_years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "meta_maturity_strict": "Label_End_Date < January 1 of evaluation year",
+  "experts": [
+    "ElasticNet",
+    "RandomForest",
+    "XGBoost",
+    "LightGBM",
+    "CatBoost",
+    "MLP"
+  ],
+  "global_shrinkage": 0.1,
+  "regime_shrinkage": 0.5,
+  "minimum_regime_episodes": 3,
+  "minimum_regime_dates": 60,
+  "selection_threshold": 0.5,
+  "used_2023plus_outcomes": false,
+  "note": "Exploratory chronological development-set comparison; weights optimized on earlier OOF predictions only."
+}

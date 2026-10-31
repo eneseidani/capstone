@@ -1,0 +1,23 @@
+{
+  "iteration": 9,
+  "fold_year": 2018,
+  "model": "CatBoost",
+  "tickers": "HYG;IPO;IXG;IXJ;PBW;QQQ;SHY;VCSH;VT;VUG",
+  "n_tickers": 10,
+  "n_train": 21698,
+  "max_training_label_end": "2017-12-29",
+  "min_validation_date": "2018-01-02",
+  "max_validation_date": "2018-12-31",
+  "fit_seconds": 6.385887099953834,
+  "roc_auc": 0.38165900631821936,
+  "average_precision": 0.5219825273334732,
+  "brier": 0.3154894706886374,
+  "log_loss": 0.918178412920725,
+  "positive_rate": 0.59800796812749,
+  "daily_rank_auc": 0.290168793195109,
+  "daily_topn_hit": 0.5073041168658698,
+  "daily_topn_forward_return_gross": 0.0001933500333733577,
+  "daily_topn_dates": 251,
+  "n_validation_rows": 2510,
+  "n_dates": 251
+}

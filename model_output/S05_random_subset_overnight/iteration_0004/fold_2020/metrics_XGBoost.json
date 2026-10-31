@@ -1,0 +1,23 @@
+{
+  "iteration": 4,
+  "fold_year": 2020,
+  "model": "XGBoost",
+  "tickers": "AFK;BND;FXA;RWX;TIP;TLT;UUP;VT;VUG",
+  "n_tickers": 9,
+  "n_train": 25783,
+  "max_training_label_end": "2019-12-31",
+  "min_validation_date": "2020-01-02",
+  "max_validation_date": "2020-12-31",
+  "fit_seconds": 2.935497399943415,
+  "roc_auc": 0.6691803805698433,
+  "average_precision": 0.8063128673436659,
+  "brier": 0.20071590270948153,
+  "log_loss": 0.5880714726057701,
+  "positive_rate": 0.6908212560386473,
+  "daily_rank_auc": 0.6763849676893154,
+  "daily_topn_hit": 0.7575757575757576,
+  "daily_topn_forward_return_gross": 0.054804160423709745,
+  "daily_topn_dates": 253,
+  "n_validation_rows": 2277,
+  "n_dates": 253
+}

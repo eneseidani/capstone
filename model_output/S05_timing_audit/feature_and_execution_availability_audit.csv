@@ -1,0 +1,8 @@
+component,status,detail
+Yahoo price / forward label,VERIFIED,Rebuilt S03 60-step weekday Adj Close returns and matched stored prediction labels
+Signal execution,CONVENTION,"Signal after close t, enter next asset session adjusted Open, exit 60 asset sessions later adjusted Open; gross return only"
+Historical Yahoo adjustments,UNVERIFIED,Adjusted Open uses Yahoo Adj Close / Close; data vintages and corporate-action consistency still need validation
+FRED published releases,UNVERIFIED,"S03 has category lags, but vintage / release timestamps and revisions have not been reconstructed"
+Market_Regime / VIX,UNVERIFIED,Market regime based partly on same-day market and macro data; exact same-close availability not proven
+Existing classifier training purge,APPROXIMATE,S05 classifiers were originally fitted with reconstructed label-end dates; this audit does NOT retrain or repair historical S05 fits
+Risk-free cash,ASSUMPTION,No assets selected => zero gross return in selection diagnostic; no funding rate or execution fees
