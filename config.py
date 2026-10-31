@@ -1,8 +1,10 @@
 # Import libraries
 from pathlib import Path
 
-# Analysis start date
-START_DATE = "2008-01-01"
+# Dates
+START_DATE = "2008-01-01"  # Analysis start date
+TEST_START = "2022-01-01"  # Test period start date
+VALIDATION_START = "2016-01-01"  # Validation period start date
 
 # Regime-model variables
 REGIME_START_DATE = "1990-01-01"
@@ -21,7 +23,16 @@ REBALANCE_FREQUENCY = 60
 # Forward prediction horizon
 FORWARD_HORIZON = 60
 
-# Rolling windows
+# Fixed random state
+RANDOM_STATE = 42
+
+# Thresholds used to convert the model's predicted probability into a binary prediction
+CLASSIFICATION_THRESHOLDS = (0.50, 0.55, 0.60)
+
+# Number of highest-ranked assets selected for screening evaluation
+TOP_K_VALUES = (10, 15)
+
+# Rolling windows for feature engineering
 MOMENTUM_WINDOWS = [5, 20, 60, 120, 252]
 TREND_WINDOWS = [20, 50, 200]
 MEAN_REVERSION_WINDOWS = [20, 60]

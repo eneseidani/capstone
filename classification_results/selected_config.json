@@ -1,0 +1,24 @@
+{
+    "algorithm": "XGBoost",
+    "specification": "With Regimes",
+    "model_params": {
+        "subsample": 1.0,
+        "reg_lambda": 20,
+        "n_estimators": 250,
+        "min_child_weight": 100,
+        "max_depth": 2,
+        "learning_rate": 0.05,
+        "colsample_bytree": 0.7,
+        "reg_alpha": 1.0,
+        "tree_method": "hist",
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "n_jobs": -1,
+        "random_state": 42
+    },
+    "screening": {
+        "rule": "Hybrid Top 15",
+        "threshold": 0.6,
+        "top_k": 15
+    }
+}
