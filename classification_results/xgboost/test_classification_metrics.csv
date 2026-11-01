@@ -1,0 +1,2 @@
+Algorithm,Specification,Observations,Scored_Dates,Pooled_ROC_AUC,Pooled_Average_Precision,Mean_ROC_AUC,Mean_Average_Precision
+XGBoost,With Regimes,864,18,0.6534683102606792,0.7245399739823692,0.5976905932854325,0.7051926988279693

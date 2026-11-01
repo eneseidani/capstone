@@ -20,17 +20,12 @@ INPUT_DATA_DIR = Path("input_data")
 # Portfolio rebalancing frequency
 REBALANCE_FREQUENCY = 60
 
-# Forward prediction horizon
-FORWARD_HORIZON = 60
-
-# Fixed random state
-RANDOM_STATE = 42
-
-# Thresholds used to convert the model's predicted probability into a binary prediction
-CLASSIFICATION_THRESHOLDS = (0.50, 0.55, 0.60)
-
-# Number of highest-ranked assets selected for screening evaluation
-TOP_K_VALUES = (10, 15)
+# Return classification
+FORWARD_HORIZON = 60  # Forward prediction horizon
+RANDOM_STATE = 42  # Fixed random state
+CLASSIFICATION_THRESHOLDS = (0.50, 0.55, 0.60)  # Thresholds used to convert the model's predicted probability into a binary prediction
+TOP_K_VALUES = (10, 15)  # Number of highest-ranked assets selected for screening evaluation
+HYPERPARAMETER_TUNING = False  # Indicate whether to perform hyperparameter tuning
 
 # Rolling windows for feature engineering
 MOMENTUM_WINDOWS = [5, 20, 60, 120, 252]

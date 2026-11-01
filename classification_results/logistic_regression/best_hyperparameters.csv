@@ -1,0 +1,2 @@
+Algorithm,Tuning_Specification,Trial,Validation_Dates,Selection_Metric,Val_ROC_AUC_Mean,Val_AP_Mean,C
+Logistic Regression,With Regimes,4,24,Mean within-date validation ROC AUC,0.6776009324392688,0.7449139828732285,0.001
