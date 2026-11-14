@@ -1,2 +1,2 @@
 # capstone
-Machine Learning (Deep) Application to Portfolio Allocation
+Machine Learning-Enhanced Portfolio Allocation: A Systematic ETF-Based Strategy
