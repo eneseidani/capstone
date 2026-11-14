@@ -33,7 +33,7 @@ CRYPTO_TIERS = (
 # MARKET IMPACT
 # =============================================================================
 
-MARKET_IMPACT_COEFFICIENT = 0.1
+MARKET_IMPACT_COEFFICIENT = config.MARKET_IMPACT_COEFFICIENT
 
 def calculate_us_commission(trade_value, price):
     """
@@ -183,25 +183,12 @@ def load_fee_context(date, tickers=None, price_column="Close"):
                 market_row[
                     price_column
                 ],
-                market_row[
-                    "Spread"
-                ],
-                market_row[
-                    "ADV_Dollars"
-                ],
+                market_row["Spread],
+                market_row["ADV_Dollars"],
             ]
         )
 
-    fee_context = pd.DataFrame(
-        rows,
-        columns=[
-            "Ticker",
-            "Asset Class",
-            "Price",
-            "Spread",
-            "ADV_Dollars",
-        ],
-    ).set_index("Ticker")
+    fee_context = pd.DataFrame(rows, columns=["Ticker", "Asset Class", "Price", "Spread", "ADV_Dollars",],).set_index("Ticker")
 
     if ticker_order is not None:
         fee_context = (fee_context.reindex(ticker_order))
