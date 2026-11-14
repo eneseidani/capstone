@@ -1,0 +1,3 @@
+Signal_Date,Execution_Date,Ticker,Asset Class,Price,Spread_Used,ADV_Dollars,Spread_Original,Spread_Fallback,Spread_Fallback_Method,Spread_Fallback_Age_Trading_Days,Spread_Reference_Date,Spread_Fallback_Quantile,Spread_Fallback_History_Count,Spread_Fallback_History_Start,Spread_Fallback_History_End
+2023-09-06,2023-09-07,CEW,Foreign Exchange,17.5,0.0015118162281196,86419.0465245928,,True,trailing_252_observation_p90,11,2023-08-21,0.9,141,2022-09-02,2023-09-05
+2024-11-13,2024-11-14,CEW,Foreign Exchange,17.959999084472656,0.0010905781951198,56929.96754873367,,True,trailing_252_observation_p90,9,2024-10-31,0.9,148,2023-11-13,2024-11-12

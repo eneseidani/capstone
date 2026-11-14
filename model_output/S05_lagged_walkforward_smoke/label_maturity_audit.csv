@@ -1,3 +1,0 @@
-year,training_rows,validation_rows,training_start,training_last_feature_date,training_last_label_end,validation_first_feature_date,validation_last_feature_date,validation_last_label_end,training_label_cutoff,number_of_assets_validation,purged_training_candidates
-2016,85099,12096,2008-01-31,2015-10-06,2015-12-31,2016-01-04,2016-12-30,2017-03-29,2016-01-01,48,2880
-2019,121291,12096,2008-01-31,2018-10-03,2018-12-31,2019-01-02,2019-12-31,2020-03-27,2019-01-01,48,2880

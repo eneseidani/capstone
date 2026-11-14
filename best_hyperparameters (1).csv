@@ -1,0 +1,2 @@
+Algorithm,Tuning_Specification,Trial,Validation_Dates,Selection_Metric,Val_ROC_AUC_Mean,Val_AP_Mean,subsample,reg_lambda,n_estimators,min_child_weight,max_depth,learning_rate,colsample_bytree
+XGBoost,With Regimes,1,24,Mean within-date validation ROC AUC,0.7013946520711735,0.7578556470048595,1.0,20,250,100,2,0.05,0.7

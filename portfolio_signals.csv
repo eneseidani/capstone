@@ -1,0 +1,448 @@
+Date,Execution_Date,Model,Ticker,Probability,Rank_Within_Date,Screening_Rule,Threshold,Specification,Primary_Backtest
+2022-01-03,2022-01-03,Logistic Regression,SPY,0.6954411849527544,1,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,VTV,0.6943471134730048,2,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,QQQ,0.693669175059789,3,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,HYG,0.6935317471004941,4,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,IXJ,0.6928559085743373,5,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,DVY,0.6905631368247888,6,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,VUG,0.6901132345099603,7,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,VCSH,0.6872872226557478,8,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,VT,0.6851341018775825,9,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,IXN,0.6790586212503504,10,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,SHY,0.675161717403982,11,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,TIP,0.6679642646225072,12,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,BND,0.667191077572935,13,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,VNQ,0.664704448272611,14,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,Logistic Regression,IGF,0.6620898823362794,15,Hybrid Top 15,0.5,With Regimes,True
+2022-01-03,2022-01-03,XGBoost,HYG,0.6236067,1,Hybrid Top 15,0.6,With Regimes,True
+2022-01-03,2022-01-03,XGBoost,QQQ,0.622499,2,Hybrid Top 15,0.6,With Regimes,True
+2022-01-03,2022-01-03,XGBoost,BND,0.61813885,3,Hybrid Top 15,0.6,With Regimes,True
+2022-01-03,2022-01-03,XGBoost,SHY,0.61813885,4,Hybrid Top 15,0.6,With Regimes,True
+2022-01-03,2022-01-03,XGBoost,VCSH,0.61813885,5,Hybrid Top 15,0.6,With Regimes,True
+2022-03-30,2022-03-30,XGBoost,DBA,0.6046769,1,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,SHY,0.64700276,1,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,DBA,0.6468776,2,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,VCSH,0.6421488,3,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,AFK,0.63393146,4,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,IGF,0.61889154,5,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,IXJ,0.61889154,6,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,RWX,0.61889154,7,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,VUG,0.6123538,8,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,QQQ,0.6056928,9,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,VTV,0.60534215,10,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,EWJ,0.6045313,11,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,FEZ,0.6045313,12,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,IXG,0.6045313,13,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,IXN,0.6045313,14,Hybrid Top 15,0.6,With Regimes,True
+2022-06-27,2022-06-27,XGBoost,IXP,0.6045313,15,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,DVY,0.9499006733649428,1,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,VTV,0.9492098108976762,2,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,SPY,0.9458434371342072,3,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,IXJ,0.9451543081488776,4,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,VCSH,0.9451286106526412,5,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,IGF,0.9440275889117832,6,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,SHY,0.94332452810168,7,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,HYG,0.9432314265634284,8,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,VT,0.9428349252836106,9,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,VUG,0.9427461349570192,10,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,QQQ,0.9425767977832722,11,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,IXN,0.9402263377818724,12,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,TIP,0.9397941976895848,13,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,BND,0.939567643885842,14,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,Logistic Regression,VNQ,0.9378838926189728,15,Hybrid Top 15,0.5,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,QQQ,0.64746386,1,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,VUG,0.6372009,2,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,IGF,0.6352555,3,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,DVY,0.6340732,4,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,EWJ,0.6303378,5,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,IXG,0.6303378,6,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,IXJ,0.6303378,7,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,IXN,0.6303378,8,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,IXP,0.6303378,9,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,VGK,0.6303378,10,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,VNQ,0.6303378,11,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,VT,0.6303378,12,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,XBI,0.6303378,13,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,SPY,0.6274086,14,Hybrid Top 15,0.6,With Regimes,True
+2022-09-21,2022-09-21,XGBoost,FEZ,0.6271516,15,Hybrid Top 15,0.6,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,VTV,0.9713553164550786,1,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,SHY,0.9710971221297154,2,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,DVY,0.9708348026265958,3,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,VCSH,0.970723822248725,4,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,IXJ,0.9696938912262256,5,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,SPY,0.968133986094787,6,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,HYG,0.9679443953980232,7,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,BND,0.966811955448218,8,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,VT,0.9660837563816592,9,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,IGF,0.9656373690416188,10,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,TIP,0.965369962550274,11,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,QQQ,0.9647438924509226,12,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,VUG,0.9634387676265094,13,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,IXN,0.9630954270594504,14,Hybrid Top 15,0.5,With Regimes,True
+2022-12-15,2022-12-15,Logistic Regression,IXG,0.9627847994978468,15,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,SHY,0.9214011492206844,1,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,SPY,0.9125852522728634,2,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,VCSH,0.912432918117448,3,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,VTV,0.911960851011286,4,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,IXJ,0.911920486312406,5,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,DVY,0.9105387784024188,6,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,VT,0.909657221256252,7,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,IXN,0.9091169327123888,8,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,QQQ,0.9085016710849096,9,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,VUG,0.9078355203228357,10,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,HYG,0.9070906563593656,11,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,BND,0.9069844100062204,12,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,SMH,0.9061753157083812,13,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,TIP,0.9048650299460548,14,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,Logistic Regression,IGF,0.903611406437304,15,Hybrid Top 15,0.5,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,SHY,0.7602188,1,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,VCSH,0.7364163,2,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,QQQ,0.72506785,3,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,EWJ,0.72432905,4,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,FEZ,0.72432905,5,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,IGF,0.72432905,6,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,IPO,0.72432905,7,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,IXG,0.72432905,8,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,IXJ,0.72432905,9,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,IXN,0.72432905,10,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,IXP,0.72432905,11,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,RWX,0.72432905,12,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,VEA,0.72432905,13,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,VGK,0.72432905,14,Hybrid Top 15,0.6,With Regimes,True
+2023-03-15,2023-03-15,XGBoost,VNQ,0.72432905,15,Hybrid Top 15,0.6,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,SPY,0.7143950310365967,1,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,QQQ,0.7088126396467722,2,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,VUG,0.7074088195200902,3,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,VT,0.7009772765503065,4,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,IXN,0.6972269170748024,5,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,VTV,0.6923677619374484,6,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,IXJ,0.6920836321867593,7,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,HYG,0.691132556346537,8,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,VCSH,0.6830434502450622,9,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,SMH,0.6801459429533396,10,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,SHY,0.6666752625896168,11,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,IGF,0.6634227016173676,12,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,IWM,0.663403514043287,13,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,DVY,0.6630869380256755,14,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,Logistic Regression,VEA,0.6597545621177742,15,Hybrid Top 15,0.5,With Regimes,True
+2023-06-09,2023-06-09,XGBoost,SHY,0.67249227,1,Hybrid Top 15,0.6,With Regimes,True
+2023-06-09,2023-06-09,XGBoost,VCSH,0.6143233,2,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,QQQ,0.89788850321338,1,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,VUG,0.8970142112656585,2,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,SPY,0.8966439931708279,3,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,IXJ,0.8909007334583401,4,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,VTV,0.8907888058963158,5,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,IXN,0.8902833339908974,6,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,SMH,0.8882758573203912,7,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,VT,0.8880373479453677,8,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,HYG,0.8872915233507261,9,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,VCSH,0.884594550578994,10,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,SHY,0.8837130065099619,11,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,DVY,0.8792902253407919,12,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,IWM,0.8742786799192995,13,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,VNQ,0.8719884413764073,14,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,Logistic Regression,IXG,0.8703630585838829,15,Hybrid Top 15,0.5,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,VUG,0.660587,1,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,SPY,0.6587449,2,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,QQQ,0.65506655,3,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,EWJ,0.65277255,4,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,IXP,0.6471954,5,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,SHY,0.63838774,6,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,VCSH,0.63838774,7,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,VT,0.6365443,8,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,VTV,0.6365443,9,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,IXJ,0.63426495,10,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,SMH,0.632875,11,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,IXN,0.6327728,12,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,FEZ,0.62242967,13,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,IXG,0.62242967,14,Hybrid Top 15,0.6,With Regimes,True
+2023-09-06,2023-09-06,XGBoost,VEA,0.62242967,15,Hybrid Top 15,0.6,With Regimes,True
+2023-11-30,2023-11-30,XGBoost,DBA,0.60963196,1,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,SPY,0.6356905092088221,1,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,VTV,0.6345350702513848,2,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,QQQ,0.6331066285419238,3,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,VT,0.6288372940873025,4,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,IXJ,0.6272783294082758,5,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,VUG,0.625569063176175,6,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,IXN,0.6215659832187477,7,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,VCSH,0.6193995181216683,8,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,HYG,0.6168008186834794,9,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,SHY,0.6105485764280394,10,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,DVY,0.6081908262720954,11,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,IXG,0.5977205160898085,12,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,VEA,0.5948506825116314,13,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,VGK,0.5891968498939826,14,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,Logistic Regression,BND,0.5791695641717927,15,Hybrid Top 15,0.5,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,SHY,0.68505657,1,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,VCSH,0.68505657,2,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,QQQ,0.6766578,3,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,EWJ,0.6552409,4,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,IXG,0.6552409,5,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,VEA,0.6552409,6,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,VGK,0.6552409,7,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,VWO,0.6552409,8,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,DVY,0.65304494,9,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,IXJ,0.65304494,10,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,SPY,0.65304494,11,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,VT,0.65304494,12,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,VTV,0.65304494,13,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,IGF,0.65161,14,Hybrid Top 15,0.6,With Regimes,True
+2024-02-28,2024-02-28,XGBoost,FEZ,0.64987344,15,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,Logistic Regression,QQQ,0.5081882294989513,1,Hybrid Top 15,0.5,With Regimes,True
+2024-05-23,2024-05-23,Logistic Regression,SPY,0.5057799225246219,2,Hybrid Top 15,0.5,With Regimes,True
+2024-05-23,2024-05-23,Logistic Regression,VUG,0.5044147186519263,3,Hybrid Top 15,0.5,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,SHY,0.7773868,1,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,VCSH,0.7773868,2,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,QQQ,0.7616871,3,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,VUG,0.75601596,4,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,SPY,0.7541059,5,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,FEZ,0.7513757,6,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,IXG,0.7513757,7,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,IXN,0.7513757,8,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,IXP,0.7513757,9,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,VEA,0.7513757,10,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,VGK,0.7513757,11,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,VWO,0.7513757,12,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,IXJ,0.7461864,13,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,SMH,0.7461864,14,Hybrid Top 15,0.6,With Regimes,True
+2024-05-23,2024-05-23,XGBoost,VT,0.7461864,15,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,VTV,0.7794981535953365,1,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,IXJ,0.7770263781798075,2,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,HYG,0.7733269932781993,3,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,SPY,0.7730026188301071,4,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,DVY,0.77275901852139,5,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,VCSH,0.77183724066234,6,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,SHY,0.7682796684515035,7,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,VT,0.7680026660410658,8,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,IGF,0.7620907438516911,9,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,VUG,0.75400712495219,10,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,QQQ,0.7523304039256886,11,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,BND,0.7496387781291516,12,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,TIP,0.7478931447095273,13,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,VGK,0.7435317341794953,14,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,Logistic Regression,VEA,0.7417529850456028,15,Hybrid Top 15,0.5,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,SHY,0.7550649,1,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,VCSH,0.7550649,2,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,SPY,0.7414652,3,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,IGF,0.7383741,4,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,IXG,0.7383741,5,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,VEA,0.7383741,6,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,VGK,0.7383741,7,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,DVY,0.73665357,8,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,IXJ,0.73665357,9,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,VTV,0.73665357,10,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,RWX,0.7354216,11,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,VUG,0.73501927,12,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,QQQ,0.7343772,13,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,VT,0.7336886,14,Hybrid Top 15,0.6,With Regimes,True
+2024-08-20,2024-08-20,XGBoost,FEZ,0.7325603,15,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,SPY,0.9380780687345148,1,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,QQQ,0.936439373390541,2,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,VTV,0.93579408755562,3,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,VT,0.9353969816671196,4,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,VUG,0.934910592890468,5,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,DVY,0.9347737297967964,6,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,HYG,0.9336760444635136,7,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,IXN,0.9307251369477956,8,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,IXJ,0.9305299381362964,9,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,VCSH,0.9302317368629018,10,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,SHY,0.9282824372696782,11,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,IGF,0.9257691443344188,12,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,VNQ,0.9250045411061149,13,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,XBI,0.9241572252865468,14,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,Logistic Regression,IXG,0.9240675219680412,15,Hybrid Top 15,0.5,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,SHY,0.82084924,1,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,VCSH,0.82084924,2,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,QQQ,0.8112635,3,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,VUG,0.8064452,4,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,DVY,0.8054556,5,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,IXG,0.8054556,6,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,IXP,0.8054556,7,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,SPY,0.8054556,8,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,VT,0.8054556,9,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,VTV,0.8054556,10,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,IGF,0.8033329,11,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,VNQ,0.8033329,12,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,IXN,0.7968609,13,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,XBI,0.7968609,14,Hybrid Top 15,0.6,With Regimes,True
+2024-11-13,2024-11-13,XGBoost,IWM,0.79331297,15,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,SPY,0.7173570181047464,1,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,QQQ,0.7098745439218365,2,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,VUG,0.7094384965816067,3,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,VT,0.703639645662761,4,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,VTV,0.6996270196975907,5,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,HYG,0.6898637050831602,6,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,VCSH,0.6874295610778856,7,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,DVY,0.686863095524134,8,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,SHY,0.6815254990432704,9,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,IXN,0.6800706305807681,10,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,IXG,0.6745285292441787,11,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,IWM,0.6663612242218097,12,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,IGF,0.6624960355334859,13,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,IPO,0.6606974487961058,14,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,Logistic Regression,IXJ,0.6604371485257695,15,Hybrid Top 15,0.5,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,SHY,0.8068437,1,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,VCSH,0.8068437,2,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,VUG,0.7888096,3,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,SPY,0.7831388,4,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,IGF,0.77624327,5,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,VEA,0.77624327,6,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,IXG,0.77598363,7,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,IXP,0.77598363,8,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,QQQ,0.7758141,9,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,VT,0.77458894,10,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,VTV,0.77458894,11,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,VGK,0.772514,12,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,HYG,0.767375,13,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,EWJ,0.76302,14,Hybrid Top 15,0.6,With Regimes,True
+2025-02-12,2025-02-12,XGBoost,VWO,0.76302,15,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,VCSH,0.6227331010466837,1,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,HYG,0.6158811108059702,2,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,SHY,0.6096444043350622,3,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,SPY,0.6087972255898895,4,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,VT,0.6087614619342014,5,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,VTV,0.6078714696419306,6,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,QQQ,0.6032750442142918,7,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,VUG,0.6024220548837882,8,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,DVY,0.596686273758852,9,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,IXG,0.5938263827525461,10,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,IGF,0.5903028973181095,11,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,IXN,0.585972074027771,12,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,VEA,0.5846020750951613,13,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,IXJ,0.5841511355039208,14,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,Logistic Regression,BND,0.5799078715786484,15,Hybrid Top 15,0.5,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,SHY,0.6937049,1,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,VCSH,0.6937049,2,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,QQQ,0.661073,3,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,IGF,0.6499326,4,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,VUG,0.6493032,5,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,SPY,0.6484842,6,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,EWJ,0.6470214,7,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,FEZ,0.6470214,8,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,VEA,0.6470214,9,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,VGK,0.6470214,10,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,FXI,0.6463339,11,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,VWO,0.6444666,12,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,IXJ,0.64114493,13,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,IXN,0.64025134,14,Hybrid Top 15,0.6,With Regimes,True
+2025-05-09,2025-05-09,XGBoost,VNQ,0.63820136,15,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,SHY,0.7371995325042074,1,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,HYG,0.7370562339360408,2,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,VCSH,0.7348553267485716,3,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,SPY,0.7294209000178394,4,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,QQQ,0.7264400370604581,5,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,VT,0.7245399677774262,6,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,VTV,0.7224555567917513,7,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,VUG,0.7209657817207474,8,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,IGF,0.7189334843213206,9,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,DVY,0.7128267154617202,10,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,BND,0.7102480961797981,11,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,TIP,0.7062013900365791,12,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,IXG,0.7060230195901228,13,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,IXN,0.7058533102062728,14,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,Logistic Regression,VEA,0.6994549751800417,15,Hybrid Top 15,0.5,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,SHY,0.75791913,1,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,VCSH,0.75791913,2,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,IGF,0.7079296,3,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,RWX,0.7079296,4,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,QQQ,0.70650375,5,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,SPY,0.7006182,6,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,EWJ,0.6974694,7,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,VEA,0.6974694,8,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,VWO,0.6974694,9,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,HYG,0.69604915,10,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,FEZ,0.6929063,11,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,VGK,0.6929063,12,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,DVY,0.69161046,13,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,IXG,0.69161046,14,Hybrid Top 15,0.6,With Regimes,True
+2025-08-06,2025-08-06,XGBoost,IXP,0.69161046,15,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,SPY,0.7704633830244857,1,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,VUG,0.7653215224799286,2,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,QQQ,0.7640375332808331,3,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,VCSH,0.7604771275614404,4,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,VT,0.7592683575215555,5,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,VTV,0.7592204880805428,6,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,HYG,0.756205315072232,7,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,SHY,0.7507024544879535,8,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,DVY,0.7476570199578169,9,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,IXN,0.7461242183444408,10,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,IGF,0.7456031654620805,11,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,IXJ,0.7405364756339573,12,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,IXG,0.736167773860355,13,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,VEA,0.734836691141665,14,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,Logistic Regression,BND,0.7297577295326884,15,Hybrid Top 15,0.5,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,VUG,0.72819287,1,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,QQQ,0.7272834,2,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,EWJ,0.7192339,3,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,SHY,0.7172001,4,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,VCSH,0.7172001,5,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,IWM,0.7138659,6,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,VGK,0.7126197,7,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,IXP,0.71085006,8,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,SPY,0.71085006,9,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,VT,0.71085006,10,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,IGF,0.70614433,11,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,VEA,0.70614433,12,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,VWO,0.70614433,13,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,IXJ,0.70407706,14,Hybrid Top 15,0.6,With Regimes,True
+2025-10-30,2025-10-30,XGBoost,RWX,0.7040531,15,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,QQQ,0.7857454882186998,1,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,SPY,0.7849039107767984,2,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,VUG,0.7745131150874593,3,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,IXN,0.7728677446734464,4,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,VT,0.7713804876715675,5,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,VTV,0.7693659617478859,6,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,VCSH,0.768694112819127,7,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,HYG,0.7671691565845056,8,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,SHY,0.7589854815742713,9,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,SMH,0.757128815141441,10,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,DVY,0.7564618764211767,11,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,IGF,0.7468504357720136,12,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,IWM,0.7417118329323557,13,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,IXJ,0.741394968885714,14,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,Logistic Regression,BND,0.7353730048365147,15,Hybrid Top 15,0.5,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,SHY,0.78115124,1,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,VCSH,0.78115124,2,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,VUG,0.7652732,3,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,QQQ,0.76252925,4,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,EWJ,0.75884646,5,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,IGF,0.75884646,6,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,RWX,0.75884646,7,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,DVY,0.7572232,8,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,IXG,0.7572232,9,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,IXJ,0.7572232,10,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,IXP,0.7572232,11,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,SPY,0.7572232,12,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,VT,0.7572232,13,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,VTV,0.7572232,14,Hybrid Top 15,0.6,With Regimes,True
+2026-01-28,2026-01-28,XGBoost,VNQ,0.75525755,15,Hybrid Top 15,0.6,With Regimes,True
+2026-04-24,2026-04-24,Logistic Regression,SPY,0.6354272222234049,1,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,VTV,0.6341628265071365,2,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,VCSH,0.629855056165748,3,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,HYG,0.6276568671554452,4,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,VT,0.6249544755193188,5,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,SHY,0.6228316155205981,6,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,QQQ,0.6223786722591312,7,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,DVY,0.6221463288718324,8,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,VUG,0.6131954424752865,9,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,IGF,0.601463181806427,10,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,IXJ,0.6005296584873495,11,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,TIP,0.5905234375912246,12,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,IXG,0.590272756241524,13,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,IXN,0.5896611884510841,14,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,Logistic Regression,BND,0.5887588953307855,15,Hybrid Top 15,0.5,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,BND,0.69519967,1,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,SHY,0.69519967,2,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,TIP,0.69519967,3,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,VCSH,0.69519967,4,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,HYG,0.6656085,5,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,IXJ,0.64786804,6,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,RWX,0.6454977,7,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,DVY,0.6319165,8,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,IGF,0.6319165,9,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,IXP,0.6319165,10,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,VNQ,0.6319165,11,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,VT,0.6319165,12,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,VTV,0.6319165,13,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,EWJ,0.63181883,14,Hybrid Top 15,0.6,With Regimes,False
+2026-04-24,2026-04-24,XGBoost,AFK,0.6294023,15,Hybrid Top 15,0.6,With Regimes,False

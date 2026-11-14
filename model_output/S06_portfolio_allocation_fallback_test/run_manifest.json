@@ -1,0 +1,42 @@
+{
+  "script": "S06_portfolio_allocation.py",
+  "prediction_file": "model_output\\S05_peer_calendar_classification\\predictions_test.csv",
+  "model": "RandomForest",
+  "threshold": 0.5,
+  "top_k": 15,
+  "initial_capital": 100000.0,
+  "first_decision": "2022-01-03",
+  "first_execution": "2022-01-04",
+  "last_observation": "2026-10-12",
+  "estimation_sessions": 252,
+  "horizon_sessions": 60,
+  "maximum_risky_asset_weight": 0.3333333333333333,
+  "covariance": "sample covariance ddof=1",
+  "expected_returns": "252-session arithmetic historical mean",
+  "risk_free": "DGS3MO lagged one SPY session, compounded daily",
+  "transaction_cost_source": "transaction_fee_helper.py (unchanged)",
+  "allow_feasible_fallback": true,
+  "execution": "weights fixed at signal close; next SPY open execution; prior-close liquidity; opening commission price",
+  "constraints": "if >=3 eligible: full-risky or all cash; if <3: cash fills gap",
+  "benchmark": "SPY buy-and-hold from first execution open, no fees",
+  "results": {
+    "portfolio_total_return": 0.5994279005786358,
+    "spy_total_return": 0.7296951836101,
+    "portfolio_CAGR": 0.10392591847407906,
+    "spy_CAGR": 0.12227388759616198,
+    "portfolio_annualized_sharpe": 0.4544551151890636,
+    "spy_annualized_sharpe": 0.5204038417727639,
+    "portfolio_max_drawdown": -0.18016499700477795,
+    "spy_max_drawdown": -0.247342902776729,
+    "total_transaction_cost_USD": 2385.988400383796,
+    "rebalance_count": 19,
+    "daily_return_count": 1197,
+    "optimization_status_counts": {
+      "FEASIBLE_SEED_BEST": 10,
+      "CONVERGED": 7,
+      "UNVERIFIED_FALLBACK": 2
+    },
+    "unverified_fallback_count": 2,
+    "feasible_seed_best_count": 10
+  }
+}

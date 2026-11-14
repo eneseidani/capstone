@@ -39,6 +39,22 @@ CRYPTO_TIERS = (
 MARKET_IMPACT_COEFFICIENT = 0.1
 
 
+# =============================================================================
+# POINT-IN-TIME SPREAD FALLBACK POLICY
+# =============================================================================
+
+# A missing current spread may use the latest valid historical spread only
+# when that observation is no more than five ticker trading observations old.
+SPREAD_SHORT_GAP_MAX_TRADING_DAYS = 5
+
+# For longer gaps, use the 90th percentile of valid, previously observed
+# smoothed spreads in the trailing 252 ticker trading observations. This is a
+# conservative, ticker-specific estimate and uses no future observations.
+SPREAD_FALLBACK_LOOKBACK_TRADING_DAYS = 252
+SPREAD_FALLBACK_QUANTILE = 0.90
+SPREAD_FALLBACK_MIN_VALID_OBS = 20
+
+
 def calculate_us_commission(
     trade_value,
     price,
@@ -131,6 +147,100 @@ def calculate_crypto_commission(
     return commission
 
 
+def _resolve_spread_asof(data, date, ticker):
+    """Return a point-in-time spread and auditable fallback metadata.
+
+    Policy
+    ------
+    1. Use the calculated S04 Spread when it is finite and non-negative.
+    2. If missing/invalid and the most recent valid prior spread is at most
+       five ticker trading observations old, carry that value forward.
+    3. If the gap is longer, use the 90th percentile of valid S04 Spread
+       observations in the preceding 252 ticker observations (excluding the
+       current row). Require at least 20 historical observations.
+    4. If neither fallback can be estimated, fail closed. Never use future
+       observations and never replace missing spread with zero.
+
+    The returned metadata is retained in fee_context and exported by S06.
+    """
+    asof = pd.Timestamp(date)
+    history = data.loc[data["Date"] <= asof].copy().reset_index(drop=True)
+    if history.empty or not history["Date"].eq(asof).any():
+        raise ValueError(f"{ticker}: no OHLCV row available on {asof.date()}.")
+
+    # Use the final row for the requested date, consistent with load_fee_context.
+    current_pos = int(np.flatnonzero(history["Date"].eq(asof).to_numpy())[-1])
+    current_raw = pd.to_numeric(
+        pd.Series([history.loc[current_pos, "Spread"]]), errors="coerce"
+    ).iloc[0]
+    current_valid = bool(np.isfinite(current_raw) and current_raw >= 0)
+
+    metadata = {
+        "Spread_Original": float(current_raw) if np.isfinite(current_raw) else np.nan,
+        "Spread_Fallback": False,
+        "Spread_Fallback_Method": "observed" if current_valid else None,
+        "Spread_Fallback_Age_Trading_Days": 0,
+        "Spread_Reference_Date": asof,
+        "Spread_Fallback_Quantile": np.nan,
+        "Spread_Fallback_History_Count": 0,
+        "Spread_Fallback_History_Start": pd.NaT,
+        "Spread_Fallback_History_End": pd.NaT,
+    }
+    if current_valid:
+        return float(current_raw), metadata
+
+    spread_values = pd.to_numeric(history["Spread"], errors="coerce")
+    spread_array = spread_values.to_numpy(dtype=float, na_value=np.nan)
+    valid_mask = np.isfinite(spread_array) & (spread_array >= 0)
+    # Exclude every row on the as-of date, including duplicate-date rows.
+    valid_mask &= history["Date"].lt(asof).to_numpy()
+    valid_positions = np.flatnonzero(valid_mask)
+
+    if len(valid_positions) == 0:
+        raise ValueError(
+            f"{ticker}: Spread is missing on {asof.date()} and no valid prior spread exists."
+        )
+
+    last_valid_pos = int(valid_positions[-1])
+    age = current_pos - last_valid_pos
+    last_valid_value = float(spread_values.iloc[last_valid_pos])
+    last_valid_date = pd.Timestamp(history.loc[last_valid_pos, "Date"])
+
+    metadata.update({
+        "Spread_Fallback": True,
+        "Spread_Fallback_Age_Trading_Days": int(age),
+        "Spread_Reference_Date": last_valid_date,
+    })
+
+    if age <= SPREAD_SHORT_GAP_MAX_TRADING_DAYS:
+        metadata["Spread_Fallback_Method"] = "last_valid_historical"
+        return last_valid_value, metadata
+
+    # Long-gap fallback: trailing ticker observations strictly before as-of.
+    start_pos = max(0, current_pos - SPREAD_FALLBACK_LOOKBACK_TRADING_DAYS)
+    trailing = spread_values.iloc[start_pos:current_pos]
+    trailing_array = trailing.to_numpy(dtype=float, na_value=np.nan)
+    valid_trailing = trailing_array[np.isfinite(trailing_array) & (trailing_array >= 0)]
+
+    if len(valid_trailing) < SPREAD_FALLBACK_MIN_VALID_OBS:
+        raise ValueError(
+            f"{ticker}: prolonged Spread gap on {asof.date()} ({age} trading observations); "
+            f"only {len(valid_trailing)} valid spreads in the trailing "
+            f"{SPREAD_FALLBACK_LOOKBACK_TRADING_DAYS} observations; "
+            f"at least {SPREAD_FALLBACK_MIN_VALID_OBS} are required."
+        )
+
+    conservative_spread = float(np.quantile(valid_trailing, SPREAD_FALLBACK_QUANTILE))
+    metadata.update({
+        "Spread_Fallback_Method": "trailing_252_observation_p90",
+        "Spread_Fallback_Quantile": SPREAD_FALLBACK_QUANTILE,
+        "Spread_Fallback_History_Count": int(len(valid_trailing)),
+        "Spread_Fallback_History_Start": pd.Timestamp(history.loc[start_pos, "Date"]),
+        "Spread_Fallback_History_End": pd.Timestamp(history.loc[current_pos - 1, "Date"]),
+    })
+    return conservative_spread, metadata
+
+
 def load_fee_context(
     date,
     tickers=None,
@@ -169,6 +279,18 @@ def load_fee_context(
         Price
         Spread
         ADV_Dollars
+        Spread_Original
+        Spread_Fallback
+        Spread_Fallback_Method
+        Spread_Fallback_Age_Trading_Days
+        Spread_Reference_Date
+        Spread_Fallback_Quantile
+        Spread_Fallback_History_Count
+        Spread_Fallback_History_Start
+        Spread_Fallback_History_End
+
+    Spread fallback is point-in-time and auditable. It does not modify the
+    source CSV or the original S04 Spread column.
     """
 
     date = pd.Timestamp(
@@ -224,15 +346,22 @@ def load_fee_context(
             == "cash proxy"
         ):
 
-            rows.append(
-                [
-                    ticker,
-                    asset_class,
-                    np.nan,
-                    np.nan,
-                    np.nan,
-                ]
-            )
+            rows.append({
+                "Ticker": ticker,
+                "Asset Class": asset_class,
+                "Price": np.nan,
+                "Spread": np.nan,
+                "ADV_Dollars": np.nan,
+                "Spread_Original": np.nan,
+                "Spread_Fallback": False,
+                "Spread_Fallback_Method": "not_applicable",
+                "Spread_Fallback_Age_Trading_Days": 0,
+                "Spread_Reference_Date": pd.NaT,
+                "Spread_Fallback_Quantile": np.nan,
+                "Spread_Fallback_History_Count": 0,
+                "Spread_Fallback_History_Start": pd.NaT,
+                "Spread_Fallback_History_End": pd.NaT,
+            })
 
             continue
 
@@ -255,6 +384,12 @@ def load_fee_context(
         data = pd.read_csv(
             file_path,
             parse_dates=["Date"],
+        )
+        data = (
+            data.dropna(subset=["Date"])
+            .sort_values("Date")
+            .drop_duplicates("Date", keep="last")
+            .reset_index(drop=True)
         )
 
         required_columns = {
@@ -291,34 +426,38 @@ def load_fee_context(
             market_row.iloc[-1]
         )
 
-        rows.append(
-            [
+        if asset_class.lower() == "crypto":
+            # S04 deliberately does not estimate ETF-style spreads or ADV for
+            # Bitcoin. The crypto commission model remains unchanged.
+            spread_used = np.nan
+            spread_meta = {
+                "Spread_Original": np.nan,
+                "Spread_Fallback": False,
+                "Spread_Fallback_Method": "not_applicable_crypto",
+                "Spread_Fallback_Age_Trading_Days": 0,
+                "Spread_Reference_Date": pd.NaT,
+                "Spread_Fallback_Quantile": np.nan,
+                "Spread_Fallback_History_Count": 0,
+                "Spread_Fallback_History_Start": pd.NaT,
+                "Spread_Fallback_History_End": pd.NaT,
+            }
+        else:
+            spread_used, spread_meta = _resolve_spread_asof(
+                data,
+                date,
                 ticker,
-                asset_class,
-                market_row[
-                    price_column
-                ],
-                market_row[
-                    "Spread"
-                ],
-                market_row[
-                    "ADV_Dollars"
-                ],
-            ]
-        )
+            )
 
-    fee_context = pd.DataFrame(
-        rows,
-        columns=[
-            "Ticker",
-            "Asset Class",
-            "Price",
-            "Spread",
-            "ADV_Dollars",
-        ],
-    ).set_index(
-        "Ticker"
-    )
+        rows.append({
+            "Ticker": ticker,
+            "Asset Class": asset_class,
+            "Price": market_row[price_column],
+            "Spread": spread_used,
+            "ADV_Dollars": market_row["ADV_Dollars"],
+            **spread_meta,
+        })
+
+    fee_context = pd.DataFrame(rows).set_index("Ticker")
 
     if ticker_order is not None:
 
@@ -538,6 +677,7 @@ def calculate_transaction_fees(
         spread_cost = 0.0
         market_impact_cost = 0.0
         commission = 0.0
+        spread = np.nan
 
         # ---------------------------------------------------------------------
         # CASH
@@ -679,6 +819,33 @@ def calculate_transaction_fees(
 
                     "IBKR_Commission":
                         commission,
+
+                    "Spread_Used":
+                        spread,
+
+                    "Spread_Original":
+                        fee_context.at[ticker, "Spread_Original"]
+                        if "Spread_Original" in fee_context.columns else np.nan,
+
+                    "Spread_Fallback":
+                        bool(fee_context.at[ticker, "Spread_Fallback"])
+                        if "Spread_Fallback" in fee_context.columns else False,
+
+                    "Spread_Fallback_Method":
+                        fee_context.at[ticker, "Spread_Fallback_Method"]
+                        if "Spread_Fallback_Method" in fee_context.columns else "unknown",
+
+                    "Spread_Fallback_Age_Trading_Days":
+                        fee_context.at[ticker, "Spread_Fallback_Age_Trading_Days"]
+                        if "Spread_Fallback_Age_Trading_Days" in fee_context.columns else 0,
+
+                    "Spread_Reference_Date":
+                        fee_context.at[ticker, "Spread_Reference_Date"]
+                        if "Spread_Reference_Date" in fee_context.columns else pd.NaT,
+
+                    "Spread_Fallback_Quantile":
+                        fee_context.at[ticker, "Spread_Fallback_Quantile"]
+                        if "Spread_Fallback_Quantile" in fee_context.columns else np.nan,
 
                     "Total_Cost":
                         asset_cost,

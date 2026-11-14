@@ -1,0 +1,22 @@
+{
+  "features_source": "features_data\\asset_features.csv",
+  "label_maturity_source": "model_output\\S05_data_validation\\label_maturity_60d.csv",
+  "validation_predictions": "model_output\\S05_peer_calendar_classification\\predictions_validation.csv",
+  "test_predictions": "model_output\\S05_peer_calendar_classification\\predictions_test.csv",
+  "candidate_filter": "RandomForest Top 15, p >= 0.5",
+  "selected_by_validation": "SPY_classifier",
+  "validation_top5_excess_pp": -0.602884972211651,
+  "test_top5_excess_pp": -1.3795096392548518,
+  "n_validation_dates": 24,
+  "n_test_dates": 19,
+  "min_history_rows": 10000,
+  "max_train_rows": 60000,
+  "boosting_iterations": 100,
+  "random_seed": 42,
+  "training_rule": "Both asset and SPY target maturity strictly before decision date",
+  "evaluation_rule": "All three models rank IDENTICAL S05-selected tickers",
+  "costs": "NOT INCLUDED: all performance plots are GROSS CLOSE-TO-CLOSE diagnostics; use S06 for NET implementation",
+  "missing_candidate_policy": "Fixed 5 x 20% slots; unused slots invest in SPY benchmark (not cash). SPY benchmark fallback is exempt from S06 per-ticker cap in this DIAGNOSTIC.",
+  "selection_warning": "Selection is based exclusively on validation metrics; test labels are evaluation only",
+  "strong_caveat": "Validation labels may have shaped the original frozen S05 configuration; new ranking models fit only past matured labels at each date"
+}

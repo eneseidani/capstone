@@ -1,0 +1,93 @@
+2026-11-05 18:19:19,537 | INFO | Correlation filter: 85 candidates, 83 excluded now, 2 already excluded; 165 numerical inputs remain
+2026-11-05 18:19:21,352 | INFO | Tuning LogisticRegression: up to 32 trials
+2026-11-05 18:19:21,352 | INFO | LogisticRegression tuning uses 6/27 chronological validation dates: ['2016-01-01', '2017-02-24', '2018-04-20', '2019-06-14', '2020-08-07', '2021-12-24']
+2026-11-05 18:19:21,353 | INFO | Preparing Tuning preprocessing cache: 6 dates; feature count=166
+2026-11-05 18:19:49,055 | INFO | Prepared Tuning folds: 5/6
+2026-11-05 18:19:55,514 | INFO | Prepared Tuning: 6 folds; matrices cached on disk (model_output\S05_optimized_v2\_temporary_fold_cache)
+2026-11-05 18:37:04,007 | INFO | LogisticRegression best tuning ROC-AUC=0.745540; now evaluating winning parameters on ALL 27 validation dates
+2026-11-05 18:37:04,008 | INFO | Preparing Validation preprocessing cache: 27 dates; feature count=166
+2026-11-05 18:37:17,765 | INFO | Prepared Validation folds: 5/27
+2026-11-05 18:37:32,497 | INFO | Prepared Validation folds: 10/27
+2026-11-05 18:37:49,014 | INFO | Prepared Validation folds: 15/27
+2026-11-05 18:38:14,769 | INFO | Prepared Validation folds: 20/27
+2026-11-05 18:38:37,786 | INFO | Prepared Validation folds: 25/27
+2026-11-05 18:38:49,640 | INFO | Prepared Validation: 27 folds; matrices cached on disk (model_output\S05_optimized_v2\_temporary_fold_cache)
+2026-11-05 18:40:47,708 | INFO | LogisticRegression Validation: 10/27 rebalances
+2026-11-05 18:42:59,531 | INFO | LogisticRegression Validation: 20/27 rebalances
+2026-11-05 18:44:27,866 | INFO | LogisticRegression selected validation screening: {'rule': 'TopK', 'value': 15.0}
+2026-11-05 18:44:27,866 | INFO | Preparing Test preprocessing cache: 20 dates; feature count=166
+2026-11-05 18:44:56,105 | INFO | Prepared Test folds: 5/20
+2026-11-05 18:45:24,442 | INFO | Prepared Test folds: 10/20
+2026-11-05 18:45:55,760 | INFO | Prepared Test folds: 15/20
+2026-11-05 18:46:30,440 | INFO | Prepared Test folds: 20/20
+2026-11-05 18:46:30,440 | INFO | Prepared Test: 20 folds; matrices cached on disk (model_output\S05_optimized_v2\_temporary_fold_cache)
+2026-11-05 18:48:51,685 | INFO | LogisticRegression Test: 10/20 rebalances
+2026-11-05 18:50:58,401 | INFO | LogisticRegression Test: 20/20 rebalances
+2026-11-05 18:50:58,870 | INFO | Tuning RandomForest: up to 32 trials
+2026-11-05 18:50:58,870 | INFO | RandomForest tuning uses 6/27 chronological validation dates: ['2016-01-01', '2017-02-24', '2018-04-20', '2019-06-14', '2020-08-07', '2021-12-24']
+2026-11-05 23:07:12,535 | INFO | RandomForest best tuning ROC-AUC=0.622435; now evaluating winning parameters on ALL 27 validation dates
+2026-11-05 23:29:36,062 | INFO | RandomForest Validation: 10/27 rebalances
+2026-11-05 23:56:07,610 | INFO | RandomForest Validation: 20/27 rebalances
+2026-11-06 00:24:23,686 | INFO | RandomForest selected validation screening: {'rule': 'TopK', 'value': 15.0}
+2026-11-06 01:04:31,917 | INFO | RandomForest Test: 10/20 rebalances
+2026-11-06 01:44:57,511 | INFO | RandomForest Test: 20/20 rebalances
+2026-11-06 01:44:57,649 | INFO | Tuning XGBoost: up to 32 trials
+2026-11-06 01:44:57,649 | INFO | XGBoost tuning uses 6/27 chronological validation dates: ['2016-01-01', '2017-02-24', '2018-04-20', '2019-06-14', '2020-08-07', '2021-12-24']
+2026-11-06 02:17:36,134 | INFO | XGBoost best tuning ROC-AUC=0.643622; now evaluating winning parameters on ALL 27 validation dates
+2026-11-06 02:21:25,501 | INFO | XGBoost Validation: 10/27 rebalances
+2026-11-06 02:26:01,663 | INFO | XGBoost Validation: 20/27 rebalances
+2026-11-06 02:29:41,406 | INFO | XGBoost selected validation screening: {'rule': 'TopK', 'value': 15.0}
+2026-11-06 02:35:21,875 | INFO | XGBoost Test: 10/20 rebalances
+2026-11-06 02:41:42,092 | INFO | XGBoost Test: 20/20 rebalances
+2026-11-06 02:41:42,255 | INFO | Tuning MLP: up to 32 trials
+2026-11-06 02:41:42,256 | INFO | MLP tuning uses 6/27 chronological validation dates: ['2016-01-01', '2017-02-24', '2018-04-20', '2019-06-14', '2020-08-07', '2021-12-24']
+2026-11-06 07:05:49,475 | INFO | MLP best tuning ROC-AUC=0.729037; now evaluating winning parameters on ALL 27 validation dates
+2026-11-06 07:17:41,457 | INFO | MLP Validation: 10/27 rebalances
+2026-11-06 07:32:15,875 | INFO | MLP Validation: 20/27 rebalances
+2026-11-06 07:45:41,048 | INFO | MLP selected validation screening: {'rule': 'Threshold', 'value': 0.5}
+2026-11-06 08:04:03,094 | INFO | MLP Test: 10/20 rebalances
+2026-11-06 08:24:26,225 | INFO | MLP Test: 20/20 rebalances
+2026-11-06 08:24:28,306 | INFO | HistoricalFrequency Validation: 10/27 rebalance dates
+2026-11-06 08:24:29,910 | INFO | HistoricalFrequency Validation: 20/27 rebalance dates
+2026-11-06 08:24:33,318 | INFO | HistoricalFrequency Test: 10/20 rebalance dates
+2026-11-06 08:24:35,566 | INFO | HistoricalFrequency Test: 20/20 rebalance dates
+2026-11-06 08:24:35,825 | INFO | Preparing Ablation_A_original_features preprocessing cache: 27 dates; feature count=165
+2026-11-06 08:24:45,934 | INFO | Prepared Ablation_A_original_features folds: 5/27
+2026-11-06 08:24:58,285 | INFO | Prepared Ablation_A_original_features folds: 10/27
+2026-11-06 08:25:12,422 | INFO | Prepared Ablation_A_original_features folds: 15/27
+2026-11-06 08:25:27,044 | INFO | Prepared Ablation_A_original_features folds: 20/27
+2026-11-06 08:25:43,700 | INFO | Prepared Ablation_A_original_features folds: 25/27
+2026-11-06 08:25:50,425 | INFO | Prepared Ablation_A_original_features: 27 folds; matrices cached on disk (model_output\S05_optimized_v2\_temporary_fold_cache)
+2026-11-06 08:27:31,682 | INFO | LogisticRegression Validation_Ablation: 10/27 rebalances
+2026-11-06 08:29:27,784 | INFO | LogisticRegression Validation_Ablation: 20/27 rebalances
+2026-11-06 08:47:44,194 | INFO | RandomForest Validation_Ablation: 10/27 rebalances
+2026-11-06 09:11:30,586 | INFO | RandomForest Validation_Ablation: 20/27 rebalances
+2026-11-06 09:36:43,375 | INFO | XGBoost Validation_Ablation: 10/27 rebalances
+2026-11-06 09:41:14,153 | INFO | XGBoost Validation_Ablation: 20/27 rebalances
+2026-11-06 09:56:02,743 | INFO | MLP Validation_Ablation: 10/27 rebalances
+2026-11-06 10:08:43,228 | INFO | MLP Validation_Ablation: 20/27 rebalances
+2026-11-06 10:23:21,946 | INFO | LogisticRegression Validation_Ablation: 10/27 rebalances
+2026-11-06 10:26:19,022 | INFO | LogisticRegression Validation_Ablation: 20/27 rebalances
+2026-11-06 10:46:42,674 | INFO | RandomForest Validation_Ablation: 10/27 rebalances
+2026-11-06 11:11:40,977 | INFO | RandomForest Validation_Ablation: 20/27 rebalances
+2026-11-06 11:37:36,990 | INFO | XGBoost Validation_Ablation: 10/27 rebalances
+2026-11-06 11:42:24,801 | INFO | XGBoost Validation_Ablation: 20/27 rebalances
+2026-11-06 11:57:03,176 | INFO | MLP Validation_Ablation: 10/27 rebalances
+2026-11-06 12:10:14,400 | INFO | MLP Validation_Ablation: 20/27 rebalances
+2026-11-06 12:21:56,844 | INFO | Preparing Ablation_C_history_only preprocessing cache: 27 dates; feature count=1
+2026-11-06 12:21:57,780 | INFO | Prepared Ablation_C_history_only folds: 5/27
+2026-11-06 12:21:58,481 | INFO | Prepared Ablation_C_history_only folds: 10/27
+2026-11-06 12:21:59,470 | INFO | Prepared Ablation_C_history_only folds: 15/27
+2026-11-06 12:22:00,381 | INFO | Prepared Ablation_C_history_only folds: 20/27
+2026-11-06 12:22:01,364 | INFO | Prepared Ablation_C_history_only folds: 25/27
+2026-11-06 12:22:01,771 | INFO | Prepared Ablation_C_history_only: 27 folds; matrices cached on disk (model_output\S05_optimized_v2\_temporary_fold_cache)
+2026-11-06 12:22:01,955 | INFO | LogisticRegression Validation_Ablation: 10/27 rebalances
+2026-11-06 12:22:02,194 | INFO | LogisticRegression Validation_Ablation: 20/27 rebalances
+2026-11-06 12:22:40,214 | INFO | RandomForest Validation_Ablation: 10/27 rebalances
+2026-11-06 12:23:24,188 | INFO | RandomForest Validation_Ablation: 20/27 rebalances
+2026-11-06 12:24:19,707 | INFO | XGBoost Validation_Ablation: 10/27 rebalances
+2026-11-06 12:24:37,950 | INFO | XGBoost Validation_Ablation: 20/27 rebalances
+2026-11-06 12:27:06,805 | INFO | MLP Validation_Ablation: 10/27 rebalances
+2026-11-06 12:29:19,973 | INFO | MLP Validation_Ablation: 20/27 rebalances
+2026-11-06 12:37:10,983 | INFO | Removed temporary preprocessing cache
+2026-11-06 12:37:10,984 | INFO | Completed S05 cached v2. Outputs: model_output\S05_optimized_v2

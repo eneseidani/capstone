@@ -1,0 +1,61 @@
+2026-11-13 22:45:35,594 | INFO | 2022-01-03 | XGBoost selected 2/48 assets at probability >= 0.60
+2026-11-13 22:45:35,598 | INFO | 2022-03-30 | XGBoost selected 1/48 assets at probability >= 0.60
+2026-11-13 22:45:35,602 | INFO | 2022-06-27 | XGBoost selected 7/48 assets at probability >= 0.60
+2026-11-13 22:45:35,607 | INFO | 2022-09-21 | XGBoost selected 26/48 assets at probability >= 0.60
+2026-11-13 22:45:35,611 | INFO | 2022-12-15 | XGBoost selected 0/48 assets at probability >= 0.60
+2026-11-13 22:45:35,615 | INFO | 2023-03-15 | XGBoost selected 47/48 assets at probability >= 0.60
+2026-11-13 22:45:35,619 | INFO | 2023-06-09 | XGBoost selected 1/48 assets at probability >= 0.60
+2026-11-13 22:45:35,624 | INFO | 2023-09-06 | XGBoost selected 22/48 assets at probability >= 0.60
+2026-11-13 22:45:35,628 | INFO | 2023-11-30 | XGBoost selected 1/48 assets at probability >= 0.60
+2026-11-13 22:45:35,631 | INFO | 2024-02-28 | XGBoost selected 37/48 assets at probability >= 0.60
+2026-11-13 22:45:35,634 | INFO | 2024-05-23 | XGBoost selected 46/48 assets at probability >= 0.60
+2026-11-13 22:45:35,637 | INFO | 2024-08-20 | XGBoost selected 47/48 assets at probability >= 0.60
+2026-11-13 22:45:35,640 | INFO | 2024-11-13 | XGBoost selected 47/48 assets at probability >= 0.60
+2026-11-13 22:45:35,642 | INFO | 2025-02-12 | XGBoost selected 47/48 assets at probability >= 0.60
+2026-11-13 22:45:35,645 | INFO | 2025-05-09 | XGBoost selected 30/48 assets at probability >= 0.60
+2026-11-13 22:45:35,648 | INFO | 2025-08-06 | XGBoost selected 46/48 assets at probability >= 0.60
+2026-11-13 22:45:35,651 | INFO | 2025-10-30 | XGBoost selected 36/48 assets at probability >= 0.60
+2026-11-13 22:45:35,654 | INFO | 2026-01-28 | XGBoost selected 47/48 assets at probability >= 0.60
+2026-11-13 22:45:35,657 | INFO | 2026-04-24 | XGBoost selected 30/48 assets at probability >= 0.60
+2026-11-13 22:45:40,129 | INFO | 2022-01-03 | full universe eligible 48/48
+2026-11-13 22:45:41,522 | INFO | 2022-03-30 | full universe eligible 48/48
+2026-11-13 22:45:42,962 | INFO | 2022-06-27 | full universe eligible 48/48
+2026-11-13 22:45:44,447 | INFO | 2022-09-21 | full universe eligible 48/48
+2026-11-13 22:45:45,841 | INFO | 2022-12-15 | full universe eligible 48/48
+2026-11-13 22:45:47,234 | INFO | 2023-03-15 | full universe eligible 48/48
+2026-11-13 22:45:48,647 | INFO | 2023-06-09 | full universe eligible 48/48
+2026-11-13 22:45:50,039 | INFO | 2023-09-06 | full universe eligible 48/48
+2026-11-13 22:45:51,445 | INFO | 2023-11-30 | full universe eligible 48/48
+2026-11-13 22:45:52,883 | INFO | 2024-02-28 | full universe eligible 48/48
+2026-11-13 22:45:54,299 | INFO | 2024-05-23 | full universe eligible 48/48
+2026-11-13 22:45:55,658 | INFO | 2024-08-20 | full universe eligible 48/48
+2026-11-13 22:45:57,033 | INFO | 2024-11-13 | full universe eligible 48/48
+2026-11-13 22:45:58,445 | INFO | 2025-02-12 | full universe eligible 48/48
+2026-11-13 22:45:59,826 | INFO | 2025-05-09 | full universe eligible 48/48
+2026-11-13 22:46:01,265 | INFO | 2025-08-06 | full universe eligible 48/48
+2026-11-13 22:46:02,671 | INFO | 2025-10-30 | full universe eligible 48/48
+2026-11-13 22:46:04,128 | INFO | 2026-01-28 | full universe eligible 48/48
+2026-11-13 22:46:05,507 | INFO | 2026-04-24 | full universe eligible 48/48
+2026-11-13 22:46:05,698 | INFO | START | 04_RegimeAware_LedoitWolf | Peer_XGBoost
+2026-11-13 22:49:12,759 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=100.00% | utility=0.072368 | starts=12 converged=12
+2026-11-13 22:49:17,924 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.087062 | starts=12 converged=12
+2026-11-13 22:50:31,574 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.082908 | starts=12 converged=12
+2026-11-13 22:50:45,808 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.022144 | starts=12 converged=12
+2026-11-13 22:55:35,679 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.073883 | starts=12 converged=12
+2026-11-13 22:55:36,614 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15
+2026-11-13 23:02:38,287 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.146178 | starts=12 converged=12
+2026-11-13 23:06:11,689 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.083637 | starts=12 converged=12
+2026-11-13 23:11:27,904 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.065152 | starts=12 converged=12
+2026-11-13 23:11:29,077 | WARNING | 2024-11-13: trailing_252_observation_p90 spread fallback for CEW; age=9 ticker observations; spread used=0.00109058; reference date=2024-10-31
+2026-11-13 23:15:06,441 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.119539 | starts=12 converged=12
+2026-11-13 23:15:07,841 | WARNING | 2025-02-12: last_valid_historical spread fallback for CEW; age=5 ticker observations; spread used=0.00052654; reference date=2025-02-05
+2026-11-13 23:17:24,558 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.068748 | starts=12 converged=12
+2026-11-13 23:21:13,783 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.069879 | starts=12 converged=12
+2026-11-13 23:23:03,943 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.216320 | starts=12 converged=12
+2026-11-13 23:25:01,191 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.318317 | starts=12 converged=12
+2026-11-13 23:27:22,990 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.108946 | starts=12 converged=12
+2026-11-13 23:27:25,241 | INFO | Saved direct results to model_output\S06_regime_aware_xgboost_full_universe\04_RegimeAware_LedoitWolf\Peer_XGBoost; final NAV 214320.95
+2026-11-13 23:27:25,256 | INFO | END | 04_RegimeAware_LedoitWolf | Peer_XGBoost | return=+114.32% | Sharpe=0.757
+2026-11-13 23:27:25,256 | INFO | START | 04_RegimeAware_LedoitWolf | Full_Universe
+2026-11-13 23:33:14,809 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.065198 | starts=12 converged=12
+2026-11-13 23:37:24,083 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.079912 | starts=12 converged=12

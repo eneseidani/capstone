@@ -1,0 +1,8 @@
+Utility,Parameter,Value,Interpretation
+Mean_Variance,gamma,3.0,variance penalty coefficient
+Mean_Semivariance,lambda,3.0,downside semivariance penalty; target is zero active return versus cash
+Mean_CVaR,alpha,0.95,95% tail confidence level
+Mean_CVaR,lambda,1.0,CVaR downside-shortfall penalty
+CRRA,gamma,3.0,constant relative risk aversion
+Log_Kelly,none,,log utility; special CRRA case gamma=1
+CARA,a,3.0,absolute risk aversion per unit of decimal 60-session active return

@@ -1,0 +1,7 @@
+Signal_Date,Execution_Date,Ticker,Asset Class,Price,Spread_Used,ADV_Dollars,Spread_Original,Spread_Fallback,Spread_Fallback_Method,Spread_Fallback_Age_Trading_Days,Spread_Reference_Date,Spread_Fallback_Quantile,Spread_Fallback_History_Count,Spread_Fallback_History_Start,Spread_Fallback_History_End
+2022-06-27,2022-06-28,CEW,Foreign Exchange,16.700000762939453,0.0005748074774037,81784.20746818422,,True,last_valid_historical,3,2022-06-22,,0,,
+2022-09-21,2022-09-22,CEW,Foreign Exchange,16.18000030517578,0.0008003804103542,45644.11106715127,,True,trailing_252_observation_p90,17,2022-08-26,0.9,221,2021-09-21,2022-09-20
+2023-09-06,2023-09-07,CEW,Foreign Exchange,17.5,0.0015118162281196,86419.0465245928,,True,trailing_252_observation_p90,11,2023-08-21,0.9,141,2022-09-02,2023-09-05
+2024-02-28,2024-02-29,CEW,Foreign Exchange,17.700000762939453,0.00140324701826104,234604.9739171588,,True,trailing_252_observation_p90,8,2024-02-15,0.9,172,2023-02-27,2024-02-27
+2024-11-13,2024-11-14,CEW,Foreign Exchange,17.959999084472656,0.0010905781951198,56929.96754873367,,True,trailing_252_observation_p90,9,2024-10-31,0.9,148,2023-11-13,2024-11-12
+2025-02-12,2025-02-13,CEW,Foreign Exchange,17.479999542236328,0.0005265431161505,56727.90414719356,,True,last_valid_historical,5,2025-02-05,,0,,

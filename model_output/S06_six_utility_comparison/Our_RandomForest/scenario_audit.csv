@@ -1,0 +1,20 @@
+Strategy,Signal_Date,Candidate_Count,Scenario_Count,Scenario_Lookback_Sessions,Scenario_Horizon_Sessions,Bootstrap_Seed,Scenario_Method
+Our_RandomForest,2022-01-03,15,697,756,60,20220103,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2022-03-30,9,697,756,60,20220330,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2022-06-27,7,697,756,60,20220627,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2022-09-21,11,697,756,60,20220921,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2022-12-15,7,697,756,60,20221215,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2023-03-15,3,697,756,60,20230315,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2023-06-09,15,697,756,60,20230609,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2023-09-06,19,697,756,60,20230906,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2023-11-30,6,697,756,60,20231130,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2024-02-28,17,697,756,60,20240228,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2024-05-23,18,697,756,60,20240523,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2024-08-20,19,697,756,60,20240820,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2024-11-13,21,697,756,60,20241113,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2025-02-12,19,697,756,60,20250212,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2025-05-09,16,697,756,60,20250509,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2025-08-06,19,697,756,60,20250806,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2025-10-30,22,697,756,60,20251030,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2026-01-28,19,697,756,60,20260128,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration
+Our_RandomForest,2026-04-24,19,697,756,60,20260424,moving-block bootstrap: 697 overlapping 60-session blocks sampled with replacement; per-asset multiplicative gross-return drift calibration

@@ -1,0 +1,23 @@
+{
+  "status": "PASS_SOURCE_PRICE_CHECK",
+  "horizon_asset_observations": 60,
+  "s03_weekdays_only": true,
+  "price_column": "Adj Close",
+  "source_price_audit_passed": true,
+  "macro_publication_vintage_audited": false,
+  "regime_formation_point_in_time_audited": false,
+  "limitations": [
+    "This checks raw-price labels, not release-time availability of macro series or historical revisions.",
+    "Regime construction itself must be verified as causal in S04.",
+    "Features observed at the close of t require execution no earlier than the next tradable opportunity.",
+    "S03 excludes Saturdays and Sundays for all assets; asset-specific market holidays can still produce different elapsed calendar horizons."
+  ],
+  "price_rows_checked": 216197,
+  "tickers_checked": 48,
+  "label_mismatches": 0,
+  "error_types": {},
+  "first_date": "2008-01-02",
+  "last_date": "2026-07-20",
+  "combined_rows": 216197,
+  "numeric_features": 256
+}

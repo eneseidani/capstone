@@ -1,0 +1,117 @@
+2026-11-11 12:59:13,483 | INFO | 2022-01-03 | full-universe eligible 48 / 48
+2026-11-11 12:59:14,644 | INFO | 2022-03-30 | full-universe eligible 48 / 48
+2026-11-11 12:59:15,834 | INFO | 2022-06-27 | full-universe eligible 48 / 48
+2026-11-11 12:59:17,757 | INFO | 2022-09-21 | full-universe eligible 48 / 48
+2026-11-11 12:59:19,284 | INFO | 2022-12-15 | full-universe eligible 48 / 48
+2026-11-11 12:59:20,448 | INFO | 2023-03-15 | full-universe eligible 48 / 48
+2026-11-11 12:59:21,655 | INFO | 2023-06-09 | full-universe eligible 48 / 48
+2026-11-11 12:59:22,972 | INFO | 2023-09-06 | full-universe eligible 48 / 48
+2026-11-11 12:59:24,165 | INFO | 2023-11-30 | full-universe eligible 48 / 48
+2026-11-11 12:59:25,335 | INFO | 2024-02-28 | full-universe eligible 48 / 48
+2026-11-11 12:59:26,571 | INFO | 2024-05-23 | full-universe eligible 48 / 48
+2026-11-11 12:59:27,860 | INFO | 2024-08-20 | full-universe eligible 48 / 48
+2026-11-11 12:59:29,056 | INFO | 2024-11-13 | full-universe eligible 48 / 48
+2026-11-11 12:59:30,250 | INFO | 2025-02-12 | full-universe eligible 48 / 48
+2026-11-11 12:59:31,432 | INFO | 2025-05-09 | full-universe eligible 48 / 48
+2026-11-11 12:59:32,639 | INFO | 2025-08-06 | full-universe eligible 48 / 48
+2026-11-11 12:59:33,806 | INFO | 2025-10-30 | full-universe eligible 48 / 48
+2026-11-11 12:59:34,984 | INFO | 2026-01-28 | full-universe eligible 48 / 48
+2026-11-11 12:59:36,161 | INFO | 2026-04-24 | full-universe eligible 48 / 48
+2026-11-11 12:59:36,256 | WARNING | XGBoost hyperparameter metadata file not found; peer selections will still be evaluated without retraining
+2026-11-11 12:59:36,256 | INFO | START Our_RandomForest | direct utility gamma=3.0 starts=12
+2026-11-11 13:00:44,311 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.052564 | starts=12 converged=12
+2026-11-11 13:01:18,523 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.035818 | starts=12 converged=12
+2026-11-11 13:01:22,846 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=40.00% | utility=0.009873 | starts=12 converged=12
+2026-11-11 13:01:30,364 | INFO | 2022-09-21 | direct utility gamma=3.000 | risky=20.00% | utility=0.011900 | starts=12 converged=12
+2026-11-11 13:02:12,123 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=83.61% | utility=0.041837 | starts=12 converged=12
+2026-11-11 13:03:37,807 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=99.93% | utility=0.034267 | starts=12 converged=12
+2026-11-11 13:03:38,363 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-11 13:04:08,587 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=70.42% | utility=0.010079 | starts=12 converged=12
+2026-11-11 13:04:42,772 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.055506 | starts=12 converged=12
+2026-11-11 13:05:42,057 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.061503 | starts=12 converged=12
+2026-11-11 13:07:57,328 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.043765 | starts=12 converged=12
+2026-11-11 13:08:54,936 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.058618 | starts=12 converged=12
+2026-11-11 13:10:28,068 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.045856 | starts=12 converged=12
+2026-11-11 13:11:55,374 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.039446 | starts=12 converged=12
+2026-11-11 13:12:48,937 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.051921 | starts=12 converged=12
+2026-11-11 13:13:25,591 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.120187 | starts=12 converged=12
+2026-11-11 13:14:40,024 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.237288 | starts=12 converged=12
+2026-11-11 13:15:59,148 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.079361 | starts=12 converged=12
+2026-11-11 13:16:00,193 | INFO | Saved direct results to model_output\S06_four_universe_comparison\Our_RandomForest; final NAV 147838.75
+2026-11-11 13:16:00,204 | INFO | DONE Our_RandomForest | net return +47.84% | costs $3021.13
+2026-11-11 13:16:00,204 | INFO | START Peer_Logistic | direct utility gamma=3.0 starts=12
+2026-11-11 13:17:10,689 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.043666 | starts=12 converged=12
+2026-11-11 13:17:31,814 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=79.28% | utility=0.019843 | starts=12 converged=12
+2026-11-11 13:18:23,421 | INFO | 2022-12-15 | direct utility gamma=3.000 | risky=60.00% | utility=0.004771 | starts=12 converged=12
+2026-11-11 13:18:56,643 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=54.65% | utility=0.019351 | starts=12 converged=12
+2026-11-11 13:19:25,877 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.083045 | starts=12 converged=12
+2026-11-11 13:19:44,666 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.077598 | starts=12 converged=12
+2026-11-11 13:19:52,772 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=95.59% | utility=0.020619 | starts=12 converged=12
+2026-11-11 13:20:22,491 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.076918 | starts=12 converged=12
+2026-11-11 13:20:33,099 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.091957 | starts=12 converged=12
+2026-11-11 13:21:19,479 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.052377 | starts=12 converged=12
+2026-11-11 13:21:51,450 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.060940 | starts=12 converged=12
+2026-11-11 13:22:26,765 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.039287 | starts=12 converged=12
+2026-11-11 13:23:00,103 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.019910 | starts=12 converged=12
+2026-11-11 13:23:55,375 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.035233 | starts=12 converged=12
+2026-11-11 13:24:16,105 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.100424 | starts=12 converged=12
+2026-11-11 13:25:27,373 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.082836 | starts=12 converged=12
+2026-11-11 13:25:56,974 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.068394 | starts=12 converged=12
+2026-11-11 13:25:57,922 | INFO | Saved direct results to model_output\S06_four_universe_comparison\Peer_Logistic; final NAV 159677.19
+2026-11-11 13:25:57,930 | INFO | DONE Peer_Logistic | net return +59.68% | costs $2815.06
+2026-11-11 13:25:57,930 | INFO | START Peer_XGBoost | direct utility gamma=3.0 starts=12
+2026-11-11 13:26:04,047 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=40.00% | utility=0.010361 | starts=12 converged=12
+2026-11-11 13:26:08,902 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=38.77% | utility=0.013301 | starts=12 converged=12
+2026-11-11 13:26:23,392 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=20.00% | utility=0.003175 | starts=12 converged=12
+2026-11-11 13:27:17,384 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=91.07% | utility=0.042210 | starts=12 converged=12
+2026-11-11 13:27:24,044 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.048863 | starts=12 converged=12
+2026-11-11 13:28:03,720 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.076170 | starts=12 converged=12
+2026-11-11 13:28:19,529 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.022031 | starts=12 converged=12
+2026-11-11 13:29:50,098 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.077880 | starts=12 converged=12
+2026-11-11 13:30:28,465 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.093676 | starts=12 converged=12
+2026-11-11 13:31:22,710 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.052420 | starts=12 converged=12
+2026-11-11 13:31:59,828 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.061230 | starts=12 converged=12
+2026-11-11 13:32:49,752 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.045092 | starts=12 converged=12
+2026-11-11 13:33:25,676 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.048876 | starts=12 converged=12
+2026-11-11 13:34:17,153 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.049360 | starts=12 converged=12
+2026-11-11 13:34:57,500 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.092567 | starts=12 converged=12
+2026-11-11 13:35:47,484 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.065354 | starts=12 converged=12
+2026-11-11 13:36:23,115 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.046691 | starts=12 converged=12
+2026-11-11 13:36:24,062 | INFO | Saved direct results to model_output\S06_four_universe_comparison\Peer_XGBoost; final NAV 163573.07
+2026-11-11 13:36:24,070 | INFO | DONE Peer_XGBoost | net return +63.57% | costs $3466.83
+2026-11-11 13:36:24,070 | INFO | START Full_Universe | direct utility gamma=3.0 starts=12
+2026-11-11 13:41:18,871 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.070885 | starts=12 converged=12
+2026-11-11 13:45:52,458 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.082836 | starts=12 converged=12
+2026-11-11 13:53:09,955 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=93.91% | utility=0.063745 | starts=12 converged=12
+2026-11-11 13:53:10,881 | WARNING | 2022-06-27: last_valid_historical spread fallback for CEW; age=3 ticker observations; spread used=0.00057481; reference date=2022-06-22
+2026-11-11 13:54:06,298 | INFO | 2022-09-21 | direct utility gamma=3.000 | risky=20.00% | utility=0.011903 | starts=12 converged=12
+2026-11-11 13:54:07,225 | WARNING | 2022-09-21: trailing_252_observation_p90 spread fallback for CEW; age=17 ticker observations; spread used=0.00080038; reference date=2022-08-26
+2026-11-11 13:58:02,630 | INFO | 2022-12-15 | direct utility gamma=3.000 | risky=89.86% | utility=0.012958 | starts=12 converged=12
+2026-11-11 14:00:17,041 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=100.00% | utility=0.067621 | starts=12 converged=12
+2026-11-11 14:02:07,668 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.114143 | starts=12 converged=12
+2026-11-11 14:04:13,429 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.092448 | starts=12 converged=12
+2026-11-11 14:04:14,490 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-11 14:07:33,968 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.056343 | starts=12 converged=12
+2026-11-11 14:12:46,162 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.179054 | starts=12 converged=12
+2026-11-11 14:12:47,284 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15
+2026-11-11 14:19:20,083 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.147757 | starts=12 converged=12
+2026-11-11 14:22:57,240 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.085898 | starts=12 converged=12
+2026-11-11 14:28:52,428 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.070957 | starts=12 converged=12
+2026-11-11 14:28:53,557 | WARNING | 2024-11-13: trailing_252_observation_p90 spread fallback for CEW; age=9 ticker observations; spread used=0.00109058; reference date=2024-10-31
+2026-11-11 14:32:10,161 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.118584 | starts=12 converged=12
+2026-11-11 14:32:11,105 | WARNING | 2025-02-12: last_valid_historical spread fallback for CEW; age=5 ticker observations; spread used=0.00052654; reference date=2025-02-05
+2026-11-11 14:35:52,355 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.090130 | starts=12 converged=12
+2026-11-11 14:39:01,763 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.070515 | starts=12 converged=12
+2026-11-11 14:40:56,137 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.220145 | starts=12 converged=12
+2026-11-11 14:43:57,512 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.314175 | starts=12 converged=12
+2026-11-11 14:45:51,124 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.171941 | starts=12 converged=12
+2026-11-11 14:45:52,350 | INFO | Saved direct results to model_output\S06_four_universe_comparison\Full_Universe; final NAV 199708.85
+2026-11-11 14:45:52,359 | INFO | DONE Full_Universe | net return +99.71% | costs $5887.94
+2026-11-11 14:45:52,969 | INFO | COMPLETED four-way comparison, saved to model_output\S06_four_universe_comparison
+2026-11-11 14:45:52,972 | INFO | 
+        Strategy  Total_Return     CAGR  Annualized_Sharpe  Max_Drawdown  Transaction_Cost_USD  Average_Daily_Cash_Weight  Average_Eligible_Assets  Average_Risky_Positions  Rebalances
+Our_RandomForest      0.478388 0.085788           0.333203     -0.189385           3021.128010                   0.193679                14.789474                 5.157895          19
+   Peer_Logistic      0.596772 0.103540           0.431303     -0.217159           2815.063010                   0.156200                13.473684                 4.631579          19
+    Peer_XGBoost      0.635731 0.109154           0.515243     -0.198726           3466.833755                   0.208003                13.368421                 5.105263          19
+   Full_Universe      0.997089 0.156755           0.632507     -0.184470           5887.941868                   0.049240                48.000000                 5.947368          19
+SPY_Buy_And_Hold      0.729695 0.122274           0.520404     -0.247343              0.000000                   0.000000                      NaN                 1.000000           0

@@ -1,0 +1,18 @@
+{
+  "portfolio_total_return": 0.6997263418119963,
+  "spy_total_return": 0.7296951836101,
+  "portfolio_CAGR": 0.1181519954214878,
+  "spy_CAGR": 0.12227388759616198,
+  "portfolio_annualized_sharpe": 0.5630479827601389,
+  "spy_annualized_sharpe": 0.5204038417727639,
+  "portfolio_max_drawdown": -0.19989548438288074,
+  "spy_max_drawdown": -0.247342902776729,
+  "total_transaction_cost_USD": 3622.1105637871515,
+  "rebalance_count": 19,
+  "daily_return_count": 1197,
+  "spread_fallback_count": 0,
+  "spread_fallback_method_counts": {},
+  "optimization_status_counts": {},
+  "unverified_fallback_count": 0,
+  "feasible_seed_best_count": 0
+}

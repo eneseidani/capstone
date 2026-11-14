@@ -1,0 +1,16 @@
+{
+  "Algorithm": "XGBoost",
+  "Tuning_Specification": "With Regimes",
+  "Trial": 1,
+  "Validation_Dates": 24,
+  "Selection_Metric": "Mean within-date validation ROC AUC",
+  "Val_ROC_AUC_Mean": 0.7013946520711735,
+  "Val_AP_Mean": 0.7578556470048595,
+  "subsample": 1.0,
+  "reg_lambda": 20,
+  "n_estimators": 250,
+  "min_child_weight": 100,
+  "max_depth": 2,
+  "learning_rate": 0.05,
+  "colsample_bytree": 0.7
+}

@@ -1,0 +1,94 @@
+2026-11-06 15:31:50,790 | INFO | Loading audited S05 data and applying the existing correlation exclusions.
+2026-11-06 15:32:22,612 | INFO | Correlation filter: 85 candidates, 83 excluded now, 2 already excluded; 165 numerical inputs remain
+2026-11-06 15:32:24,478 | INFO | -----------------------------------------------------------------
+2026-11-06 15:32:24,478 | INFO | Validation: M0_Historical_Frequency using frozen S05 parameters.
+2026-11-06 15:32:25,084 | INFO | M0_Historical_Frequency: 5/27 rebalance dates
+2026-11-06 15:32:25,797 | INFO | M0_Historical_Frequency: 10/27 rebalance dates
+2026-11-06 15:32:27,251 | INFO | M0_Historical_Frequency: 15/27 rebalance dates
+2026-11-06 15:32:28,090 | INFO | M0_Historical_Frequency: 20/27 rebalance dates
+2026-11-06 15:32:28,928 | INFO | M0_Historical_Frequency: 25/27 rebalance dates
+2026-11-06 15:32:29,325 | INFO | M0_Historical_Frequency: 27/27 rebalance dates
+2026-11-06 15:32:29,329 | INFO | Test: M0_Historical_Frequency using same frozen parameters.
+2026-11-06 15:32:30,286 | INFO | M0_Historical_Frequency: 5/20 rebalance dates
+2026-11-06 15:32:31,317 | INFO | M0_Historical_Frequency: 10/20 rebalance dates
+2026-11-06 15:32:32,405 | INFO | M0_Historical_Frequency: 15/20 rebalance dates
+2026-11-06 15:32:33,550 | INFO | M0_Historical_Frequency: 20/20 rebalance dates
+2026-11-06 15:32:33,684 | INFO | -----------------------------------------------------------------
+2026-11-06 15:32:33,684 | INFO | Validation: M1_RandomForest_All using frozen S05 parameters.
+2026-11-06 15:40:52,777 | INFO | M1_RandomForest_All: 5/27 rebalance dates
+2026-11-06 15:51:01,528 | INFO | M1_RandomForest_All: 10/27 rebalance dates
+2026-11-06 16:02:47,427 | INFO | M1_RandomForest_All: 15/27 rebalance dates
+2026-11-06 16:16:12,536 | INFO | M1_RandomForest_All: 20/27 rebalance dates
+2026-11-06 16:31:02,112 | INFO | M1_RandomForest_All: 25/27 rebalance dates
+2026-11-06 16:37:35,760 | INFO | M1_RandomForest_All: 27/27 rebalance dates
+2026-11-06 16:37:35,767 | INFO | Test: M1_RandomForest_All using same frozen parameters.
+2026-11-06 16:55:25,940 | INFO | M1_RandomForest_All: 5/20 rebalance dates
+2026-11-06 17:15:01,502 | INFO | M1_RandomForest_All: 10/20 rebalance dates
+2026-11-06 17:35:22,287 | INFO | M1_RandomForest_All: 15/20 rebalance dates
+2026-11-06 17:57:32,728 | INFO | M1_RandomForest_All: 20/20 rebalance dates
+2026-11-06 17:57:32,767 | INFO | -----------------------------------------------------------------
+2026-11-06 17:57:32,767 | INFO | Validation: M2_XGBoost_All using frozen S05 parameters.
+2026-11-06 17:59:34,070 | INFO | M2_XGBoost_All: 5/27 rebalance dates
+2026-11-06 18:01:37,839 | INFO | M2_XGBoost_All: 10/27 rebalance dates
+2026-11-06 18:03:53,900 | INFO | M2_XGBoost_All: 15/27 rebalance dates
+2026-11-06 18:06:20,581 | INFO | M2_XGBoost_All: 20/27 rebalance dates
+2026-11-06 18:08:58,147 | INFO | M2_XGBoost_All: 25/27 rebalance dates
+2026-11-06 18:10:03,550 | INFO | M2_XGBoost_All: 27/27 rebalance dates
+2026-11-06 18:10:03,554 | INFO | Test: M2_XGBoost_All using same frozen parameters.
+2026-11-06 18:13:15,998 | INFO | M2_XGBoost_All: 5/20 rebalance dates
+2026-11-06 18:17:12,414 | INFO | M2_XGBoost_All: 10/20 rebalance dates
+2026-11-06 18:21:26,291 | INFO | M2_XGBoost_All: 15/20 rebalance dates
+2026-11-06 18:25:45,593 | INFO | M2_XGBoost_All: 20/20 rebalance dates
+2026-11-06 18:25:45,661 | INFO | -----------------------------------------------------------------
+2026-11-06 18:25:45,662 | INFO | Validation: M3_XGBoost_Without_History using frozen S05 parameters.
+2026-11-06 18:28:18,006 | INFO | M3_XGBoost_Without_History: 5/27 rebalance dates
+2026-11-06 18:31:03,395 | INFO | M3_XGBoost_Without_History: 10/27 rebalance dates
+2026-11-06 18:34:05,646 | INFO | M3_XGBoost_Without_History: 15/27 rebalance dates
+2026-11-06 18:36:40,478 | INFO | M3_XGBoost_Without_History: 20/27 rebalance dates
+2026-11-06 18:39:15,615 | INFO | M3_XGBoost_Without_History: 25/27 rebalance dates
+2026-11-06 18:40:17,086 | INFO | M3_XGBoost_Without_History: 27/27 rebalance dates
+2026-11-06 18:40:17,090 | INFO | Test: M3_XGBoost_Without_History using same frozen parameters.
+2026-11-06 18:43:05,630 | INFO | M3_XGBoost_Without_History: 5/20 rebalance dates
+2026-11-06 18:46:02,265 | INFO | M3_XGBoost_Without_History: 10/20 rebalance dates
+2026-11-06 18:49:04,879 | INFO | M3_XGBoost_Without_History: 15/20 rebalance dates
+2026-11-06 18:52:16,856 | INFO | M3_XGBoost_Without_History: 20/20 rebalance dates
+2026-11-06 18:52:16,919 | INFO | -----------------------------------------------------------------
+2026-11-06 18:52:16,920 | INFO | Validation: F1_XGBoost_History_And_Identity using frozen S05 parameters.
+2026-11-06 18:52:33,250 | INFO | F1_XGBoost_History_And_Identity: 5/27 rebalance dates
+2026-11-06 18:52:49,572 | INFO | F1_XGBoost_History_And_Identity: 10/27 rebalance dates
+2026-11-06 18:53:07,748 | INFO | F1_XGBoost_History_And_Identity: 15/27 rebalance dates
+2026-11-06 18:53:27,678 | INFO | F1_XGBoost_History_And_Identity: 20/27 rebalance dates
+2026-11-06 18:53:49,152 | INFO | F1_XGBoost_History_And_Identity: 25/27 rebalance dates
+2026-11-06 18:53:58,367 | INFO | F1_XGBoost_History_And_Identity: 27/27 rebalance dates
+2026-11-06 18:53:58,370 | INFO | Test: F1_XGBoost_History_And_Identity using same frozen parameters.
+2026-11-06 18:54:22,853 | INFO | F1_XGBoost_History_And_Identity: 5/20 rebalance dates
+2026-11-06 18:54:48,609 | INFO | F1_XGBoost_History_And_Identity: 10/20 rebalance dates
+2026-11-06 18:55:16,558 | INFO | F1_XGBoost_History_And_Identity: 15/20 rebalance dates
+2026-11-06 18:55:45,819 | INFO | F1_XGBoost_History_And_Identity: 20/20 rebalance dates
+2026-11-06 18:55:45,892 | INFO | -----------------------------------------------------------------
+2026-11-06 18:55:45,892 | INFO | Validation: F2_XGBoost_History_And_Technical using frozen S05 parameters.
+2026-11-06 18:56:07,096 | INFO | F2_XGBoost_History_And_Technical: 5/27 rebalance dates
+2026-11-06 18:56:29,368 | INFO | F2_XGBoost_History_And_Technical: 10/27 rebalance dates
+2026-11-06 18:56:53,756 | INFO | F2_XGBoost_History_And_Technical: 15/27 rebalance dates
+2026-11-06 18:57:20,407 | INFO | F2_XGBoost_History_And_Technical: 20/27 rebalance dates
+2026-11-06 18:57:49,435 | INFO | F2_XGBoost_History_And_Technical: 25/27 rebalance dates
+2026-11-06 18:58:01,632 | INFO | F2_XGBoost_History_And_Technical: 27/27 rebalance dates
+2026-11-06 18:58:01,637 | INFO | Test: F2_XGBoost_History_And_Technical using same frozen parameters.
+2026-11-06 18:58:32,967 | INFO | F2_XGBoost_History_And_Technical: 5/20 rebalance dates
+2026-11-06 18:59:06,520 | INFO | F2_XGBoost_History_And_Technical: 10/20 rebalance dates
+2026-11-06 18:59:42,087 | INFO | F2_XGBoost_History_And_Technical: 15/20 rebalance dates
+2026-11-06 19:00:19,692 | INFO | F2_XGBoost_History_And_Technical: 20/20 rebalance dates
+2026-11-06 19:00:19,778 | INFO | -----------------------------------------------------------------
+2026-11-06 19:00:19,778 | INFO | Validation: F3_XGBoost_History_And_Macro_Regime using frozen S05 parameters.
+2026-11-06 19:01:44,689 | INFO | F3_XGBoost_History_And_Macro_Regime: 5/27 rebalance dates
+2026-11-06 19:03:19,389 | INFO | F3_XGBoost_History_And_Macro_Regime: 10/27 rebalance dates
+2026-11-06 19:04:57,719 | INFO | F3_XGBoost_History_And_Macro_Regime: 15/27 rebalance dates
+2026-11-06 19:06:44,671 | INFO | F3_XGBoost_History_And_Macro_Regime: 20/27 rebalance dates
+2026-11-06 19:08:39,807 | INFO | F3_XGBoost_History_And_Macro_Regime: 25/27 rebalance dates
+2026-11-06 19:09:27,827 | INFO | F3_XGBoost_History_And_Macro_Regime: 27/27 rebalance dates
+2026-11-06 19:09:27,832 | INFO | Test: F3_XGBoost_History_And_Macro_Regime using same frozen parameters.
+2026-11-06 19:11:30,997 | INFO | F3_XGBoost_History_And_Macro_Regime: 5/20 rebalance dates
+2026-11-06 19:13:43,946 | INFO | F3_XGBoost_History_And_Macro_Regime: 10/20 rebalance dates
+2026-11-06 19:16:03,250 | INFO | F3_XGBoost_History_And_Macro_Regime: 15/20 rebalance dates
+2026-11-06 19:18:30,028 | INFO | F3_XGBoost_History_And_Macro_Regime: 20/20 rebalance dates
+2026-11-06 19:18:31,823 | INFO | S06 complete. Results: model_output\S06_feature_test

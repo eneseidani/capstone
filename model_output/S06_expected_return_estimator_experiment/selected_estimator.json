@@ -1,0 +1,9 @@
+{
+  "two_stage": {
+    "estimator": "mean_120",
+    "criterion": "maximum validation net DGS3MO-excess Sharpe",
+    "validation_net_sharpe": 0.7165268902855562,
+    "validation_net_CAGR": 0.06932178199699313,
+    "warning": "Test is evaluation only. S05 itself may have used overlapping validation data."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "experiment": "S06 controlled feature contribution test",
+  "hyperparameter_optimization": "None; frozen S05 selected parameters reused",
+  "parameters_source": "model_output\\S05_optimized_v2\\selected_hyperparameters.json",
+  "models": [
+    "HistoricalFrequency",
+    "RandomForest",
+    "XGBoost"
+  ],
+  "validation_dates": 27,
+  "test_dates": 20,
+  "rebalance_step_sessions": 60,
+  "forward_target_horizon_observations": 60,
+  "top_k_metric": 15,
+  "feature_groups": "See S06_feature_group_manifest.json",
+  "point_in_time_label_maturity": "S05 eligible_history used at every rebalance",
+  "test_caveat": "The 2022+ period has already been inspected in S05. S06 test results are exploratory comparisons, not a pristine untouched holdout.",
+  "important_grouping_caveat": "Technical versus macro numeric classification uses explicit macro-series prefixes. Inspect the feature-group manifest before interpreting results."
+}

@@ -1,0 +1,5 @@
+Model,Historical_Frequency_Importance_Share,Top_Feature,Positive_Importance_Total,Validation_Date
+LogisticRegression,0.0,Ticker,0.2990925589836656,2021-10-01
+MLP,0.09040928527794741,Volatility_252d,0.5941923774954638,2021-10-01
+RandomForest,0.6406779661016957,Ticker_Historical_Positive_Rate_60d,0.4283121597096183,2021-10-01
+XGBoost,0.15951595159515924,Ticker,0.3299455535390207,2021-10-01

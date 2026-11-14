@@ -1,0 +1,73 @@
+{
+  "script": "S06_regime_aware_xgboost_only_no_min3.py",
+  "allocation_module": "S06_portfolio_allocation_no_min3.py",
+  "methods": [
+    "04_RegimeAware_LedoitWolf"
+  ],
+  "strategies_run": [
+    "Peer_XGBoost"
+  ],
+  "strategies_reused": [
+    "Full_Universe",
+    "SPY_Buy_And_Hold"
+  ],
+  "full_universe_source": "model_output\\S06_blacklitterman_robust_regime_comparison\\04_RegimeAware_LedoitWolf\\Full_Universe\\daily_nav.csv",
+  "performance_summary_source": "model_output\\S06_blacklitterman_robust_regime_comparison\\allocation_methods_performance_summary.csv",
+  "architecture": "Direct asset-weight optimization (no Sharpe stage)",
+  "benchmark": "Previously stored SPY buy-and-hold NAV; not rerun as a strategy",
+  "gamma": 3.0,
+  "lookback_momentum": 120,
+  "covariance_lookback": 252,
+  "horizon": 60,
+  "mean_estimation": "Raw 120-session momentum converted to 60-session expected return",
+  "covariance_estimation": "Regime-conditioned Ledoit-Wolf covariance blended with unconditional 252-session Ledoit-Wolf covariance",
+  "regime_definition": "21-session SPY realized volatility > trailing 252-session median of 21-session SPY realized volatility, using past-only threshold",
+  "regime_lookback": 756,
+  "regime_vol_window": 21,
+  "regime_threshold_window": 252,
+  "regime_min_days": 90,
+  "regime_condition_weight": 0.5,
+  "xgboost_input": "portfolio_signals_all_candidates.csv",
+  "xgboost_selection_rule": "Probability >= 0.60",
+  "xgboost_ticker_date_rows": 912,
+  "xgboost_rebalance_dates": 19,
+  "xgboost_selected_observations": 520,
+  "minimum_eligible_asset_restriction": "Removed; 1- and 2-asset candidate sets may be optimized",
+  "rebalance_dates": [
+    "2022-01-03",
+    "2022-03-30",
+    "2022-06-27",
+    "2022-09-21",
+    "2022-12-15",
+    "2023-03-15",
+    "2023-06-09",
+    "2023-09-06",
+    "2023-11-30",
+    "2024-02-28",
+    "2024-05-23",
+    "2024-08-20",
+    "2024-11-13",
+    "2025-02-12",
+    "2025-05-09",
+    "2025-08-06",
+    "2025-10-30",
+    "2026-01-28",
+    "2026-04-24"
+  ],
+  "lookahead": "Point-in-time historical returns and signal-date market state only",
+  "runs_performed": [
+    "Regime-Aware Ledoit-Wolf / Peer XGBoost"
+  ],
+  "reused_without_rerun": [
+    "Regime-Aware Ledoit-Wolf / Full Universe NAV and cash weights",
+    "SPY buy-and-hold NAV",
+    "Full Universe and SPY performance metrics"
+  ],
+  "not_run": [
+    "Full Universe allocation",
+    "Random Forest",
+    "Mean-Variance Ledoit-Wolf",
+    "Black-Litterman Ledoit-Wolf",
+    "Robust Ledoit-Wolf"
+  ]
+}

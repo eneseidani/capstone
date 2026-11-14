@@ -1,0 +1,315 @@
+2026-11-12 10:32:48,782 | INFO | 2022-01-03 | full universe eligible 48/48
+2026-11-12 10:32:49,980 | INFO | 2022-03-30 | full universe eligible 48/48
+2026-11-12 10:32:51,231 | INFO | 2022-06-27 | full universe eligible 48/48
+2026-11-12 10:32:52,451 | INFO | 2022-09-21 | full universe eligible 48/48
+2026-11-12 10:32:53,636 | INFO | 2022-12-15 | full universe eligible 48/48
+2026-11-12 10:32:54,818 | INFO | 2023-03-15 | full universe eligible 48/48
+2026-11-12 10:32:56,117 | INFO | 2023-06-09 | full universe eligible 48/48
+2026-11-12 10:32:57,243 | INFO | 2023-09-06 | full universe eligible 48/48
+2026-11-12 10:32:58,397 | INFO | 2023-11-30 | full universe eligible 48/48
+2026-11-12 10:32:59,528 | INFO | 2024-02-28 | full universe eligible 48/48
+2026-11-12 10:33:00,658 | INFO | 2024-05-23 | full universe eligible 48/48
+2026-11-12 10:33:01,795 | INFO | 2024-08-20 | full universe eligible 48/48
+2026-11-12 10:33:02,944 | INFO | 2024-11-13 | full universe eligible 48/48
+2026-11-12 10:33:04,064 | INFO | 2025-02-12 | full universe eligible 48/48
+2026-11-12 10:33:05,183 | INFO | 2025-05-09 | full universe eligible 48/48
+2026-11-12 10:33:06,283 | INFO | 2025-08-06 | full universe eligible 48/48
+2026-11-12 10:33:07,406 | INFO | 2025-10-30 | full universe eligible 48/48
+2026-11-12 10:33:08,555 | INFO | 2026-01-28 | full universe eligible 48/48
+2026-11-12 10:33:09,662 | INFO | 2026-04-24 | full universe eligible 48/48
+2026-11-12 10:33:09,835 | INFO | START | 01_MeanVariance_LedoitWolf | Our_RandomForest
+2026-11-12 10:34:29,741 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.052705 | starts=12 converged=12
+2026-11-12 10:34:57,797 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.035823 | starts=12 converged=12
+2026-11-12 10:35:01,675 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=40.00% | utility=0.009850 | starts=12 converged=12
+2026-11-12 10:35:08,551 | INFO | 2022-09-21 | direct utility gamma=3.000 | risky=20.00% | utility=0.011888 | starts=12 converged=12
+2026-11-12 10:35:42,103 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=83.68% | utility=0.042120 | starts=12 converged=12
+2026-11-12 10:36:55,668 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.034498 | starts=12 converged=12
+2026-11-12 10:36:56,053 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-12 10:37:21,102 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=70.87% | utility=0.010111 | starts=12 converged=12
+2026-11-12 10:37:47,299 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.055646 | starts=12 converged=12
+2026-11-12 10:38:31,301 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.061630 | starts=12 converged=12
+2026-11-12 10:40:08,250 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.043946 | starts=12 converged=12
+2026-11-12 10:40:51,247 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.058709 | starts=12 converged=12
+2026-11-12 10:41:58,465 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.046001 | starts=12 converged=12
+2026-11-12 10:43:05,333 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.039774 | starts=12 converged=12
+2026-11-12 10:43:44,520 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.052536 | starts=12 converged=12
+2026-11-12 10:44:12,828 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.121032 | starts=12 converged=12
+2026-11-12 10:45:06,533 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.237941 | starts=12 converged=12
+2026-11-12 10:46:04,623 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.080158 | starts=12 converged=12
+2026-11-12 10:46:06,390 | INFO | Saved direct results to model_output\S06_blacklitterman_robust_regime_comparison\01_MeanVariance_LedoitWolf\Our_RandomForest; final NAV 148103.55
+2026-11-12 10:46:06,402 | INFO | END | 01_MeanVariance_LedoitWolf | Our_RandomForest | return=+48.10% | sharpe=0.335
+2026-11-12 10:46:06,402 | INFO | START | 01_MeanVariance_LedoitWolf | Peer_XGBoost
+2026-11-12 10:46:21,947 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=40.00% | utility=0.010368 | starts=12 converged=12
+2026-11-12 10:46:27,334 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=38.77% | utility=0.013310 | starts=12 converged=12
+2026-11-12 10:46:41,175 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=20.00% | utility=0.003172 | starts=12 converged=12
+2026-11-12 10:47:38,079 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=91.83% | utility=0.042381 | starts=12 converged=12
+2026-11-12 10:47:44,956 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.049155 | starts=12 converged=12
+2026-11-12 10:48:26,751 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.076578 | starts=12 converged=12
+2026-11-12 10:48:43,530 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.022146 | starts=12 converged=12
+2026-11-12 10:50:22,994 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.078009 | starts=12 converged=12
+2026-11-12 10:51:04,256 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.093764 | starts=12 converged=12
+2026-11-12 10:52:00,896 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.052525 | starts=12 converged=12
+2026-11-12 10:52:42,457 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.061320 | starts=12 converged=12
+2026-11-12 10:53:33,552 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.045208 | starts=12 converged=12
+2026-11-12 10:54:11,887 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.049614 | starts=12 converged=12
+2026-11-12 10:55:05,433 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.049842 | starts=12 converged=12
+2026-11-12 10:55:46,173 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.093591 | starts=12 converged=12
+2026-11-12 10:56:32,715 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.066003 | starts=12 converged=12
+2026-11-12 10:57:09,175 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.046586 | starts=12 converged=12
+2026-11-12 10:57:09,813 | INFO | Saved direct results to model_output\S06_blacklitterman_robust_regime_comparison\01_MeanVariance_LedoitWolf\Peer_XGBoost; final NAV 163596.28
+2026-11-12 10:57:09,824 | INFO | END | 01_MeanVariance_LedoitWolf | Peer_XGBoost | return=+63.60% | sharpe=0.515
+2026-11-12 10:57:09,824 | INFO | START | 01_MeanVariance_LedoitWolf | Full_Universe
+2026-11-12 11:01:54,890 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.071369 | starts=12 converged=12
+2026-11-12 11:06:51,059 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.082910 | starts=12 converged=12
+2026-11-12 11:12:40,138 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=93.54% | utility=0.063852 | starts=12 converged=12
+2026-11-12 11:12:41,091 | WARNING | 2022-06-27: last_valid_historical spread fallback for CEW; age=3 ticker observations; spread used=0.00057481; reference date=2022-06-22
+2026-11-12 11:13:34,127 | INFO | 2022-09-21 | direct utility gamma=3.000 | risky=20.00% | utility=0.011881 | starts=12 converged=12
+2026-11-12 11:13:35,023 | WARNING | 2022-09-21: trailing_252_observation_p90 spread fallback for CEW; age=17 ticker observations; spread used=0.00080038; reference date=2022-08-26
+2026-11-12 11:17:46,087 | INFO | 2022-12-15 | direct utility gamma=3.000 | risky=90.48% | utility=0.012978 | starts=12 converged=12
+2026-11-12 11:19:56,144 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=100.00% | utility=0.068123 | starts=12 converged=12
+2026-11-12 11:21:46,378 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.114912 | starts=12 converged=12
+2026-11-12 11:23:39,537 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.092908 | starts=12 converged=12
+2026-11-12 11:23:40,455 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-12 11:26:25,962 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.056564 | starts=12 converged=12
+2026-11-12 11:30:44,615 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.179345 | starts=12 converged=12
+2026-11-12 11:30:45,706 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15
+2026-11-12 11:35:58,217 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.147964 | starts=12 converged=12
+2026-11-12 11:39:02,011 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.086285 | starts=12 converged=12
+2026-11-12 11:44:02,555 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.071559 | starts=12 converged=12
+2026-11-12 11:44:03,488 | WARNING | 2024-11-13: trailing_252_observation_p90 spread fallback for CEW; age=9 ticker observations; spread used=0.00109058; reference date=2024-10-31
+2026-11-12 11:47:00,201 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.119005 | starts=12 converged=12
+2026-11-12 11:47:01,155 | WARNING | 2025-02-12: last_valid_historical spread fallback for CEW; age=5 ticker observations; spread used=0.00052654; reference date=2025-02-05
+2026-11-12 11:50:47,055 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.090501 | starts=12 converged=12
+2026-11-12 11:55:08,844 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.070938 | starts=12 converged=12
+2026-11-12 11:56:59,882 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.221527 | starts=12 converged=12
+2026-11-12 11:59:58,269 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.315210 | starts=12 converged=12
+2026-11-12 12:02:06,014 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.172388 | starts=12 converged=12
+2026-11-12 12:02:07,820 | INFO | Saved direct results to model_output\S06_blacklitterman_robust_regime_comparison\01_MeanVariance_LedoitWolf\Full_Universe; final NAV 200462.49
+2026-11-12 12:02:07,836 | INFO | END | 01_MeanVariance_LedoitWolf | Full_Universe | return=+100.46% | sharpe=0.636
+2026-11-12 12:02:07,836 | INFO | START | 02_BlackLitterman_LedoitWolf | Our_RandomForest
+2026-11-12 12:03:24,594 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.036460 | starts=12 converged=12
+2026-11-12 12:04:13,555 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.014861 | starts=12 converged=12
+2026-11-12 12:04:18,880 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=40.00% | utility=0.005222 | starts=12 converged=12
+2026-11-12 12:04:28,314 | INFO | 2022-09-21 | direct utility gamma=3.000 | risky=20.00% | utility=0.007363 | starts=12 converged=12
+2026-11-12 12:04:34,373 | INFO | 2022-12-15 | direct utility gamma=3.000 | risky=20.00% | utility=0.001242 | starts=12 converged=12
+2026-11-12 12:05:06,150 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=80.00% | utility=0.021676 | starts=12 converged=12
+2026-11-12 12:06:35,870 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=82.49% | utility=0.015974 | starts=12 converged=12
+2026-11-12 12:06:53,512 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=72.76% | utility=0.007053 | starts=12 converged=12
+2026-11-12 12:07:36,987 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.040528 | starts=12 converged=12
+2026-11-12 12:08:46,451 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.048228 | starts=12 converged=12
+2026-11-12 12:11:08,219 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.030911 | starts=12 converged=12
+2026-11-12 12:12:23,441 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.037144 | starts=12 converged=12
+2026-11-12 12:13:13,956 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.032103 | starts=12 converged=12
+2026-11-12 12:14:13,564 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.021182 | starts=12 converged=12
+2026-11-12 12:15:16,890 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.036051 | starts=12 converged=12
+2026-11-12 12:16:14,033 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.084617 | starts=12 converged=12
+2026-11-12 12:16:57,651 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.154871 | starts=12 converged=12
+2026-11-12 12:18:30,279 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.053089 | starts=12 converged=12
+2026-11-12 12:18:31,026 | INFO | Saved direct results to model_output\S06_blacklitterman_robust_regime_comparison\02_BlackLitterman_LedoitWolf\Our_RandomForest; final NAV 143907.05
+2026-11-12 12:18:31,037 | INFO | END | 02_BlackLitterman_LedoitWolf | Our_RandomForest | return=+43.91% | sharpe=0.294
+2026-11-12 12:18:31,037 | INFO | START | 02_BlackLitterman_LedoitWolf | Peer_XGBoost
+2026-11-12 12:18:47,444 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=40.00% | utility=0.004904 | starts=12 converged=12
+2026-11-12 12:18:50,167 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=20.00% | utility=0.006183 | starts=12 converged=12
+2026-11-12 12:19:03,839 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=20.00% | utility=0.001133 | starts=12 converged=12
+2026-11-12 12:20:11,142 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=85.20% | utility=0.016685 | starts=12 converged=12
+2026-11-12 12:20:19,050 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.020833 | starts=12 converged=12
+2026-11-12 12:21:07,195 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.056184 | starts=12 converged=12
+2026-11-12 12:21:24,198 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.020281 | starts=12 converged=12
+2026-11-12 12:22:12,767 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.063762 | starts=12 converged=12
+2026-11-12 12:22:48,789 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.075498 | starts=12 converged=12
+2026-11-12 12:25:08,481 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.036870 | starts=12 converged=12
+2026-11-12 12:26:19,503 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.049157 | starts=12 converged=12
+2026-11-12 12:27:47,834 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.023401 | starts=12 converged=12
+2026-11-12 12:28:58,951 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.023643 | starts=12 converged=12
+2026-11-12 12:30:43,395 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.038389 | starts=12 converged=12
+2026-11-12 12:31:42,909 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.077255 | starts=12 converged=12
+2026-11-12 12:33:23,317 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.042783 | starts=12 converged=12
+2026-11-12 12:34:39,323 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.031811 | starts=12 converged=12
+2026-11-12 12:34:40,390 | INFO | Saved direct results to model_output\S06_blacklitterman_robust_regime_comparison\02_BlackLitterman_LedoitWolf\Peer_XGBoost; final NAV 168206.45
+2026-11-12 12:34:40,401 | INFO | END | 02_BlackLitterman_LedoitWolf | Peer_XGBoost | return=+68.21% | sharpe=0.538
+2026-11-12 12:34:40,401 | INFO | START | 02_BlackLitterman_LedoitWolf | Full_Universe
+2026-11-12 12:45:06,373 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.034593 | starts=12 converged=11
+2026-11-12 12:49:02,209 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.061598 | starts=12 converged=12
+2026-11-12 12:50:23,661 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=80.00% | utility=0.065614 | starts=12 converged=12
+2026-11-12 12:50:24,572 | WARNING | 2022-06-27: last_valid_historical spread fallback for CEW; age=3 ticker observations; spread used=0.00057481; reference date=2022-06-22
+2026-11-12 12:51:10,932 | INFO | 2022-09-21 | direct utility gamma=3.000 | risky=40.00% | utility=0.040820 | starts=12 converged=12
+2026-11-12 12:51:11,840 | WARNING | 2022-09-21: trailing_252_observation_p90 spread fallback for CEW; age=17 ticker observations; spread used=0.00080038; reference date=2022-08-26
+2026-11-12 12:57:08,259 | INFO | 2022-12-15 | direct utility gamma=3.000 | risky=39.90% | utility=0.001879 | starts=12 converged=12
+2026-11-12 13:05:24,180 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=100.00% | utility=0.020797 | starts=12 converged=12
+2026-11-12 13:09:39,547 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.060059 | starts=12 converged=12
+2026-11-12 13:12:54,154 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.056760 | starts=12 converged=12
+2026-11-12 13:12:55,107 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-12 13:19:48,429 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.025645 | starts=12 converged=12
+2026-11-12 13:23:25,101 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.104193 | starts=12 converged=12
+2026-11-12 13:23:26,039 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15
+2026-11-12 13:27:42,462 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.092547 | starts=12 converged=12
+2026-11-12 13:33:07,461 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.054132 | starts=12 converged=12
+2026-11-12 13:39:49,993 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.046619 | starts=12 converged=11
+2026-11-12 13:39:50,919 | WARNING | 2024-11-13: trailing_252_observation_p90 spread fallback for CEW; age=9 ticker observations; spread used=0.00109058; reference date=2024-10-31
+2026-11-12 13:46:04,378 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.057856 | starts=12 converged=12
+2026-11-12 13:46:05,305 | WARNING | 2025-02-12: last_valid_historical spread fallback for CEW; age=5 ticker observations; spread used=0.00052654; reference date=2025-02-05
+2026-11-12 13:50:48,301 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.052179 | starts=12 converged=12
+2026-11-12 13:55:54,725 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.045866 | starts=12 converged=12
+2026-11-12 13:58:49,291 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.146678 | starts=12 converged=12
+2026-11-12 14:01:23,918 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.194081 | starts=12 converged=12
+2026-11-12 14:03:43,626 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.092393 | starts=12 converged=12
+2026-11-12 14:03:45,181 | INFO | Saved direct results to model_output\S06_blacklitterman_robust_regime_comparison\02_BlackLitterman_LedoitWolf\Full_Universe; final NAV 166530.64
+2026-11-12 14:03:45,194 | INFO | END | 02_BlackLitterman_LedoitWolf | Full_Universe | return=+66.53% | sharpe=0.431
+2026-11-12 14:03:45,194 | INFO | START | 03_Robust_LedoitWolf | Our_RandomForest
+2026-11-12 14:04:53,170 | INFO | 2022-01-03 | direct ROBUST | risky=100.00% | utility=0.045445 | converged=12/12
+2026-11-12 14:05:19,445 | INFO | 2022-03-30 | direct ROBUST | risky=100.00% | utility=0.033636 | converged=12/12
+2026-11-12 14:05:25,597 | INFO | 2022-06-27 | direct ROBUST | risky=40.00% | utility=0.006853 | converged=12/12
+2026-11-12 14:05:32,194 | INFO | 2022-09-21 | direct ROBUST | risky=20.00% | utility=0.010973 | converged=12/12
+2026-11-12 14:06:07,178 | INFO | 2023-06-09 | direct ROBUST | risky=83.60% | utility=0.034903 | converged=12/12
+2026-11-12 14:06:57,322 | INFO | 2023-09-06 | direct ROBUST | risky=88.56% | utility=0.027603 | converged=12/12
+2026-11-12 14:06:57,696 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-12 14:07:28,120 | INFO | 2023-11-30 | direct ROBUST | risky=57.60% | utility=0.004611 | converged=12/12
+2026-11-12 14:08:09,638 | INFO | 2024-02-28 | direct ROBUST | risky=100.00% | utility=0.047797 | converged=12/12
+2026-11-12 14:08:09,995 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15
+2026-11-12 14:09:08,947 | INFO | 2024-05-23 | direct ROBUST | risky=100.00% | utility=0.053929 | converged=12/12
+2026-11-12 14:10:38,307 | INFO | 2024-08-20 | direct ROBUST | risky=100.00% | utility=0.036695 | converged=12/12
+2026-11-12 14:11:26,239 | INFO | 2024-11-13 | direct ROBUST | risky=100.00% | utility=0.053362 | converged=12/12
+2026-11-12 14:12:25,226 | INFO | 2025-02-12 | direct ROBUST | risky=100.00% | utility=0.039922 | converged=12/12
+2026-11-12 14:13:24,063 | INFO | 2025-05-09 | direct ROBUST | risky=100.00% | utility=0.039789 | converged=12/12
+2026-11-12 14:14:22,590 | INFO | 2025-08-06 | direct ROBUST | risky=100.00% | utility=0.046355 | converged=12/12
+2026-11-12 14:14:53,886 | INFO | 2025-10-30 | direct ROBUST | risky=100.00% | utility=0.114134 | converged=12/12
+2026-11-12 14:15:45,374 | INFO | 2026-01-28 | direct ROBUST | risky=100.00% | utility=0.226911 | converged=12/12
+2026-11-12 14:17:26,563 | INFO | 2026-04-24 | direct ROBUST | risky=100.00% | utility=0.064768 | converged=12/12
+2026-11-12 14:17:27,590 | INFO | Saved direct results to model_output\S06_blacklitterman_robust_regime_comparison\03_Robust_LedoitWolf\Our_RandomForest; final NAV 143018.41
+2026-11-12 14:17:27,602 | INFO | END | 03_Robust_LedoitWolf | Our_RandomForest | return=+43.02% | sharpe=0.294
+2026-11-12 14:17:27,603 | INFO | START | 03_Robust_LedoitWolf | Peer_XGBoost
+2026-11-12 14:17:34,984 | INFO | 2022-01-03 | direct ROBUST | risky=38.94% | utility=0.007492 | converged=12/12
+2026-11-12 14:17:46,083 | INFO | 2022-03-30 | direct ROBUST | risky=29.69% | utility=0.010058 | converged=12/12
+2026-11-12 14:18:00,079 | INFO | 2022-06-27 | direct ROBUST | risky=20.00% | utility=0.000430 | converged=12/12
+2026-11-12 14:19:00,031 | INFO | 2023-03-15 | direct ROBUST | risky=87.55% | utility=0.034747 | converged=12/12
+2026-11-12 14:19:14,116 | INFO | 2023-06-09 | direct ROBUST | risky=99.74% | utility=0.042288 | converged=12/12
+2026-11-12 14:19:52,839 | INFO | 2023-09-06 | direct ROBUST | risky=100.00% | utility=0.068654 | converged=12/12
+2026-11-12 14:20:13,889 | INFO | 2023-11-30 | direct ROBUST | risky=100.00% | utility=0.015609 | converged=12/12
+2026-11-12 14:21:55,073 | INFO | 2024-02-28 | direct ROBUST | risky=100.00% | utility=0.070161 | converged=12/12
+2026-11-12 14:22:52,189 | INFO | 2024-05-23 | direct ROBUST | risky=100.00% | utility=0.086648 | converged=12/12
+2026-11-12 14:24:34,663 | INFO | 2024-08-20 | direct ROBUST | risky=100.00% | utility=0.045545 | converged=12/12
+2026-11-12 14:25:20,991 | INFO | 2024-11-13 | direct ROBUST | risky=100.00% | utility=0.056110 | converged=12/12
+2026-11-12 14:26:20,313 | INFO | 2025-02-12 | direct ROBUST | risky=100.00% | utility=0.039599 | converged=12/12
+2026-11-12 14:26:58,271 | INFO | 2025-05-09 | direct ROBUST | risky=100.00% | utility=0.043610 | converged=12/12
+2026-11-12 14:27:46,116 | INFO | 2025-08-06 | direct ROBUST | risky=100.00% | utility=0.045219 | converged=12/12
+2026-11-12 14:28:30,671 | INFO | 2025-10-30 | direct ROBUST | risky=100.00% | utility=0.088141 | converged=12/12
+2026-11-12 14:29:11,834 | INFO | 2026-01-28 | direct ROBUST | risky=100.00% | utility=0.061655 | converged=12/12
+2026-11-12 14:29:50,658 | INFO | 2026-04-24 | direct ROBUST | risky=100.00% | utility=0.041290 | converged=12/12
+2026-11-12 14:29:51,349 | INFO | Saved direct results to model_output\S06_blacklitterman_robust_regime_comparison\03_Robust_LedoitWolf\Peer_XGBoost; final NAV 167508.20
+2026-11-12 14:29:51,361 | INFO | END | 03_Robust_LedoitWolf | Peer_XGBoost | return=+67.51% | sharpe=0.563
+2026-11-12 14:29:51,361 | INFO | START | 03_Robust_LedoitWolf | Full_Universe
+2026-11-12 14:36:51,921 | INFO | 2022-01-03 | direct ROBUST | risky=100.00% | utility=0.051571 | converged=12/12
+2026-11-12 14:40:52,124 | INFO | 2022-03-30 | direct ROBUST | risky=100.00% | utility=0.070288 | converged=12/12
+2026-11-12 14:44:50,797 | INFO | 2022-06-27 | direct ROBUST | risky=68.49% | utility=0.045339 | converged=12/12
+2026-11-12 14:44:51,718 | WARNING | 2022-06-27: last_valid_historical spread fallback for CEW; age=3 ticker observations; spread used=0.00057481; reference date=2022-06-22
+2026-11-12 14:45:42,576 | INFO | 2022-09-21 | direct ROBUST | risky=20.00% | utility=0.010965 | converged=12/12
+2026-11-12 14:45:43,479 | WARNING | 2022-09-21: trailing_252_observation_p90 spread fallback for CEW; age=17 ticker observations; spread used=0.00080038; reference date=2022-08-26
+2026-11-12 14:50:28,848 | INFO | 2022-12-15 | direct ROBUST | risky=79.91% | utility=0.004025 | converged=12/12
+2026-11-12 14:54:29,785 | INFO | 2023-03-15 | direct ROBUST | risky=100.00% | utility=0.053115 | converged=12/12
+2026-11-12 14:57:17,242 | INFO | 2023-06-09 | direct ROBUST | risky=100.00% | utility=0.094383 | converged=12/12
+2026-11-12 15:01:11,231 | INFO | 2023-09-06 | direct ROBUST | risky=100.00% | utility=0.083282 | converged=12/12
+2026-11-12 15:01:12,238 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-12 15:06:26,342 | INFO | 2023-11-30 | direct ROBUST | risky=100.00% | utility=0.038165 | converged=12/12
+2026-11-12 15:16:34,595 | INFO | 2024-02-28 | direct ROBUST | risky=100.00% | utility=0.160572 | converged=12/12
+2026-11-12 15:16:35,649 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15
+2026-11-12 15:22:09,034 | INFO | 2024-05-23 | direct ROBUST | risky=100.00% | utility=0.134329 | converged=12/12
+2026-11-12 15:25:59,206 | INFO | 2024-08-20 | direct ROBUST | risky=100.00% | utility=0.077539 | converged=12/12
+2026-11-12 15:33:17,721 | INFO | 2024-11-13 | direct ROBUST | risky=100.00% | utility=0.059418 | converged=12/12
+2026-11-12 15:33:18,698 | WARNING | 2024-11-13: trailing_252_observation_p90 spread fallback for CEW; age=9 ticker observations; spread used=0.00109058; reference date=2024-10-31
+2026-11-12 15:36:29,778 | INFO | 2025-02-12 | direct ROBUST | risky=100.00% | utility=0.105933 | converged=12/12
+2026-11-12 15:36:30,725 | WARNING | 2025-02-12: last_valid_historical spread fallback for CEW; age=5 ticker observations; spread used=0.00052654; reference date=2025-02-05
+2026-11-12 15:40:03,779 | INFO | 2025-05-09 | direct ROBUST | risky=100.00% | utility=0.082084 | converged=12/12
+2026-11-12 15:45:29,429 | INFO | 2025-08-06 | direct ROBUST | risky=100.00% | utility=0.064635 | converged=12/12
+2026-11-12 15:47:25,435 | INFO | 2025-10-30 | direct ROBUST | risky=100.00% | utility=0.210732 | converged=12/12
+2026-11-12 15:51:11,806 | INFO | 2026-01-28 | direct ROBUST | risky=100.00% | utility=0.301105 | converged=12/12
+2026-11-12 15:53:17,093 | INFO | 2026-04-24 | direct ROBUST | risky=100.00% | utility=0.154221 | converged=12/12
+2026-11-12 15:53:18,349 | INFO | Saved direct results to model_output\S06_blacklitterman_robust_regime_comparison\03_Robust_LedoitWolf\Full_Universe; final NAV 196508.59
+2026-11-12 15:53:18,364 | INFO | END | 03_Robust_LedoitWolf | Full_Universe | return=+96.51% | sharpe=0.628
+2026-11-12 15:53:18,364 | INFO | START | 04_RegimeAware_LedoitWolf | Our_RandomForest
+2026-11-12 15:54:24,139 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.037312 | starts=12 converged=12
+2026-11-12 15:54:47,374 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=96.88% | utility=0.025735 | starts=12 converged=12
+2026-11-12 15:54:50,045 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=40.00% | utility=0.009796 | starts=12 converged=12
+2026-11-12 15:54:56,915 | INFO | 2022-09-21 | direct utility gamma=3.000 | risky=20.00% | utility=0.011865 | starts=12 converged=12
+2026-11-12 15:55:30,313 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=84.40% | utility=0.046449 | starts=12 converged=12
+2026-11-12 15:56:27,644 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.036696 | starts=12 converged=12
+2026-11-12 15:56:28,025 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-12 15:56:49,794 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=75.64% | utility=0.010401 | starts=12 converged=12
+2026-11-12 15:57:28,571 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.045228 | starts=12 converged=12
+2026-11-12 15:58:12,177 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.061542 | starts=12 converged=12
+2026-11-12 15:59:55,714 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.037419 | starts=12 converged=11
+2026-11-12 16:00:36,820 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.046404 | starts=12 converged=12
+2026-11-12 16:01:31,329 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.041605 | starts=12 converged=12
+2026-11-12 16:02:17,481 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.043563 | starts=12 converged=12
+2026-11-12 16:02:56,097 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.053945 | starts=12 converged=12
+2026-11-12 16:03:22,852 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.119181 | starts=12 converged=12
+2026-11-12 16:04:17,916 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.239344 | starts=12 converged=12
+2026-11-12 16:05:16,201 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.081336 | starts=12 converged=12
+2026-11-12 16:05:16,919 | INFO | Saved direct results to model_output\S06_blacklitterman_robust_regime_comparison\04_RegimeAware_LedoitWolf\Our_RandomForest; final NAV 147786.72
+2026-11-12 16:05:16,932 | INFO | END | 04_RegimeAware_LedoitWolf | Our_RandomForest | return=+47.79% | sharpe=0.337
+2026-11-12 16:05:16,932 | INFO | START | 04_RegimeAware_LedoitWolf | Peer_XGBoost
+2026-11-12 16:05:24,502 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=35.57% | utility=0.009221 | starts=12 converged=12
+2026-11-12 16:05:27,135 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=34.87% | utility=0.012708 | starts=12 converged=12
+2026-11-12 16:05:48,941 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=20.00% | utility=0.003153 | starts=12 converged=12
+2026-11-12 16:06:32,012 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=100.00% | utility=0.048004 | starts=12 converged=12
+2026-11-12 16:06:36,825 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.053525 | starts=12 converged=12
+2026-11-12 16:07:15,962 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.080701 | starts=12 converged=12
+2026-11-12 16:07:32,030 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.023047 | starts=12 converged=12
+2026-11-12 16:09:45,440 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.068441 | starts=12 converged=12
+2026-11-12 16:10:23,784 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.094689 | starts=12 converged=12
+2026-11-12 16:11:20,902 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.046950 | starts=12 converged=12
+2026-11-12 16:12:06,211 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.056375 | starts=12 converged=12
+2026-11-12 16:12:53,693 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.045010 | starts=12 converged=12
+2026-11-12 16:13:32,024 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.046818 | starts=12 converged=12
+2026-11-12 16:14:17,931 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.051072 | starts=12 converged=12
+2026-11-12 16:15:01,728 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.091604 | starts=12 converged=12
+2026-11-12 16:15:57,947 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.067934 | starts=12 converged=12
+2026-11-12 16:16:36,988 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.043961 | starts=12 converged=12
+2026-11-12 16:16:37,642 | INFO | Saved direct results to model_output\S06_blacklitterman_robust_regime_comparison\04_RegimeAware_LedoitWolf\Peer_XGBoost; final NAV 167559.32
+2026-11-12 16:16:37,655 | INFO | END | 04_RegimeAware_LedoitWolf | Peer_XGBoost | return=+67.56% | sharpe=0.549
+2026-11-12 16:16:37,655 | INFO | START | 04_RegimeAware_LedoitWolf | Full_Universe
+2026-11-12 16:21:39,285 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.065198 | starts=12 converged=12
+2026-11-12 16:25:22,606 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.079912 | starts=12 converged=12
+2026-11-12 16:28:52,623 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=94.38% | utility=0.062033 | starts=12 converged=12
+2026-11-12 16:28:53,562 | WARNING | 2022-06-27: last_valid_historical spread fallback for CEW; age=3 ticker observations; spread used=0.00057481; reference date=2022-06-22
+2026-11-12 16:29:49,703 | INFO | 2022-09-21 | direct utility gamma=3.000 | risky=20.00% | utility=0.011853 | starts=12 converged=12
+2026-11-12 16:29:50,623 | WARNING | 2022-09-21: trailing_252_observation_p90 spread fallback for CEW; age=17 ticker observations; spread used=0.00080038; reference date=2022-08-26
+2026-11-12 16:34:16,428 | INFO | 2022-12-15 | direct utility gamma=3.000 | risky=100.00% | utility=0.014681 | starts=12 converged=12
+2026-11-12 16:35:56,598 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=100.00% | utility=0.073129 | starts=12 converged=12
+2026-11-12 16:37:48,449 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.120553 | starts=12 converged=12
+2026-11-12 16:39:57,928 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.096324 | starts=12 converged=12
+2026-11-12 16:39:58,867 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-12 16:42:49,040 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.054764 | starts=12 converged=12
+2026-11-12 16:49:24,174 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.164149 | starts=12 converged=12
+2026-11-12 16:49:25,118 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15
+2026-11-12 16:53:32,814 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.146916 | starts=12 converged=12
+2026-11-12 16:56:16,327 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.083822 | starts=12 converged=12
+2026-11-12 17:00:46,251 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.065322 | starts=12 converged=12
+2026-11-12 17:00:47,173 | WARNING | 2024-11-13: trailing_252_observation_p90 spread fallback for CEW; age=9 ticker observations; spread used=0.00109058; reference date=2024-10-31
+2026-11-12 17:04:01,224 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.119635 | starts=12 converged=12
+2026-11-12 17:04:02,164 | WARNING | 2025-02-12: last_valid_historical spread fallback for CEW; age=5 ticker observations; spread used=0.00052654; reference date=2025-02-05
+2026-11-12 17:08:04,036 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.090696 | starts=12 converged=12
+2026-11-12 17:12:48,407 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.072293 | starts=12 converged=12
+2026-11-12 17:14:36,025 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.217822 | starts=12 converged=12
+2026-11-12 17:16:09,862 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.318169 | starts=12 converged=12
+2026-11-12 17:18:34,141 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.170771 | starts=12 converged=12
+2026-11-12 17:18:35,415 | INFO | Saved direct results to model_output\S06_blacklitterman_robust_regime_comparison\04_RegimeAware_LedoitWolf\Full_Universe; final NAV 212691.70
+2026-11-12 17:18:35,430 | INFO | END | 04_RegimeAware_LedoitWolf | Full_Universe | return=+112.69% | sharpe=0.712
+2026-11-12 17:18:39,158 | INFO | COMPLETED: model_output\S06_blacklitterman_robust_regime_comparison
+2026-11-12 17:18:39,820 | INFO | 
+               Configuration         Strategy  Total_Return     CAGR  Annualized_Sharpe  Max_Drawdown  Transaction_Cost_USD  Average_Daily_Cash_Weight
+  01_MeanVariance_LedoitWolf Our_RandomForest      0.481035 0.086197           0.334960     -0.189892           3024.928203                   0.193386
+  01_MeanVariance_LedoitWolf     Peer_XGBoost      0.635963 0.109187           0.514501     -0.199167           3500.787808                   0.207648
+  01_MeanVariance_LedoitWolf    Full_Universe      1.004625 0.157673           0.635660     -0.184180           5903.905581                   0.049131
+02_BlackLitterman_LedoitWolf Our_RandomForest      0.439071 0.079644           0.293875     -0.205721           2740.183115                   0.193164
+02_BlackLitterman_LedoitWolf     Peer_XGBoost      0.682064 0.115696           0.538491     -0.220517           3522.934505                   0.219307
+02_BlackLitterman_LedoitWolf    Full_Universe      0.665306 0.113347           0.431067     -0.206049           5465.773969                   0.072089
+        03_Robust_LedoitWolf Our_RandomForest      0.430184 0.078237           0.294103     -0.188423           3038.680782                   0.205806
+        03_Robust_LedoitWolf     Peer_XGBoost      0.675082 0.114719           0.562914     -0.185055           3451.300564                   0.214508
+        03_Robust_LedoitWolf    Full_Universe      0.965086 0.152828           0.628063     -0.185438           5714.286322                   0.067279
+   04_RegimeAware_LedoitWolf Our_RandomForest      0.477867 0.085707           0.337150     -0.191210           3017.902565                   0.192348
+   04_RegimeAware_LedoitWolf     Peer_XGBoost      0.675593 0.114791           0.548779     -0.199889           3644.214822                   0.207882
+   04_RegimeAware_LedoitWolf    Full_Universe      1.126917 0.172196           0.711689     -0.183686           6176.089046                   0.043974
+  01_MeanVariance_LedoitWolf SPY_Buy_And_Hold      0.729695 0.121675           0.520404     -0.247343              0.000000                   0.000000
+02_BlackLitterman_LedoitWolf SPY_Buy_And_Hold      0.729695 0.121675           0.520404     -0.247343              0.000000                   0.000000
+        03_Robust_LedoitWolf SPY_Buy_And_Hold      0.729695 0.121675           0.520404     -0.247343              0.000000                   0.000000
+   04_RegimeAware_LedoitWolf SPY_Buy_And_Hold      0.729695 0.121675           0.520404     -0.247343              0.000000                   0.000000

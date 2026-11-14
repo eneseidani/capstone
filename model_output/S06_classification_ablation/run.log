@@ -1,0 +1,72 @@
+2026-11-11 10:37:51,706 | INFO | 2022-01-03: 48/48 universe assets eligible
+2026-11-11 10:37:52,958 | INFO | 2022-03-30: 48/48 universe assets eligible
+2026-11-11 10:37:54,177 | INFO | 2022-06-27: 48/48 universe assets eligible
+2026-11-11 10:37:55,408 | INFO | 2022-09-21: 48/48 universe assets eligible
+2026-11-11 10:37:56,739 | INFO | 2022-12-15: 48/48 universe assets eligible
+2026-11-11 10:37:57,980 | INFO | 2023-03-15: 48/48 universe assets eligible
+2026-11-11 10:37:59,230 | INFO | 2023-06-09: 48/48 universe assets eligible
+2026-11-11 10:38:00,468 | INFO | 2023-09-06: 48/48 universe assets eligible
+2026-11-11 10:38:01,914 | INFO | 2023-11-30: 48/48 universe assets eligible
+2026-11-11 10:38:03,155 | INFO | 2024-02-28: 48/48 universe assets eligible
+2026-11-11 10:38:04,373 | INFO | 2024-05-23: 48/48 universe assets eligible
+2026-11-11 10:38:05,580 | INFO | 2024-08-20: 48/48 universe assets eligible
+2026-11-11 10:38:06,707 | INFO | 2024-11-13: 48/48 universe assets eligible
+2026-11-11 10:38:07,831 | INFO | 2025-02-12: 48/48 universe assets eligible
+2026-11-11 10:38:08,931 | INFO | 2025-05-09: 48/48 universe assets eligible
+2026-11-11 10:38:10,024 | INFO | 2025-08-06: 48/48 universe assets eligible
+2026-11-11 10:38:12,026 | INFO | 2025-10-30: 48/48 universe assets eligible
+2026-11-11 10:38:13,394 | INFO | 2026-01-28: 48/48 universe assets eligible
+2026-11-11 10:38:14,494 | INFO | 2026-04-24: 48/48 universe assets eligible
+2026-11-11 10:38:14,501 | INFO | RUN 1/2: S05-selected candidates, S06 DIRECT mean-variance utility
+2026-11-11 10:39:14,168 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.052564 | starts=12 converged=12
+2026-11-11 10:39:44,536 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.035818 | starts=12 converged=12
+2026-11-11 10:39:48,371 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=40.00% | utility=0.009873 | starts=12 converged=12
+2026-11-11 10:39:55,125 | INFO | 2022-09-21 | direct utility gamma=3.000 | risky=20.00% | utility=0.011900 | starts=12 converged=12
+2026-11-11 10:40:29,215 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=83.61% | utility=0.041837 | starts=12 converged=12
+2026-11-11 10:41:37,789 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=99.93% | utility=0.034267 | starts=12 converged=12
+2026-11-11 10:41:38,173 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-11 10:42:01,681 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=70.42% | utility=0.010079 | starts=12 converged=12
+2026-11-11 10:42:28,336 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.055506 | starts=12 converged=12
+2026-11-11 10:43:14,925 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.061503 | starts=12 converged=12
+2026-11-11 10:44:53,937 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.043765 | starts=12 converged=12
+2026-11-11 10:45:35,919 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.058618 | starts=12 converged=12
+2026-11-11 10:46:44,916 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.045856 | starts=12 converged=12
+2026-11-11 10:47:51,781 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.039446 | starts=12 converged=12
+2026-11-11 10:48:35,194 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.051921 | starts=12 converged=12
+2026-11-11 10:49:02,189 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.120187 | starts=12 converged=12
+2026-11-11 10:49:56,161 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.237288 | starts=12 converged=12
+2026-11-11 10:50:53,572 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.079361 | starts=12 converged=12
+2026-11-11 10:50:54,282 | INFO | Saved direct results to model_output\S06_classification_ablation\S05_filtered; final NAV 147838.75
+2026-11-11 10:50:54,283 | INFO | RUN 2/2: All investable tickers, SAME S06 DIRECT mean-variance utility
+2026-11-11 10:55:53,371 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.070885 | starts=12 converged=12
+2026-11-11 11:00:35,748 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.082836 | starts=12 converged=12
+2026-11-11 11:08:21,086 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=93.91% | utility=0.063745 | starts=12 converged=12
+2026-11-11 11:08:22,244 | WARNING | 2022-06-27: last_valid_historical spread fallback for CEW; age=3 ticker observations; spread used=0.00057481; reference date=2022-06-22
+2026-11-11 11:09:24,232 | INFO | 2022-09-21 | direct utility gamma=3.000 | risky=20.00% | utility=0.011903 | starts=12 converged=12
+2026-11-11 11:09:25,318 | WARNING | 2022-09-21: trailing_252_observation_p90 spread fallback for CEW; age=17 ticker observations; spread used=0.00080038; reference date=2022-08-26
+2026-11-11 11:13:31,358 | INFO | 2022-12-15 | direct utility gamma=3.000 | risky=89.86% | utility=0.012958 | starts=12 converged=12
+2026-11-11 11:15:48,518 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=100.00% | utility=0.067621 | starts=12 converged=12
+2026-11-11 11:17:35,535 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.114143 | starts=12 converged=12
+2026-11-11 11:19:31,485 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.092448 | starts=12 converged=12
+2026-11-11 11:19:32,411 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-11 11:22:23,528 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.056343 | starts=12 converged=12
+2026-11-11 11:26:39,540 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.179054 | starts=12 converged=12
+2026-11-11 11:26:40,457 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15
+2026-11-11 11:32:03,864 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.147757 | starts=12 converged=12
+2026-11-11 11:35:01,976 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.085898 | starts=12 converged=12
+2026-11-11 11:39:52,736 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.070957 | starts=12 converged=12
+2026-11-11 11:39:53,677 | WARNING | 2024-11-13: trailing_252_observation_p90 spread fallback for CEW; age=9 ticker observations; spread used=0.00109058; reference date=2024-10-31
+2026-11-11 11:42:43,874 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.118584 | starts=12 converged=12
+2026-11-11 11:42:44,782 | WARNING | 2025-02-12: last_valid_historical spread fallback for CEW; age=5 ticker observations; spread used=0.00052654; reference date=2025-02-05
+2026-11-11 11:46:27,652 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.090130 | starts=12 converged=12
+2026-11-11 11:49:40,739 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.070515 | starts=12 converged=12
+2026-11-11 11:51:36,819 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.220145 | starts=12 converged=12
+2026-11-11 11:54:40,110 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.314175 | starts=12 converged=12
+2026-11-11 11:56:34,661 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.171941 | starts=12 converged=12
+2026-11-11 11:56:36,210 | INFO | Saved direct results to model_output\S06_classification_ablation\Full_Universe; final NAV 199708.85
+2026-11-11 11:56:36,500 | INFO | Completed. Outputs in model_output\S06_classification_ablation
+2026-11-11 11:56:36,525 | INFO | 
+                     Strategy  Total_Return     CAGR   Sharpe  Max_Drawdown  Transaction_Cost_USD  Average_Cash_Weight  Mean_Eligible_Assets  Mean_Risky_Positions  Mean_Target_Cash  Total_Selected_Weight_Rows
+                 S05 filtered      0.478388 0.085788 0.333203     -0.189385           3021.128010             0.193679             14.789474              5.157895          0.203182                       300.0
+Full universe (no S05 filter)      0.997089 0.156755 0.632507     -0.184470           5887.941868             0.049240             48.000000              5.947368          0.050648                       931.0
+                          SPY      0.729695 0.122274 0.520404     -0.247343              0.000000                  NaN                   NaN                   NaN               NaN                         NaN

@@ -1,0 +1,193 @@
+2026-11-11 17:43:55,703 | INFO | 2022-01-03 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:43:56,784 | INFO | 2022-03-30 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:43:57,856 | INFO | 2022-06-27 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:43:58,927 | INFO | 2022-09-21 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:43:59,990 | INFO | 2022-12-15 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:01,080 | INFO | 2023-03-15 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:02,166 | INFO | 2023-06-09 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:03,253 | INFO | 2023-09-06 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:04,326 | INFO | 2023-11-30 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:05,397 | INFO | 2024-02-28 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:06,475 | INFO | 2024-05-23 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:07,529 | INFO | 2024-08-20 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:08,600 | INFO | 2024-11-13 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:09,664 | INFO | 2025-02-12 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:10,737 | INFO | 2025-05-09 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:11,806 | INFO | 2025-08-06 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:12,910 | INFO | 2025-10-30 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:13,968 | INFO | 2026-01-28 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:15,038 | INFO | 2026-04-24 | 48/48 universe tickers eligible with 756-session scenario history
+2026-11-11 17:44:15,053 | INFO | START | Mean_Variance | Our_RandomForest | native four_filters direct mean-variance optimizer
+2026-11-11 17:45:12,580 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.052564 | starts=12 converged=12
+2026-11-11 17:45:42,326 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.035818 | starts=12 converged=12
+2026-11-11 17:45:46,605 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=40.00% | utility=0.009873 | starts=12 converged=12
+2026-11-11 17:45:53,710 | INFO | 2022-09-21 | direct utility gamma=3.000 | risky=20.00% | utility=0.011900 | starts=12 converged=12
+2026-11-11 17:46:37,115 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=83.61% | utility=0.041837 | starts=12 converged=12
+2026-11-11 17:47:44,803 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=99.93% | utility=0.034267 | starts=12 converged=12
+2026-11-11 17:47:45,181 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-11 17:48:09,280 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=70.42% | utility=0.010079 | starts=12 converged=12
+2026-11-11 17:48:36,505 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.055506 | starts=12 converged=12
+2026-11-11 17:49:24,853 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.061503 | starts=12 converged=12
+2026-11-11 17:51:06,171 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.043765 | starts=12 converged=12
+2026-11-11 17:51:48,550 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.058618 | starts=12 converged=12
+2026-11-11 17:52:57,863 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.045856 | starts=12 converged=12
+2026-11-11 17:54:02,325 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.039446 | starts=12 converged=12
+2026-11-11 17:54:42,295 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.051921 | starts=12 converged=12
+2026-11-11 17:55:09,144 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.120187 | starts=12 converged=12
+2026-11-11 17:56:03,183 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.237288 | starts=12 converged=12
+2026-11-11 17:57:06,562 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.079361 | starts=12 converged=12
+2026-11-11 17:57:07,597 | INFO | Saved direct results to model_output\S06_six_utility_DIRECT_comparison\Mean_Variance\Our_RandomForest; final NAV 147838.75
+2026-11-11 17:57:07,610 | INFO | END | Mean_Variance | Our_RandomForest | net return=+47.84%
+2026-11-11 17:57:07,611 | INFO | START | Mean_Variance | Peer_XGBoost | native four_filters direct mean-variance optimizer
+2026-11-11 17:57:15,234 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=40.00% | utility=0.010361 | starts=12 converged=12
+2026-11-11 17:57:27,630 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=38.77% | utility=0.013301 | starts=12 converged=12
+2026-11-11 17:57:43,631 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=20.00% | utility=0.003175 | starts=12 converged=12
+2026-11-11 17:58:52,568 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=91.07% | utility=0.042210 | starts=12 converged=12
+2026-11-11 17:59:01,129 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.048863 | starts=12 converged=12
+2026-11-11 17:59:52,323 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.076170 | starts=12 converged=12
+2026-11-11 18:00:13,485 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.022031 | starts=12 converged=12
+2026-11-11 18:02:17,171 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.077880 | starts=12 converged=12
+2026-11-11 18:03:09,618 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.093676 | starts=12 converged=12
+2026-11-11 18:04:23,648 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.052420 | starts=12 converged=12
+2026-11-11 18:05:14,283 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.061230 | starts=12 converged=12
+2026-11-11 18:06:22,512 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.045092 | starts=12 converged=12
+2026-11-11 18:07:12,117 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.048876 | starts=12 converged=12
+2026-11-11 18:08:24,907 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.049360 | starts=12 converged=12
+2026-11-11 18:09:21,076 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.092567 | starts=12 converged=12
+2026-11-11 18:10:31,432 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.065354 | starts=12 converged=12
+2026-11-11 18:11:20,730 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.046691 | starts=12 converged=12
+2026-11-11 18:11:21,642 | INFO | Saved direct results to model_output\S06_six_utility_DIRECT_comparison\Mean_Variance\Peer_XGBoost; final NAV 163573.07
+2026-11-11 18:11:21,656 | INFO | END | Mean_Variance | Peer_XGBoost | net return=+63.57%
+2026-11-11 18:11:21,656 | INFO | START | Mean_Variance | Full_Universe | native four_filters direct mean-variance optimizer
+2026-11-11 18:18:40,505 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=100.00% | utility=0.070885 | starts=12 converged=12
+2026-11-11 18:25:54,552 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.082836 | starts=12 converged=12
+2026-11-11 18:37:38,119 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=93.91% | utility=0.063745 | starts=12 converged=12
+2026-11-11 18:37:39,566 | WARNING | 2022-06-27: last_valid_historical spread fallback for CEW; age=3 ticker observations; spread used=0.00057481; reference date=2022-06-22
+2026-11-11 18:39:07,257 | INFO | 2022-09-21 | direct utility gamma=3.000 | risky=20.00% | utility=0.011903 | starts=12 converged=12
+2026-11-11 18:39:08,723 | WARNING | 2022-09-21: trailing_252_observation_p90 spread fallback for CEW; age=17 ticker observations; spread used=0.00080038; reference date=2022-08-26
+2026-11-11 18:45:26,743 | INFO | 2022-12-15 | direct utility gamma=3.000 | risky=89.86% | utility=0.012958 | starts=12 converged=12
+2026-11-11 18:49:06,811 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=100.00% | utility=0.067621 | starts=12 converged=12
+2026-11-11 18:51:03,996 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.114143 | starts=12 converged=12
+2026-11-11 18:52:59,187 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.092448 | starts=12 converged=12
+2026-11-11 18:53:00,128 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-11 18:55:53,357 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.056343 | starts=12 converged=12
+2026-11-11 19:00:05,806 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.179054 | starts=12 converged=12
+2026-11-11 19:00:06,714 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15
+2026-11-11 19:05:22,654 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.147757 | starts=12 converged=12
+2026-11-11 19:08:17,802 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.085898 | starts=12 converged=12
+2026-11-11 19:13:04,220 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.070957 | starts=12 converged=12
+2026-11-11 19:13:05,119 | WARNING | 2024-11-13: trailing_252_observation_p90 spread fallback for CEW; age=9 ticker observations; spread used=0.00109058; reference date=2024-10-31
+2026-11-11 19:15:53,510 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.118584 | starts=12 converged=12
+2026-11-11 19:15:54,414 | WARNING | 2025-02-12: last_valid_historical spread fallback for CEW; age=5 ticker observations; spread used=0.00052654; reference date=2025-02-05
+2026-11-11 19:19:35,466 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.090130 | starts=12 converged=12
+2026-11-11 19:22:44,329 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.070515 | starts=12 converged=12
+2026-11-11 19:24:38,125 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.220145 | starts=12 converged=12
+2026-11-11 19:27:40,216 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.314175 | starts=12 converged=12
+2026-11-11 19:29:34,455 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.171941 | starts=12 converged=12
+2026-11-11 19:29:36,008 | INFO | Saved direct results to model_output\S06_six_utility_DIRECT_comparison\Mean_Variance\Full_Universe; final NAV 199708.85
+2026-11-11 19:29:36,023 | INFO | END | Mean_Variance | Full_Universe | net return=+99.71%
+2026-11-11 19:29:36,023 | INFO | START | Mean_Semivariance | Our_RandomForest | direct scenario-utility optimizer
+2026-11-11 19:30:20,443 | INFO | 2022-01-03 | direct Mean_Semivariance | risky=100.00% | utility=+0.0569577 | converged=12/12
+2026-11-11 19:30:39,449 | INFO | 2022-03-30 | direct Mean_Semivariance | risky=99.90% | utility=+0.0297998 | converged=12/12
+2026-11-11 19:30:41,854 | INFO | 2022-06-27 | direct Mean_Semivariance | risky=40.00% | utility=+0.0100972 | converged=12/12
+2026-11-11 19:30:48,374 | INFO | 2022-09-21 | direct Mean_Semivariance | risky=20.00% | utility=+0.0118848 | converged=12/12
+2026-11-11 19:31:17,542 | INFO | 2023-06-09 | direct Mean_Semivariance | risky=85.05% | utility=+0.0515389 | converged=12/12
+2026-11-11 19:31:56,914 | INFO | 2023-09-06 | direct Mean_Semivariance | risky=100.00% | utility=+0.0391444 | converged=12/12
+2026-11-11 19:31:57,284 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-11 19:32:17,492 | INFO | 2023-11-30 | direct Mean_Semivariance | risky=77.48% | utility=+0.0104693 | converged=12/12
+2026-11-11 19:32:50,741 | INFO | 2024-02-28 | direct Mean_Semivariance | risky=100.00% | utility=+0.0566476 | converged=12/12
+2026-11-11 19:32:51,095 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15
+2026-11-11 19:33:35,762 | INFO | 2024-05-23 | direct Mean_Semivariance | risky=100.00% | utility=+0.0634386 | converged=12/12
+2026-11-11 19:35:04,790 | INFO | 2024-08-20 | direct Mean_Semivariance | risky=100.00% | utility=+0.0466896 | converged=12/12
+2026-11-11 19:35:59,165 | INFO | 2024-11-13 | direct Mean_Semivariance | risky=100.00% | utility=+0.0573461 | converged=12/12
+2026-11-11 19:36:45,489 | INFO | 2025-02-12 | direct Mean_Semivariance | risky=100.00% | utility=+0.0430071 | converged=12/12
+2026-11-11 19:37:08,282 | INFO | 2025-05-09 | direct Mean_Semivariance | risky=100.00% | utility=+0.0496725 | converged=12/12
+2026-11-11 19:37:38,573 | INFO | 2025-08-06 | direct Mean_Semivariance | risky=100.00% | utility=+0.0588501 | converged=12/12
+2026-11-11 19:38:15,640 | INFO | 2025-10-30 | direct Mean_Semivariance | risky=100.00% | utility=+0.1288740 | converged=12/12
+2026-11-11 19:39:03,136 | INFO | 2026-01-28 | direct Mean_Semivariance | risky=100.00% | utility=+0.2440759 | converged=12/12
+2026-11-11 19:39:55,538 | INFO | 2026-04-24 | direct Mean_Semivariance | risky=100.00% | utility=+0.0913456 | converged=12/12
+2026-11-11 19:39:56,193 | INFO | Saved direct results to model_output\S06_six_utility_DIRECT_comparison\Mean_Semivariance\Our_RandomForest; final NAV 146231.21
+2026-11-11 19:39:56,205 | INFO | END | Mean_Semivariance | Our_RandomForest | net return=+46.23%
+2026-11-11 19:39:56,205 | INFO | START | Mean_Semivariance | Peer_XGBoost | direct scenario-utility optimizer
+2026-11-11 19:40:01,892 | INFO | 2022-01-03 | direct Mean_Semivariance | risky=40.00% | utility=+0.0104746 | converged=12/12
+2026-11-11 19:40:07,966 | INFO | 2022-03-30 | direct Mean_Semivariance | risky=38.77% | utility=+0.0135028 | converged=12/12
+2026-11-11 19:40:25,104 | INFO | 2022-06-27 | direct Mean_Semivariance | risky=20.00% | utility=+0.0032660 | converged=12/12
+2026-11-11 19:41:06,086 | INFO | 2023-03-15 | direct Mean_Semivariance | risky=100.00% | utility=+0.0562432 | converged=12/12
+2026-11-11 19:41:09,906 | INFO | 2023-06-09 | direct Mean_Semivariance | risky=100.00% | utility=+0.0609164 | converged=12/12
+2026-11-11 19:41:37,707 | INFO | 2023-09-06 | direct Mean_Semivariance | risky=100.00% | utility=+0.0908466 | converged=12/12
+2026-11-11 19:41:50,791 | INFO | 2023-11-30 | direct Mean_Semivariance | risky=100.00% | utility=+0.0256350 | converged=12/12
+2026-11-11 19:43:17,142 | INFO | 2024-02-28 | direct Mean_Semivariance | risky=100.00% | utility=+0.0822818 | converged=12/12
+2026-11-11 19:44:00,895 | INFO | 2024-05-23 | direct Mean_Semivariance | risky=100.00% | utility=+0.0982511 | converged=12/12
+2026-11-11 19:45:11,239 | INFO | 2024-08-20 | direct Mean_Semivariance | risky=100.00% | utility=+0.0560627 | converged=12/12
+2026-11-11 19:45:42,950 | INFO | 2024-11-13 | direct Mean_Semivariance | risky=100.00% | utility=+0.0650661 | converged=12/12
+2026-11-11 19:46:22,802 | INFO | 2025-02-12 | direct Mean_Semivariance | risky=100.00% | utility=+0.0460307 | converged=12/12
+2026-11-11 19:46:59,500 | INFO | 2025-05-09 | direct Mean_Semivariance | risky=100.00% | utility=+0.0576934 | converged=12/12
+2026-11-11 19:47:54,314 | INFO | 2025-08-06 | direct Mean_Semivariance | risky=100.00% | utility=+0.0553569 | converged=12/12
+2026-11-11 19:48:34,003 | INFO | 2025-10-30 | direct Mean_Semivariance | risky=100.00% | utility=+0.1048567 | converged=12/12
+2026-11-11 19:49:19,649 | INFO | 2026-01-28 | direct Mean_Semivariance | risky=100.00% | utility=+0.0689070 | converged=12/12
+2026-11-11 19:49:50,577 | INFO | 2026-04-24 | direct Mean_Semivariance | risky=100.00% | utility=+0.0502502 | converged=12/12
+2026-11-11 19:49:51,194 | INFO | Saved direct results to model_output\S06_six_utility_DIRECT_comparison\Mean_Semivariance\Peer_XGBoost; final NAV 169972.63
+2026-11-11 19:49:51,205 | INFO | END | Mean_Semivariance | Peer_XGBoost | net return=+69.97%
+2026-11-11 19:49:51,206 | INFO | START | Mean_Semivariance | Full_Universe | direct scenario-utility optimizer
+2026-11-11 19:54:27,288 | INFO | 2022-01-03 | direct Mean_Semivariance | risky=100.00% | utility=+0.0823337 | converged=12/12
+2026-11-11 19:58:36,364 | INFO | 2022-03-30 | direct Mean_Semivariance | risky=100.00% | utility=+0.0790616 | converged=12/12
+2026-11-11 20:00:34,890 | INFO | 2022-06-27 | direct Mean_Semivariance | risky=100.00% | utility=+0.0727821 | converged=12/12
+2026-11-11 20:00:35,794 | WARNING | 2022-06-27: last_valid_historical spread fallback for CEW; age=3 ticker observations; spread used=0.00057481; reference date=2022-06-22
+2026-11-11 20:01:36,290 | INFO | 2022-09-21 | direct Mean_Semivariance | risky=20.00% | utility=+0.0118880 | converged=12/12
+2026-11-11 20:01:37,192 | WARNING | 2022-09-21: trailing_252_observation_p90 spread fallback for CEW; age=17 ticker observations; spread used=0.00080038; reference date=2022-08-26
+2026-11-11 20:04:58,465 | INFO | 2022-12-15 | direct Mean_Semivariance | risky=100.00% | utility=+0.0147223 | converged=12/12
+2026-11-11 20:06:26,361 | INFO | 2023-03-15 | direct Mean_Semivariance | risky=100.00% | utility=+0.0864226 | converged=12/12
+2026-11-11 20:07:58,196 | INFO | 2023-06-09 | direct Mean_Semivariance | risky=100.00% | utility=+0.1371721 | converged=12/12
+2026-11-11 20:10:57,695 | INFO | 2023-09-06 | direct Mean_Semivariance | risky=100.00% | utility=+0.1079166 | converged=12/12
+2026-11-11 20:10:58,600 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-11 20:13:44,347 | INFO | 2023-11-30 | direct Mean_Semivariance | risky=100.00% | utility=+0.0593693 | converged=12/12
+2026-11-11 20:17:11,169 | INFO | 2024-02-28 | direct Mean_Semivariance | risky=100.00% | utility=+0.1844147 | converged=12/12
+2026-11-11 20:17:12,071 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15
+2026-11-11 20:22:42,434 | INFO | 2024-05-23 | direct Mean_Semivariance | risky=100.00% | utility=+0.1514951 | converged=12/12
+2026-11-11 20:25:15,922 | INFO | 2024-08-20 | direct Mean_Semivariance | risky=100.00% | utility=+0.0912665 | converged=12/12
+2026-11-11 20:29:39,293 | INFO | 2024-11-13 | direct Mean_Semivariance | risky=100.00% | utility=+0.0761619 | converged=12/12
+2026-11-11 20:29:40,200 | WARNING | 2024-11-13: trailing_252_observation_p90 spread fallback for CEW; age=9 ticker observations; spread used=0.00109058; reference date=2024-10-31
+2026-11-11 20:33:02,690 | INFO | 2025-02-12 | direct Mean_Semivariance | risky=100.00% | utility=+0.1245780 | converged=12/12
+2026-11-11 20:33:03,611 | WARNING | 2025-02-12: last_valid_historical spread fallback for CEW; age=5 ticker observations; spread used=0.00052654; reference date=2025-02-05
+2026-11-11 20:35:34,421 | INFO | 2025-05-09 | direct Mean_Semivariance | risky=100.00% | utility=+0.1005820 | converged=12/12
+2026-11-11 20:39:20,455 | INFO | 2025-08-06 | direct Mean_Semivariance | risky=100.00% | utility=+0.0799696 | converged=12/12
+2026-11-11 20:40:47,686 | INFO | 2025-10-30 | direct Mean_Semivariance | risky=100.00% | utility=+0.2411156 | converged=12/12
+2026-11-11 20:41:44,274 | INFO | 2026-01-28 | direct Mean_Semivariance | risky=100.00% | utility=+0.3302716 | converged=12/12
+2026-11-11 20:44:08,190 | INFO | 2026-04-24 | direct Mean_Semivariance | risky=100.00% | utility=+0.1835905 | converged=12/12
+2026-11-11 20:44:09,709 | INFO | Saved direct results to model_output\S06_six_utility_DIRECT_comparison\Mean_Semivariance\Full_Universe; final NAV 182137.56
+2026-11-11 20:44:09,725 | INFO | END | Mean_Semivariance | Full_Universe | net return=+82.14%
+2026-11-11 20:44:09,725 | INFO | START | Mean_CVaR | Our_RandomForest | direct scenario-utility optimizer
+2026-11-11 20:44:35,308 | INFO | 2022-03-30 | direct Mean_CVaR | risky=29.13% | utility=+0.0024708 | converged=12/12
+2026-11-11 20:44:39,626 | INFO | 2022-09-21 | direct Mean_CVaR | risky=20.00% | utility=+0.0080676 | converged=12/12
+2026-11-11 20:48:19,675 | INFO | 2024-08-20 | direct Mean_CVaR | risky=77.08% | utility=+0.0004838 | converged=12/12
+2026-11-11 20:49:25,315 | INFO | 2024-11-13 | direct Mean_CVaR | risky=78.17% | utility=+0.0120005 | converged=12/12
+2026-11-11 20:50:12,855 | INFO | 2025-02-12 | direct Mean_CVaR | risky=35.89% | utility=+0.0133129 | converged=12/12
+2026-11-11 20:50:44,784 | INFO | 2025-05-09 | direct Mean_CVaR | risky=26.67% | utility=+0.0224401 | converged=12/12
+2026-11-11 20:51:18,040 | INFO | 2025-08-06 | direct Mean_CVaR | risky=28.21% | utility=+0.0029256 | converged=12/12
+2026-11-11 20:52:06,992 | INFO | 2025-10-30 | direct Mean_CVaR | risky=100.00% | utility=+0.0930622 | converged=12/12
+2026-11-11 20:52:40,460 | INFO | 2026-01-28 | direct Mean_CVaR | risky=100.00% | utility=+0.1112263 | converged=12/12
+2026-11-11 20:53:43,008 | INFO | 2026-04-24 | direct Mean_CVaR | risky=35.93% | utility=+0.0079197 | converged=12/12
+2026-11-11 20:53:43,947 | INFO | Saved direct results to model_output\S06_six_utility_DIRECT_comparison\Mean_CVaR\Our_RandomForest; final NAV 128136.21
+2026-11-11 20:53:43,958 | INFO | END | Mean_CVaR | Our_RandomForest | net return=+28.14%
+2026-11-11 20:53:43,958 | INFO | START | Mean_CVaR | Peer_XGBoost | direct scenario-utility optimizer
+2026-11-11 20:54:41,169 | INFO | 2023-03-15 | direct Mean_CVaR | risky=20.00% | utility=+0.0020047 | converged=12/12
+2026-11-11 20:56:18,109 | INFO | 2024-05-23 | direct Mean_CVaR | risky=24.09% | utility=+0.0201544 | converged=12/12
+2026-11-11 20:57:40,141 | INFO | 2024-11-13 | direct Mean_CVaR | risky=39.20% | utility=+0.0012592 | converged=12/12
+2026-11-11 20:58:33,216 | INFO | 2025-05-09 | direct Mean_CVaR | risky=20.00% | utility=+0.0023637 | converged=12/12
+2026-11-11 20:59:50,676 | INFO | 2025-10-30 | direct Mean_CVaR | risky=100.00% | utility=+0.0792873 | converged=12/12
+2026-11-11 21:00:22,789 | INFO | 2026-01-28 | direct Mean_CVaR | risky=100.00% | utility=+0.0421778 | converged=12/12
+2026-11-11 21:01:04,621 | INFO | Saved direct results to model_output\S06_six_utility_DIRECT_comparison\Mean_CVaR\Peer_XGBoost; final NAV 125415.57
+2026-11-11 21:01:04,632 | INFO | END | Mean_CVaR | Peer_XGBoost | net return=+25.42%
+2026-11-11 21:01:04,632 | INFO | START | Mean_CVaR | Full_Universe | direct scenario-utility optimizer
+2026-11-11 21:11:01,624 | INFO | 2022-01-03 | direct Mean_CVaR | risky=100.00% | utility=+0.0289583 | converged=12/12
+2026-11-11 21:19:26,962 | INFO | 2022-03-30 | direct Mean_CVaR | risky=100.00% | utility=+0.0523988 | converged=12/12
+2026-11-11 21:25:33,251 | INFO | 2022-06-27 | direct Mean_CVaR | risky=99.26% | utility=+0.0428735 | converged=12/12
+2026-11-11 21:25:34,173 | WARNING | 2022-06-27: last_valid_historical spread fallback for CEW; age=3 ticker observations; spread used=0.00057481; reference date=2022-06-22
+2026-11-11 21:28:56,101 | INFO | 2022-09-21 | direct Mean_CVaR | risky=21.11% | utility=+0.0104475 | converged=12/12
+2026-11-11 21:28:57,067 | WARNING | 2022-09-21: trailing_252_observation_p90 spread fallback for CEW; age=17 ticker observations; spread used=0.00080038; reference date=2022-08-26
+2026-11-11 21:36:24,077 | INFO | 2023-03-15 | direct Mean_CVaR | risky=40.00% | utility=+0.0125964 | converged=12/12
+2026-11-11 21:43:32,674 | INFO | 2023-06-09 | direct Mean_CVaR | risky=100.00% | utility=+0.0154674 | converged=12/12
+2026-11-11 21:47:06,973 | INFO | 2023-09-06 | direct Mean_CVaR | risky=80.00% | utility=+0.0361789 | converged=12/12
+2026-11-11 21:47:07,945 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-11 21:58:54,772 | INFO | 2024-02-28 | direct Mean_CVaR | risky=72.47% | utility=+0.0753990 | converged=12/12
+2026-11-11 21:58:55,692 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15

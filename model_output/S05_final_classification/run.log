@@ -1,0 +1,82 @@
+2026-11-07 20:05:11,751 | INFO | Reading independently audited S05 panel
+2026-11-07 20:05:29,912 | INFO | Correlation filter: 85 candidates, 83 excluded now, 2 already excluded; 165 numerical inputs remain
+2026-11-07 20:05:30,641 | WARNING | Invalidated 2880 non-observed/non-finite forward labels (coverage ends 2026-07-20)
+2026-11-07 20:05:31,626 | INFO | SPY dates: validation=26, test=19; data cutoff=2026-07-20
+2026-11-07 20:05:31,626 | INFO | Starting HistoricalFrequency on Validation using frozen S05 settings
+2026-11-07 20:05:32,272 | INFO | HistoricalFrequency Validation: 5/26 SPY rebalances
+2026-11-07 20:05:33,063 | INFO | HistoricalFrequency Validation: 10/26 SPY rebalances
+2026-11-07 20:05:33,946 | INFO | HistoricalFrequency Validation: 15/26 SPY rebalances
+2026-11-07 20:05:34,915 | INFO | HistoricalFrequency Validation: 20/26 SPY rebalances
+2026-11-07 20:05:36,020 | INFO | HistoricalFrequency Validation: 25/26 SPY rebalances
+2026-11-07 20:05:36,232 | INFO | HistoricalFrequency Validation: 26/26 SPY rebalances
+2026-11-07 20:05:36,284 | INFO | Starting HistoricalFrequency on Test using frozen S05 settings
+2026-11-07 20:05:37,490 | INFO | HistoricalFrequency Test: 5/19 SPY rebalances
+2026-11-07 20:05:38,833 | INFO | HistoricalFrequency Test: 10/19 SPY rebalances
+2026-11-07 20:05:40,211 | INFO | HistoricalFrequency Test: 15/19 SPY rebalances
+2026-11-07 20:05:41,435 | INFO | HistoricalFrequency Test: 19/19 SPY rebalances
+2026-11-07 20:05:41,470 | INFO | Starting RandomForest on Validation using frozen S05 settings
+2026-11-07 20:13:40,206 | INFO | RandomForest Validation: 5/26 SPY rebalances
+2026-11-07 20:23:28,028 | INFO | RandomForest Validation: 10/26 SPY rebalances
+2026-11-07 20:43:16,828 | INFO | RandomForest Validation: 15/26 SPY rebalances
+2026-11-07 21:08:48,583 | INFO | RandomForest Validation: 20/26 SPY rebalances
+2026-11-07 21:35:37,098 | INFO | RandomForest Validation: 25/26 SPY rebalances
+2026-11-07 21:38:47,462 | INFO | RandomForest Validation: 26/26 SPY rebalances
+2026-11-07 21:38:47,518 | INFO | Starting RandomForest on Test using frozen S05 settings
+2026-11-07 21:54:51,366 | INFO | RandomForest Test: 5/19 SPY rebalances
+2026-11-07 22:12:04,462 | INFO | RandomForest Test: 10/19 SPY rebalances
+2026-11-07 22:30:54,944 | INFO | RandomForest Test: 15/19 SPY rebalances
+2026-11-07 22:47:11,182 | INFO | RandomForest Test: 19/19 SPY rebalances
+2026-11-07 22:47:11,244 | INFO | Starting XGBoost on Validation using frozen S05 settings
+2026-11-07 22:49:13,722 | INFO | XGBoost Validation: 5/26 SPY rebalances
+2026-11-07 22:51:07,487 | INFO | XGBoost Validation: 10/26 SPY rebalances
+2026-11-07 22:53:13,963 | INFO | XGBoost Validation: 15/26 SPY rebalances
+2026-11-07 22:55:25,871 | INFO | XGBoost Validation: 20/26 SPY rebalances
+2026-11-07 22:57:46,895 | INFO | XGBoost Validation: 25/26 SPY rebalances
+2026-11-07 22:58:15,843 | INFO | XGBoost Validation: 26/26 SPY rebalances
+2026-11-07 22:58:15,925 | INFO | Starting XGBoost on Test using frozen S05 settings
+2026-11-07 23:00:56,834 | INFO | XGBoost Test: 5/19 SPY rebalances
+2026-11-07 23:03:39,497 | INFO | XGBoost Test: 10/19 SPY rebalances
+2026-11-07 23:06:30,680 | INFO | XGBoost Test: 15/19 SPY rebalances
+2026-11-07 23:08:53,950 | INFO | XGBoost Test: 19/19 SPY rebalances
+2026-11-07 23:08:55,179 | INFO | Finished. Validation-selected model = RandomForest; results at model_output\S05_final_classification
+2026-11-08 14:02:32,742 | INFO | Reading independently audited S05 panel
+2026-11-08 14:02:49,751 | INFO | Correlation filter: 85 candidates, 83 excluded now, 2 already excluded; 166 numerical inputs remain
+2026-11-08 14:02:50,655 | WARNING | Invalidated 2880 non-observed/non-finite forward labels (coverage ends 2026-07-20)
+2026-11-08 14:02:50,737 | INFO | SPY dates: validation=26, test=19; data cutoff=2026-07-20
+2026-11-08 14:02:50,737 | INFO | Starting HistoricalFrequency on Validation using frozen S05 settings
+2026-11-08 14:02:51,645 | INFO | HistoricalFrequency Validation: 5/26 SPY rebalances
+2026-11-08 14:02:52,640 | INFO | HistoricalFrequency Validation: 10/26 SPY rebalances
+2026-11-08 14:02:53,766 | INFO | HistoricalFrequency Validation: 15/26 SPY rebalances
+2026-11-08 14:02:55,014 | INFO | HistoricalFrequency Validation: 20/26 SPY rebalances
+2026-11-08 14:02:56,375 | INFO | HistoricalFrequency Validation: 25/26 SPY rebalances
+2026-11-08 14:02:56,702 | INFO | HistoricalFrequency Validation: 26/26 SPY rebalances
+2026-11-08 14:02:56,734 | INFO | Starting HistoricalFrequency on Test using frozen S05 settings
+2026-11-08 14:02:58,233 | INFO | HistoricalFrequency Test: 5/19 SPY rebalances
+2026-11-08 14:02:59,842 | INFO | HistoricalFrequency Test: 10/19 SPY rebalances
+2026-11-08 14:03:01,679 | INFO | HistoricalFrequency Test: 15/19 SPY rebalances
+2026-11-08 14:03:03,257 | INFO | HistoricalFrequency Test: 19/19 SPY rebalances
+2026-11-08 14:03:03,296 | INFO | Starting RandomForest on Validation using frozen S05 settings
+2026-11-08 14:13:24,306 | INFO | RandomForest Validation: 5/26 SPY rebalances
+2026-11-08 14:26:19,732 | INFO | RandomForest Validation: 10/26 SPY rebalances
+2026-11-08 14:38:00,425 | INFO | RandomForest Validation: 15/26 SPY rebalances
+2026-11-08 14:50:26,062 | INFO | RandomForest Validation: 20/26 SPY rebalances
+2026-11-08 15:04:08,426 | INFO | RandomForest Validation: 25/26 SPY rebalances
+2026-11-08 15:07:04,131 | INFO | RandomForest Validation: 26/26 SPY rebalances
+2026-11-08 15:07:04,189 | INFO | Starting RandomForest on Test using frozen S05 settings
+2026-11-08 15:22:46,177 | INFO | RandomForest Test: 5/19 SPY rebalances
+2026-11-08 15:39:44,951 | INFO | RandomForest Test: 10/19 SPY rebalances
+2026-11-08 15:58:16,782 | INFO | RandomForest Test: 15/19 SPY rebalances
+2026-11-08 16:14:15,715 | INFO | RandomForest Test: 19/19 SPY rebalances
+2026-11-08 16:14:15,780 | INFO | Starting XGBoost on Validation using frozen S05 settings
+2026-11-08 16:15:57,900 | INFO | XGBoost Validation: 5/26 SPY rebalances
+2026-11-08 16:17:48,030 | INFO | XGBoost Validation: 10/26 SPY rebalances
+2026-11-08 16:19:52,626 | INFO | XGBoost Validation: 15/26 SPY rebalances
+2026-11-08 16:22:05,030 | INFO | XGBoost Validation: 20/26 SPY rebalances
+2026-11-08 16:24:26,182 | INFO | XGBoost Validation: 25/26 SPY rebalances
+2026-11-08 16:24:55,182 | INFO | XGBoost Validation: 26/26 SPY rebalances
+2026-11-08 16:24:55,266 | INFO | Starting XGBoost on Test using frozen S05 settings
+2026-11-08 16:27:30,374 | INFO | XGBoost Test: 5/19 SPY rebalances
+2026-11-08 16:30:14,270 | INFO | XGBoost Test: 10/19 SPY rebalances
+2026-11-08 16:33:06,975 | INFO | XGBoost Test: 15/19 SPY rebalances
+2026-11-08 16:35:32,630 | INFO | XGBoost Test: 19/19 SPY rebalances
+2026-11-08 16:35:33,296 | INFO | Finished. Validation-selected model = RandomForest; results at model_output\S05_final_classification

@@ -1,6 +1,0 @@
-2026-10-12T22:38:24 | Queue armed; NOT starting new training. Watching D:\Capstone\model_output\S05_regime_validation
-2026-10-12T22:38:24 | Waiting for required outputs: experiment_manifest.json, oof_predictions_pre2023.csv, ticker_baseline_predictions.csv
-2026-10-13T02:40:31 | Waiting for required outputs: experiment_manifest.json
-2026-10-13T02:41:35 | Validation finished: 210 fitted models, 10 folds
-2026-10-13T02:41:35 | Starting the walk-forward ensemble. Command: D:\Capstone\.venv\Scripts\python.exe -u S05_overnight_ensemble_queue\S05_ensemble_walkforward.py --source model_output\S05_regime_validation --features features_data\combined_features.csv --output model_output\S05_ensemble_walkforward
-2026-10-13T02:42:22 | Ensemble exit code: 0. See overnight_ensemble_stdout.log

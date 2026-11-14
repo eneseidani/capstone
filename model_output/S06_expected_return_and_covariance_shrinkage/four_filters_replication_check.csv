@@ -1,0 +1,4 @@
+Strategy,Prior_Four_Filters_Total_Return,Current_Baseline_Total_Return,Difference,Matches_Within_1bp
+Our_RandomForest,0.4783875413757923,0.4783875413757923,0.0,True
+Peer_XGBoost,0.6357307252963946,0.6357307252963946,0.0,True
+Full_Universe,0.9970885236981236,0.9970885236981237,1.1102230246251565e-16,True

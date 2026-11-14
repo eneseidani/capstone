@@ -1,0 +1,41 @@
+2026-11-08 18:11:49,407 | INFO | Reading independently audited S05 panel
+2026-11-08 18:12:15,915 | INFO | Correlation filter: 85 candidates, 83 excluded now, 2 already excluded; 166 numerical inputs remain
+2026-11-08 18:12:16,775 | WARNING | Invalidated 2880 non-observed/non-finite forward labels (coverage ends 2026-07-20)
+2026-11-08 18:15:22,963 | INFO | Reading independently audited S05 panel
+2026-11-08 18:15:39,375 | INFO | Correlation filter: 85 candidates, 83 excluded now, 2 already excluded; 166 numerical inputs remain
+2026-11-08 18:15:40,151 | WARNING | Invalidated 2880 non-observed/non-finite forward labels (coverage ends 2026-07-20)
+2026-11-08 18:15:40,195 | INFO | Peer dates: validation=24, test=19; data cutoff=2026-07-20
+2026-11-08 18:15:40,197 | INFO | Starting HistoricalFrequency on Validation using frozen S05 settings
+2026-11-08 18:15:41,195 | INFO | HistoricalFrequency Validation: 5/24 peer-calendar rebalances
+2026-11-08 18:15:42,173 | INFO | HistoricalFrequency Validation: 10/24 peer-calendar rebalances
+2026-11-08 18:15:43,353 | INFO | HistoricalFrequency Validation: 15/24 peer-calendar rebalances
+2026-11-08 18:15:44,577 | INFO | HistoricalFrequency Validation: 20/24 peer-calendar rebalances
+2026-11-08 18:15:45,676 | INFO | HistoricalFrequency Validation: 24/24 peer-calendar rebalances
+2026-11-08 18:15:45,789 | INFO | Starting HistoricalFrequency on Test using frozen S05 settings
+2026-11-08 18:15:47,237 | INFO | HistoricalFrequency Test: 5/19 peer-calendar rebalances
+2026-11-08 18:15:51,785 | INFO | HistoricalFrequency Test: 10/19 peer-calendar rebalances
+2026-11-08 18:15:53,670 | INFO | HistoricalFrequency Test: 15/19 peer-calendar rebalances
+2026-11-08 18:15:55,148 | INFO | HistoricalFrequency Test: 19/19 peer-calendar rebalances
+2026-11-08 18:15:55,190 | INFO | Starting RandomForest on Validation using frozen S05 settings
+2026-11-08 18:24:00,029 | INFO | RandomForest Validation: 5/24 peer-calendar rebalances
+2026-11-08 18:33:58,405 | INFO | RandomForest Validation: 10/24 peer-calendar rebalances
+2026-11-08 18:45:50,851 | INFO | RandomForest Validation: 15/24 peer-calendar rebalances
+2026-11-08 18:59:44,037 | INFO | RandomForest Validation: 20/24 peer-calendar rebalances
+2026-11-08 19:12:20,998 | INFO | RandomForest Validation: 24/24 peer-calendar rebalances
+2026-11-08 19:12:21,048 | INFO | Starting RandomForest on Test using frozen S05 settings
+2026-11-08 19:30:27,078 | INFO | RandomForest Test: 5/19 peer-calendar rebalances
+2026-11-08 19:57:03,425 | INFO | RandomForest Test: 10/19 peer-calendar rebalances
+2026-11-08 20:23:32,980 | INFO | RandomForest Test: 15/19 peer-calendar rebalances
+2026-11-08 20:47:13,188 | INFO | RandomForest Test: 19/19 peer-calendar rebalances
+2026-11-08 20:47:13,267 | INFO | Starting XGBoost on Validation using frozen S05 settings
+2026-11-08 20:49:53,235 | INFO | XGBoost Validation: 5/24 peer-calendar rebalances
+2026-11-08 20:52:39,483 | INFO | XGBoost Validation: 10/24 peer-calendar rebalances
+2026-11-08 20:55:18,479 | INFO | XGBoost Validation: 15/24 peer-calendar rebalances
+2026-11-08 20:57:41,292 | INFO | XGBoost Validation: 20/24 peer-calendar rebalances
+2026-11-08 20:59:47,816 | INFO | XGBoost Validation: 24/24 peer-calendar rebalances
+2026-11-08 20:59:47,883 | INFO | Starting XGBoost on Test using frozen S05 settings
+2026-11-08 21:02:47,218 | INFO | XGBoost Test: 5/19 peer-calendar rebalances
+2026-11-08 21:05:45,313 | INFO | XGBoost Test: 10/19 peer-calendar rebalances
+2026-11-08 21:08:40,305 | INFO | XGBoost Test: 15/19 peer-calendar rebalances
+2026-11-08 21:11:05,805 | INFO | XGBoost Test: 19/19 peer-calendar rebalances
+2026-11-08 21:11:06,508 | INFO | Finished. Validation-selected model = RandomForest; results at model_output\S05_peer_calendar_classification

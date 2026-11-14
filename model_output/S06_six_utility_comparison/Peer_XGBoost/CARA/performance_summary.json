@@ -1,0 +1,16 @@
+{
+  "portfolio_total_return": 0.3340225284343048,
+  "spy_total_return": 0.7296951836101,
+  "portfolio_CAGR": 0.06255186951970204,
+  "spy_CAGR": 0.12227388759616198,
+  "portfolio_annualized_sharpe": 0.28176707388291466,
+  "spy_annualized_sharpe": 0.5204038417727639,
+  "portfolio_max_drawdown": -0.11518627371716439,
+  "spy_max_drawdown": -0.247342902776729,
+  "total_transaction_cost_USD": 2554.946035748717,
+  "rebalance_count": 19,
+  "daily_return_count": 1197,
+  "average_daily_cash_weight": 0.1665499915250873,
+  "average_risky_weight": 0.8334500084749126,
+  "average_transaction_cost_per_rebalance": 134.47084398677458
+}

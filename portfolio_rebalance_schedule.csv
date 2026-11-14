@@ -1,0 +1,39 @@
+Date,Model,Available_Assets,Selected_Assets,Cash_Only,Screening_Rule,Threshold,Top_K,Specification,S04_Outcomes_Available,Execution_Date,Next_Signal_Date,Horizon_End_Date,Full_60d_Market_Horizon_Available,Primary_Backtest,Last_Available_Market_Date,Annual_Yield_Pct,Execution_Price_Assumption
+2022-01-03,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2022-01-03,2022-03-30,2022-03-30,True,True,2026-09-23,0.08,date-t regular Close proxy for after-hours
+2022-01-03,XGBoost,48,5,False,Hybrid Top 15,0.6,15,With Regimes,True,2022-01-03,2022-03-30,2022-03-30,True,True,2026-09-23,0.08,date-t regular Close proxy for after-hours
+2022-03-30,Logistic Regression,48,0,True,Hybrid Top 15,0.5,15,With Regimes,True,2022-03-30,2022-06-27,2022-06-27,True,True,2026-09-23,0.55,date-t regular Close proxy for after-hours
+2022-03-30,XGBoost,48,1,False,Hybrid Top 15,0.6,15,With Regimes,True,2022-03-30,2022-06-27,2022-06-27,True,True,2026-09-23,0.55,date-t regular Close proxy for after-hours
+2022-06-27,Logistic Regression,48,0,True,Hybrid Top 15,0.5,15,With Regimes,True,2022-06-27,2022-09-21,2022-09-21,True,True,2026-09-23,1.79,date-t regular Close proxy for after-hours
+2022-06-27,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2022-06-27,2022-09-21,2022-09-21,True,True,2026-09-23,1.79,date-t regular Close proxy for after-hours
+2022-09-21,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2022-09-21,2022-12-15,2022-12-15,True,True,2026-09-23,3.31,date-t regular Close proxy for after-hours
+2022-09-21,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2022-09-21,2022-12-15,2022-12-15,True,True,2026-09-23,3.31,date-t regular Close proxy for after-hours
+2022-12-15,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2022-12-15,2023-03-15,2023-03-15,True,True,2026-09-23,4.34,date-t regular Close proxy for after-hours
+2022-12-15,XGBoost,48,0,True,Hybrid Top 15,0.6,15,With Regimes,True,2022-12-15,2023-03-15,2023-03-15,True,True,2026-09-23,4.34,date-t regular Close proxy for after-hours
+2023-03-15,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2023-03-15,2023-06-09,2023-06-09,True,True,2026-09-23,4.75,date-t regular Close proxy for after-hours
+2023-03-15,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2023-03-15,2023-06-09,2023-06-09,True,True,2026-09-23,4.75,date-t regular Close proxy for after-hours
+2023-06-09,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2023-06-09,2023-09-06,2023-09-06,True,True,2026-09-23,5.37,date-t regular Close proxy for after-hours
+2023-06-09,XGBoost,48,2,False,Hybrid Top 15,0.6,15,With Regimes,True,2023-06-09,2023-09-06,2023-09-06,True,True,2026-09-23,5.37,date-t regular Close proxy for after-hours
+2023-09-06,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2023-09-06,2023-11-30,2023-11-30,True,True,2026-09-23,5.55,date-t regular Close proxy for after-hours
+2023-09-06,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2023-09-06,2023-11-30,2023-11-30,True,True,2026-09-23,5.55,date-t regular Close proxy for after-hours
+2023-11-30,Logistic Regression,48,0,True,Hybrid Top 15,0.5,15,With Regimes,True,2023-11-30,2024-02-28,2024-02-28,True,True,2026-09-23,5.45,date-t regular Close proxy for after-hours
+2023-11-30,XGBoost,48,1,False,Hybrid Top 15,0.6,15,With Regimes,True,2023-11-30,2024-02-28,2024-02-28,True,True,2026-09-23,5.45,date-t regular Close proxy for after-hours
+2024-02-28,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2024-02-28,2024-05-23,2024-05-23,True,True,2026-09-23,5.45,date-t regular Close proxy for after-hours
+2024-02-28,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2024-02-28,2024-05-23,2024-05-23,True,True,2026-09-23,5.45,date-t regular Close proxy for after-hours
+2024-05-23,Logistic Regression,48,3,False,Hybrid Top 15,0.5,15,With Regimes,True,2024-05-23,2024-08-20,2024-08-20,True,True,2026-09-23,5.46,date-t regular Close proxy for after-hours
+2024-05-23,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2024-05-23,2024-08-20,2024-08-20,True,True,2026-09-23,5.46,date-t regular Close proxy for after-hours
+2024-08-20,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2024-08-20,2024-11-13,2024-11-13,True,True,2026-09-23,5.29,date-t regular Close proxy for after-hours
+2024-08-20,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2024-08-20,2024-11-13,2024-11-13,True,True,2026-09-23,5.29,date-t regular Close proxy for after-hours
+2024-11-13,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2024-11-13,2025-02-12,2025-02-12,True,True,2026-09-23,4.6,date-t regular Close proxy for after-hours
+2024-11-13,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2024-11-13,2025-02-12,2025-02-12,True,True,2026-09-23,4.6,date-t regular Close proxy for after-hours
+2025-02-12,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2025-02-12,2025-05-09,2025-05-09,True,True,2026-09-23,4.35,date-t regular Close proxy for after-hours
+2025-02-12,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2025-02-12,2025-05-09,2025-05-09,True,True,2026-09-23,4.35,date-t regular Close proxy for after-hours
+2025-05-09,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2025-05-09,2025-08-06,2025-08-06,True,True,2026-09-23,4.34,date-t regular Close proxy for after-hours
+2025-05-09,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2025-05-09,2025-08-06,2025-08-06,True,True,2026-09-23,4.34,date-t regular Close proxy for after-hours
+2025-08-06,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2025-08-06,2025-10-30,2025-10-30,True,True,2026-09-23,4.32,date-t regular Close proxy for after-hours
+2025-08-06,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2025-08-06,2025-10-30,2025-10-30,True,True,2026-09-23,4.32,date-t regular Close proxy for after-hours
+2025-10-30,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2025-10-30,2026-01-28,2026-01-28,True,True,2026-09-23,3.92,date-t regular Close proxy for after-hours
+2025-10-30,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2025-10-30,2026-01-28,2026-01-28,True,True,2026-09-23,3.92,date-t regular Close proxy for after-hours
+2026-01-28,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,True,2026-01-28,2026-04-24,2026-04-24,True,True,2026-09-23,3.68,date-t regular Close proxy for after-hours
+2026-01-28,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,True,2026-01-28,2026-04-24,2026-04-24,True,True,2026-09-23,3.68,date-t regular Close proxy for after-hours
+2026-04-24,Logistic Regression,48,15,False,Hybrid Top 15,0.5,15,With Regimes,False,2026-04-24,,2026-07-22,True,False,2026-09-23,3.69,date-t regular Close proxy for after-hours
+2026-04-24,XGBoost,48,15,False,Hybrid Top 15,0.6,15,With Regimes,False,2026-04-24,,2026-07-22,True,False,2026-09-23,3.69,date-t regular Close proxy for after-hours

@@ -1,0 +1,35 @@
+{
+  "purpose": "Measure contribution of classifier candidate sets with constant S06 direct utility allocation",
+  "strategies": [
+    "Our_RandomForest",
+    "Peer_Logistic",
+    "Peer_XGBoost",
+    "Full_Universe",
+    "SPY_Buy_And_Hold"
+  ],
+  "allocator": "S06 optimize_direct_utility; Stage 1 Sharpe sleeve NOT used",
+  "risk_aversion_gamma": 3.0,
+  "direct_starts": 12,
+  "maximum_per_asset_weight": 0.2,
+  "maximum_normal_cash_weight": 0.8,
+  "expected_return": "120-day compounded momentum converted to 60 days",
+  "covariance": "252 daily returns scaled to 60-day covariance",
+  "execution": "signal close, following SPY session adjusted opening",
+  "transaction_costs": "S06 existing spread, market impact, commission; net NAV",
+  "peer_signals_file": "portfolio_signals.csv",
+  "peer_schedule_file": "portfolio_rebalance_schedule.csv",
+  "peer_xgboost_hyperparameters_file": "best_hyperparameters (1).csv",
+  "peer_xgboost_hyperparameters_metadata_only": null,
+  "peer_retrained": false,
+  "peer_zero_selected_dates_preserved": true,
+  "uses_all_19_rebalance_dates_including_nonprimary_peer_last_date": true,
+  "nonselected_existing_holdings_remain_eligible": "S06 original behavior",
+  "rf_predictions_file": "model_output\\S05_peer_calendar_classification\\predictions_test.csv",
+  "full_universe_file": "Investable_Universe.csv",
+  "full_universe_candidate_count": 48,
+  "notes": [
+    "SPY remains a risky candidate with maximum 20% in full universe and an independent buy-hold benchmark",
+    "Peer original same-day execution assumption is replaced with S06 next-day opening execution",
+    "Test sample has been examined repeatedly; report comparisons as exploratory, not fresh independent out-of-sample discovery"
+  ]
+}

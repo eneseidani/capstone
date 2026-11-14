@@ -1,0 +1,83 @@
+{
+  "script": "S06_expected_return_and_covariance_shrinkage.py",
+  "purpose": "Isolate covariance shrinkage and expected-return estimation effects under the four_filters direct S06 allocator",
+  "allocator": "Native S06 run_single(mode='direct') and native optimize_direct_utility",
+  "stage1_sharpe_optimizer_used": false,
+  "gamma": 3.0,
+  "direct_multistart_count": 12,
+  "maximum_individual_weight": 0.2,
+  "maximum_normal_cash_weight": 0.8,
+  "minimum_risky_weight_when_invested": 0.19999999999999996,
+  "universe_strategies": [
+    "Our_RandomForest",
+    "Peer_XGBoost",
+    "Full_Universe"
+  ],
+  "peer_xgboost_retrained": false,
+  "peer_xgboost_source": "portfolio_signals.csv",
+  "peer_xgboost_schedule_source": "portfolio_rebalance_schedule.csv",
+  "rebalance_dates": [
+    "2022-01-03",
+    "2022-03-30",
+    "2022-06-27",
+    "2022-09-21",
+    "2022-12-15",
+    "2023-03-15",
+    "2023-06-09",
+    "2023-09-06",
+    "2023-11-30",
+    "2024-02-28",
+    "2024-05-23",
+    "2024-08-20",
+    "2024-11-13",
+    "2025-02-12",
+    "2025-05-09",
+    "2025-08-06",
+    "2025-10-30",
+    "2026-01-28",
+    "2026-04-24"
+  ],
+  "expected_return_covariance_configurations": [
+    {
+      "name": "01_RawMomentum_SampleCov",
+      "expected_return": "Raw 120-day momentum",
+      "covariance": "sample"
+    },
+    {
+      "name": "02_RawMomentum_LedoitWolf",
+      "expected_return": "Raw 120-day momentum",
+      "covariance": "ledoit_wolf"
+    },
+    {
+      "name": "03_CalibratedMomentum_LedoitWolf",
+      "expected_return": "Calibrated momentum",
+      "covariance": "ledoit_wolf"
+    },
+    {
+      "name": "04_BayesSteinMean_LedoitWolf",
+      "expected_return": "Jorion-style Bayes-Stein mean",
+      "covariance": "ledoit_wolf"
+    }
+  ],
+  "raw_momentum_formula": "(P_t/P_t-120)^(60/120)-1",
+  "calibrated_momentum_formula": "cash_60 + beta_t*(raw_momentum_60-cash_60); beta estimated by pooled constrained OLS through origin on full-universe historical forecasts whose non-overlapping 60-session outcomes have matured by t",
+  "calibration_lookback_sessions": 756,
+  "calibration_step_sessions": 60,
+  "calibration_minimum_observations": 100,
+  "bayes_stein_formula": "mu_BS=(1-phi)*sample_mean+phi*mu_GLS; phi=(N+2)/(N+2+T*(mu-mu_GLS*1)'S_LW^-1*(mu-mu_GLS*1)); daily sample mean over 120 sessions scaled linearly by 60",
+  "bayes_stein_covariance_for_mean_shrinkage": "120-session Ledoit-Wolf covariance, used only to stabilize GLS target and Mahalanobis distance",
+  "portfolio_risk_covariance": "252 daily returns; original sample covariance in exact four_filters replication and Ledoit-Wolf covariance in the other three configurations; scaled by 60",
+  "ledoit_wolf_scaling": "sklearn LedoitWolf covariance multiplied by T/(T-1) to align with the ddof=1 sample covariance scale before multiplying by 60",
+  "execution": "Signal close decision; next SPY session adjusted open execution; native S06 fee helper",
+  "transaction_costs": "Native S06 spread + market impact + IBKR commissions, charged in NAV",
+  "cash_proxy": "DGS3MO",
+  "benchmark": "SPY buy-and-hold from first next-session adjusted open, no benchmark fees",
+  "known_caveats": [
+    "The calibration beta is pooled across the investable universe and is common to RF, peer XGBoost and full-universe strategies at each date.",
+    "Calibration observations use non-overlapping 60-session forward horizons, but cross-sectional asset returns remain dependent.",
+    "The Jorion-style mean estimator uses Ledoit-Wolf covariance in the GLS shrinkage calculation; it is an explicitly documented regularized implementation of the Jorion mean shrinkage formula.",
+    "Bayes-Stein expected returns use 120-session arithmetic daily sample means scaled by 60; raw and calibrated momentum use geometric 120-to-60 conversion.",
+    "The prior test period has already been inspected in previous experiments; results are exploratory, not a pristine independent holdout.",
+    "S06 retains previously held tickers as eligible candidates even if they are no longer selected at the current date, matching four_filters behavior."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "methodology": "S05 fixed candidates + S06 unchanged except point-in-time expected return estimator",
+  "estimators": [
+    "momentum_120",
+    "mean_120",
+    "ml_return"
+  ],
+  "gamma": 3.0,
+  "allocation_modes": "two_stage",
+  "label": "absolute forward 60-session adjusted close-to-close asset return (NOT SPY excess)",
+  "training": "Only features observed by decision close and asset labels with Label_End_Date strictly before decision",
+  "outcome_evaluation": "S06 exact next-opening execution and S04 point-in-time spreads/ADV + market impact + commissions",
+  "covariance": "Unchanged S06 252 daily sessions x 60",
+  "forecast_error_metric": "close-to-close 60-session return; S06 NAV uses next-open execution",
+  "selection_rule": "validation net Sharpe only; test not used to select estimator",
+  "validation_caveat": "S05 original development may overlap this validation window",
+  "historical_test_not_untouched": "New experiment follows multiple earlier test inspections; exploratory findings only",
+  "selected_estimators": {
+    "two_stage": {
+      "estimator": "mean_120",
+      "criterion": "maximum validation net DGS3MO-excess Sharpe",
+      "validation_net_sharpe": 0.7165268902855562,
+      "validation_net_CAGR": 0.06932178199699313,
+      "warning": "Test is evaluation only. S05 itself may have used overlapping validation data."
+    }
+  },
+  "quick_test": false
+}

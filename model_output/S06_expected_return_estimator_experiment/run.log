@@ -1,0 +1,197 @@
+2026-11-11 00:40:52,378 | INFO | Starting absolute-return estimator experiment (SPY is benchmark ONLY, never a training target)
+2026-11-11 00:42:16,785 | INFO | Starting absolute-return estimator experiment (SPY is benchmark ONLY, never a training target)
+2026-11-11 00:42:18,529 | INFO | Loaded 216197 feature rows across 48 tickers, with audited label maturity
+2026-11-11 00:42:20,148 | INFO | Forecasts 1/43 | 2016-01-20 | trained on 60000 matured labels | last mature=2016-01-19
+2026-11-11 00:42:20,651 | INFO | Forecasts 2/43 | 2016-04-15 | trained on 60000 matured labels | last mature=2016-04-14
+2026-11-11 00:42:21,128 | INFO | Forecasts 3/43 | 2016-07-12 | trained on 60000 matured labels | last mature=2016-07-11
+2026-11-11 00:42:21,619 | INFO | Forecasts 4/43 | 2016-10-05 | trained on 60000 matured labels | last mature=2016-10-04
+2026-11-11 00:42:22,108 | INFO | Forecasts 5/43 | 2016-12-30 | trained on 60000 matured labels | last mature=2016-12-29
+2026-11-11 00:42:22,577 | INFO | Forecasts 6/43 | 2017-03-29 | trained on 60000 matured labels | last mature=2017-03-28
+2026-11-11 00:42:23,103 | INFO | Forecasts 7/43 | 2017-06-23 | trained on 60000 matured labels | last mature=2017-06-22
+2026-11-11 00:42:23,602 | INFO | Forecasts 8/43 | 2017-09-19 | trained on 60000 matured labels | last mature=2017-09-18
+2026-11-11 00:42:24,105 | INFO | Forecasts 9/43 | 2017-12-13 | trained on 60000 matured labels | last mature=2017-12-12
+2026-11-11 00:42:24,621 | INFO | Forecasts 10/43 | 2018-03-13 | trained on 60000 matured labels | last mature=2018-03-12
+2026-11-11 00:42:25,118 | INFO | Forecasts 11/43 | 2018-06-07 | trained on 60000 matured labels | last mature=2018-06-06
+2026-11-11 00:42:25,616 | INFO | Forecasts 12/43 | 2018-08-31 | trained on 60000 matured labels | last mature=2018-08-30
+2026-11-11 00:42:26,143 | INFO | Forecasts 13/43 | 2018-11-27 | trained on 60000 matured labels | last mature=2018-11-26
+2026-11-11 00:42:26,623 | INFO | Forecasts 14/43 | 2019-02-26 | trained on 60000 matured labels | last mature=2019-02-25
+2026-11-11 00:42:27,115 | INFO | Forecasts 15/43 | 2019-05-22 | trained on 60000 matured labels | last mature=2019-05-21
+2026-11-11 00:42:27,617 | INFO | Forecasts 16/43 | 2019-08-16 | trained on 60000 matured labels | last mature=2019-08-15
+2026-11-11 00:42:28,111 | INFO | Forecasts 17/43 | 2019-11-11 | trained on 60000 matured labels | last mature=2019-11-08
+2026-11-11 00:42:28,619 | INFO | Forecasts 18/43 | 2020-02-07 | trained on 60000 matured labels | last mature=2020-02-06
+2026-11-11 00:42:29,122 | INFO | Forecasts 19/43 | 2020-05-05 | trained on 60000 matured labels | last mature=2020-05-04
+2026-11-11 00:42:29,654 | INFO | Forecasts 20/43 | 2020-07-30 | trained on 60000 matured labels | last mature=2020-07-29
+2026-11-11 00:42:30,164 | INFO | Forecasts 21/43 | 2020-10-23 | trained on 60000 matured labels | last mature=2020-10-22
+2026-11-11 00:42:30,674 | INFO | Forecasts 22/43 | 2021-01-21 | trained on 60000 matured labels | last mature=2021-01-20
+2026-11-11 00:42:31,164 | INFO | Forecasts 23/43 | 2021-04-19 | trained on 60000 matured labels | last mature=2021-04-16
+2026-11-11 00:42:31,661 | INFO | Forecasts 24/43 | 2021-07-14 | trained on 60000 matured labels | last mature=2021-07-13
+2026-11-11 00:42:32,160 | INFO | Forecasts 25/43 | 2022-01-03 | trained on 60000 matured labels | last mature=2021-12-31
+2026-11-11 00:42:32,638 | INFO | Forecasts 26/43 | 2022-03-30 | trained on 60000 matured labels | last mature=2022-03-29
+2026-11-11 00:42:33,128 | INFO | Forecasts 27/43 | 2022-06-27 | trained on 60000 matured labels | last mature=2022-06-24
+2026-11-11 00:42:33,630 | INFO | Forecasts 28/43 | 2022-09-21 | trained on 60000 matured labels | last mature=2022-09-20
+2026-11-11 00:42:34,146 | INFO | Forecasts 29/43 | 2022-12-15 | trained on 60000 matured labels | last mature=2022-12-14
+2026-11-11 00:42:34,661 | INFO | Forecasts 30/43 | 2023-03-15 | trained on 60000 matured labels | last mature=2023-03-14
+2026-11-11 00:42:35,172 | INFO | Forecasts 31/43 | 2023-06-09 | trained on 60000 matured labels | last mature=2023-06-08
+2026-11-11 00:42:35,655 | INFO | Forecasts 32/43 | 2023-09-06 | trained on 60000 matured labels | last mature=2023-09-05
+2026-11-11 00:42:36,163 | INFO | Forecasts 33/43 | 2023-11-30 | trained on 60000 matured labels | last mature=2023-11-29
+2026-11-11 00:42:36,653 | INFO | Forecasts 34/43 | 2024-02-28 | trained on 60000 matured labels | last mature=2024-02-27
+2026-11-11 00:42:37,162 | INFO | Forecasts 35/43 | 2024-05-23 | trained on 60000 matured labels | last mature=2024-05-22
+2026-11-11 00:42:37,696 | INFO | Forecasts 36/43 | 2024-08-20 | trained on 60000 matured labels | last mature=2024-08-19
+2026-11-11 00:42:38,214 | INFO | Forecasts 37/43 | 2024-11-13 | trained on 60000 matured labels | last mature=2024-11-12
+2026-11-11 00:42:38,716 | INFO | Forecasts 38/43 | 2025-02-12 | trained on 60000 matured labels | last mature=2025-02-11
+2026-11-11 00:42:39,207 | INFO | Forecasts 39/43 | 2025-05-09 | trained on 60000 matured labels | last mature=2025-05-08
+2026-11-11 00:42:39,697 | INFO | Forecasts 40/43 | 2025-08-06 | trained on 60000 matured labels | last mature=2025-08-05
+2026-11-11 00:42:40,192 | INFO | Forecasts 41/43 | 2025-10-30 | trained on 60000 matured labels | last mature=2025-10-29
+2026-11-11 00:42:40,679 | INFO | Forecasts 42/43 | 2026-01-28 | trained on 60000 matured labels | last mature=2026-01-27
+2026-11-11 00:42:41,151 | INFO | Forecasts 43/43 | 2026-04-24 | trained on 60000 matured labels | last mature=2026-04-23
+2026-11-11 00:42:41,322 | INFO | NET BACKTEST | phase=validation | allocator=two_stage | expected return=momentum_120
+2026-11-11 00:42:45,403 | INFO | 2016-01-20 | Stage1 Sharpe=-0.470209 | Stage2 utility=-0.008044 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:42:47,663 | INFO | 2016-04-15 | Stage1 Sharpe=-0.153841 | Stage2 utility=-0.005167 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:42:51,040 | INFO | 2016-07-12 | Stage1=CONVERGED (100/100) | sleeve Sharpe=2.356216 | Stage2 gamma=3.000 | risky=100.00% | utility=0.029347
+2026-11-11 00:42:55,401 | INFO | 2016-10-05 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.768183 | Stage2 gamma=3.000 | risky=100.00% | utility=0.011516
+2026-11-11 00:42:59,406 | INFO | 2016-12-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.653869 | Stage2 gamma=3.000 | risky=100.00% | utility=0.025129
+2026-11-11 00:43:04,012 | INFO | 2017-03-29 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.041387 | Stage2 gamma=3.000 | risky=100.00% | utility=0.048411
+2026-11-11 00:43:10,017 | INFO | 2017-06-23 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.867417 | Stage2 gamma=3.000 | risky=100.00% | utility=0.040368
+2026-11-11 00:43:16,215 | INFO | 2017-09-19 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.481917 | Stage2 gamma=3.000 | risky=100.00% | utility=0.038759
+2026-11-11 00:43:21,226 | INFO | 2017-12-13 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.523503 | Stage2 gamma=3.000 | risky=100.00% | utility=0.036199
+2026-11-11 00:43:27,099 | INFO | 2018-03-13 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.129161 | Stage2 gamma=3.000 | risky=100.00% | utility=0.048599
+2026-11-11 00:43:32,194 | INFO | 2018-06-07 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.720273 | Stage2 gamma=3.000 | risky=100.00% | utility=0.049312
+2026-11-11 00:43:36,484 | INFO | 2018-08-31 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.658221 | Stage2 gamma=3.000 | risky=100.00% | utility=0.014291
+2026-11-11 00:43:39,437 | INFO | 2018-11-27 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.544729 | Stage2 gamma=3.000 | risky=100.00% | utility=0.007401
+2026-11-11 00:43:43,174 | INFO | 2019-02-26 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.162256 | Stage2 gamma=3.000 | risky=100.00% | utility=0.009654
+2026-11-11 00:43:48,952 | INFO | 2019-05-22 | Stage1=CONVERGED (99/100) | sleeve Sharpe=2.609372 | Stage2 gamma=3.000 | risky=100.00% | utility=0.021395
+2026-11-11 00:43:55,636 | INFO | 2019-08-16 | Stage1=CONVERGED (100/100) | sleeve Sharpe=3.471977 | Stage2 gamma=3.000 | risky=100.00% | utility=0.034542
+2026-11-11 00:44:01,788 | INFO | 2019-11-11 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.713205 | Stage2 gamma=3.000 | risky=100.00% | utility=0.015315
+2026-11-11 00:44:08,385 | INFO | 2020-02-07 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.753153 | Stage2 gamma=3.000 | risky=100.00% | utility=0.015828
+2026-11-11 00:44:16,078 | INFO | 2020-05-05 | Stage1=CONVERGED (99/100) | sleeve Sharpe=1.427235 | Stage2 gamma=3.000 | risky=100.00% | utility=0.019314
+2026-11-11 00:44:21,627 | INFO | 2020-07-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.451510 | Stage2 gamma=3.000 | risky=100.00% | utility=0.022415
+2026-11-11 00:44:26,701 | INFO | 2020-10-23 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.949054 | Stage2 gamma=3.000 | risky=100.00% | utility=0.075916
+2026-11-11 00:44:31,443 | INFO | 2021-01-21 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.915299 | Stage2 gamma=3.000 | risky=100.00% | utility=0.177552
+2026-11-11 00:44:36,865 | INFO | 2021-04-19 | Stage1=CONVERGED (100/100) | sleeve Sharpe=3.260917 | Stage2 gamma=3.000 | risky=100.00% | utility=0.217994
+2026-11-11 00:44:42,291 | INFO | 2021-07-14 | Stage1=CONVERGED (99/100) | sleeve Sharpe=1.443734 | Stage2 gamma=3.000 | risky=100.00% | utility=0.018203
+2026-11-11 00:44:42,959 | INFO | Saved two_stage results to model_output\S06_expected_return_estimator_experiment\validation\two_stage\momentum_120; final NAV 138441.66
+2026-11-11 00:44:42,960 | INFO | Finished validation/two_stage/momentum_120 | net total 38.44% | SPY 162.00%
+2026-11-11 00:44:42,960 | INFO | NET BACKTEST | phase=validation | allocator=two_stage | expected return=mean_120
+2026-11-11 00:44:46,869 | INFO | 2016-01-20 | Stage1 Sharpe=-0.403863 | Stage2 utility=-0.007013 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:44:49,120 | INFO | 2016-04-15 | Stage1 Sharpe=0.015502 | Stage2 utility=-0.001020 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:44:52,444 | INFO | 2016-07-12 | Stage1=CONVERGED (100/100) | sleeve Sharpe=2.388656 | Stage2 gamma=3.000 | risky=100.00% | utility=0.029836
+2026-11-11 00:44:57,250 | INFO | 2016-10-05 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.792809 | Stage2 gamma=3.000 | risky=100.00% | utility=0.011999
+2026-11-11 00:45:01,159 | INFO | 2016-12-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.679223 | Stage2 gamma=3.000 | risky=100.00% | utility=0.026239
+2026-11-11 00:45:05,978 | INFO | 2017-03-29 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.063822 | Stage2 gamma=3.000 | risky=100.00% | utility=0.048359
+2026-11-11 00:45:11,411 | INFO | 2017-06-23 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.893808 | Stage2 gamma=3.000 | risky=100.00% | utility=0.040836
+2026-11-11 00:45:17,631 | INFO | 2017-09-19 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.517790 | Stage2 gamma=3.000 | risky=100.00% | utility=0.039775
+2026-11-11 00:45:22,554 | INFO | 2017-12-13 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.551287 | Stage2 gamma=3.000 | risky=100.00% | utility=0.036490
+2026-11-11 00:45:28,317 | INFO | 2018-03-13 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.181798 | Stage2 gamma=3.000 | risky=100.00% | utility=0.051034
+2026-11-11 00:45:33,677 | INFO | 2018-06-07 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.801415 | Stage2 gamma=3.000 | risky=100.00% | utility=0.055713
+2026-11-11 00:45:37,744 | INFO | 2018-08-31 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.696411 | Stage2 gamma=3.000 | risky=100.00% | utility=0.015389
+2026-11-11 00:45:40,684 | INFO | 2018-11-27 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.580459 | Stage2 gamma=3.000 | risky=100.00% | utility=0.007829
+2026-11-11 00:45:44,165 | INFO | 2019-02-26 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.188343 | Stage2 gamma=3.000 | risky=100.00% | utility=0.009859
+2026-11-11 00:45:49,152 | INFO | 2019-05-22 | Stage1=CONVERGED (100/100) | sleeve Sharpe=2.632914 | Stage2 gamma=3.000 | risky=100.00% | utility=0.021510
+2026-11-11 00:45:55,474 | INFO | 2019-08-16 | Stage1=CONVERGED (100/100) | sleeve Sharpe=3.719902 | Stage2 gamma=3.000 | risky=100.00% | utility=0.038688
+2026-11-11 00:46:01,666 | INFO | 2019-11-11 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.807617 | Stage2 gamma=3.000 | risky=100.00% | utility=0.016235
+2026-11-11 00:46:08,266 | INFO | 2020-02-07 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.809403 | Stage2 gamma=3.000 | risky=100.00% | utility=0.016209
+2026-11-11 00:46:16,779 | INFO | 2020-05-05 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.566405 | Stage2 gamma=3.000 | risky=100.00% | utility=0.020822
+2026-11-11 00:46:25,280 | INFO | 2020-07-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.690361 | Stage2 gamma=3.000 | risky=100.00% | utility=0.022037
+2026-11-11 00:46:32,236 | INFO | 2020-10-23 | Stage1=CONVERGED (100/100) | sleeve Sharpe=2.306679 | Stage2 gamma=3.000 | risky=100.00% | utility=0.083467
+2026-11-11 00:46:37,990 | INFO | 2021-01-21 | Stage1=CONVERGED (100/100) | sleeve Sharpe=2.195879 | Stage2 gamma=3.000 | risky=100.00% | utility=0.198768
+2026-11-11 00:46:43,506 | INFO | 2021-04-19 | Stage1=CONVERGED (100/100) | sleeve Sharpe=3.805859 | Stage2 gamma=3.000 | risky=100.00% | utility=0.202373
+2026-11-11 00:46:50,569 | INFO | 2021-07-14 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.700128 | Stage2 gamma=3.000 | risky=100.00% | utility=0.019665
+2026-11-11 00:46:51,261 | INFO | Saved two_stage results to model_output\S06_expected_return_estimator_experiment\validation\two_stage\mean_120; final NAV 146667.47
+2026-11-11 00:46:51,263 | INFO | Finished validation/two_stage/mean_120 | net total 46.67% | SPY 162.00%
+2026-11-11 00:46:51,263 | INFO | NET BACKTEST | phase=validation | allocator=two_stage | expected return=ml_return
+2026-11-11 00:46:55,578 | INFO | 2016-01-20 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.071261 | Stage2 gamma=3.000 | risky=22.69% | utility=0.000358
+2026-11-11 00:46:58,459 | INFO | 2016-04-15 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.148066 | Stage2 gamma=3.000 | risky=71.45% | utility=0.003125
+2026-11-11 00:47:03,834 | INFO | 2016-07-12 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.523539 | Stage2 gamma=3.000 | risky=100.00% | utility=0.006109
+2026-11-11 00:47:09,016 | INFO | 2016-10-05 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.356746 | Stage2 gamma=3.000 | risky=100.00% | utility=0.004671
+2026-11-11 00:47:13,024 | INFO | 2016-12-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.301395 | Stage2 gamma=3.000 | risky=100.00% | utility=0.005055
+2026-11-11 00:47:19,610 | INFO | 2017-03-29 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.188518 | Stage2 gamma=3.000 | risky=100.00% | utility=0.003200
+2026-11-11 00:47:25,442 | INFO | 2017-06-23 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.300774 | Stage2 gamma=3.000 | risky=100.00% | utility=0.004866
+2026-11-11 00:47:32,137 | INFO | 2017-09-19 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.389362 | Stage2 gamma=3.000 | risky=100.00% | utility=0.007230
+2026-11-11 00:47:38,223 | INFO | 2017-12-13 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.460205 | Stage2 gamma=3.000 | risky=100.00% | utility=0.011379
+2026-11-11 00:47:44,200 | INFO | 2018-03-13 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.368748 | Stage2 gamma=3.000 | risky=100.00% | utility=0.007751
+2026-11-11 00:47:50,316 | INFO | 2018-06-07 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.194836 | Stage2 gamma=3.000 | risky=53.81% | utility=0.001514
+2026-11-11 00:47:55,491 | INFO | 2018-08-31 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.277658 | Stage2 gamma=3.000 | risky=100.00% | utility=0.008498
+2026-11-11 00:47:59,377 | INFO | 2018-11-27 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.067684 | Stage2 gamma=3.000 | risky=66.20% | utility=0.000854
+2026-11-11 00:48:03,216 | INFO | 2019-02-26 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.223723 | Stage2 gamma=3.000 | risky=100.00% | utility=0.002455
+2026-11-11 00:48:07,580 | INFO | 2019-05-22 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.263211 | Stage2 gamma=3.000 | risky=100.00% | utility=0.005084
+2026-11-11 00:48:11,991 | INFO | 2019-08-16 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.576557 | Stage2 gamma=3.000 | risky=100.00% | utility=0.009605
+2026-11-11 00:48:18,590 | INFO | 2019-11-11 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.267311 | Stage2 gamma=3.000 | risky=100.00% | utility=0.004037
+2026-11-11 00:48:25,134 | INFO | 2020-02-07 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.500698 | Stage2 gamma=3.000 | risky=100.00% | utility=0.006258
+2026-11-11 00:48:33,003 | INFO | 2020-05-05 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.735039 | Stage2 gamma=3.000 | risky=100.00% | utility=0.017674
+2026-11-11 00:48:38,179 | INFO | 2020-07-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.458926 | Stage2 gamma=3.000 | risky=100.00% | utility=0.013150
+2026-11-11 00:48:43,597 | INFO | 2020-10-23 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.374984 | Stage2 gamma=3.000 | risky=100.00% | utility=0.009254
+2026-11-11 00:48:49,629 | INFO | 2021-01-21 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.411427 | Stage2 gamma=3.000 | risky=100.00% | utility=0.012130
+2026-11-11 00:48:55,251 | INFO | 2021-04-19 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.937612 | Stage2 gamma=3.000 | risky=100.00% | utility=0.004209
+2026-11-11 00:49:02,197 | INFO | 2021-07-14 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.014921 | Stage2 gamma=3.000 | risky=100.00% | utility=0.004538
+2026-11-11 00:49:02,888 | INFO | Saved two_stage results to model_output\S06_expected_return_estimator_experiment\validation\two_stage\ml_return; final NAV 130655.92
+2026-11-11 00:49:02,889 | INFO | Finished validation/two_stage/ml_return | net total 30.66% | SPY 162.00%
+2026-11-11 00:49:02,889 | INFO | NET BACKTEST | phase=test | allocator=two_stage | expected return=momentum_120
+2026-11-11 00:49:07,560 | INFO | 2022-01-03 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.873254 | Stage2 gamma=3.000 | risky=100.00% | utility=0.048951
+2026-11-11 00:49:11,456 | INFO | 2022-03-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.137103 | Stage2 gamma=3.000 | risky=100.00% | utility=0.032676
+2026-11-11 00:49:14,564 | INFO | 2022-06-27 | Stage1 Sharpe=-0.157819 | Stage2 utility=-0.000812 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:49:17,621 | INFO | 2022-09-21 | Stage1 Sharpe=-0.533885 | Stage2 utility=-0.007739 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:49:20,290 | INFO | 2022-12-15 | Stage1 Sharpe=-0.397589 | Stage2 utility=-0.002616 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:49:22,315 | INFO | 2023-03-15 | Stage1 Sharpe=-0.887106 | Stage2 utility=-0.002531 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:49:26,630 | INFO | 2023-06-09 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.627308 | Stage2 gamma=3.000 | risky=100.00% | utility=0.025154
+2026-11-11 00:49:30,903 | INFO | 2023-09-06 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.594458 | Stage2 gamma=3.000 | risky=100.00% | utility=0.032473
+2026-11-11 00:49:31,265 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-11 00:49:34,005 | INFO | 2023-11-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.242849 | Stage2 gamma=3.000 | risky=100.00% | utility=0.009157
+2026-11-11 00:49:38,483 | INFO | 2024-02-28 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.941550 | Stage2 gamma=3.000 | risky=100.00% | utility=0.023372
+2026-11-11 00:49:43,759 | INFO | 2024-05-23 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.137576 | Stage2 gamma=3.000 | risky=100.00% | utility=0.036869
+2026-11-11 00:49:49,768 | INFO | 2024-08-20 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.010637 | Stage2 gamma=3.000 | risky=100.00% | utility=0.022703
+2026-11-11 00:49:56,245 | INFO | 2024-11-13 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.390812 | Stage2 gamma=3.000 | risky=100.00% | utility=0.019739
+2026-11-11 00:49:56,667 | WARNING | 2024-11-13: trailing_252_observation_p90 spread fallback for CEW; age=9 ticker observations; spread used=0.00109058; reference date=2024-10-31
+2026-11-11 00:50:01,429 | INFO | 2025-02-12 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.455660 | Stage2 gamma=3.000 | risky=100.00% | utility=0.032208
+2026-11-11 00:50:06,125 | INFO | 2025-05-09 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.289881 | Stage2 gamma=3.000 | risky=100.00% | utility=0.027263
+2026-11-11 00:50:11,260 | INFO | 2025-08-06 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.013864 | Stage2 gamma=3.000 | risky=100.00% | utility=0.027346
+2026-11-11 00:50:16,550 | INFO | 2025-10-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.502408 | Stage2 gamma=3.000 | risky=100.00% | utility=0.050767
+2026-11-11 00:50:21,443 | INFO | 2026-01-28 | Stage1=CONVERGED (100/100) | sleeve Sharpe=2.354178 | Stage2 gamma=3.000 | risky=100.00% | utility=0.062995
+2026-11-11 00:50:26,926 | INFO | 2026-04-24 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.036470 | Stage2 gamma=3.000 | risky=100.00% | utility=0.037897
+2026-11-11 00:50:27,505 | INFO | Saved two_stage results to model_output\S06_expected_return_estimator_experiment\test\two_stage\momentum_120; final NAV 130011.83
+2026-11-11 00:50:27,507 | INFO | Finished test/two_stage/momentum_120 | net total 30.01% | SPY 65.76%
+2026-11-11 00:50:27,507 | INFO | NET BACKTEST | phase=test | allocator=two_stage | expected return=mean_120
+2026-11-11 00:50:32,303 | INFO | 2022-01-03 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.924930 | Stage2 gamma=3.000 | risky=100.00% | utility=0.052348
+2026-11-11 00:50:36,299 | INFO | 2022-03-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.196692 | Stage2 gamma=3.000 | risky=100.00% | utility=0.033467
+2026-11-11 00:50:39,623 | INFO | 2022-06-27 | Stage1 Sharpe=-0.080719 | Stage2 utility=-0.000318 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:50:42,579 | INFO | 2022-09-21 | Stage1 Sharpe=-0.409456 | Stage2 utility=-0.006076 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:50:45,431 | INFO | 2022-12-15 | Stage1 Sharpe=-0.343589 | Stage2 utility=-0.002295 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:50:47,450 | INFO | 2023-03-15 | Stage1 Sharpe=-0.845786 | Stage2 utility=-0.002419 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:50:51,569 | INFO | 2023-06-09 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.670789 | Stage2 gamma=3.000 | risky=100.00% | utility=0.030471
+2026-11-11 00:50:55,906 | INFO | 2023-09-06 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.642870 | Stage2 gamma=3.000 | risky=100.00% | utility=0.035352
+2026-11-11 00:50:56,274 | WARNING | 2023-09-06: trailing_252_observation_p90 spread fallback for CEW; age=11 ticker observations; spread used=0.00151182; reference date=2023-08-21
+2026-11-11 00:50:59,037 | INFO | 2023-11-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.301854 | Stage2 gamma=3.000 | risky=100.00% | utility=0.011738
+2026-11-11 00:51:03,779 | INFO | 2024-02-28 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.991361 | Stage2 gamma=3.000 | risky=100.00% | utility=0.024430
+2026-11-11 00:51:09,259 | INFO | 2024-05-23 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.192214 | Stage2 gamma=3.000 | risky=100.00% | utility=0.039819
+2026-11-11 00:51:14,699 | INFO | 2024-08-20 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.091388 | Stage2 gamma=3.000 | risky=100.00% | utility=0.025356
+2026-11-11 00:51:21,263 | INFO | 2024-11-13 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.429304 | Stage2 gamma=3.000 | risky=100.00% | utility=0.020298
+2026-11-11 00:51:26,296 | INFO | 2025-02-12 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.500883 | Stage2 gamma=3.000 | risky=100.00% | utility=0.033252
+2026-11-11 00:51:30,751 | INFO | 2025-05-09 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.358858 | Stage2 gamma=3.000 | risky=100.00% | utility=0.028461
+2026-11-11 00:51:35,827 | INFO | 2025-08-06 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.079913 | Stage2 gamma=3.000 | risky=100.00% | utility=0.030110
+2026-11-11 00:51:40,450 | INFO | 2025-10-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.533641 | Stage2 gamma=3.000 | risky=100.00% | utility=0.051782
+2026-11-11 00:51:44,673 | INFO | 2026-01-28 | Stage1=CONVERGED (100/100) | sleeve Sharpe=2.400276 | Stage2 gamma=3.000 | risky=100.00% | utility=0.065271
+2026-11-11 00:51:49,971 | INFO | 2026-04-24 | Stage1=CONVERGED (100/100) | sleeve Sharpe=1.107943 | Stage2 gamma=3.000 | risky=100.00% | utility=0.044278
+2026-11-11 00:51:50,552 | INFO | Saved two_stage results to model_output\S06_expected_return_estimator_experiment\test\two_stage\mean_120; final NAV 130357.47
+2026-11-11 00:51:50,554 | INFO | Finished test/two_stage/mean_120 | net total 30.36% | SPY 65.76%
+2026-11-11 00:51:50,554 | INFO | NET BACKTEST | phase=test | allocator=two_stage | expected return=ml_return
+2026-11-11 00:51:55,654 | INFO | 2022-01-03 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.241709 | Stage2 gamma=3.000 | risky=100.00% | utility=0.007985
+2026-11-11 00:51:59,159 | INFO | 2022-03-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.435906 | Stage2 gamma=3.000 | risky=100.00% | utility=0.016368
+2026-11-11 00:52:02,036 | INFO | 2022-06-27 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.288999 | Stage2 gamma=3.000 | risky=100.00% | utility=0.009660
+2026-11-11 00:52:05,123 | INFO | 2022-09-21 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.084586 | Stage2 gamma=3.000 | risky=21.75% | utility=0.000952
+2026-11-11 00:52:08,772 | INFO | 2022-12-15 | Stage1 Sharpe=-0.035869 | Stage2 utility=-0.001048 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:52:10,860 | INFO | 2023-03-15 | Stage1 Sharpe=-0.770960 | Stage2 utility=-0.002218 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:52:13,464 | INFO | 2023-06-09 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.092177 | Stage2 gamma=3.000 | risky=30.29% | utility=0.001039
+2026-11-11 00:52:17,903 | INFO | 2023-09-06 | Stage1 Sharpe=-0.063997 | Stage2 utility=-0.001551 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:52:19,996 | INFO | 2023-11-30 | Stage1 Sharpe=-0.894019 | Stage2 utility=-0.002051 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:52:22,896 | INFO | 2024-02-28 | Stage1 Sharpe=0.028014 | Stage2 utility=-0.000231 | 100% cash: non_positive_utility_vs_cash
+2026-11-11 00:52:26,299 | INFO | 2024-05-23 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.127961 | Stage2 gamma=3.000 | risky=42.20% | utility=0.001848
+2026-11-11 00:52:31,530 | INFO | 2024-08-20 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.108133 | Stage2 gamma=3.000 | risky=35.59% | utility=0.001468
+2026-11-11 00:52:36,665 | INFO | 2024-11-13 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.228646 | Stage2 gamma=3.000 | risky=97.32% | utility=0.007766
+2026-11-11 00:52:42,765 | INFO | 2025-02-12 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.361797 | Stage2 gamma=3.000 | risky=100.00% | utility=0.016911
+2026-11-11 00:52:47,733 | INFO | 2025-05-09 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.442991 | Stage2 gamma=3.000 | risky=100.00% | utility=0.020475
+2026-11-11 00:52:53,212 | INFO | 2025-08-06 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.287750 | Stage2 gamma=3.000 | risky=100.00% | utility=0.012026
+2026-11-11 00:52:58,096 | INFO | 2025-10-30 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.210414 | Stage2 gamma=3.000 | risky=84.96% | utility=0.007067
+2026-11-11 00:53:02,900 | INFO | 2026-01-28 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.168300 | Stage2 gamma=3.000 | risky=75.15% | utility=0.004594
+2026-11-11 00:53:07,117 | INFO | 2026-04-24 | Stage1=CONVERGED (100/100) | sleeve Sharpe=0.128098 | Stage2 gamma=3.000 | risky=76.15% | utility=0.002778
+2026-11-11 00:53:07,720 | INFO | Saved two_stage results to model_output\S06_expected_return_estimator_experiment\test\two_stage\ml_return; final NAV 117173.61
+2026-11-11 00:53:07,722 | INFO | Finished test/two_stage/ml_return | net total 17.17% | SPY 65.76%
+2026-11-11 00:53:08,347 | INFO | DONE. Comparison and plots saved in model_output\S06_expected_return_estimator_experiment

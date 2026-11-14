@@ -1,0 +1,52 @@
+2026-11-13 23:48:18,362 | INFO | Loaded previous Full Universe and SPY NAV: model_output\S06_blacklitterman_robust_regime_comparison\04_RegimeAware_LedoitWolf\Full_Universe\daily_nav.csv | rows=1198 | 2022-01-03 to 2026-10-12
+2026-11-13 23:48:18,372 | INFO | 2022-01-03 | XGBoost selected 2/48 assets at probability >= 0.60
+2026-11-13 23:48:18,373 | INFO | 2022-03-30 | XGBoost selected 1/48 assets at probability >= 0.60
+2026-11-13 23:48:18,375 | INFO | 2022-06-27 | XGBoost selected 7/48 assets at probability >= 0.60
+2026-11-13 23:48:18,377 | INFO | 2022-09-21 | XGBoost selected 26/48 assets at probability >= 0.60
+2026-11-13 23:48:18,379 | INFO | 2022-12-15 | XGBoost selected 0/48 assets at probability >= 0.60
+2026-11-13 23:48:18,380 | INFO | 2023-03-15 | XGBoost selected 47/48 assets at probability >= 0.60
+2026-11-13 23:48:18,385 | INFO | 2023-06-09 | XGBoost selected 1/48 assets at probability >= 0.60
+2026-11-13 23:48:18,387 | INFO | 2023-09-06 | XGBoost selected 22/48 assets at probability >= 0.60
+2026-11-13 23:48:18,388 | INFO | 2023-11-30 | XGBoost selected 1/48 assets at probability >= 0.60
+2026-11-13 23:48:18,390 | INFO | 2024-02-28 | XGBoost selected 37/48 assets at probability >= 0.60
+2026-11-13 23:48:18,392 | INFO | 2024-05-23 | XGBoost selected 46/48 assets at probability >= 0.60
+2026-11-13 23:48:18,393 | INFO | 2024-08-20 | XGBoost selected 47/48 assets at probability >= 0.60
+2026-11-13 23:48:18,395 | INFO | 2024-11-13 | XGBoost selected 47/48 assets at probability >= 0.60
+2026-11-13 23:48:18,397 | INFO | 2025-02-12 | XGBoost selected 47/48 assets at probability >= 0.60
+2026-11-13 23:48:18,398 | INFO | 2025-05-09 | XGBoost selected 30/48 assets at probability >= 0.60
+2026-11-13 23:48:18,400 | INFO | 2025-08-06 | XGBoost selected 46/48 assets at probability >= 0.60
+2026-11-13 23:48:18,402 | INFO | 2025-10-30 | XGBoost selected 36/48 assets at probability >= 0.60
+2026-11-13 23:48:18,404 | INFO | 2026-01-28 | XGBoost selected 47/48 assets at probability >= 0.60
+2026-11-13 23:48:18,406 | INFO | 2026-04-24 | XGBoost selected 30/48 assets at probability >= 0.60
+2026-11-13 23:48:18,439 | INFO | START | 04_RegimeAware_LedoitWolf | Peer_XGBoost | ONLY ALLOCATION RUN | threshold >= 0.60
+2026-11-13 23:48:20,208 | INFO | 2022-01-03 | direct utility gamma=3.000 | risky=40.00% | utility=0.015735 | starts=12 converged=12
+2026-11-13 23:48:23,373 | INFO | 2022-03-30 | direct utility gamma=3.000 | risky=34.60% | utility=0.012689 | starts=12 converged=12
+2026-11-13 23:48:27,876 | INFO | 2022-06-27 | direct utility gamma=3.000 | risky=20.00% | utility=0.003152 | starts=12 converged=12
+2026-11-13 23:49:05,376 | INFO | 2022-09-21 | direct utility | eligible=27 | risky=0.00% | cash=100.00% | reason=non_positive_incremental_utility | best_utility=-0.003440 | net=-0.003406
+2026-11-13 23:49:05,931 | INFO | 2022-12-15 | direct utility | eligible=0 | risky=0.00% | cash=100.00% | reason=no_eligible_risky_assets
+2026-11-13 23:50:41,152 | INFO | 2023-03-15 | direct utility gamma=3.000 | risky=100.00% | utility=0.072367 | starts=12 converged=12
+2026-11-13 23:50:45,636 | INFO | 2023-06-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.087059 | starts=12 converged=12
+2026-11-13 23:51:39,204 | INFO | 2023-09-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.082929 | starts=12 converged=12
+2026-11-13 23:51:49,904 | INFO | 2023-11-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.022131 | starts=12 converged=12
+2026-11-13 23:55:56,022 | INFO | 2024-02-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.073919 | starts=12 converged=12
+2026-11-13 23:55:56,738 | WARNING | 2024-02-28: trailing_252_observation_p90 spread fallback for CEW; age=8 ticker observations; spread used=0.00140325; reference date=2024-02-15
+2026-11-14 00:01:23,615 | INFO | 2024-05-23 | direct utility gamma=3.000 | risky=100.00% | utility=0.146214 | starts=12 converged=12
+2026-11-14 00:04:26,753 | INFO | 2024-08-20 | direct utility gamma=3.000 | risky=100.00% | utility=0.083741 | starts=12 converged=12
+2026-11-14 00:08:56,938 | INFO | 2024-11-13 | direct utility gamma=3.000 | risky=100.00% | utility=0.065169 | starts=12 converged=12
+2026-11-14 00:08:57,911 | WARNING | 2024-11-13: trailing_252_observation_p90 spread fallback for CEW; age=9 ticker observations; spread used=0.00109058; reference date=2024-10-31
+2026-11-14 00:12:06,542 | INFO | 2025-02-12 | direct utility gamma=3.000 | risky=100.00% | utility=0.119559 | starts=12 converged=12
+2026-11-14 00:12:07,445 | WARNING | 2025-02-12: last_valid_historical spread fallback for CEW; age=5 ticker observations; spread used=0.00052654; reference date=2025-02-05
+2026-11-14 00:14:10,207 | INFO | 2025-05-09 | direct utility gamma=3.000 | risky=100.00% | utility=0.068776 | starts=12 converged=12
+2026-11-14 00:18:04,951 | INFO | 2025-08-06 | direct utility gamma=3.000 | risky=100.00% | utility=0.070003 | starts=12 converged=12
+2026-11-14 00:19:44,268 | INFO | 2025-10-30 | direct utility gamma=3.000 | risky=100.00% | utility=0.216302 | starts=12 converged=12
+2026-11-14 00:21:28,742 | INFO | 2026-01-28 | direct utility gamma=3.000 | risky=100.00% | utility=0.318318 | starts=12 converged=12
+2026-11-14 00:23:23,443 | INFO | 2026-04-24 | direct utility gamma=3.000 | risky=100.00% | utility=0.108947 | starts=12 converged=12
+2026-11-14 00:23:25,510 | INFO | Saved direct results to model_output\S06_regime_aware_xgboost_only_no_min3\04_RegimeAware_LedoitWolf\Peer_XGBoost; final NAV 196817.96
+2026-11-14 00:23:25,810 | INFO | COMPLETED: XGBoost-only rerun. Full Universe and SPY were reused.
+2026-11-14 00:23:25,810 | INFO | Output directory: model_output\S06_regime_aware_xgboost_only_no_min3
+2026-11-14 00:23:25,811 | INFO | Three-line comparison chart: model_output\S06_regime_aware_xgboost_only_no_min3\regimeaware_ledoitwolf_xgboost_full_universe_spy.png
+2026-11-14 00:23:25,855 | INFO | 
+            Configuration         Strategy  Total_Return     CAGR  Annualized_Sharpe  Max_Drawdown  Transaction_Cost_USD  Average_Daily_Cash_Weight
+04_RegimeAware_LedoitWolf     Peer_XGBoost      0.968180 0.153210           0.651069     -0.183649           4920.519650                   0.206353
+04_RegimeAware_LedoitWolf    Full_Universe      1.126917 0.172196           0.711689     -0.183686           6176.089046                   0.043974
+04_RegimeAware_LedoitWolf SPY_Buy_And_Hold      0.729695 0.121675           0.520404     -0.247343              0.000000                   0.000000
