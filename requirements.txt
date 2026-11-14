@@ -1,0 +1,30 @@
+# MScFE capstone S01-S05A — clean CPython 3.11 virtual environment.
+# Version baseline: existing capstone ML stack (Nov 2026) plus
+# Matplotlib 3.10.8 (tested successfully in the earlier cvx environment).
+# Install with: python -m pip install -r requirements.txt
+# The packages below are direct project requirements or deliberately pinned
+# core ML dependencies. Other transitive dependencies are resolved by pip.
+
+# Core scientific and machine-learning stack used for S03/S04/S05A
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.9.1
+xgboost==3.2.0
+matplotlib==3.10.8
+
+# scikit-learn dependencies (pin for reproducibility)
+joblib==1.6.0
+threadpoolctl==3.7.0
+narwhals==2.27.1
+
+# S01 market and macro data acquisition
+yfinance==1.7.0
+fredapi==0.5.2
+requests==2.34.2
+
+# S04 progress reporting; notebook support
+tqdm==4.70.1
+ipywidgets==8.1.9
+ipykernel==7.4.0
+jupyterlab==4.6.4

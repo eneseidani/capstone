@@ -8,5 +8,11 @@ __pycache__/
 # Jupyter temporary files
 .ipynb_checkpoints/
 
+# Python virtual environments
+capstone_env/
+venv/
+.venv/
+env/
+
 # Environment files
 .env
