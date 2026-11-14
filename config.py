@@ -2,8 +2,9 @@
 from pathlib import Path
 
 # Dates
-START_DATE = "2008-01-01"  # Analysis start date
-TEST_START = "2022-01-01"  # Test period start date
+AS_OF_DATE = "2026-11-10"        # Model run date
+START_DATE = "2008-01-01"        # Analysis start date
+TEST_START = "2022-01-01"        # Test period start date
 VALIDATION_START = "2016-01-01"  # Validation period start date
 
 # Regime-model variables
@@ -12,20 +13,32 @@ MOVING_AVG_WINDOW = 200
 PERCENTILE_WINDOW = 252
 MIN_REGIME_DAYS = 10
 
+# Liquidity data
+SPREAD_WINDOW = 20    # Trading sessions used to estimate the bid-ask spread
+SPREAD_MIN_OBS = 12   # Minimum valid observations required for spread estimation
+ADV_WINDOW = 126      # Trading sessions used to calculate average daily dollar volume
+
 # File paths
 UNIVERSE_FILE = Path("Investable_Universe.csv")
 RAW_DATA_DIR = Path("raw_data")
 INPUT_DATA_DIR = Path("input_data")
 
-# Portfolio rebalancing frequency
-REBALANCE_FREQUENCY = 60
-
 # Return classification
-FORWARD_HORIZON = 60  # Forward prediction horizon
-RANDOM_STATE = 42  # Fixed random state
+FORWARD_HORIZON = 60                            # Forward prediction horizon
+REBALANCE_FREQUENCY = 60                        # Portfolio rebalancing frequency
+RANDOM_STATE = 42                               # Fixed random state
 CLASSIFICATION_THRESHOLDS = (0.50, 0.55, 0.60)  # Thresholds used to convert the model's predicted probability into a binary prediction
-TOP_K_VALUES = (10, 15)  # Number of highest-ranked assets selected for screening evaluation
-HYPERPARAMETER_TUNING = False  # Indicate whether to perform hyperparameter tuning
+TOP_K_VALUES = (10, 15)                         # Number of highest-ranked assets selected for screening evaluation
+HYPERPARAMETER_TUNING = False                   # Indicate whether to perform hyperparameter tuning
+
+# Portfolio optimization
+INITIAL_CAPITAL = 100000.0       # Initial portfolio value in USD
+EXPECTED_RETURN_LOOKBACK = 120   # Trading sessions used to estimate momentum-based expected returns
+COVARIANCE_LOOKBACK = 252        # Trading sessions used to estimate the return covariance matrix
+RISK_AVERSION = 1.0              # Risk penalty coefficient (higher means greater risk aversion)
+DIRECT_STARTS = 12               # Number of initial solutions tested by the optimizer
+MAX_WEIGHT = 0.20                # Maximum portfolio weight allocated to risky assets
+MARKET_IMPACT_COEFFICIENT = 0.1  # Coefficient controlling nonlinear market impact costs
 
 # Rolling windows for feature engineering
 MOMENTUM_WINDOWS = [5, 20, 60, 120, 252]
@@ -52,10 +65,10 @@ FRED_SERIES = {
     # Interest rates (daily)
     "INTEREST_RATE_FEATURES": {
         "DFF": "Federal Funds Effective Rate", # published on T+1 afternoon
-        "DGS3MO": "3-Month Treasury Yield", # published on T+1 afternoon
-        "DGS2": "2-Year Treasury Yield", # published on T+1 afternoon
-        "DGS10": "10-Year Treasury Yield", # published on T+1 afternoon
-        "DGS30": "30-Year Treasury Yield", # published on T+1 afternoon
+        "DGS3MO": "3-Month Treasury Yield",    # published on T+1 afternoon
+        "DGS2": "2-Year Treasury Yield",       # published on T+1 afternoon
+        "DGS10": "10-Year Treasury Yield",     # published on T+1 afternoon
+        "DGS30": "30-Year Treasury Yield",     # published on T+1 afternoon
         },
 
     # Yield curve (daily)
@@ -66,16 +79,16 @@ FRED_SERIES = {
 
     # Term premium (daily)
     "TERM_PREMIUM_FEATURES": {
-        "THREEFYTP2": "2-Year Zero-Coupon Bond Term Premium", # published on T+2 afternoon (weekly on Tuesday)
-        "THREEFYTP5": "5-Year Zero-Coupon Bond Term Premium", # published on T+2 afternoon (weekly on Tuesday)
+        "THREEFYTP2": "2-Year Zero-Coupon Bond Term Premium",   # published on T+2 afternoon (weekly on Tuesday)
+        "THREEFYTP5": "5-Year Zero-Coupon Bond Term Premium",   # published on T+2 afternoon (weekly on Tuesday)
         "THREEFYTP10": "10-Year Zero-Coupon Bond Term Premium", # published on T+2 afternoon (weekly on Tuesday)
     },
 
     # Inflation (daily)
     "INFLATION_FEATURES": {
         "T5YIFR": "5-Year Forward Inflation Expectation", # published on T afternoon
-        "T5YIE": "5-Year Breakeven Inflation Rate ", # published on T afternoon
-        "T10YIE": "10-Year Breakeven Inflation Rate ", # published on T afternoon
+        "T5YIE": "5-Year Breakeven Inflation Rate ",      # published on T afternoon
+        "T10YIE": "10-Year Breakeven Inflation Rate ",    # published on T afternoon
     },
 
     # Macro (monthly)
