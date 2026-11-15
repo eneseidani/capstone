@@ -1,0 +1,63 @@
+2026-11-15 04:32:53,245 | INFO | S06_THREE_STRATEGY | S04B input validated | rows=960 | dates=20 | tickers/date=48
+2026-11-15 04:32:53,246 | INFO | S06_THREE_STRATEGY | Threshold-only selection | P >= 0.60 | selected asset-date rows=525 | mean selected/date=26.25
+2026-11-15 04:32:53,246 | INFO | S06_THREE_STRATEGY | Rebalance dates: 2022-01-03, 2022-03-30, 2022-06-27, 2022-09-21, 2022-12-15, 2023-03-15, 2023-06-09, 2023-09-06, 2023-11-30, 2024-02-28, 2024-05-23, 2024-08-20, 2024-11-13, 2025-02-12, 2025-05-09, 2025-08-06, 2025-10-30, 2026-01-28, 2026-04-24, 2026-07-22
+2026-11-15 04:32:54,140 | INFO | S06_THREE_STRATEGY | START | XGBoost_Probability_0.60 | rebalances=20 | gamma=3.000 | threshold=0.60
+2026-11-15 04:32:55,008 | INFO | S06_THREE_STRATEGY | 2022-01-03 | direct utility gamma=3.000 | eligible=2 | risky=50.00% | utility=0.018419 | starts=12 converged=12
+2026-11-15 04:32:57,824 | INFO | S06_THREE_STRATEGY | 2022-03-30 | direct utility gamma=3.000 | eligible=3 | risky=39.40% | utility=0.015608 | starts=12 converged=12
+2026-11-15 04:33:03,311 | INFO | S06_THREE_STRATEGY | 2022-06-27 | direct utility gamma=3.000 | eligible=8 | risky=25.00% | utility=0.003791 | starts=12 converged=12
+2026-11-15 04:33:38,967 | INFO | S06_THREE_STRATEGY | 2022-09-21 | direct utility | eligible=27 | risky=0.00% | cash=100.00% | reason=non_positive_incremental_utility | utility=-0.003430 | net=-0.003397
+2026-11-15 04:33:39,502 | INFO | S06_THREE_STRATEGY | 2022-12-15 | direct utility | eligible=0 | risky=0.00% | cash=100.00%
+2026-11-15 04:37:25,520 | INFO | S06_THREE_STRATEGY | 2023-03-15 | direct utility gamma=3.000 | eligible=47 | risky=100.00% | utility=0.074627 | starts=12 converged=12
+2026-11-15 04:37:31,864 | INFO | S06_THREE_STRATEGY | 2023-06-09 | direct utility gamma=3.000 | eligible=6 | risky=100.00% | utility=0.098982 | starts=12 converged=12
+2026-11-15 04:38:23,014 | INFO | S06_THREE_STRATEGY | 2023-09-06 | direct utility gamma=3.000 | eligible=24 | risky=100.00% | utility=0.086360 | starts=12 converged=12
+2026-11-15 04:38:29,792 | INFO | S06_THREE_STRATEGY | 2023-11-30 | direct utility gamma=3.000 | eligible=5 | risky=100.00% | utility=0.023752 | starts=12 converged=12
+2026-11-15 04:41:56,512 | INFO | S06_THREE_STRATEGY | 2024-02-28 | direct utility gamma=3.000 | eligible=37 | risky=100.00% | utility=0.077676 | starts=12 converged=12
+2026-11-15 04:41:57,183 | WARNING | S06_THREE_STRATEGY | 2024-02-28: spread fallback=trailing_252_observation_p90 ticker=CEW age=8 spread=0.00140325
+2026-11-15 04:45:02,395 | INFO | S06_THREE_STRATEGY | 2024-05-23 | direct utility gamma=3.000 | eligible=46 | risky=100.00% | utility=0.163785 | starts=12 converged=12
+2026-11-15 04:47:29,704 | INFO | S06_THREE_STRATEGY | 2024-08-20 | direct utility gamma=3.000 | eligible=47 | risky=100.00% | utility=0.089744 | starts=12 converged=12
+2026-11-15 04:51:33,173 | INFO | S06_THREE_STRATEGY | 2024-11-13 | direct utility gamma=3.000 | eligible=47 | risky=100.00% | utility=0.066989 | starts=12 converged=12
+2026-11-15 04:51:34,043 | WARNING | S06_THREE_STRATEGY | 2024-11-13: spread fallback=trailing_252_observation_p90 ticker=CEW age=9 spread=0.00109058
+2026-11-15 04:53:51,837 | INFO | S06_THREE_STRATEGY | 2025-02-12 | direct utility gamma=3.000 | eligible=47 | risky=100.00% | utility=0.132684 | starts=12 converged=12
+2026-11-15 04:53:52,733 | WARNING | S06_THREE_STRATEGY | 2025-02-12: spread fallback=last_valid_historical ticker=CEW age=5 spread=0.00052654
+2026-11-15 04:55:57,442 | INFO | S06_THREE_STRATEGY | 2025-05-09 | direct utility gamma=3.000 | eligible=31 | risky=100.00% | utility=0.054054 | starts=12 converged=12
+2026-11-15 05:00:37,699 | INFO | S06_THREE_STRATEGY | 2025-08-06 | direct utility gamma=3.000 | eligible=46 | risky=100.00% | utility=0.072783 | starts=12 converged=12
+2026-11-15 05:01:35,110 | INFO | S06_THREE_STRATEGY | 2025-10-30 | direct utility gamma=3.000 | eligible=38 | risky=100.00% | utility=0.233462 | starts=12 converged=12
+2026-11-15 05:03:43,697 | INFO | S06_THREE_STRATEGY | 2026-01-28 | direct utility gamma=3.000 | eligible=47 | risky=100.00% | utility=0.351211 | starts=12 converged=12
+2026-11-15 05:05:03,078 | INFO | S06_THREE_STRATEGY | 2026-04-24 | direct utility gamma=3.000 | eligible=32 | risky=100.00% | utility=0.121054 | starts=12 converged=12
+2026-11-15 05:05:13,377 | INFO | S06_THREE_STRATEGY | 2026-07-22 | direct utility gamma=3.000 | eligible=9 | risky=50.00% | utility=0.064140 | starts=12 converged=12
+2026-11-15 05:05:13,600 | INFO | S06_THREE_STRATEGY | COMPLETED | XGBoost_Probability_0.60 | final NAV=173866.91 | transaction costs=5714.16
+2026-11-15 05:05:14,467 | INFO | S06_THREE_STRATEGY | START | Full_Universe | rebalances=20 | gamma=3.000 | threshold=0.60
+2026-11-15 05:09:22,446 | INFO | S06_THREE_STRATEGY | 2022-01-03 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.069802 | starts=12 converged=12
+2026-11-15 05:13:29,737 | INFO | S06_THREE_STRATEGY | 2022-03-30 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.087983 | starts=12 converged=12
+2026-11-15 05:17:54,514 | INFO | S06_THREE_STRATEGY | 2022-06-27 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.073899 | starts=12 converged=12
+2026-11-15 05:17:55,365 | WARNING | S06_THREE_STRATEGY | 2022-06-27: spread fallback=last_valid_historical ticker=CEW age=3 spread=0.00057481
+2026-11-15 05:18:44,412 | INFO | S06_THREE_STRATEGY | 2022-09-21 | direct utility gamma=3.000 | eligible=48 | risky=25.00% | utility=0.014792 | starts=12 converged=12
+2026-11-15 05:18:45,276 | WARNING | S06_THREE_STRATEGY | 2022-09-21: spread fallback=trailing_252_observation_p90 ticker=CEW age=17 spread=0.00080038
+2026-11-15 05:23:00,618 | INFO | S06_THREE_STRATEGY | 2022-12-15 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.016083 | starts=12 converged=12
+2026-11-15 05:26:40,025 | INFO | S06_THREE_STRATEGY | 2023-03-15 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.075579 | starts=12 converged=12
+2026-11-15 05:28:55,742 | INFO | S06_THREE_STRATEGY | 2023-06-09 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.125786 | starts=12 converged=12
+2026-11-15 05:31:07,832 | INFO | S06_THREE_STRATEGY | 2023-09-06 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.099197 | starts=12 converged=12
+2026-11-15 05:31:08,670 | WARNING | S06_THREE_STRATEGY | 2023-09-06: spread fallback=trailing_252_observation_p90 ticker=CEW age=11 spread=0.00151182
+2026-11-15 05:35:14,637 | INFO | S06_THREE_STRATEGY | 2023-11-30 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.060372 | starts=12 converged=12
+2026-11-15 05:39:18,860 | INFO | S06_THREE_STRATEGY | 2024-02-28 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.189240 | starts=12 converged=12
+2026-11-15 05:39:19,747 | WARNING | S06_THREE_STRATEGY | 2024-02-28: spread fallback=trailing_252_observation_p90 ticker=CEW age=8 spread=0.00140325
+2026-11-15 05:42:19,792 | INFO | S06_THREE_STRATEGY | 2024-05-23 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.164654 | starts=12 converged=12
+2026-11-15 05:44:57,697 | INFO | S06_THREE_STRATEGY | 2024-08-20 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.089754 | starts=12 converged=12
+2026-11-15 05:49:10,698 | INFO | S06_THREE_STRATEGY | 2024-11-13 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.067185 | starts=12 converged=12
+2026-11-15 05:49:11,587 | WARNING | S06_THREE_STRATEGY | 2024-11-13: spread fallback=trailing_252_observation_p90 ticker=CEW age=9 spread=0.00109058
+2026-11-15 05:51:59,133 | INFO | S06_THREE_STRATEGY | 2025-02-12 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.132758 | starts=12 converged=12
+2026-11-15 05:51:59,991 | WARNING | S06_THREE_STRATEGY | 2025-02-12: spread fallback=last_valid_historical ticker=CEW age=5 spread=0.00052654
+2026-11-15 05:56:46,508 | INFO | S06_THREE_STRATEGY | 2025-05-09 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.094943 | starts=12 converged=12
+2026-11-15 06:00:34,051 | INFO | S06_THREE_STRATEGY | 2025-08-06 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.073844 | starts=12 converged=12
+2026-11-15 06:01:44,602 | INFO | S06_THREE_STRATEGY | 2025-10-30 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.234860 | starts=12 converged=12
+2026-11-15 06:04:02,964 | INFO | S06_THREE_STRATEGY | 2026-01-28 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.351068 | starts=12 converged=12
+2026-11-15 06:06:50,312 | INFO | S06_THREE_STRATEGY | 2026-04-24 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.192808 | starts=12 converged=12
+2026-11-15 06:08:19,166 | INFO | S06_THREE_STRATEGY | 2026-07-22 | direct utility gamma=3.000 | eligible=48 | risky=100.00% | utility=0.159079 | starts=12 converged=12
+2026-11-15 06:08:20,457 | INFO | S06_THREE_STRATEGY | COMPLETED | Full_Universe | final NAV=180946.30 | transaction costs=7401.72
+2026-11-15 06:08:21,455 | INFO | S06_THREE_STRATEGY | S06 THREE-STRATEGY SYSTEM COMPLETED.
+2026-11-15 06:08:21,456 | INFO | S06_THREE_STRATEGY | Output directory: D:\Capstone\portfolio_results\C_threshold060_cap25
+2026-11-15 06:08:21,489 | INFO | S06_THREE_STRATEGY | 
+            Configuration                 Strategy                                                     Selection_Rule  Total_Return     CAGR  Annualized_Sharpe  Max_Drawdown  Transaction_Cost_USD  Average_Daily_Cash_Weight  Rebalance_Count  Mean_Eligible_Assets_Per_Rebalance
+04_RegimeAware_LedoitWolf XGBoost_Probability_0.60                          Probability >= 0.60; no Top-K restriction      0.738669 0.121244           0.474302     -0.203606           5714.162151                   0.225099               20                               26.25
+04_RegimeAware_LedoitWolf            Full_Universe                                                All 48 risky assets      0.809463 0.130541           0.492915     -0.203813           7401.718257                   0.037875               20                               48.00
+04_RegimeAware_LedoitWolf         SPY_Buy_And_Hold Buy-and-hold from first common execution open; no transaction fees      0.667266 0.111558           0.463321     -0.247343              0.000000                   0.000000                0                                 NaN

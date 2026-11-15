@@ -1,0 +1,4 @@
+Configuration,Strategy,Selection_Rule,Total_Return,CAGR,Annualized_Sharpe,Max_Drawdown,Transaction_Cost_USD,Average_Daily_Cash_Weight,Rebalance_Count,Mean_Eligible_Assets_Per_Rebalance
+04_RegimeAware_LedoitWolf,XGBoost_Probability_0.65,Probability >= 0.65; no Top-K restriction,0.4669477120995984,0.08250675216220227,0.3079387630067803,-0.2081836575856626,5515.893819551213,0.30610414280427306,20,18.25
+04_RegimeAware_LedoitWolf,Full_Universe,All 48 risky assets,0.8094630408148045,0.13054056084746835,0.4929154274094176,-0.20381349097225276,7401.718256925956,0.03787462491786784,20,48.0
+04_RegimeAware_LedoitWolf,SPY_Buy_And_Hold,Buy-and-hold from first common execution open; no transaction fees,0.6672655903184348,0.11155773442633632,0.46332092839454314,-0.24734290421217764,0.0,0.0,0,

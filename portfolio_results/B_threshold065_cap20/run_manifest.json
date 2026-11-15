@@ -1,0 +1,162 @@
+{
+  "system": "S06_three_strategy_system.py",
+  "configuration": "04_RegimeAware_LedoitWolf",
+  "run_timestamp_utc": "2026-11-15T03:32:49.133404+00:00",
+  "experiment_parameters": {
+    "selection_threshold": 0.65,
+    "maximum_risky_asset_weight": 0.2
+  },
+  "python_version": "3.13.5",
+  "source_provenance": {
+    "S04B_notebook": {
+      "branch": "main",
+      "path": "S04B_return_classification_xgb.ipynb",
+      "git_blob_sha": "779fd577abd2be08ad10513e24f8515a5d05ec89"
+    },
+    "S04B_probability_export": {
+      "branch": "main",
+      "path": "classification_results/xgboost/all_test_predictions.csv",
+      "git_blob_sha": "2529e19356af42b1d618aedaf07460baea1f8f3b"
+    },
+    "S04_liquidity_data_step": {
+      "branch": "feature/S05_predict_forward_return",
+      "path": "S04_add_liqudity_data.ipynb",
+      "git_blob_sha": "eb81c84ce8d5c0f0d4ed6a0df5605ff82cef216f",
+      "note": "The existing Yahoo OHLCV files must contain the Spread and ADV_Dollars columns created by this step."
+    },
+    "transaction_fee_helper": {
+      "branch": "feature/S05_predict_forward_return",
+      "path": "transaction_fee_helper.py",
+      "git_blob_sha": "dbf83654ac244c22efcd3381e2c80514e31a3b34"
+    },
+    "config": {
+      "branch": "main",
+      "path": "config.py"
+    }
+  },
+  "source_files": {
+    "predictions": {
+      "path": "classification_results\\xgboost\\all_test_predictions.csv",
+      "sha256": "d24b7e8edbce51dbd34c3f158d1a10e992624da29dbdee426e573109c2744a65"
+    },
+    "universe": {
+      "path": "Investable_Universe.csv",
+      "sha256": "1f5910946e53a9e58bcc30f6caba7d926966001e8594e4570089cd1c329effc3"
+    },
+    "risk_free": {
+      "path": "input_data\\fred\\DGS3MO.csv",
+      "sha256": "427d894f23f95f34b11b91143f34134012d8c8a4bb0d00f641eb21632546a265"
+    }
+  },
+  "selection": {
+    "model": "XGBoost",
+    "source_notebook": "main/S04B_return_classification_xgb.ipynb",
+    "rule": "Probability >= 0.65",
+    "top_k_restriction": null,
+    "candidate_assets_per_date": 48,
+    "rebalance_count": 20,
+    "rebalance_dates": [
+      "2022-01-03",
+      "2022-03-30",
+      "2022-06-27",
+      "2022-09-21",
+      "2022-12-15",
+      "2023-03-15",
+      "2023-06-09",
+      "2023-09-06",
+      "2023-11-30",
+      "2024-02-28",
+      "2024-05-23",
+      "2024-08-20",
+      "2024-11-13",
+      "2025-02-12",
+      "2025-05-09",
+      "2025-08-06",
+      "2025-10-30",
+      "2026-01-28",
+      "2026-04-24",
+      "2026-07-22"
+    ],
+    "candidate_probability_rows": 960,
+    "selected_asset_date_rows": 365,
+    "mean_selected_assets_per_rebalance": 18.25
+  },
+  "strategies": [
+    "XGBoost probability-threshold portfolio",
+    "Full Universe portfolio",
+    "SPY buy-and-hold benchmark"
+  ],
+  "comparison_controls": {
+    "same_rebalance_dates": true,
+    "same_daily_evaluation_calendar": true,
+    "same_allocation_code": true,
+    "same_regime_estimator": true,
+    "same_transaction_fee_helper": true,
+    "same_risk_free_series": true,
+    "same_initial_capital": true,
+    "full_universe_rerun": true,
+    "previous_full_universe_nav_reused": false,
+    "spy_paths_verified_identical": true
+  },
+  "allocation": {
+    "method": "Direct joint transaction-cost-aware mean-variance utility",
+    "expected_return": "120-session adjusted-price momentum converted to a 60-session equivalent using geometric compounding",
+    "unconditional_covariance": "252-session Ledoit-Wolf covariance, finite-sample corrected and scaled to 60 sessions",
+    "conditional_covariance": "Same-regime Ledoit-Wolf covariance estimated over up to 756 historical observations",
+    "covariance_blend_weight": 0.5,
+    "risk_aversion_gamma": 3.0,
+    "direct_optimizer_starts": 12,
+    "maximum_weight_per_risky_asset": 0.2,
+    "maximum_cash_weight_when_invested": 0.8,
+    "minimum_risky_exposure_when_invested": 0.19999999999999996,
+    "minimum_eligible_risky_assets": 1,
+    "minimum_three_asset_restriction": false,
+    "previously_held_assets_remain_eligible": true,
+    "cash_only_allowed": true,
+    "cash_only_rule": "No eligible risky assets, or best incremental net mean-variance utility versus cash is non-positive"
+  },
+  "regime": {
+    "state_variable": "SPY realized volatility",
+    "realized_volatility_window": 21,
+    "threshold_window": 252,
+    "threshold_uses_one_session_lag": true,
+    "conditional_covariance_lookback": 756,
+    "minimum_same_regime_observations": 90
+  },
+  "execution": {
+    "decision": "Rebalance-date close",
+    "execution": "Next SPY trading-session open",
+    "spread_and_adv": "Point-in-time signal-date observations",
+    "commission_price": "Raw execution-day opening price",
+    "cash_rate": "DGS3MO lagged one SPY session"
+  },
+  "transaction_cost_model": {
+    "helper": "transaction_fee_helper.py",
+    "components": [
+      "Spread",
+      "Market Impact",
+      "IBKR Commission"
+    ],
+    "spread_fallback": "Most recent valid spread for gaps up to five ticker observations; otherwise trailing 252-observation ticker-specific 90th percentile with at least 20 valid observations; otherwise fail closed",
+    "cash_proxy_transaction_cost": 0.0,
+    "spy_benchmark_transaction_cost": 0.0
+  },
+  "outputs": [
+    "portfolio_signals_all_candidates.csv",
+    "portfolio_signals_selected.csv",
+    "selection_audit/xgboost_probability_audit.csv",
+    "selection_audit/selection_summary_by_rebalance.csv",
+    "XGBoost_Probability_0.60/daily_nav.csv",
+    "Full_Universe/daily_nav.csv",
+    "comparison_daily_nav.csv",
+    "performance_summary.csv",
+    "all_portfolio_weights.csv",
+    "all_rebalance_summaries.csv",
+    "all_transaction_costs.csv",
+    "transaction_cost_summary.csv",
+    "all_spread_fallback_audits.csv",
+    "regime_diagnostics.csv",
+    "comparison_nav.png",
+    "run.log"
+  ]
+}
