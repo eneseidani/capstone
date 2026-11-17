@@ -1,0 +1,14 @@
+{
+  "Strategy": "Full_Universe_Optimized",
+  "Covariance_Method": "LW",
+  "Expected_Return_Lookback": 504,
+  "Covariance_Lookback": 120,
+  "Covariance_Blend_Weight": 0.5,
+  "Risk_Aversion": 1.0,
+  "Direct_Starts": 5,
+  "Selection_Rule": "Within 0.05 of maximum worst-block Sharpe, then smallest Sharpe gap",
+  "Development_Block": "2010-01-01 to 2015-12-31",
+  "Confirmation_Block": "2016-01-01 to 2021-12-31",
+  "Effective_Development_Start": "2010-01-04",
+  "Effective_Confirmation_Start": "2016-01-04"
+}

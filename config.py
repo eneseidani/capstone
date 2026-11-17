@@ -24,19 +24,21 @@ RAW_DATA_DIR = Path("raw_data")
 INPUT_DATA_DIR = Path("input_data")
 
 # Return classification
-FORWARD_HORIZON = 60                            # Forward prediction horizon
-REBALANCE_FREQUENCY = 60                        # Portfolio rebalancing frequency
-RANDOM_STATE = 42                               # Fixed random state
-CLASSIFICATION_THRESHOLDS = (0.50, 0.55, 0.60)  # Thresholds used to convert the model's predicted probability into a binary prediction
-TOP_K_VALUES = (10, 15)                         # Number of highest-ranked assets selected for screening evaluation
-HYPERPARAMETER_TUNING = False                   # Indicate whether to perform hyperparameter tuning
+FORWARD_HORIZON = 60                                       # Forward prediction horizon
+REBALANCE_FREQUENCY = 60                                   # Portfolio rebalancing frequency
+RANDOM_STATE = 42                                          # Fixed random state
+CLASSIFICATION_THRESHOLDS = (0.50, 0.55, 0.60, 0.65, 0.7)  # Thresholds used to convert the model's predicted probability into binary prediction
+MIN_AVERAGE_SELECTED_ASSETS = 20                           # Minimum average number of assets selected per validation rebalance
+HYPERPARAMETER_TUNING = True                               # Indicate whether to perform hyperparameter tuning
 
 # Portfolio optimization
 INITIAL_CAPITAL = 100000.0       # Initial portfolio value in USD
-EXPECTED_RETURN_LOOKBACK = 120   # Trading sessions used to estimate momentum-based expected returns
-COVARIANCE_LOOKBACK = 252        # Trading sessions used to estimate the return covariance matrix
+EXPECTED_RETURN_LOOKBACK = 252   # Trading sessions used to estimate momentum-based expected returns
+COVARIANCE_LOOKBACK = 252        # Trading sessions used to estimate the unconditional return covariance matrix
+COND_COVARIANCE_LOOKBACK = 1260  # Trading sessions used to estimate the conditional return covariance matrix
+COVARIANCE_BLEND_WEIGHT = 0.5    #
 RISK_AVERSION = 1.0              # Risk penalty coefficient (higher means greater risk aversion)
-DIRECT_STARTS = 12               # Number of initial solutions tested by the optimizer
+DIRECT_STARTS = 5                # Number of initial solutions tested by the optimizer
 MAX_WEIGHT = 0.20                # Maximum portfolio weight allocated to risky assets
 MARKET_IMPACT_COEFFICIENT = 0.1  # Coefficient controlling nonlinear market impact costs
 
@@ -56,7 +58,6 @@ fred_api_key="71a6dd410a9a04c82bf76c0ee1981893"
 # Fama French files and URLs
 FAMA_FRENCH_FILES = {
     "Fama-French_5_Factors_Daily": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_daily_CSV.zip",
-
     "Momentum_Factor_Daily": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_daily_CSV.zip",
 }
 
@@ -86,24 +87,24 @@ FRED_SERIES = {
 
     # Inflation (daily)
     "INFLATION_FEATURES": {
-        "T5YIFR": "5-Year Forward Inflation Expectation", # published on T afternoon
-        "T5YIE": "5-Year Breakeven Inflation Rate ",      # published on T afternoon
-        "T10YIE": "10-Year Breakeven Inflation Rate ",    # published on T afternoon
+        "T5YIFR": "5-Year Forward Inflation Expectation",  # published on T afternoon
+        "T5YIE": "5-Year Breakeven Inflation Rate ",       # published on T afternoon
+        "T10YIE": "10-Year Breakeven Inflation Rate ",     # published on T afternoon
     },
 
     # Macro (monthly)
     "MONTHLY_FEATURES": {
-        "CPIAUCSL": "CPI", # published in T+1 mid-month
-        "UNRATE": "Unemployment Rate", # published in T+1 early-month
-        "INDPRO": "Industrial Production", # published in T+1 mid-month
-        "MTSDS133FMS": "Federal Surplus or Deficit", # published in T+1 mid-month
-        "MTSO133FMS": "Federal Outlays", # published in T+1 mid-month
+        "CPIAUCSL": "CPI",                                        # published in T+1 mid-month
+        "UNRATE": "Unemployment Rate",                            # published in T+1 early-month
+        "INDPRO": "Industrial Production",                        # published in T+1 mid-month
+        "MTSDS133FMS": "Federal Surplus or Deficit",              # published in T+1 mid-month
+        "MTSO133FMS": "Federal Outlays",                          # published in T+1 mid-month
         "MVGFD027MNFRBDAL": "Market Value of Gross Federal Debt", # published in T+1 mid-month
     },
 
     # Volatility (daily)
     "VOLATILITY_FEATURES": {
-        "VIXCLS": "VIX Index", # published on T+1 morning
+        "VIXCLS": "VIX Index",             # published on T+1 morning
         "VXDCLS": "DJIA Volatility Index", # published on T+1 morning
     },
 
