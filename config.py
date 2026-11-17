@@ -29,7 +29,7 @@ REBALANCE_FREQUENCY = 60                                   # Portfolio rebalanci
 RANDOM_STATE = 42                                          # Fixed random state
 CLASSIFICATION_THRESHOLDS = (0.50, 0.55, 0.60, 0.65, 0.7)  # Thresholds used to convert the model's predicted probability into binary prediction
 MIN_AVERAGE_SELECTED_ASSETS = 20                           # Minimum average number of assets selected per validation rebalance
-HYPERPARAMETER_TUNING = True                               # Indicate whether to perform hyperparameter tuning
+HYPERPARAMETER_TUNING = False                              # Indicate whether to perform hyperparameter tuning
 
 # Portfolio optimization
 INITIAL_CAPITAL = 100000.0       # Initial portfolio value in USD
