@@ -19,9 +19,11 @@ SPREAD_MIN_OBS = 12   # Minimum valid observations required for spread estimatio
 ADV_WINDOW = 126      # Trading sessions used to calculate average daily dollar volume
 
 # File paths
-UNIVERSE_FILE = Path("Investable_Universe.csv")
-RAW_DATA_DIR = Path("raw_data")
-INPUT_DATA_DIR = Path("input_data")
+PROJECT_ROOT = Path(__file__).resolve().parent
+OUTPUT_DIR = PROJECT_ROOT / "output" / AS_OF_DATE
+UNIVERSE_FILE = PROJECT_ROOT / "Investable_Universe.csv"
+RAW_DATA_DIR = OUTPUT_DIR / "raw_data"
+INPUT_DATA_DIR = OUTPUT_DIR / "input_data"
 
 # Return classification
 FORWARD_HORIZON = 60                                       # Forward prediction horizon
@@ -39,7 +41,7 @@ COND_COVARIANCE_LOOKBACK = 1260  # Trading sessions used to estimate the conditi
 COVARIANCE_BLEND_WEIGHT = 0.5    # Weight assigned to the conditional return covariance matrix in the estimation
 RISK_AVERSION = 1.0              # Risk penalty coefficient (higher means greater risk aversion)
 DIRECT_STARTS = 5                # Number of initial solutions tested by the optimizer
-MAX_WEIGHT = 0.20                # Maximum portfolio weight allocated to risky assets
+MAX_WEIGHT = 0.20                # Maximum weight per individual risky asset
 MARKET_IMPACT_COEFFICIENT = 0.1  # Coefficient controlling nonlinear market impact costs
 
 # Rolling windows for feature engineering
