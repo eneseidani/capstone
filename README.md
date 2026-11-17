@@ -3,7 +3,7 @@
 MSc Financial Engineering capstone project that combines machine-learning classification with traditional mean-variance optimization. The research pipeline collects market and macroeconomic data, constructs point-in-time features, trains walk-forward return-direction classifiers, and backtests diversified portfolios net of estimated trading costs.
 
 
-## Research workflow
+## Workflow
 
 | Stage | Notebook | Purpose                                                                        | Output folder                                                   |
 |---|---|--------------------------------------------------------------------------------|-----------------------------------------------------------------|
