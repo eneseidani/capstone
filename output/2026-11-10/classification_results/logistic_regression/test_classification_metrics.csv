@@ -1,2 +1,2 @@
 Algorithm,Specification,Observations,Scored_Dates,Pooled_ROC_AUC,Pooled_Average_Precision,Mean_ROC_AUC,Mean_Average_Precision
-Logistic Regression,With Regimes,960,20,0.64037529689054,0.6794693564073091,0.6133393917736385,0.7055837893245807
+Logistic Regression,With Regimes,960,20,0.6400937333957011,0.6792982240811869,0.6133393917736385,0.7055837893245807
