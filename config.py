@@ -35,9 +35,9 @@ HYPERPARAMETER_TUNING = False                              # Indicate whether to
 
 # Portfolio optimization
 INITIAL_CAPITAL = 100000.0       # Initial portfolio value in USD
-EXPECTED_RETURN_LOOKBACK = 252   # Trading sessions used to estimate momentum-based expected returns
-COVARIANCE_LOOKBACK = 252        # Trading sessions used to estimate the unconditional return covariance matrix
-COND_COVARIANCE_LOOKBACK = 1260  # Trading sessions used to estimate the conditional return covariance matrix
+EXPECTED_RETURN_LOOKBACK = 252   # Lookback window used to estimate momentum-based expected returns
+COVARIANCE_LOOKBACK = 252        # Lookback window used to estimate the unconditional return covariance matrix
+COND_COVARIANCE_LOOKBACK = 1260  # Lookback window used to estimate the conditional return covariance matrix
 COVARIANCE_BLEND_WEIGHT = 0.5    # Weight assigned to the conditional return covariance matrix in the estimation
 RISK_AVERSION = 1.0              # Risk penalty coefficient (higher means greater risk aversion)
 DIRECT_STARTS = 5                # Number of initial solutions tested by the optimizer
