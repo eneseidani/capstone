@@ -54,8 +54,8 @@ VOLUME_WINDOWS = [20, 60]
 MACRO_WINDOWS = [20, 60, 252]
 CHANGE_WINDOWS = [20, 60]
 
-# FRED API key
-fred_api_key="71a6dd410a9a04c82bf76c0ee1981893"
+# FRED API key (need to be added)
+fred_api_key=""
 
 # Fama French files and URLs
 FAMA_FRENCH_FILES = {
